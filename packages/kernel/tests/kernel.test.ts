@@ -1,5 +1,5 @@
 import { describe, it, expect, afterEach } from 'vitest';
-import { createKernel, NexusKernel } from '../src/runtime/impl/kernel.impl';
+import { createKernel, type NexusKernel } from '../src/runtime/impl/kernel.impl';
 
 describe('NexusKernel', () => {
   let kernel: NexusKernel;
@@ -66,7 +66,9 @@ describe('NexusKernel', () => {
     await kernel.boot();
 
     const received: unknown[] = [];
-    kernel.events.subscribe('test.event', async (e) => { received.push(e); });
+    kernel.events.subscribe('test.event', async (e) => {
+      received.push(e);
+    });
     await kernel.events.publish({ type: 'test.event', payload: { y: 2 } });
 
     expect(received).toHaveLength(1);

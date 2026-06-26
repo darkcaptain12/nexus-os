@@ -1,5 +1,9 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { validateEnvironment, isSupabaseConfigured, getStartupReport } from '../src/lib/supabase/health';
+import { describe, it, expect, beforeEach } from 'vitest';
+import {
+  validateEnvironment,
+  isSupabaseConfigured,
+  getStartupReport,
+} from '../src/lib/supabase/health';
 
 describe('Environment Validation', () => {
   const originalEnv = { ...process.env };

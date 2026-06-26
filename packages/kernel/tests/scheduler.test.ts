@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach } from 'vitest';
 import { InMemoryScheduler } from '../src/runtime/impl/scheduler.impl';
 import { createLogger } from '@apex-os/logger';
 
@@ -47,7 +47,16 @@ describe('InMemoryScheduler', () => {
       schedule: { type: 'interval', intervalMs: 1000 },
       status: 'active',
       timezone: 'UTC',
-      config: { timeout: 5000, maxRetries: 0, retryDelayMs: 0, overlap: false, catchUp: false, calendarAware: false, skipWeekends: false, skipHolidays: false },
+      config: {
+        timeout: 5000,
+        maxRetries: 0,
+        retryDelayMs: 0,
+        overlap: false,
+        catchUp: false,
+        calendarAware: false,
+        skipWeekends: false,
+        skipHolidays: false,
+      },
       metadata: {},
     });
     expect(scheduler.list('active')).toHaveLength(1);
@@ -63,7 +72,16 @@ describe('InMemoryScheduler', () => {
       schedule: { type: 'interval', intervalMs: 1000 },
       status: 'active',
       timezone: 'UTC',
-      config: { timeout: 5000, maxRetries: 0, retryDelayMs: 0, overlap: false, catchUp: false, calendarAware: false, skipWeekends: false, skipHolidays: false },
+      config: {
+        timeout: 5000,
+        maxRetries: 0,
+        retryDelayMs: 0,
+        overlap: false,
+        catchUp: false,
+        calendarAware: false,
+        skipWeekends: false,
+        skipHolidays: false,
+      },
       metadata: {},
     });
     scheduler.pause('pr');
@@ -74,7 +92,9 @@ describe('InMemoryScheduler', () => {
 
   it('triggers a job manually', async () => {
     let executed = false;
-    scheduler.registerHandler('manual-handler', async () => { executed = true; });
+    scheduler.registerHandler('manual-handler', async () => {
+      executed = true;
+    });
     scheduler.register({
       id: 'manual',
       name: 'Manual',
@@ -83,7 +103,16 @@ describe('InMemoryScheduler', () => {
       schedule: { type: 'one-time', executeAt: new Date(Date.now() + 99999999).toISOString() },
       status: 'active',
       timezone: 'UTC',
-      config: { timeout: 5000, maxRetries: 0, retryDelayMs: 0, overlap: false, catchUp: false, calendarAware: false, skipWeekends: false, skipHolidays: false },
+      config: {
+        timeout: 5000,
+        maxRetries: 0,
+        retryDelayMs: 0,
+        overlap: false,
+        catchUp: false,
+        calendarAware: false,
+        skipWeekends: false,
+        skipHolidays: false,
+      },
       metadata: {},
     });
 

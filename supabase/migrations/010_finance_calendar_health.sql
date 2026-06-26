@@ -133,7 +133,7 @@ create table notes (
   collection_id uuid,
   tags text[] not null default '{}',
   pinned boolean not null default false,
-  embedding vector(1536),
+  embedding extensions.vector(1536),
   owner_id uuid not null references users(id),
   metadata jsonb not null default '{}',
   created_at timestamptz not null default now(),
@@ -145,7 +145,7 @@ create table notes (
 create index idx_notes_owner on notes (owner_id, updated_at desc) where deleted_at is null;
 create index idx_notes_tags on notes using gin (tags) where deleted_at is null;
 create index idx_notes_search on notes using gin (to_tsvector('english', title || ' ' || content)) where deleted_at is null;
-create index idx_notes_embedding on notes using ivfflat (embedding vector_cosine_ops) with (lists = 100);
+create index idx_notes_embedding on notes using ivfflat (embedding extensions.vector_cosine_ops) with (lists = 100);
 create trigger trg_notes_updated before update on notes for each row execute function update_updated_at();
 
 create table collections (

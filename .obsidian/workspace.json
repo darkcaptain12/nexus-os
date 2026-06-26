@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54e9b136497b77ae",
+        "id": "396afe4694821ba9",
         "type": "tabs",
         "children": [
           {
-            "id": "052a8a0e6484d76a",
+            "id": "c746a43211f06cbb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,7 +177,7 @@
       "bases:Yeni taban oluştur": false
     }
   },
-  "active": "052a8a0e6484d76a",
+  "active": "c746a43211f06cbb",
   "lastOpenFiles": [
     "07_MODULES/Trading.md",
     "05_AI/AI Router.md",

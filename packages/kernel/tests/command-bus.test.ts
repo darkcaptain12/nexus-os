@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { InMemoryCommandBus } from '../src/runtime/impl/command-bus.impl';
 import { createLogger } from '@apex-os/logger';
 import type { Command, CommandMiddleware } from '../src/command-bus/types';
@@ -55,7 +55,12 @@ describe('InMemoryCommandBus', () => {
 
     bus.use(mw1);
     bus.use(mw2);
-    bus.registerHandler('test', { handle: async () => { order.push('handler'); return 'ok'; } });
+    bus.registerHandler('test', {
+      handle: async () => {
+        order.push('handler');
+        return 'ok';
+      },
+    });
 
     await bus.dispatch(makeCommand('test'));
     expect(order).toEqual(['mw1-before', 'mw2-before', 'handler', 'mw2-after', 'mw1-after']);
@@ -79,7 +84,11 @@ describe('InMemoryCommandBus', () => {
   });
 
   it('dead-letters after exhausting retries', async () => {
-    bus.registerHandler('fail', { handle: async () => { throw new Error('always-fail'); } });
+    bus.registerHandler('fail', {
+      handle: async () => {
+        throw new Error('always-fail');
+      },
+    });
     const cmd = makeCommand('fail');
     cmd.metadata.retries = 1;
     const result = await bus.dispatch(cmd);

@@ -4,8 +4,21 @@ import { TaskRepository, GoalRepository } from './task.repository';
 import { DesktopRepository } from './desktop.repository';
 import { JournalRepository, DecisionRepository } from './journal.repository';
 import { ProjectRepository } from './project.repository';
+import { UserRepository } from './user.repository';
 
-export type { PaginationParams, PaginatedResult, DateRange, RepositoryResult, ListResult } from './types';
+export type {
+  PaginationParams,
+  PaginatedResult,
+  DateRange,
+  RepositoryResult,
+  ListResult,
+} from './types';
+export type {
+  UserRecord,
+  UserProfileRecord,
+  UserPreferencesRecord,
+  FullUserProfile,
+} from './user.repository';
 
 export {
   MemoryRepository,
@@ -16,6 +29,7 @@ export {
   JournalRepository,
   DecisionRepository,
   ProjectRepository,
+  UserRepository,
 };
 
 export function createRepositories(db: SupabaseClient) {
@@ -28,6 +42,7 @@ export function createRepositories(db: SupabaseClient) {
     journals: new JournalRepository(db),
     decisions: new DecisionRepository(db),
     projects: new ProjectRepository(db),
+    users: new UserRepository(db),
   };
 }
 

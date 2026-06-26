@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { WorkflowRuntime } from '../src/runtime/engine';
-import type { Workflow, NodeHandler } from '../src/types';
+import type { Workflow } from '../src/types';
 
 function makeWorkflow(overrides: Partial<Workflow> = {}): Workflow {
   return {
@@ -10,7 +10,16 @@ function makeWorkflow(overrides: Partial<Workflow> = {}): Workflow {
     status: 'enabled',
     trigger: { type: 'manual', config: {} },
     nodes: overrides.nodes ?? [
-      { id: 'n1', type: 'action', name: 'Step 1', handler: 'test.handler', config: {}, position: { x: 0, y: 0 }, timeout: 5000, retries: 1 },
+      {
+        id: 'n1',
+        type: 'action',
+        name: 'Step 1',
+        handler: 'test.handler',
+        config: {},
+        position: { x: 0, y: 0 },
+        timeout: 5000,
+        retries: 1,
+      },
     ],
     edges: overrides.edges ?? [],
     entryNodeId: overrides.entryNodeId ?? 'n1',
@@ -31,7 +40,11 @@ describe('WorkflowRuntime', () => {
   beforeEach(() => {
     runtime = new WorkflowRuntime();
     runtime.registerHandler('test.handler', { execute: async () => 'ok' });
-    runtime.registerHandler('fail.handler', { execute: async () => { throw new Error('fail'); } });
+    runtime.registerHandler('fail.handler', {
+      execute: async () => {
+        throw new Error('fail');
+      },
+    });
   });
 
   it('adds and lists workflows', () => {
@@ -48,13 +61,33 @@ describe('WorkflowRuntime', () => {
   });
 
   it('runs multi-step sequential workflow', async () => {
-    runtime.addWorkflow(makeWorkflow({
-      nodes: [
-        { id: 'n1', type: 'action', name: 'Step 1', handler: 'test.handler', config: {}, position: { x: 0, y: 0 }, timeout: 5000, retries: 1 },
-        { id: 'n2', type: 'action', name: 'Step 2', handler: 'test.handler', config: {}, position: { x: 0, y: 100 }, timeout: 5000, retries: 1 },
-      ],
-      edges: [{ id: 'e1', from: 'n1', to: 'n2' }],
-    }));
+    runtime.addWorkflow(
+      makeWorkflow({
+        nodes: [
+          {
+            id: 'n1',
+            type: 'action',
+            name: 'Step 1',
+            handler: 'test.handler',
+            config: {},
+            position: { x: 0, y: 0 },
+            timeout: 5000,
+            retries: 1,
+          },
+          {
+            id: 'n2',
+            type: 'action',
+            name: 'Step 2',
+            handler: 'test.handler',
+            config: {},
+            position: { x: 0, y: 100 },
+            timeout: 5000,
+            retries: 1,
+          },
+        ],
+        edges: [{ id: 'e1', from: 'n1', to: 'n2' }],
+      }),
+    );
 
     const exec = await runtime.run('wf-1', 'user');
     expect(exec.phase).toBe('completed');
@@ -62,9 +95,22 @@ describe('WorkflowRuntime', () => {
   });
 
   it('handles failure', async () => {
-    runtime.addWorkflow(makeWorkflow({
-      nodes: [{ id: 'n1', type: 'action', name: 'Fail', handler: 'fail.handler', config: {}, position: { x: 0, y: 0 }, timeout: 5000, retries: 1 }],
-    }));
+    runtime.addWorkflow(
+      makeWorkflow({
+        nodes: [
+          {
+            id: 'n1',
+            type: 'action',
+            name: 'Fail',
+            handler: 'fail.handler',
+            config: {},
+            position: { x: 0, y: 0 },
+            timeout: 5000,
+            retries: 1,
+          },
+        ],
+      }),
+    );
 
     const exec = await runtime.run('wf-1', 'user');
     expect(exec.phase).toBe('failed');
@@ -81,9 +127,22 @@ describe('WorkflowRuntime', () => {
       },
     });
 
-    runtime.addWorkflow(makeWorkflow({
-      nodes: [{ id: 'n1', type: 'action', name: 'Flaky', handler: 'flaky', config: {}, position: { x: 0, y: 0 }, timeout: 5000, retries: 3 }],
-    }));
+    runtime.addWorkflow(
+      makeWorkflow({
+        nodes: [
+          {
+            id: 'n1',
+            type: 'action',
+            name: 'Flaky',
+            handler: 'flaky',
+            config: {},
+            position: { x: 0, y: 0 },
+            timeout: 5000,
+            retries: 3,
+          },
+        ],
+      }),
+    );
 
     const exec = await runtime.run('wf-1', 'user');
     expect(exec.phase).toBe('completed');
@@ -91,9 +150,22 @@ describe('WorkflowRuntime', () => {
   });
 
   it('executes delay node', async () => {
-    runtime.addWorkflow(makeWorkflow({
-      nodes: [{ id: 'n1', type: 'delay', name: 'Wait', handler: '', config: { delayMs: 50 }, position: { x: 0, y: 0 }, timeout: 5000, retries: 1 }],
-    }));
+    runtime.addWorkflow(
+      makeWorkflow({
+        nodes: [
+          {
+            id: 'n1',
+            type: 'delay',
+            name: 'Wait',
+            handler: '',
+            config: { delayMs: 50 },
+            position: { x: 0, y: 0 },
+            timeout: 5000,
+            retries: 1,
+          },
+        ],
+      }),
+    );
 
     const start = Date.now();
     const exec = await runtime.run('wf-1', 'user');
@@ -102,18 +174,47 @@ describe('WorkflowRuntime', () => {
   });
 
   it('executes decision node', async () => {
-    runtime.addWorkflow(makeWorkflow({
-      variables: { mode: 'fast' },
-      nodes: [
-        { id: 'n1', type: 'decision', name: 'Check Mode', handler: '', config: { field: 'mode', value: 'fast' }, position: { x: 0, y: 0 }, timeout: 5000, retries: 1 },
-        { id: 'n2', type: 'action', name: 'Fast Path', handler: 'test.handler', config: {}, position: { x: 100, y: 100 }, timeout: 5000, retries: 1 },
-        { id: 'n3', type: 'action', name: 'Slow Path', handler: 'test.handler', config: {}, position: { x: -100, y: 100 }, timeout: 5000, retries: 1 },
-      ],
-      edges: [
-        { id: 'e1', from: 'n1', to: 'n2', condition: 'true' },
-        { id: 'e2', from: 'n1', to: 'n3', condition: 'false' },
-      ],
-    }));
+    runtime.addWorkflow(
+      makeWorkflow({
+        variables: { mode: 'fast' },
+        nodes: [
+          {
+            id: 'n1',
+            type: 'decision',
+            name: 'Check Mode',
+            handler: '',
+            config: { field: 'mode', value: 'fast' },
+            position: { x: 0, y: 0 },
+            timeout: 5000,
+            retries: 1,
+          },
+          {
+            id: 'n2',
+            type: 'action',
+            name: 'Fast Path',
+            handler: 'test.handler',
+            config: {},
+            position: { x: 100, y: 100 },
+            timeout: 5000,
+            retries: 1,
+          },
+          {
+            id: 'n3',
+            type: 'action',
+            name: 'Slow Path',
+            handler: 'test.handler',
+            config: {},
+            position: { x: -100, y: 100 },
+            timeout: 5000,
+            retries: 1,
+          },
+        ],
+        edges: [
+          { id: 'e1', from: 'n1', to: 'n2', condition: 'true' },
+          { id: 'e2', from: 'n1', to: 'n3', condition: 'false' },
+        ],
+      }),
+    );
 
     const exec = await runtime.run('wf-1', 'user');
     expect(exec.phase).toBe('completed');
@@ -134,13 +235,33 @@ describe('WorkflowRuntime', () => {
       },
     });
 
-    runtime.addWorkflow(makeWorkflow({
-      nodes: [
-        { id: 'n1', type: 'action', name: 'Set', handler: 'set.var', config: {}, position: { x: 0, y: 0 }, timeout: 5000, retries: 1 },
-        { id: 'n2', type: 'action', name: 'Read', handler: 'read.var', config: {}, position: { x: 0, y: 100 }, timeout: 5000, retries: 1 },
-      ],
-      edges: [{ id: 'e1', from: 'n1', to: 'n2' }],
-    }));
+    runtime.addWorkflow(
+      makeWorkflow({
+        nodes: [
+          {
+            id: 'n1',
+            type: 'action',
+            name: 'Set',
+            handler: 'set.var',
+            config: {},
+            position: { x: 0, y: 0 },
+            timeout: 5000,
+            retries: 1,
+          },
+          {
+            id: 'n2',
+            type: 'action',
+            name: 'Read',
+            handler: 'read.var',
+            config: {},
+            position: { x: 0, y: 100 },
+            timeout: 5000,
+            retries: 1,
+          },
+        ],
+        edges: [{ id: 'e1', from: 'n1', to: 'n2' }],
+      }),
+    );
 
     const exec = await runtime.run('wf-1', 'user');
     expect(exec.phase).toBe('completed');
@@ -152,14 +273,30 @@ describe('WorkflowRuntime', () => {
       execute: async (_config, ctx) => {
         await new Promise((resolve, reject) => {
           const timer = setTimeout(resolve, 10000);
-          ctx.abortSignal.addEventListener('abort', () => { clearTimeout(timer); reject(new Error('aborted')); });
+          ctx.abortSignal.addEventListener('abort', () => {
+            clearTimeout(timer);
+            reject(new Error('aborted'));
+          });
         });
       },
     });
 
-    runtime.addWorkflow(makeWorkflow({
-      nodes: [{ id: 'n1', type: 'action', name: 'Slow', handler: 'slow', config: {}, position: { x: 0, y: 0 }, timeout: 60000, retries: 1 }],
-    }));
+    runtime.addWorkflow(
+      makeWorkflow({
+        nodes: [
+          {
+            id: 'n1',
+            type: 'action',
+            name: 'Slow',
+            handler: 'slow',
+            config: {},
+            position: { x: 0, y: 0 },
+            timeout: 60000,
+            retries: 1,
+          },
+        ],
+      }),
+    );
 
     const execPromise = runtime.run('wf-1', 'user');
     setTimeout(() => runtime.cancel(runtime.getRunning()[0]!.id), 50);

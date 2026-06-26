@@ -7,7 +7,7 @@ export type {
   AgentHealth,
   AgentExecution,
   ReasoningTrace,
-  ReasoningStep,
+  AgentReasoningStep,
   ToolCallRecord,
   MemoryAccessRecord,
   OrchestrationPlan,

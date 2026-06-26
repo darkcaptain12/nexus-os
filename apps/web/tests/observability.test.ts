@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { getMetrics, generateCorrelationId } from '../src/lib/observability';
 import { getAppConfig, validateConfig } from '../src/lib/config';
 import { getRateLimiter } from '../src/lib/security/headers';
@@ -27,7 +27,13 @@ describe('MetricsCollector', () => {
 
   it('traces requests', () => {
     const m = getMetrics();
-    m.traceRequest({ correlationId: '123', method: 'GET', path: '/test', status: 200, durationMs: 50 });
+    m.traceRequest({
+      correlationId: '123',
+      method: 'GET',
+      path: '/test',
+      status: 200,
+      durationMs: 50,
+    });
     const summary = m.getSummary();
     expect(summary.totalRequests).toBeGreaterThan(0);
   });

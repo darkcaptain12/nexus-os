@@ -4,20 +4,24 @@ export class ActivityTimelineService {
   private entries: ActivityEntry[] = [];
   private currentEntry: ActivityEntry | null = null;
   private sessionStart: string;
-  private lastActivityAt: string;
+  private _lastActivityAt: string;
   private idleStart: number | null = null;
   private totalIdleSeconds = 0;
   private idleThresholdMs: number;
 
   constructor(idleThresholdSeconds = 300) {
     this.sessionStart = new Date().toISOString();
-    this.lastActivityAt = this.sessionStart;
+    this._lastActivityAt = this.sessionStart;
     this.idleThresholdMs = idleThresholdSeconds * 1000;
+  }
+
+  getLastActivityAt(): string {
+    return this._lastActivityAt;
   }
 
   record(window: ActiveWindow | null): void {
     const now = new Date().toISOString();
-    this.lastActivityAt = now;
+    this._lastActivityAt = now;
 
     if (!window) {
       this.handleIdle(now);

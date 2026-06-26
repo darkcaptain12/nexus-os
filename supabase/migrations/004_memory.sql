@@ -38,14 +38,14 @@ create trigger trg_memories_updated before update on memories for each row execu
 create table memory_embeddings (
   id uuid primary key default gen_random_uuid(),
   memory_id uuid not null references memories(id) on delete cascade,
-  embedding vector(1536) not null, -- OpenAI ada-002 / text-embedding-3-small
+  embedding extensions.vector(1536) not null, -- OpenAI ada-002 / text-embedding-3-small
   model text not null,
   dimensions integer not null default 1536,
   created_at timestamptz not null default now()
 );
 
 create index idx_memory_embeddings_memory on memory_embeddings (memory_id);
-create index idx_memory_embeddings_vector on memory_embeddings using ivfflat (embedding vector_cosine_ops) with (lists = 100);
+create index idx_memory_embeddings_vector on memory_embeddings using ivfflat (embedding extensions.vector_cosine_ops) with (lists = 100);
 
 create table memory_chunks (
   id uuid primary key default gen_random_uuid(),
@@ -148,13 +148,13 @@ create table document_chunks (
   chunk_index integer not null,
   content text not null,
   token_count integer not null,
-  embedding vector(1536),
+  embedding extensions.vector(1536),
   metadata jsonb not null default '{}',
   created_at timestamptz not null default now()
 );
 
 create index idx_document_chunks_doc on document_chunks (document_id, chunk_index);
-create index idx_document_chunks_embedding on document_chunks using ivfflat (embedding vector_cosine_ops) with (lists = 100);
+create index idx_document_chunks_embedding on document_chunks using ivfflat (embedding extensions.vector_cosine_ops) with (lists = 100);
 
 create table knowledge (
   id uuid primary key default gen_random_uuid(),
@@ -166,7 +166,7 @@ create table knowledge (
   confidence numeric(3, 2) not null default 0.8 check (confidence between 0 and 1),
   citations text[] not null default '{}',
   tags text[] not null default '{}',
-  embedding vector(1536),
+  embedding extensions.vector(1536),
   owner_id uuid references users(id),
   metadata jsonb not null default '{}',
   created_at timestamptz not null default now(),
@@ -177,6 +177,6 @@ create table knowledge (
 
 create index idx_knowledge_category on knowledge (category) where deleted_at is null;
 create index idx_knowledge_tags on knowledge using gin (tags) where deleted_at is null;
-create index idx_knowledge_embedding on knowledge using ivfflat (embedding vector_cosine_ops) with (lists = 100);
+create index idx_knowledge_embedding on knowledge using ivfflat (embedding extensions.vector_cosine_ops) with (lists = 100);
 create index idx_knowledge_search on knowledge using gin (to_tsvector('english', title || ' ' || content)) where deleted_at is null;
 create trigger trg_knowledge_updated before update on knowledge for each row execute function update_updated_at();

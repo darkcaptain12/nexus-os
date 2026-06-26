@@ -36,7 +36,7 @@ create table screenshots (
   application text,
   window_title text,
   ocr_text text,
-  embedding vector(1536),
+  embedding extensions.vector(1536),
   tags text[] not null default '{}',
   metadata jsonb not null default '{}',
   created_at timestamptz not null default now()
@@ -73,7 +73,7 @@ create table browser_history (
   domain text,
   visit_count integer not null default 1,
   duration_seconds integer,
-  embedding vector(1536),
+  embedding extensions.vector(1536),
   tags text[] not null default '{}',
   metadata jsonb not null default '{}',
   visited_at timestamptz not null default now(),
@@ -92,7 +92,7 @@ create table bookmarks (
   folder text,
   tags text[] not null default '{}',
   favicon_url text,
-  embedding vector(1536),
+  embedding extensions.vector(1536),
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );

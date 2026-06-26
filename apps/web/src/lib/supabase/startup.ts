@@ -16,7 +16,11 @@ export interface StartupReport {
 }
 
 export async function runStartupChecks(
-  createClient: () => Promise<{ from: Function; auth: unknown; storage: unknown }>,
+  createClient: () => Promise<{
+    from: (...args: unknown[]) => unknown;
+    auth: unknown;
+    storage: unknown;
+  }>,
 ): Promise<StartupReport> {
   const checks: StartupCheck[] = [];
 

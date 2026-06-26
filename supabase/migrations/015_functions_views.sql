@@ -1,9 +1,9 @@
 -- APEX OS — Migration 015: SQL Functions and Views
-
+set search_path = public, extensions;
 -- === SEARCH FUNCTIONS ===
 
 create or replace function search_memories(
-  query_embedding vector(1536),
+  query_embedding extensions.vector(1536),
   match_threshold float default 0.7,
   match_count int default 10,
   filter_type memory_type default null
@@ -33,7 +33,7 @@ returns table (
 $$ language sql stable;
 
 create or replace function search_documents(
-  query_embedding vector(1536),
+  query_embedding extensions.vector(1536),
   match_threshold float default 0.7,
   match_count int default 10
 )
@@ -62,7 +62,7 @@ returns table (
 $$ language sql stable;
 
 create or replace function search_knowledge(
-  query_embedding vector(1536),
+  query_embedding extensions.vector(1536),
   match_threshold float default 0.7,
   match_count int default 10,
   filter_category text default null
@@ -94,7 +94,7 @@ $$ language sql stable;
 -- Full-text + vector hybrid search
 create or replace function hybrid_search_memories(
   search_text text,
-  query_embedding vector(1536),
+  query_embedding extensions.vector(1536),
   text_weight float default 0.3,
   vector_weight float default 0.7,
   match_count int default 10

@@ -3,7 +3,6 @@ import type {
   AgentExecution,
   OrchestrationPlan,
   OrchestrationResult,
-  OrchestrationMode,
 } from './types';
 
 export interface AgentOrchestratorService {

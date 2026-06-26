@@ -57,12 +57,12 @@ export interface AgentExecution {
 }
 
 export interface ReasoningTrace {
-  steps: ReasoningStep[];
+  steps: AgentReasoningStep[];
   conclusion: string;
   confidence: number;
 }
 
-export interface ReasoningStep {
+export interface AgentReasoningStep {
   step: number;
   thought: string;
   action?: string;
