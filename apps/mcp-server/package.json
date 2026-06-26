@@ -1,0 +1,10 @@
+{
+  "name": "@apex-os/mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "type-check": "echo 'MCP server not configured yet'",
+    "lint": "echo 'MCP server not configured yet'",
+    "clean": "echo 'MCP server not configured yet'"
+  }
+}

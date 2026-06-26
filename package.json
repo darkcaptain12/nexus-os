@@ -1,0 +1,45 @@
+{
+  "name": "apex-os",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:web": "turbo dev --filter=@apex-os/web",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "type-check": "turbo type-check",
+    "test": "turbo test",
+    "clean": "turbo clean && rm -rf node_modules",
+    "prepare": "husky",
+    "setup": "pnpm install && pnpm prepare",
+    "release": "echo 'Release pipeline not configured yet'"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.35.1",
+    "@typescript-eslint/parser": "^8.35.1",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.12",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml,css}": [
+      "prettier --write"
+    ]
+  },
+  "packageManager": "pnpm@10.30.1",
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build
+.next/
+dist/
+build/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+npm-debug.log*
+pnpm-debug.log*
+
+# Coverage
+coverage/
+
+# Turbo
+.turbo/
+
+# Vercel
+.vercel/
+
+# Supabase
+supabase/.temp/

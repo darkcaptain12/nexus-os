@@ -1,0 +1,48 @@
+{
+  "name": "@apex-os/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@apex-os/action-engine": "workspace:*",
+    "@apex-os/config": "workspace:*",
+    "@apex-os/integration-hub": "workspace:*",
+    "@apex-os/workflow-engine": "workspace:*",
+    "@apex-os/kernel": "workspace:*",
+    "@apex-os/types": "workspace:*",
+    "@apex-os/ui": "workspace:*",
+    "@apex-os/utils": "workspace:*",
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.49.8",
+    "framer-motion": "^12.12.2",
+    "@tanstack/react-query": "^5.81.5",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.525.0",
+    "next": "^16.2.9",
+    "next-themes": "^0.4.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.56.4",
+    "tailwind-merge": "^3.3.0",
+    "zod": "^3.25.56",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  }
+}

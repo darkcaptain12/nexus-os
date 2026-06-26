@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "d3f286f7bbccfe63",
+    "type": "split",
+    "children": [
+      {
+        "id": "54e9b136497b77ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "052a8a0e6484d76a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Yeni sekme"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb18a1c2e98f0aef",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c694131c90b936b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d3f610bb9c4005c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dosya Gezgini"
+            }
+          },
+          {
+            "id": "71380630a9cf044b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ara"
+            }
+          },
+          {
+            "id": "4abb11d1990bb21d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Yer İmleri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "63aca390a4ddb896",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b9df5cb5d6146f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7177abe6718d0258",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Geri Bağlantılar"
+            }
+          },
+          {
+            "id": "694f2fe240ffb946",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Giden bağlantılar"
+            }
+          },
+          {
+            "id": "d57d5abb56984026",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiketler"
+            }
+          },
+          {
+            "id": "24c8c38c223114e6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tüm özellikler"
+            }
+          },
+          {
+            "id": "ae70f3ed3c1efbb6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Anahat"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Hızlı geçişi aç": false,
+      "graph:Grafik görünümünü aç": false,
+      "canvas:Yeni tuval oluşturun": false,
+      "daily-notes:Bugünün Notunu Aç": false,
+      "templates:Şablon ekle": false,
+      "command-palette:Komut paletini aç": false,
+      "bases:Yeni taban oluştur": false
+    }
+  },
+  "active": "052a8a0e6484d76a",
+  "lastOpenFiles": [
+    "07_MODULES/Trading.md",
+    "05_AI/AI Router.md",
+    "packages/kernel/src/state/README.md",
+    "packages/integration-hub/node_modules",
+    "docs/adr/0031-provider-security.md",
+    "docs/adr/0030-provider-registry.md",
+    "docs/adr/0029-integration-hub.md",
+    "packages/integration-hub/tests/credentials.test.ts",
+    "packages/integration-hub/tests/providers.test.ts",
+    "packages/integration-hub/tests/hub.test.ts",
+    "apps/web/src/app/(dashboard)/integrations/page.tsx",
+    "apps/web/src/app/api/integrations/health/route.ts",
+    "apps/web/src/app/api/integrations/execute/route.ts",
+    "apps/web/src/app/api/integrations/disconnect/route.ts",
+    "apps/web/src/app/api/integrations/connect/route.ts",
+    "apps/web/src/app/api/integrations/route.ts",
+    "packages/integration-hub/README.md",
+    "docs/adr/0028-action-execution.md",
+    "docs/adr/0027-approval-system.md",
+    "docs/adr/0026-action-engine.md",
+    "packages/action-engine/README.md",
+    "docs/adr/0025-live-supabase.md",
+    "docs/adr/0024-realtime.md",
+    "docs/adr/0023-sync-engine.md",
+    "docs/adr/0022-persistence-layer.md",
+    "docs/adr/0021-second-brain.md",
+    "docs/adr/0020-desktop-intelligence.md",
+    "docs/adr/0019-ai-executive.md",
+    "packages/database/README.md",
+    "docs/adr/0018-identity-auth.md",
+    "docs/adr/0017-kernel-runtime.md",
+    "01_FOUNDATION/Vision.md",
+    "00_HOME/Dashboard.md",
+    "workers/notification-worker/README.md",
+    "docs/adr/0016-database-foundation.md",
+    "supabase/docs/README.md",
+    "Başlıksız 1.canvas",
+    "Başlıksız.canvas"
+  ]
+}

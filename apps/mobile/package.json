@@ -1,0 +1,10 @@
+{
+  "name": "@apex-os/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "type-check": "echo 'Mobile app not configured yet'",
+    "lint": "echo 'Mobile app not configured yet'",
+    "clean": "echo 'Mobile app not configured yet'"
+  }
+}

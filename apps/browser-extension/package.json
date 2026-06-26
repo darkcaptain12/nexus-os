@@ -1,0 +1,10 @@
+{
+  "name": "@apex-os/browser-extension",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "type-check": "echo 'Browser extension not configured yet'",
+    "lint": "echo 'Browser extension not configured yet'",
+    "clean": "echo 'Browser extension not configured yet'"
+  }
+}

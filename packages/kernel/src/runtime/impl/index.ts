@@ -1,0 +1,11 @@
+export { KernelContainer } from './container.impl';
+export { InMemoryServiceRegistry } from './service-registry.impl';
+export { InMemoryEventRuntime } from './event-runtime.impl';
+export { InMemoryCommandBus } from './command-bus.impl';
+export { InMemoryQueryBus } from './query-bus.impl';
+export { InMemoryScheduler } from './scheduler.impl';
+export { InMemoryHealthMonitor } from './health-monitor.impl';
+export { InMemoryStateManager } from './state-manager.impl';
+export { KernelLifecycleManager } from './lifecycle-manager.impl';
+export { KernelExecutionPipeline } from './execution-engine.impl';
+export { NexusKernel, createKernel } from './kernel.impl';
