@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getKernel } from '@/lib/kernel';
 
-export async function GET() {
+async function handleGET() {
   const { kernel, ready } = getKernel();
   await ready;
   const status = kernel.getStatus();
@@ -20,3 +21,5 @@ export async function GET() {
     },
   });
 }
+
+export const GET = withErrorBoundary(handleGET);

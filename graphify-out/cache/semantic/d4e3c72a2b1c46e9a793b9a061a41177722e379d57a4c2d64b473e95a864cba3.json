@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "system_audit_system_audit_report",
+      "label": "NEXUS OS System Audit Report",
+      "file_type": "document",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_kernel_services",
+      "label": "Kernel 8 services (health monitor, event bus, command/query bus)",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_action_engine",
+      "label": "Action Engine (registry, approval workflow, queue, rollback)",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_integration_hub",
+      "label": "Integration Hub (GitHub, Gmail, Calendar, MCP, HTTP)",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_workflow_engine",
+      "label": "Workflow Engine (sequential/parallel/decision/delay)",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_memory_system",
+      "label": "Memory System (timeline, journal, search, decisions, project memory)",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_ai_executive",
+      "label": "AI Executive (rule engine briefings + recommendations)",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_dead_code_removed",
+      "label": "Dead code removed (app-shell, header, sidebar, is-akislari page)",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_cn_utility_duplicate",
+      "label": "cn() utility duplicated in apps/web and packages/ui",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_audit_ai_core_interfaces",
+      "label": "AI Core: 18 subdirectories, 70 files, pure interfaces",
+      "file_type": "concept",
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_kernel_services",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_action_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_integration_hub",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_workflow_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_memory_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_ai_executive",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_dead_code_removed",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_cn_utility_duplicate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_system_audit_report",
+      "target": "system_audit_ai_core_interfaces",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_kernel_services",
+      "target": "0011_kernel_adr",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_workflow_engine",
+      "target": "reality_report_cron_scheduler_fix",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_ai_executive",
+      "target": "0006_ai_core_adr",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_audit_ai_core_interfaces",
+      "target": "apex_os_claude_ai_subsystems",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "SYSTEM_AUDIT.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

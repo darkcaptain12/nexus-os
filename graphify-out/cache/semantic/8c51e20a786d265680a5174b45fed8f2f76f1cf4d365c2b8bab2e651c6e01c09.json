@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0030_provider_registry_provider_registry",
+      "label": "Provider Registry with Action Discovery",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0030-provider-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0030_provider_registry_provideraction",
+      "label": "ProviderAction Type",
+      "file_type": "concept",
+      "source_file": "docs/adr/0030-provider-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0030_provider_registry_getactions",
+      "label": "getActions() Method",
+      "file_type": "concept",
+      "source_file": "docs/adr/0030-provider-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0029_integration_hub_provider_interface",
+      "target": "docs_adr_0030_provider_registry_provider_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0030-provider-registry.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0030_provider_registry_provider_registry",
+      "target": "docs_adr_0030_provider_registry_provideraction",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0030-provider-registry.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0030_provider_registry_provider_registry",
+      "target": "docs_adr_0030_provider_registry_getactions",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0030-provider-registry.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0030_provider_registry_getactions",
+      "target": "docs_adr_0019_ai_executive_ai_executive",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0030-provider-registry.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0030_provider_registry_provider_registry",
+      "target": "docs_adr_0026_action_engine_action_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0030-provider-registry.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

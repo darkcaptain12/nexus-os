@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "supabase_readme_supabase",
+      "label": "Supabase",
+      "file_type": "concept",
+      "source_file": "supabase/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "supabase_readme_config_toml",
+      "label": "config.toml",
+      "file_type": "code",
+      "source_file": "supabase/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "supabase_readme_migrations_dir",
+      "label": "migrations/",
+      "file_type": "code",
+      "source_file": "supabase/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "supabase_readme_seed_dir",
+      "label": "seed/",
+      "file_type": "code",
+      "source_file": "supabase/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "supabase_readme_supabase",
+      "target": "supabase_readme_config_toml",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "supabase_readme_supabase",
+      "target": "supabase_readme_migrations_dir",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "supabase_readme_supabase",
+      "target": "supabase_readme_seed_dir",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

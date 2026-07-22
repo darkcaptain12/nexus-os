@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "id": "dashboard_dashboard",
+      "label": "Dashboard",
+      "file_type": "document",
+      "source_file": "00_HOME/Dashboard.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "dashboard_dashboard",
+      "target": "vision_vision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "00_HOME/Dashboard.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_dashboard",
+      "target": "product_requirements_product_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "00_HOME/Dashboard.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_dashboard",
+      "target": "system_architecture_system_architecture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "00_HOME/Dashboard.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_dashboard",
+      "target": "ai_router_ai_router",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "00_HOME/Dashboard.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_dashboard",
+      "target": "trading_trading_module",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "00_HOME/Dashboard.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_dashboard",
+      "target": "e_commerce_e_commerce_module",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "00_HOME/Dashboard.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_dashboard",
+      "target": "roadmap_roadmap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "00_HOME/Dashboard.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

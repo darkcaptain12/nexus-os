@@ -3,3 +3,5 @@ export { GmailProvider } from './gmail';
 export { GoogleCalendarProvider } from './calendar';
 export { MCPProvider } from './mcp';
 export { HTTPProvider } from './http';
+export { NotionProvider } from './notion';
+export { SlackProvider } from './slack';

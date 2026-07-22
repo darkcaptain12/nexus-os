@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "task_engine_readme_task_engine",
+      "label": "Task Engine",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "task_engine_readme_priority_queue",
+      "label": "Priority Queue with Dependency Ordering",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "task_engine_readme_worker_pool_management",
+      "label": "Worker Pool Management",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "task_engine_readme_checkpoint_resume",
+      "label": "Checkpoint/Resume for Long-running Tasks",
+      "file_type": "rationale",
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "task_engine_readme_dead_letter_queue",
+      "label": "Dead Letter Queue",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "task_engine_readme_task_engine",
+      "target": "task_engine_readme_priority_queue",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "task_engine_readme_task_engine",
+      "target": "task_engine_readme_worker_pool_management",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "task_engine_readme_task_engine",
+      "target": "task_engine_readme_checkpoint_resume",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "task_engine_readme_task_engine",
+      "target": "task_engine_readme_dead_letter_queue",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "task_engine_readme_task_engine",
+      "target": "query_bus_readme_query_bus",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.6,
+      "source_file": "packages/kernel/src/task-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "kernel_execution_subsystems",
+      "label": "Kernel Task and Workflow Execution Subsystems",
+      "nodes": [
+        "task_engine_readme_task_engine",
+        "workflow_runtime_readme_workflow_runtime",
+        "scheduler_readme_scheduler",
+        "query_bus_readme_query_bus"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "packages/kernel/src/task-engine/README.md"
+    }
+  ]
+}

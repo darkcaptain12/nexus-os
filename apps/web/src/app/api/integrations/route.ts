@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getIntegrationHub } from '@/lib/integrations/hub-instance';
 
-export async function GET() {
+async function handleGET() {
   const hub = getIntegrationHub();
   return NextResponse.json({
     providers: hub.registry.list(),
@@ -10,3 +11,5 @@ export async function GET() {
     stats: hub.getStats(),
   });
 }
+
+export const GET = withErrorBoundary(handleGET);

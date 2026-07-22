@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { createClient } from '@/lib/supabase/server';
 import { isSupabaseConfigured } from '@/lib/supabase/health';
+import { recordDesktopActivity } from '@/lib/knowledge/auto-linker';
 
 interface SyncRecord {
   application: string;
@@ -11,7 +13,7 @@ interface SyncRecord {
   metadata?: Record<string, unknown>;
 }
 
-export async function POST(request: Request) {
+async function handlePOST(request: Request) {
   if (!isSupabaseConfigured()) {
     return NextResponse.json({ error: 'Supabase not configured' }, { status: 503 });
   }
@@ -32,7 +34,9 @@ export async function POST(request: Request) {
   }
 
   const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
   if (!user) {
     return NextResponse.json({ error: 'Authentication required' }, { status: 401 });
@@ -48,10 +52,18 @@ export async function POST(request: Request) {
     metadata: r.metadata ?? {},
   }));
 
-  const { data, error } = await supabase
-    .from('desktop_activity_logs')
-    .insert(records)
-    .select('id');
+  // Knowledge Graph: dosya→uygulama→website→proje ilişkileri
+  for (const r of body.records) {
+    recordDesktopActivity({
+      app: r.application,
+      windowTitle: r.window_title,
+      filePath: r.metadata?.['filePath'] as string | undefined,
+      url: r.metadata?.['url'] as string | undefined,
+      projectHint: r.metadata?.['project'] as string | undefined,
+    });
+  }
+
+  const { data, error } = await supabase.from('desktop_activity_logs').insert(records).select('id');
 
   if (error) {
     return NextResponse.json(
@@ -66,3 +78,5 @@ export async function POST(request: Request) {
     timestamp: new Date().toISOString(),
   });
 }
+
+export const POST = withErrorBoundary(handlePOST);

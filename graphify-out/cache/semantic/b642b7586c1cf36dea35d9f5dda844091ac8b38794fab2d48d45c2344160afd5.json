@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "roadmap_roadmap",
+      "label": "Roadmap",
+      "file_type": "document",
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "roadmap_phase_1_foundation",
+      "label": "Phase 1: Foundation",
+      "file_type": "concept",
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "roadmap_phase_2_core_platform",
+      "label": "Phase 2: Core Platform",
+      "file_type": "concept",
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "roadmap_phase_3_agents",
+      "label": "Phase 3: Agents",
+      "file_type": "concept",
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "roadmap_phase_4_automation",
+      "label": "Phase 4: Automation",
+      "file_type": "concept",
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "roadmap_phase_5_production",
+      "label": "Phase 5: Production",
+      "file_type": "concept",
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "roadmap_roadmap",
+      "target": "roadmap_phase_1_foundation",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "roadmap_roadmap",
+      "target": "roadmap_phase_2_core_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "roadmap_roadmap",
+      "target": "roadmap_phase_3_agents",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "roadmap_roadmap",
+      "target": "roadmap_phase_4_automation",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "roadmap_roadmap",
+      "target": "roadmap_phase_5_production",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "roadmap_phase_3_agents",
+      "target": "agent_index_agent_index",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "roadmap_phase_4_automation",
+      "target": "system_architecture_automation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "16_ROADMAP/Roadmap.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0026_action_engine_action_engine",
+      "label": "Action Engine",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0026_action_engine_action_registry",
+      "label": "Action Registry",
+      "file_type": "concept",
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0026_action_engine_risk_based_approval",
+      "label": "Risk-Based Approval",
+      "file_type": "concept",
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0026_action_engine_execution_queue",
+      "label": "Execution Queue with Retry",
+      "file_type": "concept",
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0026_action_engine_rollback_management",
+      "label": "Rollback Management",
+      "file_type": "concept",
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0026_action_engine_action_engine",
+      "target": "docs_adr_0026_action_engine_action_registry",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0026_action_engine_action_engine",
+      "target": "docs_adr_0026_action_engine_risk_based_approval",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0026_action_engine_action_engine",
+      "target": "docs_adr_0026_action_engine_execution_queue",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0026_action_engine_action_engine",
+      "target": "docs_adr_0026_action_engine_rollback_management",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0026-action-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "action_lifecycle_chain",
+      "label": "Action Engine, Approval, Execution Pipeline Chain",
+      "nodes": [
+        "docs_adr_0026_action_engine_action_engine",
+        "docs_adr_0027_approval_system_risk_based_approval_system",
+        "docs_adr_0028_action_execution_action_execution_pipeline",
+        "docs_adr_0026_action_engine_risk_based_approval"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0026-action-engine.md"
+    }
+  ]
+}

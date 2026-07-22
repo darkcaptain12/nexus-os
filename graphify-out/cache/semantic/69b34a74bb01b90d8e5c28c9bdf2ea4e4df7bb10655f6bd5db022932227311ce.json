@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0019_ai_executive_ai_executive",
+      "label": "AI Executive with Deterministic Rule Engine",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0019_ai_executive_rule_engine",
+      "label": "Deterministic Rule Engine",
+      "file_type": "concept",
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0019_ai_executive_provider_agnostic_ai_layer",
+      "label": "Provider-Agnostic AI Layer",
+      "file_type": "concept",
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0019_ai_executive_scored_recommendations",
+      "label": "Scored Recommendations",
+      "file_type": "concept",
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0019_ai_executive_rule_categories",
+      "label": "Rule Engine Categories (Task/Goal/Calendar/System/Reminder)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0019_ai_executive_ai_executive",
+      "target": "docs_adr_0019_ai_executive_rule_engine",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0019_ai_executive_ai_executive",
+      "target": "docs_adr_0019_ai_executive_provider_agnostic_ai_layer",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0019_ai_executive_rule_engine",
+      "target": "docs_adr_0019_ai_executive_scored_recommendations",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0019_ai_executive_rule_engine",
+      "target": "docs_adr_0019_ai_executive_rule_categories",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0019-ai-executive.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

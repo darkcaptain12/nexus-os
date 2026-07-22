@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "design_system_design_system",
+      "label": "Design System",
+      "file_type": "document",
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "design_system_nextjs",
+      "label": "Next.js",
+      "file_type": "concept",
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "design_system_tailwind",
+      "label": "Tailwind",
+      "file_type": "concept",
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "design_system_shadcn_ui",
+      "label": "shadcn/ui",
+      "file_type": "concept",
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "design_system_dark_mode_first",
+      "label": "Dark Mode First",
+      "file_type": "rationale",
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "design_system_design_system",
+      "target": "design_system_nextjs",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "design_system_design_system",
+      "target": "design_system_tailwind",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "design_system_design_system",
+      "target": "design_system_shadcn_ui",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "design_system_design_system",
+      "target": "design_system_dark_mode_first",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "design_system_nextjs",
+      "target": "system_architecture_web",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "09_UI/Design System.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

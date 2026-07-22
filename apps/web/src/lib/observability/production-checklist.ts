@@ -1,6 +1,8 @@
+import { NextResponse } from 'next/server';
 import { validateConfig } from '@/lib/config';
 import { validateEnvironment, isSupabaseConfigured } from '@/lib/supabase/health';
 import { getKernel } from '@/lib/kernel';
+import { applySecurityHeaders } from '@/lib/security/headers';
 
 export interface ChecklistItem {
   name: string;
@@ -44,17 +46,14 @@ export async function generateProductionChecklist(): Promise<ProductionReadiness
 
   items.push({
     name: 'RLS Policies',
-    status: isSupabaseConfigured() ? 'pass' : 'skip',
-    message: isSupabaseConfigured() ? 'Enabled on all tables' : 'Skipped — no database',
+    status: isSupabaseConfigured() ? 'warn' : 'skip',
+    message: isSupabaseConfigured()
+      ? 'Cannot verify without a pg_policies query (service-role) — not checked, do not assume enabled'
+      : 'Skipped — no database',
     category: 'security',
   });
 
-  items.push({
-    name: 'Security Headers',
-    status: 'pass',
-    message: 'CSP, HSTS, X-Frame-Options configured',
-    category: 'security',
-  });
+  items.push(checkSecurityHeadersReal());
 
   try {
     const { kernel, ready } = getKernel();
@@ -72,8 +71,10 @@ export async function generateProductionChecklist(): Promise<ProductionReadiness
 
   items.push({
     name: 'Storage Buckets',
-    status: isSupabaseConfigured() ? 'pass' : 'skip',
-    message: isSupabaseConfigured() ? '7 buckets configured' : 'Skipped — no database',
+    status: isSupabaseConfigured() ? 'warn' : 'skip',
+    message: isSupabaseConfigured()
+      ? 'Supabase is configured, but bucket existence/count is not verified here — would require an async storage.listBuckets() call'
+      : 'Skipped — no database',
     category: 'database',
   });
 
@@ -93,5 +94,27 @@ export async function generateProductionChecklist(): Promise<ProductionReadiness
     ready: items.filter((i) => i.status === 'fail' && i.category !== 'deployment').length === 0,
     items,
     timestamp: new Date().toISOString(),
+  };
+}
+
+/** Real check: actually invokes applySecurityHeaders() and inspects the resulting headers, instead of asserting it works. */
+function checkSecurityHeadersReal(): ChecklistItem {
+  const probe = applySecurityHeaders(NextResponse.next());
+  const required = [
+    'X-Content-Type-Options',
+    'X-Frame-Options',
+    'Referrer-Policy',
+    'Permissions-Policy',
+  ];
+  const missing = required.filter((h) => !probe.headers.get(h));
+
+  return {
+    name: 'Security Headers',
+    status: missing.length === 0 ? 'pass' : 'fail',
+    message:
+      missing.length === 0
+        ? `Verified present: ${required.join(', ')}`
+        : `Missing headers: ${missing.join(', ')}`,
+    category: 'security',
   };
 }

@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0021_second_brain_second_brain",
+      "label": "Second Brain \u2014 Personal Memory System",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0021_second_brain_memory_store",
+      "label": "Memory Store",
+      "file_type": "concept",
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0021_second_brain_timeline",
+      "label": "Timeline",
+      "file_type": "concept",
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0021_second_brain_daily_journal",
+      "label": "Daily Journal",
+      "file_type": "concept",
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0021_second_brain_activity_summarizer",
+      "label": "Activity Summarizer",
+      "file_type": "concept",
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0021_second_brain_project_memory",
+      "label": "Project Memory",
+      "file_type": "concept",
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0021_second_brain_decision_log",
+      "label": "Decision Log",
+      "file_type": "concept",
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0021_second_brain_keyword_search",
+      "label": "Keyword Search",
+      "file_type": "concept",
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0020_desktop_intelligence_activity_timeline",
+      "target": "docs_adr_0021_second_brain_timeline",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0021_second_brain_second_brain",
+      "target": "docs_adr_0021_second_brain_memory_store",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0021_second_brain_memory_store",
+      "target": "docs_adr_0021_second_brain_timeline",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0021_second_brain_timeline",
+      "target": "docs_adr_0021_second_brain_daily_journal",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0021_second_brain_memory_store",
+      "target": "docs_adr_0021_second_brain_activity_summarizer",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0021_second_brain_memory_store",
+      "target": "docs_adr_0021_second_brain_project_memory",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0021_second_brain_memory_store",
+      "target": "docs_adr_0021_second_brain_decision_log",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0021_second_brain_second_brain",
+      "target": "docs_adr_0021_second_brain_keyword_search",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0021-second-brain.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

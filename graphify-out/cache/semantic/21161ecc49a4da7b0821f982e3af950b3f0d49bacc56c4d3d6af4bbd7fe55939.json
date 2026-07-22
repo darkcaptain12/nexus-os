@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "event_runtime_event_runtime",
+      "label": "Event Runtime (Full)",
+      "file_type": "document",
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "event_runtime_event_store",
+      "label": "Event Store",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "event_runtime_replay",
+      "label": "Event Replay",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "event_runtime_versioning",
+      "label": "Event Versioning (Upcasting)",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "event_runtime_dead_letter_queue",
+      "label": "Dead Letter Queue (Event Runtime)",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "event_runtime_consumer_groups",
+      "label": "Consumer Groups",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "event_runtime_event_runtime",
+      "target": "events_apex_os_events",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "event_runtime_event_runtime",
+      "target": "event_runtime_event_store",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "event_runtime_event_runtime",
+      "target": "event_runtime_replay",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "event_runtime_event_runtime",
+      "target": "event_runtime_versioning",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "event_runtime_event_runtime",
+      "target": "event_runtime_dead_letter_queue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "event_runtime_event_runtime",
+      "target": "event_runtime_consumer_groups",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "event_runtime_replay",
+      "target": "event_runtime_event_store",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/event-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

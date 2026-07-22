@@ -1,0 +1,436 @@
+{
+  "nodes": [
+    {
+      "id": "knowledge_readme_knowledge_graph_v2",
+      "label": "Knowledge Graph v2",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_types",
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_graph_store",
+      "label": "graph-store.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_relationship_engine",
+      "label": "relationship-engine.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_auto_linker",
+      "label": "auto-linker.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_semantic_search",
+      "label": "semantic-search.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_context_selector",
+      "label": "context-selector.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_entity_extractor",
+      "label": "entity-extractor",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_adjacency_list",
+      "label": "Adjacency List",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_ring_buffer_limits",
+      "label": "Ring Buffer Limits",
+      "file_type": "rationale",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_context_builder_v2",
+      "label": "Context Builder v2",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_agent_runtime",
+      "label": "agents/agent-runtime.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_agent_runner",
+      "label": "agents/agent-runner.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_trading_actions",
+      "label": "quant/trading-actions.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_desktop_sync",
+      "label": "api/desktop/sync",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_context_pipeline",
+      "label": "ai/orchestrator/context-pipeline.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "knowledge_readme_voice_service",
+      "label": "quant/services/voice-service.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "knowledge_readme_knowledge_graph_v2",
+      "target": "knowledge_readme_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_knowledge_graph_v2",
+      "target": "knowledge_readme_graph_store",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_knowledge_graph_v2",
+      "target": "knowledge_readme_relationship_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_knowledge_graph_v2",
+      "target": "knowledge_readme_auto_linker",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_knowledge_graph_v2",
+      "target": "knowledge_readme_semantic_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_knowledge_graph_v2",
+      "target": "knowledge_readme_context_selector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_relationship_engine",
+      "target": "knowledge_readme_graph_store",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_auto_linker",
+      "target": "knowledge_readme_entity_extractor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_auto_linker",
+      "target": "knowledge_readme_relationship_engine",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_semantic_search",
+      "target": "knowledge_readme_graph_store",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_context_selector",
+      "target": "knowledge_readme_context_builder_v2",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_context_selector",
+      "target": "knowledge_readme_semantic_search",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_graph_store",
+      "target": "knowledge_readme_adjacency_list",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_graph_store",
+      "target": "knowledge_readme_ring_buffer_limits",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_adjacency_list",
+      "target": "knowledge_readme_graph_store",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_agent_runtime",
+      "target": "knowledge_readme_auto_linker",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_agent_runner",
+      "target": "knowledge_readme_auto_linker",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_trading_actions",
+      "target": "knowledge_readme_auto_linker",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_desktop_sync",
+      "target": "knowledge_readme_auto_linker",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_context_pipeline",
+      "target": "knowledge_readme_context_selector",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "knowledge_readme_voice_service",
+      "target": "knowledge_readme_knowledge_graph_v2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "knowledge_module_composition",
+      "label": "Knowledge Graph v2 Module Composition",
+      "nodes": [
+        "knowledge_readme_types",
+        "knowledge_readme_graph_store",
+        "knowledge_readme_relationship_engine",
+        "knowledge_readme_auto_linker",
+        "knowledge_readme_semantic_search",
+        "knowledge_readme_context_selector"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md"
+    },
+    {
+      "id": "knowledge_feeding_hooks",
+      "label": "Auto-Linker Feeding Hooks",
+      "nodes": [
+        "knowledge_readme_agent_runtime",
+        "knowledge_readme_agent_runner",
+        "knowledge_readme_trading_actions",
+        "knowledge_readme_desktop_sync",
+        "knowledge_readme_auto_linker"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/knowledge/README.md"
+    }
+  ]
+}

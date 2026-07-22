@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "users_emir_projects_apex_os_scripts_seed_sh",
+      "label": "seed.sh",
+      "file_type": "code",
+      "source_file": "scripts/seed.sh",
+      "source_location": "L1",
+      "metadata": { "language": "bash", "kind": "file" }
+    },
+    {
+      "id": "users_emir_projects_apex_os_scripts_seed_sh__entry",
+      "label": "seed.sh script",
+      "file_type": "code",
+      "source_file": "scripts/seed.sh",
+      "source_location": "L1",
+      "metadata": { "language": "bash", "kind": "bash_entrypoint" }
+    }
+  ],
+  "edges": [
+    {
+      "source": "users_emir_projects_apex_os_scripts_seed_sh",
+      "target": "users_emir_projects_apex_os_scripts_seed_sh__entry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/seed.sh",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ]
+}

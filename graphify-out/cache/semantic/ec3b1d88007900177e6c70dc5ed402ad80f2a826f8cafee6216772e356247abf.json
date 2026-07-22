@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0033_workflow_designer_workflow_designer_ui",
+      "label": "Workflow Designer UI",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0033-workflow-designer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0033_workflow_designer_workflow_templates",
+      "label": "Workflow Templates (7 Production-Ready)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0033-workflow-designer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0033_workflow_designer_workflow_designer_ui",
+      "target": "docs_adr_0032_workflow_runtime_workflow_runtime_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0033-workflow-designer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0033_workflow_designer_workflow_designer_ui",
+      "target": "docs_adr_0033_workflow_designer_workflow_templates",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0033-workflow-designer.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

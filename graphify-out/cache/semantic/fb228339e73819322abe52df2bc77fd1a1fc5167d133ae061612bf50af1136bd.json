@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "infrastructure_infrastructure",
+      "label": "Infrastructure",
+      "file_type": "document",
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "infrastructure_vercel",
+      "label": "Vercel",
+      "file_type": "concept",
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "infrastructure_supabase",
+      "label": "Supabase",
+      "file_type": "concept",
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "infrastructure_upstash_redis",
+      "label": "Upstash Redis",
+      "file_type": "concept",
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "infrastructure_github",
+      "label": "GitHub",
+      "file_type": "concept",
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "infrastructure_expo",
+      "label": "Expo",
+      "file_type": "concept",
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "infrastructure_infrastructure",
+      "target": "infrastructure_vercel",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "infrastructure_infrastructure",
+      "target": "infrastructure_supabase",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "infrastructure_infrastructure",
+      "target": "infrastructure_upstash_redis",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "infrastructure_infrastructure",
+      "target": "infrastructure_github",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "infrastructure_infrastructure",
+      "target": "infrastructure_expo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "infrastructure_vercel",
+      "target": "deployment_deployment",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "infrastructure_github",
+      "target": "ci_lint_job",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "12_INFRASTRUCTURE/Infrastructure.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

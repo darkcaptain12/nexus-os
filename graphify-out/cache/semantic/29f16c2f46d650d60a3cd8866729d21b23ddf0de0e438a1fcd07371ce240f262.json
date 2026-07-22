@@ -1,0 +1,208 @@
+{
+  "nodes": [
+    {
+      "id": "exchanges_readme_exchangeadapter",
+      "label": "ExchangeAdapter",
+      "file_type": "code",
+      "rationale": "Exchange abstraction interface exposing only public market-data endpoints \u2014 order submission is deliberately absent at this layer.",
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "exchanges_readme_binance_adapter",
+      "label": "Binance Adapter",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "source_url": "https://api.binance.com/api/v3",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "exchanges_readme_mexc_adapter",
+      "label": "MEXC Adapter",
+      "file_type": "code",
+      "rationale": "MEXC uses a Binance-compatible schema, so the response parser is shared with the Binance adapter.",
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "source_url": "https://api.mexc.com/api/v3",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "exchanges_readme_bybit_adapter",
+      "label": "Bybit Adapter",
+      "file_type": "code",
+      "rationale": "Bybit v5 market API returns lists newest-to-oldest, so the adapter reverses them to chronological order.",
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "source_url": "https://api.bybit.com/v5/market",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "exchanges_readme_exchange_registry",
+      "label": "Exchange Registry",
+      "file_type": "code",
+      "rationale": "Single entry point for exchange access: getExchange(name), registerExchange(adapter), listExchanges(). New exchanges plug in by implementing ExchangeAdapter and registering.",
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "exchanges_readme_pure_parser_functions",
+      "label": "Pure Parser Functions",
+      "file_type": "rationale",
+      "rationale": "Parsers are pure and exported separately so tests can validate against real response schemas without any network access.",
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "quant_readme_paper_only_safety_rule",
+      "target": "exchanges_readme_exchangeadapter",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_binance_adapter",
+      "target": "exchanges_readme_exchangeadapter",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_mexc_adapter",
+      "target": "exchanges_readme_exchangeadapter",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_bybit_adapter",
+      "target": "exchanges_readme_exchangeadapter",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_exchangeadapter",
+      "target": "quant_readme_quant_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_exchange_registry",
+      "target": "exchanges_readme_exchangeadapter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_mexc_adapter",
+      "target": "exchanges_readme_binance_adapter",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_exchange_registry",
+      "target": "exchanges_readme_binance_adapter",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_exchange_registry",
+      "target": "exchanges_readme_mexc_adapter",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_exchange_registry",
+      "target": "exchanges_readme_bybit_adapter",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_pure_parser_functions",
+      "target": "exchanges_readme_binance_adapter",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_pure_parser_functions",
+      "target": "exchanges_readme_mexc_adapter",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_pure_parser_functions",
+      "target": "exchanges_readme_bybit_adapter",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/exchanges/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

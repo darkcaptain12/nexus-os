@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "scripts_readme_setup_sh",
+      "label": "setup.sh",
+      "file_type": "code",
+      "source_file": "scripts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scripts_readme_seed_sh",
+      "label": "seed.sh",
+      "file_type": "code",
+      "source_file": "scripts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scripts_readme_backup_sh",
+      "label": "backup.sh",
+      "file_type": "code",
+      "source_file": "scripts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scripts_readme_restore_sh",
+      "label": "restore.sh",
+      "file_type": "code",
+      "source_file": "scripts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scripts_readme_clean_sh",
+      "label": "clean.sh",
+      "file_type": "code",
+      "source_file": "scripts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "scripts_readme_seed_sh",
+      "target": "supabase_readme_seed_dir",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "scripts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_readme_backup_sh",
+      "target": "supabase_readme_supabase",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "scripts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_readme_restore_sh",
+      "target": "supabase_readme_supabase",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "scripts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,9 +1,13 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getIntegrationHub } from '@/lib/integrations/hub-instance';
 
-export async function POST(request: Request) {
+async function handlePOST(request: Request) {
   const body = await request.json().catch(() => ({}));
-  const { providerId, credentials } = body as { providerId?: string; credentials?: Record<string, unknown> };
+  const { providerId, credentials } = body as {
+    providerId?: string;
+    credentials?: Record<string, unknown>;
+  };
 
   if (!providerId) {
     return NextResponse.json({ error: 'providerId required' }, { status: 400 });
@@ -22,6 +26,11 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ connected: true, providerId });
   } catch (err) {
-    return NextResponse.json({ error: err instanceof Error ? err.message : String(err) }, { status: 400 });
+    return NextResponse.json(
+      { error: err instanceof Error ? err.message : String(err) },
+      { status: 400 },
+    );
   }
 }
+
+export const POST = withErrorBoundary(handlePOST);

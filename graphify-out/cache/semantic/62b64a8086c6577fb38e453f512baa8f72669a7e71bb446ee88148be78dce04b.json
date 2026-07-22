@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "reasoning_reasoning_engine",
+      "label": "Reasoning Engine",
+      "file_type": "document",
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reasoning_chain_of_thought",
+      "label": "Chain-of-Thought Reasoning",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reasoning_tree_of_thought",
+      "label": "Tree-of-Thought Reasoning",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reasoning_reflection",
+      "label": "Reflection (Self-Critique)",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reasoning_debate",
+      "label": "Debate Reasoning",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reasoning_verification",
+      "label": "Verification",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "reasoning_reasoning_engine",
+      "target": "reasoning_chain_of_thought",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reasoning_reasoning_engine",
+      "target": "reasoning_tree_of_thought",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reasoning_reasoning_engine",
+      "target": "reasoning_reflection",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reasoning_reasoning_engine",
+      "target": "reasoning_debate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reasoning_reasoning_engine",
+      "target": "reasoning_verification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reasoning_verification",
+      "target": "safety_dangerousactiondetector",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "packages/ai/src/reasoning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

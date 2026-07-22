@@ -19,15 +19,9 @@ export interface EnvValidation {
   warnings: string[];
 }
 
-const REQUIRED_ENV = [
-  'NEXT_PUBLIC_SUPABASE_URL',
-  'NEXT_PUBLIC_SUPABASE_ANON_KEY',
-];
+const REQUIRED_ENV = ['NEXT_PUBLIC_SUPABASE_URL', 'NEXT_PUBLIC_SUPABASE_ANON_KEY'];
 
-const OPTIONAL_ENV = [
-  'SUPABASE_SERVICE_ROLE_KEY',
-  'NEXT_PUBLIC_APP_URL',
-];
+const OPTIONAL_ENV = ['SUPABASE_SERVICE_ROLE_KEY', 'NEXT_PUBLIC_APP_URL'];
 
 export function validateEnvironment(): EnvValidation {
   const missing: string[] = [];
@@ -64,7 +58,9 @@ export async function checkSupabaseHealth(db: SupabaseClient): Promise<SupabaseH
   let migrationVersion: string | null = null;
 
   try {
-    const { error: pingError } = await db.from('users').select('id', { count: 'exact', head: true });
+    const { error: pingError } = await db
+      .from('users')
+      .select('id', { count: 'exact', head: true });
     if (pingError && !pingError.message.includes('0 rows')) {
       if (pingError.message.includes('does not exist')) {
         errors.push('Tables not found — run migrations');
@@ -80,9 +76,19 @@ export async function checkSupabaseHealth(db: SupabaseClient): Promise<SupabaseH
 
   if (connected) {
     try {
-      const { data } = await db.from('kernel_services').select('id', { count: 'exact', head: true });
+      const { data } = await db
+        .from('kernel_services')
+        .select('id', { count: 'exact', head: true });
       tablesFound = data ? 1 : 0;
-      const tables = ['users', 'memories', 'tasks', 'goals', 'agents', 'workflows', 'notifications'];
+      const tables = [
+        'users',
+        'memories',
+        'tasks',
+        'goals',
+        'agents',
+        'workflows',
+        'notifications',
+      ];
       for (const table of tables) {
         const { error } = await db.from(table).select('id', { count: 'exact', head: true });
         if (!error) tablesFound++;
@@ -105,8 +111,12 @@ export async function checkSupabaseHealth(db: SupabaseClient): Promise<SupabaseH
       errors.push('Storage not accessible');
     }
 
-    rlsEnabled = true;
-    realtimeEnabled = true;
+    // Neither is actually checked: RLS would require a service-role query
+    // against pg_policies; Realtime would require opening a live websocket.
+    // Previously hardcoded to true here — corrected to the honest default
+    // (not verified) rather than asserting a check that was never run.
+    rlsEnabled = false;
+    realtimeEnabled = false;
   }
 
   return {

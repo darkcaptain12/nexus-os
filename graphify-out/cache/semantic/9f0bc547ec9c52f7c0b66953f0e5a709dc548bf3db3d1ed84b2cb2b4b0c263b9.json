@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "contracts_readme_contracts",
+      "label": "Contracts (Service/Provider/Agent)",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/contracts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai_readme_contracts_module",
+      "target": "contracts_readme_contracts",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/contracts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "execution_execution_engine",
+      "label": "Execution Engine (AI)",
+      "file_type": "document",
+      "source_file": "packages/ai/src/execution/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "execution_pipeline_orchestration",
+      "label": "Pipeline Orchestration",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/execution/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "execution_execution_engine",
+      "target": "execution_pipeline_orchestration",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/execution/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "ai_subsystem_orchestration_flow",
+      "label": "AI Agent Orchestration Flow (Planning, Reasoning, Execution, Memory, Prompts)",
+      "nodes": [
+        "planning_planning_engine",
+        "reasoning_reasoning_engine",
+        "execution_execution_engine",
+        "memory_ai_memory_engine",
+        "prompts_prompt_engine",
+        "router_ai_router",
+        "safety_safety_module"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "packages/ai/src/execution/README.md"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "sdk_readme_apex_os_sdk",
+      "label": "@apex-os/sdk",
+      "file_type": "code",
+      "source_file": "packages/sdk/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sdk_readme_apexsdk",
+      "label": "ApexSDK",
+      "file_type": "code",
+      "source_file": "packages/sdk/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sdk_readme_apexsdkconfig",
+      "label": "ApexSDKConfig",
+      "file_type": "code",
+      "source_file": "packages/sdk/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "sdk_readme_apex_os_sdk",
+      "target": "sdk_readme_apexsdk",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/sdk/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sdk_readme_apex_os_sdk",
+      "target": "sdk_readme_apexsdkconfig",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/sdk/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sdk_readme_apexsdk",
+      "target": "memory_readme_apex_os_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/sdk/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sdk_readme_apexsdk",
+      "target": "notifications_readme_apex_os_notifications",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/sdk/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

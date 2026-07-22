@@ -1,10 +1,11 @@
 import { NextResponse } from 'next/server';
-import { getKernel } from '@/lib/kernel';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
+import { generateHealthReport } from '@/lib/observability/health';
 
-export async function GET() {
-  const { kernel, ready } = getKernel();
-  await ready;
-  const report = await kernel.health.check();
-  const status = report.score >= 80 ? 200 : report.score >= 50 ? 200 : 503;
+async function handleGET() {
+  const report = await generateHealthReport();
+  const status = report.score >= 50 ? 200 : 503;
   return NextResponse.json(report, { status });
 }
+
+export const GET = withErrorBoundary(handleGET);

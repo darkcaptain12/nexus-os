@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "0006_ai_core_adr",
+      "label": "ADR-0006: AI as Central Nervous System",
+      "file_type": "document",
+      "source_file": "docs/adr/0006-ai-core.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0006_ai_core_decision",
+      "label": "AI central orchestration pipeline: Voice/Input \u2192 AI Router \u2192 Agent Orchestrator \u2192 Memory Engine \u2192 Tool Registry \u2192 Event Bus \u2192 Modules",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0006-ai-core.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0006_ai_core_adr",
+      "target": "0006_ai_core_decision",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0006-ai-core.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0006_ai_core_decision",
+      "target": "0007_agent_orchestrator_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0006-ai-core.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0006_ai_core_decision",
+      "target": "0008_memory_engine_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0006-ai-core.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0006_ai_core_decision",
+      "target": "0009_tool_registry_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0006-ai-core.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_ai_orchestration_chain",
+      "label": "AI Orchestration Pipeline (AI Core \u2192 Agent Orchestrator \u2192 Memory Engine \u2192 Tool Registry \u2192 Context Engine)",
+      "nodes": [
+        "0006_ai_core_decision",
+        "0007_agent_orchestrator_decision",
+        "0008_memory_engine_decision",
+        "0009_tool_registry_decision",
+        "0010_context_engine_decision"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/adr/0006-ai-core.md"
+    }
+  ]
+}

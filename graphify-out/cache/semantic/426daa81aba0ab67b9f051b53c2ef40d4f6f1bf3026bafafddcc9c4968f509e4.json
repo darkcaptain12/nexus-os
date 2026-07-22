@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "desktop_agent_readme_desktop_agent",
+      "label": "NEXUS OS Desktop Agent",
+      "file_type": "concept",
+      "source_file": "apps/desktop-agent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_agent_readme_privacy_design",
+      "label": "Desktop Agent privacy design (no screenshots/keystrokes, in-memory only)",
+      "file_type": "rationale",
+      "source_file": "apps/desktop-agent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_agent_readme_pipeline",
+      "label": "Collectors \u2192 Activity Timeline \u2192 Productivity Engine \u2192 HTTP API \u2192 Dashboard Widget",
+      "file_type": "concept",
+      "source_file": "apps/desktop-agent/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "desktop_agent_readme_desktop_agent",
+      "target": "desktop_agent_readme_privacy_design",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/desktop-agent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_agent_readme_desktop_agent",
+      "target": "desktop_agent_readme_pipeline",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/desktop-agent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_agent_readme_pipeline",
+      "target": "reality_report_desktop_sync_fix",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/desktop-agent/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

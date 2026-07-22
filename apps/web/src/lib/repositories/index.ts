@@ -19,6 +19,26 @@ export type {
   UserPreferencesRecord,
   FullUserProfile,
 } from './user.repository';
+export type {
+  TaskRecord,
+  TaskFilters,
+  TaskCommentRecord,
+  TaskActivityRecord,
+} from './task.repository';
+export type {
+  ProjectRecord,
+  ProjectFilters,
+  ProjectProgress,
+  ProjectActivityRecord,
+} from './project.repository';
+export type {
+  MemoryRecord,
+  MemoryLinkRecord,
+  MemoryEntityRecord,
+  MemoryHealthReport,
+  MemoryGraphNode,
+  MemoryGraphEdge,
+} from './memory.repository';
 
 export {
   MemoryRepository,

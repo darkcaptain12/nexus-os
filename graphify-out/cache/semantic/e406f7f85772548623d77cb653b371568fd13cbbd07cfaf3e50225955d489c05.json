@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "id": "automation_apex_os_automation",
+      "label": "@apex-os/automation",
+      "file_type": "code",
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_workflow",
+      "label": "Workflow (Automation)",
+      "file_type": "concept",
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_trigger",
+      "label": "Trigger (Automation)",
+      "file_type": "concept",
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_action",
+      "label": "Action (Automation)",
+      "file_type": "concept",
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_condition",
+      "label": "Condition (Automation)",
+      "file_type": "concept",
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_workflowengine",
+      "label": "WorkflowEngine",
+      "file_type": "code",
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_workflowexecution",
+      "label": "WorkflowExecution",
+      "file_type": "code",
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "automation_apex_os_automation",
+      "target": "automation_workflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_workflow",
+      "target": "automation_trigger",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_workflow",
+      "target": "automation_action",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_action",
+      "target": "automation_condition",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_apex_os_automation",
+      "target": "automation_workflowengine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_workflowengine",
+      "target": "automation_workflowexecution",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_workflow",
+      "target": "kernel_workflow_runtime",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_trigger",
+      "target": "kernel_scheduler",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "packages/automation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

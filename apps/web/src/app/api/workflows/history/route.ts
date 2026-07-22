@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getWorkflowRuntime } from '@/lib/workflows/engine-instance';
 
-export async function GET(request: Request) {
+async function handleGET(request: Request) {
   const { searchParams } = new URL(request.url);
   const workflowId = searchParams.get('workflowId') ?? undefined;
 
@@ -10,3 +11,5 @@ export async function GET(request: Request) {
 
   return NextResponse.json({ history, total: history.length });
 }
+
+export const GET = withErrorBoundary(handleGET);

@@ -7,6 +7,12 @@ import type {
   MemorySearchQuery,
   MemorySearchResult,
 } from './types';
+import { persistTimelineEntry, persistDecisionEntry } from './memory-repository';
+import { deferPersist } from '@/lib/persist-after';
+
+// Memory god-node. globalThis hızlı erişim + Supabase write-through (Faz 2
+// kalıcılık): add* çağrıları sync kalır (mevcut API korunur), arka planda
+// Supabase'e yazılır (hata yutulur → globalThis fallback).
 
 class MemoryStore {
   private timeline: TimelineEntry[] = [];
@@ -18,6 +24,7 @@ class MemoryStore {
   addTimelineEntry(entry: Omit<TimelineEntry, 'id'>): TimelineEntry {
     const full: TimelineEntry = { id: crypto.randomUUID(), ...entry };
     this.timeline.push(full);
+    deferPersist(() => persistTimelineEntry(full)); // write-through
     return full;
   }
 
@@ -39,6 +46,7 @@ class MemoryStore {
   addDecision(entry: Omit<DecisionEntry, 'id'>): DecisionEntry {
     const full: DecisionEntry = { id: crypto.randomUUID(), ...entry };
     this.decisions.push(full);
+    deferPersist(() => persistDecisionEntry(full)); // write-through
     this.addTimelineEntry({
       source: 'decision',
       title: `Karar: ${full.title}`,
@@ -66,9 +74,7 @@ class MemoryStore {
   }
 
   getRecentJournals(count = 7): DailyJournal[] {
-    return [...this.journals.values()]
-      .sort((a, b) => b.date.localeCompare(a.date))
-      .slice(0, count);
+    return [...this.journals.values()].sort((a, b) => b.date.localeCompare(a.date)).slice(0, count);
   }
 
   addActivitySummary(summary: Omit<ActivitySummary, 'id'>): ActivitySummary {
@@ -138,13 +144,14 @@ class MemoryStore {
   }
 }
 
-let instance: MemoryStore | null = null;
+// globalThis üzerinden singleton: dev modda HMR ve bundle-per-entry izolasyonuna dayanıklı
+const g = globalThis as unknown as { __apexMemoryStore?: MemoryStore };
 
 export function getMemoryStore(): MemoryStore {
-  if (!instance) {
-    instance = new MemoryStore();
+  if (!g.__apexMemoryStore) {
+    g.__apexMemoryStore = new MemoryStore();
   }
-  return instance;
+  return g.__apexMemoryStore;
 }
 
 export { MemoryStore };

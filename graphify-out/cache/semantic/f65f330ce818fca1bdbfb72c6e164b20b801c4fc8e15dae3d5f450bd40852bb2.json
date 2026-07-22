@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0022_persistence_layer_repository_pattern",
+      "label": "Repository Pattern for Supabase Persistence",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0022_persistence_layer_baserepository",
+      "label": "BaseRepository<T>",
+      "file_type": "concept",
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0022_persistence_layer_domain_repositories",
+      "label": "Domain Repositories (Memory/Task/Goal/Desktop/Journal/Decision/Project)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0022_persistence_layer_cursor_pagination",
+      "label": "Cursor-Based Pagination",
+      "file_type": "concept",
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0022_persistence_layer_repository_pattern",
+      "target": "docs_adr_0022_persistence_layer_baserepository",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0022_persistence_layer_baserepository",
+      "target": "docs_adr_0022_persistence_layer_domain_repositories",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0022_persistence_layer_baserepository",
+      "target": "docs_adr_0022_persistence_layer_cursor_pagination",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0022_persistence_layer_domain_repositories",
+      "target": "docs_adr_0021_second_brain_memory_store",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0022_persistence_layer_repository_pattern",
+      "target": "docs_adr_0016_database_foundation_soft_deletes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0022-persistence-layer.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

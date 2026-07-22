@@ -1,0 +1,553 @@
+{
+  "nodes": [
+    {
+      "id": "desktop_vision_readme_desktop_intelligence",
+      "label": "Desktop Intelligence v1.0",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_pluggable_provider",
+      "label": "Pluggable Provider Architecture",
+      "file_type": "rationale",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_exchange_registry_pattern",
+      "label": "Exchange Registry Pattern",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_types",
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_content_classifier",
+      "label": "content-classifier.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_ocr_service",
+      "label": "ocr-service.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_screen_capture_service",
+      "label": "screen-capture-service.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_ui_analysis_service",
+      "label": "ui-analysis-service.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_clipboard_service",
+      "label": "clipboard-service.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_file_insight_service",
+      "label": "file-insight-service.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_ide_insight",
+      "label": "ide-insight.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_browser_insight",
+      "label": "browser-insight.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_window_context_service",
+      "label": "window-context-service.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_vision_health",
+      "label": "vision-health.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_desktop_vision_service",
+      "label": "desktop-vision-service.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_voice_bridge",
+      "label": "voice-bridge.ts",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_memory_engine",
+      "label": "Memory Engine",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_memory_store",
+      "label": "MemoryStore (getMemoryStore)",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_knowledge_graph",
+      "label": "Knowledge Graph",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_auto_linker",
+      "label": "auto-linker",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_entity_extractor",
+      "label": "entity-extractor",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_context_builder_v3",
+      "label": "Context Builder v3",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_orchestrator_context",
+      "label": "OrchestratorContext.desktop",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "desktop_vision_readme_hash_dedup",
+      "label": "Hash Dedup Change-Triggered Queue",
+      "file_type": "rationale",
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "desktop_vision_readme_desktop_intelligence",
+      "target": "desktop_vision_readme_memory_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_desktop_intelligence",
+      "target": "desktop_vision_readme_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_pluggable_provider",
+      "target": "desktop_vision_readme_exchange_registry_pattern",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_pluggable_provider",
+      "target": "desktop_vision_readme_ocr_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_ocr_service",
+      "target": "desktop_vision_readme_content_classifier",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_ui_analysis_service",
+      "target": "desktop_vision_readme_ocr_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_file_insight_service",
+      "target": "desktop_vision_readme_entity_extractor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_file_insight_service",
+      "target": "desktop_vision_readme_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_file_insight_service",
+      "target": "desktop_vision_readme_memory_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_window_context_service",
+      "target": "desktop_vision_readme_ide_insight",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_window_context_service",
+      "target": "desktop_vision_readme_browser_insight",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_window_context_service",
+      "target": "desktop_vision_readme_screen_capture_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_ocr_service",
+      "target": "desktop_vision_readme_memory_store",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_clipboard_service",
+      "target": "desktop_vision_readme_memory_store",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_screen_capture_service",
+      "target": "desktop_vision_readme_auto_linker",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_clipboard_service",
+      "target": "desktop_vision_readme_auto_linker",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_auto_linker",
+      "target": "desktop_vision_readme_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_desktop_vision_service",
+      "target": "desktop_vision_readme_context_builder_v3",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_context_builder_v3",
+      "target": "desktop_vision_readme_orchestrator_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_voice_bridge",
+      "target": "desktop_vision_readme_desktop_vision_service",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_hash_dedup",
+      "target": "desktop_vision_readme_ocr_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_memory_store",
+      "target": "desktop_vision_readme_memory_engine",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_desktop_vision_service",
+      "target": "desktop_vision_readme_ocr_service",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "desktop_vision_readme_content_classifier",
+      "target": "desktop_vision_readme_ui_analysis_service",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "desktop_vision_window_context_fusion",
+      "label": "Window Context Fusion (IDE+Browser+Screen)",
+      "nodes": [
+        "desktop_vision_readme_window_context_service",
+        "desktop_vision_readme_ide_insight",
+        "desktop_vision_readme_browser_insight",
+        "desktop_vision_readme_screen_capture_service"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md"
+    },
+    {
+      "id": "desktop_vision_file_insight_pipeline",
+      "label": "File Insight Pipeline (entity-extractor to KG to Memory to Executive)",
+      "nodes": [
+        "desktop_vision_readme_file_insight_service",
+        "desktop_vision_readme_entity_extractor",
+        "desktop_vision_readme_knowledge_graph",
+        "desktop_vision_readme_memory_engine"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md"
+    },
+    {
+      "id": "desktop_vision_context_delivery",
+      "label": "Desktop Context Delivery to Executive",
+      "nodes": [
+        "desktop_vision_readme_desktop_vision_service",
+        "desktop_vision_readme_context_builder_v3",
+        "desktop_vision_readme_orchestrator_context"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/desktop-vision/README.md"
+    }
+  ]
+}

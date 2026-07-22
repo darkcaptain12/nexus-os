@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getIntegrationHub } from '@/lib/integrations/hub-instance';
 
-export async function POST(request: Request) {
+async function handlePOST(request: Request) {
   const body = await request.json().catch(() => ({}));
   const { providerId } = body as { providerId?: string };
 
@@ -14,3 +15,5 @@ export async function POST(request: Request) {
 
   return NextResponse.json({ disconnected: true, providerId });
 }
+
+export const POST = withErrorBoundary(handlePOST);

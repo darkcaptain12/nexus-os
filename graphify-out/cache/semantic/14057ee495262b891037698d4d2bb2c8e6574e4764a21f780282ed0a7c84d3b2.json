@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "memory_ai_memory_engine",
+      "label": "AI Memory Engine",
+      "file_type": "document",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_working_memory",
+      "label": "Working Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_short_memory",
+      "label": "Short-Term Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_long_memory",
+      "label": "Long-Term Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_semantic_memory",
+      "label": "Semantic Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_conversation_memory",
+      "label": "Conversation Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_knowledge_memory",
+      "label": "Knowledge Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_project_memory",
+      "label": "Project Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_document_memory",
+      "label": "Document Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_relationship_memory",
+      "label": "Relationship Memory",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "memory_consolidation",
+      "label": "Memory Consolidation",
+      "file_type": "rationale",
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Entries have importance scores that decay over time; consolidation merges related entries to save tokens."
+    }
+  ],
+  "edges": [
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_working_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_short_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_long_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_semantic_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_conversation_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_knowledge_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_project_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_document_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_relationship_memory",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "memory_ai_memory_engine",
+      "target": "memory_consolidation",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/memory/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

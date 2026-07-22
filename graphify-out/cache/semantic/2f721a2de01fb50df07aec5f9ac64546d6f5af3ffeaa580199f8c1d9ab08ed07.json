@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "security_security",
+      "label": "Security",
+      "file_type": "document",
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "security_supabase_auth",
+      "label": "Supabase Auth",
+      "file_type": "concept",
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "security_rls",
+      "label": "Row Level Security (RLS)",
+      "file_type": "concept",
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "security_jwt",
+      "label": "JWT",
+      "file_type": "concept",
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "security_audit_logs",
+      "label": "Audit Logs",
+      "file_type": "concept",
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "security_encrypted_secrets",
+      "label": "Encrypted Secrets",
+      "file_type": "concept",
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "security_security",
+      "target": "security_supabase_auth",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "security_security",
+      "target": "security_rls",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "security_security",
+      "target": "security_jwt",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "security_security",
+      "target": "security_audit_logs",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "security_security",
+      "target": "security_encrypted_secrets",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "security_supabase_auth",
+      "target": "system_architecture_supabase",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "security_audit_logs",
+      "target": "database_activity_logs_table",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "11_SECURITY/Security.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

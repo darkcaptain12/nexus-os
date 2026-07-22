@@ -1,27 +1,48 @@
-import type { ActiveWindow, ActivityEntry, ActivityTimeline } from '../types';
+import type {
+  ActiveWindow,
+  ActivityEntry,
+  ActivityTimeline,
+  DailySummary,
+  TimelineMemoryStats,
+} from '../types';
+import { categorizeApp } from '../collectors/app-categorizer';
+import { CircularBuffer } from './circular-buffer';
+
+const AVG_ENTRY_BYTES = 200;
 
 export class ActivityTimelineService {
-  private entries: ActivityEntry[] = [];
+  private entries: CircularBuffer<ActivityEntry>;
   private currentEntry: ActivityEntry | null = null;
   private sessionStart: string;
-  private _lastActivityAt: string;
+  private lastActivityAt: string;
   private idleStart: number | null = null;
   private totalIdleSeconds = 0;
   private idleThresholdMs: number;
+  private currentDay: string;
+  private dailySummaries: CircularBuffer<DailySummary>;
+  private retentionDays: number;
 
-  constructor(idleThresholdSeconds = 300) {
+  constructor(idleThresholdSeconds = 300, maxEntries = 10000, retentionDays = 30) {
     this.sessionStart = new Date().toISOString();
-    this._lastActivityAt = this.sessionStart;
+    this.lastActivityAt = this.sessionStart;
     this.idleThresholdMs = idleThresholdSeconds * 1000;
+    this.currentDay = this.sessionStart.split('T')[0]!;
+    this.entries = new CircularBuffer<ActivityEntry>(maxEntries);
+    this.retentionDays = retentionDays;
+    this.dailySummaries = new CircularBuffer<DailySummary>(retentionDays);
   }
 
   getLastActivityAt(): string {
-    return this._lastActivityAt;
+    return this.lastActivityAt;
   }
 
-  record(window: ActiveWindow | null): void {
+  record(window: ActiveWindow | null, meta?: { confidence?: number }): void {
     const now = new Date().toISOString();
-    this._lastActivityAt = now;
+    const today = now.split('T')[0]!;
+    if (today !== this.currentDay) {
+      this.rotateDay(today);
+    }
+    this.lastActivityAt = now;
 
     if (!window) {
       this.handleIdle(now);
@@ -59,11 +80,14 @@ export class ActivityTimelineService {
       title: window.title,
       startedAt: now,
       durationSeconds: 0,
+      category: categorizeApp(window.app),
+      source: 'window',
+      confidence: meta?.confidence ?? 1,
     };
   }
 
   getTimeline(): ActivityTimeline {
-    const allEntries = [...this.entries];
+    const allEntries = this.entries.toArray();
     if (this.currentEntry) {
       allEntries.push({
         ...this.currentEntry,
@@ -76,7 +100,7 @@ export class ActivityTimelineService {
     const totalActiveSeconds = allEntries.reduce((sum, e) => sum + e.durationSeconds, 0);
 
     return {
-      date: new Date().toISOString().split('T')[0]!,
+      date: this.currentDay,
       entries: allEntries,
       totalActiveSeconds,
       totalIdleSeconds: Math.round(this.totalIdleSeconds),
@@ -86,21 +110,88 @@ export class ActivityTimelineService {
   }
 
   getRecentEntries(count: number): ActivityEntry[] {
-    const all = [...this.entries];
+    const all = this.entries.toArray();
     if (this.currentEntry) all.push(this.currentEntry);
     return all.slice(-count);
   }
 
   getEntryCount(): number {
-    return this.entries.length + (this.currentEntry ? 1 : 0);
+    return this.entries.size + (this.currentEntry ? 1 : 0);
+  }
+
+  getDailySummaries(): DailySummary[] {
+    return this.dailySummaries.toArray();
+  }
+
+  getMemoryStats(): TimelineMemoryStats {
+    const entryCount = this.getEntryCount();
+    return {
+      entryCount,
+      maxEntries: this.entries.maxCapacity,
+      dailySummaryCount: this.dailySummaries.size,
+      retentionDays: this.retentionDays,
+      estimatedBytes: entryCount * AVG_ENTRY_BYTES,
+    };
   }
 
   reset(): void {
-    this.entries = [];
+    this.entries.clear();
     this.currentEntry = null;
     this.sessionStart = new Date().toISOString();
+    this.currentDay = this.sessionStart.split('T')[0]!;
+    this.dailySummaries.clear();
     this.totalIdleSeconds = 0;
     this.idleStart = null;
+  }
+
+  /**
+   * Daily boundary crossed: finalize the open entry, collapse the day's raw
+   * entries into a lightweight DailySummary (capacity-bound to retentionDays
+   * via the ring buffer — oldest summary is overwritten once full), then
+   * drop the raw entries. Raw events never persist past the current day —
+   * detailed history of individual entries is the sync layer's job
+   * (Supabase), not this in-memory service's.
+   */
+  private rotateDay(newDay: string): void {
+    if (this.currentEntry) {
+      this.currentEntry.endedAt = new Date().toISOString();
+      this.entries.push(this.currentEntry);
+      this.currentEntry = null;
+    }
+
+    if (this.entries.size > 0 || this.totalIdleSeconds > 0) {
+      this.dailySummaries.push(
+        this.buildDailySummary(this.currentDay, this.entries.toArray(), this.totalIdleSeconds),
+      );
+    }
+
+    this.entries.clear();
+    this.totalIdleSeconds = 0;
+    this.idleStart = null;
+    this.currentDay = newDay;
+  }
+
+  private buildDailySummary(
+    date: string,
+    entries: ActivityEntry[],
+    idleSeconds: number,
+  ): DailySummary {
+    const appTotals = new Map<string, number>();
+    for (const entry of entries) {
+      appTotals.set(entry.app, (appTotals.get(entry.app) ?? 0) + entry.durationSeconds);
+    }
+    const topApps = [...appTotals.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(([app, seconds]) => ({ app, seconds }));
+
+    return {
+      date,
+      totalActiveSeconds: entries.reduce((sum, e) => sum + e.durationSeconds, 0),
+      totalIdleSeconds: Math.round(idleSeconds),
+      entryCount: entries.length,
+      topApps,
+    };
   }
 
   private handleIdle(now: string): void {

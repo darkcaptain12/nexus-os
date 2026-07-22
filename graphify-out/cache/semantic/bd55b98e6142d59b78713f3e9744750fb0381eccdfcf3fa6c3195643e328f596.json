@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "seed_readme_seed_data",
+      "label": "Seed Data",
+      "file_type": "document",
+      "source_file": "supabase/seed/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "seed_readme_supabase_db_seed",
+      "label": "supabase db seed",
+      "file_type": "code",
+      "source_file": "supabase/seed/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "seed_readme_seed_data",
+      "target": "seed_readme_supabase_db_seed",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/seed/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "seed_readme_seed_data",
+      "target": "migrations_readme_database_migrations",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "supabase/seed/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

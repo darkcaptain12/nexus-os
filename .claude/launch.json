@@ -7,6 +7,12 @@
       "runtimeArgs": ["--filter", "@apex-os/web", "dev"],
       "port": 3000,
       "autoPort": true
+    },
+    {
+      "name": "zen-sticker-dev",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--dir", "/Users/emir/Projects/zen_sticker", "dev", "--port", "3100"],
+      "port": 3100
     }
   ]
 }

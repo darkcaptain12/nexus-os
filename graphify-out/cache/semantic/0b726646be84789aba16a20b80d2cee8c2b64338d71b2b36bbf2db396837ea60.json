@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "docs_readme_database_documentation",
+      "label": "APEX OS Database Documentation",
+      "file_type": "document",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_schema_overview",
+      "label": "Database Schema Overview (domains/tables)",
+      "file_type": "concept",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_conventions",
+      "label": "Database Conventions",
+      "file_type": "rationale",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_search_memories",
+      "label": "search_memories()",
+      "file_type": "code",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_search_documents",
+      "label": "search_documents()",
+      "file_type": "code",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_search_knowledge",
+      "label": "search_knowledge()",
+      "file_type": "code",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_hybrid_search_memories",
+      "label": "hybrid_search_memories()",
+      "file_type": "code",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_storage_buckets",
+      "label": "Storage Buckets",
+      "file_type": "concept",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_rls_strategy",
+      "label": "RLS Strategy",
+      "file_type": "rationale",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_pgvector",
+      "label": "pgvector embeddings (1536-dim)",
+      "file_type": "concept",
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_readme_database_documentation",
+      "target": "docs_readme_schema_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_database_documentation",
+      "target": "docs_readme_conventions",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_database_documentation",
+      "target": "docs_readme_storage_buckets",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_database_documentation",
+      "target": "docs_readme_rls_strategy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_conventions",
+      "target": "docs_readme_pgvector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_pgvector",
+      "target": "docs_readme_search_memories",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_pgvector",
+      "target": "docs_readme_search_documents",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_pgvector",
+      "target": "docs_readme_search_knowledge",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_hybrid_search_memories",
+      "target": "docs_readme_search_memories",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_rls_strategy",
+      "target": "docs_readme_schema_overview",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "supabase_data_layer_docs",
+      "label": "Supabase data layer documentation set",
+      "nodes": [
+        "docs_readme_database_documentation",
+        "migrations_readme_database_migrations",
+        "seed_readme_seed_data"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "supabase/docs/README.md"
+    }
+  ]
+}

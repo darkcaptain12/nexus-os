@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    {
+      "id": "services_readme_quant_service",
+      "label": "Quant Service",
+      "file_type": "code",
+      "rationale": "Mobile-ready service layer: web API routes and future iPhone/Android/iPad/Apple Watch/Wear OS clients all consume the same functions.",
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "services_readme_voice_service",
+      "label": "Voice Service",
+      "file_type": "code",
+      "rationale": "APEX Voice groundwork, not a speech engine: client sends STT text, service parses intent, executes, and returns speakable speech plus structured data.",
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "services_readme_apex_voice",
+      "label": "APEX Voice",
+      "file_type": "concept",
+      "rationale": "Sprint 14 preparation only \u2014 wake word (Hey APEX) and STT/TTS will run on the mobile client later. Action-requiring intents pass through the Agent Runtime so the approval architecture is preserved automatically.",
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "services_readme_gettradingstatussummary",
+      "label": "getTradingStatusSummary",
+      "file_type": "code",
+      "rationale": "Returns a compact summary sized for a watch complication.",
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "services_readme_parsevoiceintent",
+      "label": "parseVoiceIntent",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "services_readme_handlevoiceintent",
+      "label": "handleVoiceIntent",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "services_readme_plain_json_contract",
+      "label": "Plain JSON Contract",
+      "file_type": "rationale",
+      "rationale": "Service returns only plain JSON-serializable data \u2014 no UI/cookie/framework types leak \u2014 so the same contract serves web routes and future mobile/watch clients.",
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "services_readme_quant_service",
+      "target": "services_readme_gettradingstatussummary",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_voice_service",
+      "target": "services_readme_apex_voice",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_voice_service",
+      "target": "services_readme_parsevoiceintent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_voice_service",
+      "target": "services_readme_handlevoiceintent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_parsevoiceintent",
+      "target": "services_readme_handlevoiceintent",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_handlevoiceintent",
+      "target": "quant_readme_agent_runtime",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_handlevoiceintent",
+      "target": "services_readme_quant_service",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_apex_voice",
+      "target": "quant_readme_approval_queue",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_plain_json_contract",
+      "target": "services_readme_quant_service",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "services_readme_gettradingstatussummary",
+      "target": "quant_readme_paper_trading",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "exchanges_readme_pure_parser_functions",
+      "target": "services_readme_plain_json_contract",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "apps/web/src/lib/quant/services/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "voice_intent_pipeline",
+      "label": "Voice Intent Pipeline",
+      "nodes": [
+        "services_readme_parsevoiceintent",
+        "services_readme_handlevoiceintent",
+        "quant_readme_agent_runtime",
+        "services_readme_quant_service"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/services/README.md"
+    }
+  ]
+}

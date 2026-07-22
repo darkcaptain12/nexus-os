@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "safety_safety_module",
+      "label": "Safety Module",
+      "file_type": "document",
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "safety_safetyguard",
+      "label": "SafetyGuard",
+      "file_type": "code",
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "safety_policymanager",
+      "label": "PolicyManager",
+      "file_type": "code",
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "safety_approvalmanager",
+      "label": "ApprovalManager",
+      "file_type": "code",
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "safety_auditlogger",
+      "label": "AuditLogger",
+      "file_type": "code",
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "safety_ratelimiter",
+      "label": "RateLimiter (AI Safety)",
+      "file_type": "code",
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "safety_dangerousactiondetector",
+      "label": "DangerousActionDetector",
+      "file_type": "code",
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "safety_risk_levels",
+      "label": "Risk Levels (none/low/medium/high/critical)",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "safety_safety_module",
+      "target": "safety_safetyguard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_safety_module",
+      "target": "safety_policymanager",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_safety_module",
+      "target": "safety_approvalmanager",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_safety_module",
+      "target": "safety_auditlogger",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_safety_module",
+      "target": "safety_ratelimiter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_safety_module",
+      "target": "safety_dangerousactiondetector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_safetyguard",
+      "target": "safety_policymanager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_safetyguard",
+      "target": "safety_risk_levels",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_approvalmanager",
+      "target": "safety_risk_levels",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "safety_auditlogger",
+      "target": "telemetry_telemetry_module",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "packages/ai/src/safety/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

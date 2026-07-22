@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "runtime_readme_runtime",
+      "label": "Runtime",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "runtime_readme_runtime",
+      "target": "lifecycle_readme_lifecycle_manager",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "packages/kernel/src/runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}
