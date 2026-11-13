@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "planning_planning_engine",
+      "label": "Planning Engine",
+      "file_type": "document",
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "planning_goal",
+      "label": "Goal",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "planning_plan",
+      "label": "Plan",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "planning_task",
+      "label": "Task (Planning)",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "planning_subtask",
+      "label": "Subtask",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "planning_planning_engine",
+      "target": "planning_goal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "planning_goal",
+      "target": "planning_plan",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "planning_plan",
+      "target": "planning_task",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "planning_task",
+      "target": "planning_subtask",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/planning/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

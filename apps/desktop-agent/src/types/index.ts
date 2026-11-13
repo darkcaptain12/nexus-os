@@ -14,12 +14,29 @@ export interface AppUsage {
   lastActiveAt: string;
 }
 
+export type AppCategory =
+  | 'coding'
+  | 'browsing'
+  | 'communication'
+  | 'meeting'
+  | 'design'
+  | 'writing'
+  | 'terminal'
+  | 'media'
+  | 'system'
+  | 'other';
+
+export type TimelineSource = 'window' | 'idle';
+
 export interface ActivityEntry {
   app: string;
   title: string;
   startedAt: string;
   endedAt?: string;
   durationSeconds: number;
+  category: AppCategory;
+  source: TimelineSource;
+  confidence: number;
 }
 
 export interface ActivityTimeline {
@@ -29,6 +46,22 @@ export interface ActivityTimeline {
   totalIdleSeconds: number;
   sessionStart: string;
   sessionEnd?: string;
+}
+
+export interface DailySummary {
+  date: string;
+  totalActiveSeconds: number;
+  totalIdleSeconds: number;
+  entryCount: number;
+  topApps: { app: string; seconds: number }[];
+}
+
+export interface TimelineMemoryStats {
+  entryCount: number;
+  maxEntries: number;
+  dailySummaryCount: number;
+  retentionDays: number;
+  estimatedBytes: number;
 }
 
 export interface SystemInfo {
@@ -50,6 +83,28 @@ export interface FocusSession {
   endedAt: string;
   durationSeconds: number;
   interrupted: boolean;
+  category: AppCategory;
+}
+
+export interface DeepWorkSession {
+  startedAt: string;
+  endedAt: string;
+  durationSeconds: number;
+  apps: string[];
+  category: AppCategory;
+  switchCount: number;
+  confidence: number;
+}
+
+export interface ProductivityScoreBreakdown {
+  focusComponent: number;
+  longestFocusBonus: number;
+  deepWorkBonus: number;
+  codingBonus: number;
+  baseline: number;
+  switchPenalty: number;
+  idlePenalty: number;
+  meetingSaturationPenalty: number;
 }
 
 export interface ProductivityMetrics {
@@ -62,7 +117,11 @@ export interface ProductivityMetrics {
   longestFocusApp: string;
   topApps: { app: string; seconds: number; percentage: number }[];
   focusSessions: FocusSession[];
+  deepWorkSessions: DeepWorkSession[];
+  deepWorkMinutes: number;
+  categoryBreakdown: Record<AppCategory, number>;
   score: number;
+  scoreBreakdown: ProductivityScoreBreakdown;
 }
 
 export interface BrowserTab {
@@ -95,22 +154,49 @@ export interface DesktopStatus {
   productivity: ProductivityMetrics;
   uptime: number;
   collecting: boolean;
+  privacyConfig: PrivacyConfig;
+}
+
+export interface PrivacyConfig {
+  windowTracking: boolean;
+  browserTracking: boolean;
+  ideTracking: boolean;
+  clipboardTracking: boolean;
+  screenshotEnabled: boolean;
+  sensitiveAppBlacklist: string[];
 }
 
 export interface AgentConfig {
   pollIntervalMs: number;
   idleThresholdSeconds: number;
   focusThresholdSeconds: number;
+  deepWorkThresholdSeconds: number;
+  maxTimelineEntries: number;
+  timelineRetentionDays: number;
   enabled: boolean;
   collectBrowser: boolean;
   collectIDE: boolean;
+  privacy: PrivacyConfig;
 }
+
+export const DEFAULT_PRIVACY: PrivacyConfig = {
+  windowTracking: true,
+  browserTracking: true,
+  ideTracking: true,
+  clipboardTracking: false,
+  screenshotEnabled: false,
+  sensitiveAppBlacklist: ['1Password', 'Keychain Access', 'KeePassXC'],
+};
 
 export const DEFAULT_CONFIG: AgentConfig = {
   pollIntervalMs: 5000,
   idleThresholdSeconds: 300,
   focusThresholdSeconds: 120,
+  deepWorkThresholdSeconds: 1800,
+  maxTimelineEntries: 10000,
+  timelineRetentionDays: 30,
   enabled: true,
   collectBrowser: true,
   collectIDE: true,
+  privacy: DEFAULT_PRIVACY,
 };

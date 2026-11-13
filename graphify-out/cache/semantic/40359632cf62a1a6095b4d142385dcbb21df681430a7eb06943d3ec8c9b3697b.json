@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0028_action_execution_action_execution_pipeline",
+      "label": "Action Execution Pipeline",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0028-action-execution.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0028_action_execution_abortcontroller_timeout",
+      "label": "AbortController Timeout",
+      "file_type": "concept",
+      "source_file": "docs/adr/0028-action-execution.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0028_action_execution_concurrency_control",
+      "label": "Concurrency Control",
+      "file_type": "concept",
+      "source_file": "docs/adr/0028-action-execution.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0026_action_engine_execution_queue",
+      "target": "docs_adr_0028_action_execution_action_execution_pipeline",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0028-action-execution.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0028_action_execution_action_execution_pipeline",
+      "target": "docs_adr_0028_action_execution_abortcontroller_timeout",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0028-action-execution.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0028_action_execution_action_execution_pipeline",
+      "target": "docs_adr_0028_action_execution_concurrency_control",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0028-action-execution.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0028_action_execution_abortcontroller_timeout",
+      "target": "docs_adr_0032_workflow_runtime_dag_runtime",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/adr/0028-action-execution.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

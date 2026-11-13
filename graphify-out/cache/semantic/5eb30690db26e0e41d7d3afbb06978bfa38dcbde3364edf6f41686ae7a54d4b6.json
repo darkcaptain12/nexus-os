@@ -1,0 +1,193 @@
+{
+  "nodes": [
+    {
+      "id": "ai_router_ai_router",
+      "label": "AI Router",
+      "file_type": "document",
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_router_ceo_agent",
+      "label": "CEO Agent",
+      "file_type": "concept",
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_router_planner_agent",
+      "label": "Planner Agent",
+      "file_type": "concept",
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_router_developer_agent",
+      "label": "Developer Agent",
+      "file_type": "concept",
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_router_trader_agent",
+      "label": "Trader Agent",
+      "file_type": "concept",
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_router_finance_agent",
+      "label": "Finance Agent",
+      "file_type": "concept",
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_router_memory_agent",
+      "label": "Memory Agent",
+      "file_type": "concept",
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_router_automation_agent",
+      "label": "Automation Agent",
+      "file_type": "concept",
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai_router_ai_router",
+      "target": "ai_router_ceo_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_router_ai_router",
+      "target": "ai_router_planner_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_router_ai_router",
+      "target": "ai_router_developer_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_router_ai_router",
+      "target": "ai_router_trader_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_router_ai_router",
+      "target": "ai_router_finance_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_router_ai_router",
+      "target": "ai_router_memory_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_router_ai_router",
+      "target": "ai_router_automation_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_router_trader_agent",
+      "target": "trading_trading_module",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "05_AI/AI Router.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "apex_os_agent_roster",
+      "label": "AI Router Agent Roster",
+      "nodes": [
+        "ai_router_ceo_agent",
+        "ai_router_planner_agent",
+        "ai_router_developer_agent",
+        "ai_router_trader_agent",
+        "ai_router_finance_agent",
+        "ai_router_memory_agent",
+        "ai_router_automation_agent"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "05_AI/AI Router.md"
+    }
+  ]
+}

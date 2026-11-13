@@ -1,0 +1,274 @@
+{
+  "nodes": [
+    {
+      "id": "system_architecture_system_architecture",
+      "label": "System Architecture",
+      "file_type": "document",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_user",
+      "label": "User",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_web",
+      "label": "Web",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_mobile",
+      "label": "Mobile",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_api",
+      "label": "API",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_queue",
+      "label": "Queue",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_ai",
+      "label": "AI",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_automation",
+      "label": "Automation",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_supabase",
+      "label": "Supabase",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_desktop_agent",
+      "label": "Desktop Agent",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "system_architecture_browser_extension",
+      "label": "Browser Extension",
+      "file_type": "concept",
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "system_architecture_system_architecture",
+      "target": "system_architecture_user",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_user",
+      "target": "system_architecture_web",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_user",
+      "target": "system_architecture_mobile",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_web",
+      "target": "system_architecture_api",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_mobile",
+      "target": "system_architecture_api",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_api",
+      "target": "system_architecture_queue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_queue",
+      "target": "system_architecture_ai",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_queue",
+      "target": "system_architecture_automation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_ai",
+      "target": "system_architecture_supabase",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_automation",
+      "target": "system_architecture_desktop_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_automation",
+      "target": "system_architecture_browser_extension",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_ai",
+      "target": "ai_router_ai_router",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "system_architecture_supabase",
+      "target": "infrastructure_supabase",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "03_ARCHITECTURE/System Architecture.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "apex_os_request_flow",
+      "label": "User Request Flow Through System Architecture",
+      "nodes": [
+        "system_architecture_user",
+        "system_architecture_web",
+        "system_architecture_api",
+        "system_architecture_queue",
+        "system_architecture_ai"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03_ARCHITECTURE/System Architecture.md"
+    }
+  ]
+}

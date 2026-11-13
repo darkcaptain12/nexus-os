@@ -1,0 +1,354 @@
+{
+  "nodes": [
+    {
+      "id": "reality_report_reality_report",
+      "label": "NEXUS OS Reality Report",
+      "file_type": "document",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_desktop_sync_fix",
+      "label": "DesktopAgent auto-sync fix (DesktopSync wired into constructor)",
+      "file_type": "rationale",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_cron_scheduler_fix",
+      "label": "parseCronNextRun() / WorkflowScheduler fix",
+      "file_type": "code",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_security_middleware_fix",
+      "label": "middleware.ts applySecurityHeaders() fix",
+      "file_type": "code",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_ai_provider_adapters",
+      "label": "AI Provider Adapters (OpenAI, Anthropic, Gemini, OpenRouter, Ollama)",
+      "file_type": "code",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_chatwithprovider",
+      "label": "chatWithProvider()",
+      "file_type": "code",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_oauth_flow",
+      "label": "OAuth2 flow (GitHub, Google)",
+      "file_type": "code",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_realtime_widget_wiring",
+      "label": "TimelineWidget useRealtime wiring",
+      "file_type": "code",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_audit_logging",
+      "label": "audit() function (in-memory + Supabase audit_logs)",
+      "file_type": "code",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_interface_only_packages",
+      "label": "9 interface-only packages (architectural stubs)",
+      "file_type": "concept",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_stub_apps",
+      "label": "3 stub apps (mobile, browser-extension, mcp-server)",
+      "file_type": "concept",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reality_report_architecture_integrity_score",
+      "label": "Architecture Integrity 92/100",
+      "file_type": "concept",
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_desktop_sync_fix",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_cron_scheduler_fix",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_security_middleware_fix",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_ai_provider_adapters",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_ai_provider_adapters",
+      "target": "reality_report_chatwithprovider",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_ai_provider_adapters",
+      "target": "apex_os_claude_ai_package",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_oauth_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_realtime_widget_wiring",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_audit_logging",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_interface_only_packages",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_stub_apps",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "reality_report_architecture_integrity_score",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_stub_apps",
+      "target": "readme_mobile_app",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_stub_apps",
+      "target": "readme_browser_extension_app",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_stub_apps",
+      "target": "readme_mcp_server_app",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_interface_only_packages",
+      "target": "apex_os_claude_auth_package",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_interface_only_packages",
+      "target": "apex_os_claude_database_package",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_interface_only_packages",
+      "target": "apex_os_claude_memory_package",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_interface_only_packages",
+      "target": "apex_os_claude_validation_package",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reality_report_reality_report",
+      "target": "system_audit_system_audit_report",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "REALITY_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_app_platform_stubs",
+      "label": "Stub Application Platforms (Mobile, Browser Extension, MCP Server)",
+      "nodes": [
+        "readme_mobile_app",
+        "readme_browser_extension_app",
+        "readme_mcp_server_app",
+        "reality_report_stub_apps"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "REALITY_REPORT.md"
+    }
+  ]
+}

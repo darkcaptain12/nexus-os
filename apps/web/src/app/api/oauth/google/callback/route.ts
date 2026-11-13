@@ -1,8 +1,9 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getGoogleOAuth, exchangeCodeForToken } from '@/lib/integrations/oauth';
 import { getIntegrationHub } from '@/lib/integrations/hub-instance';
 
-export async function GET(request: Request) {
+async function handleGET(request: Request) {
   const { searchParams } = new URL(request.url);
   const code = searchParams.get('code');
 
@@ -12,12 +13,16 @@ export async function GET(request: Request) {
 
   const provider = getGoogleOAuth();
   if (!provider) {
-    return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL}/integrations?error=not_configured`);
+    return NextResponse.redirect(
+      `${process.env.NEXT_PUBLIC_APP_URL}/integrations?error=not_configured`,
+    );
   }
 
   const token = await exchangeCodeForToken(provider, code);
   if (!token) {
-    return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL}/integrations?error=token_exchange_failed`);
+    return NextResponse.redirect(
+      `${process.env.NEXT_PUBLIC_APP_URL}/integrations?error=token_exchange_failed`,
+    );
   }
 
   const hub = getIntegrationHub();
@@ -43,3 +48,5 @@ export async function GET(request: Request) {
 
   return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL}/integrations?connected=google`);
 }
+
+export const GET = withErrorBoundary(handleGET);

@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0020_desktop_intelligence_desktop_intelligence",
+      "label": "Desktop Intelligence \u2014 Observation Layer",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0020_desktop_intelligence_desktop_agent",
+      "label": "Desktop Agent (apps/desktop-agent)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0020_desktop_intelligence_privacy_boundaries",
+      "label": "Privacy Boundaries (Metadata Only)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0020_desktop_intelligence_collectors",
+      "label": "Collectors (Window/System/Browser/IDE)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0020_desktop_intelligence_activity_timeline",
+      "label": "Activity Timeline",
+      "file_type": "concept",
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0020_desktop_intelligence_productivity_engine",
+      "label": "Productivity Engine",
+      "file_type": "concept",
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0020_desktop_intelligence_scoring_algorithm",
+      "label": "Productivity Scoring Algorithm",
+      "file_type": "concept",
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0020_desktop_intelligence_dashboard_widget",
+      "label": "Dashboard Widget",
+      "file_type": "concept",
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0020_desktop_intelligence_desktop_intelligence",
+      "target": "docs_adr_0020_desktop_intelligence_desktop_agent",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0020_desktop_intelligence_desktop_intelligence",
+      "target": "docs_adr_0020_desktop_intelligence_privacy_boundaries",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0020_desktop_intelligence_desktop_agent",
+      "target": "docs_adr_0020_desktop_intelligence_collectors",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0020_desktop_intelligence_desktop_agent",
+      "target": "docs_adr_0020_desktop_intelligence_activity_timeline",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0020_desktop_intelligence_desktop_agent",
+      "target": "docs_adr_0020_desktop_intelligence_productivity_engine",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0020_desktop_intelligence_productivity_engine",
+      "target": "docs_adr_0020_desktop_intelligence_scoring_algorithm",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0020_desktop_intelligence_desktop_agent",
+      "target": "docs_adr_0020_desktop_intelligence_dashboard_widget",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0020-desktop-intelligence.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

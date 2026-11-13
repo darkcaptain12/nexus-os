@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getActionEngine } from '@/lib/actions/engine-instance';
 
-export async function POST(request: Request) {
+async function handlePOST(request: Request) {
   let body: { actionId: string; params: Record<string, unknown>; source?: string };
   try {
     body = await request.json();
@@ -37,3 +38,5 @@ export async function POST(request: Request) {
     );
   }
 }
+
+export const POST = withErrorBoundary(handlePOST);

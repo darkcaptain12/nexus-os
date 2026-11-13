@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "product_requirements_product_requirements",
+      "label": "Product Requirements",
+      "file_type": "document",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_goal",
+      "label": "Single Platform Goal",
+      "file_type": "rationale",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_mvp_auth",
+      "label": "MVP: Auth",
+      "file_type": "concept",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_mvp_dashboard",
+      "label": "MVP: Dashboard",
+      "file_type": "concept",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_mvp_notifications",
+      "label": "MVP: Notifications",
+      "file_type": "concept",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_mvp_voice_commands",
+      "label": "MVP: Voice Commands",
+      "file_type": "concept",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_mvp_memory",
+      "label": "MVP: Memory",
+      "file_type": "concept",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_mvp_tasks",
+      "label": "MVP: Tasks",
+      "file_type": "concept",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_mvp_trading_monitor",
+      "label": "MVP: Trading Monitor",
+      "file_type": "concept",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "product_requirements_mvp_ecommerce_monitor",
+      "label": "MVP: E-commerce Monitor",
+      "file_type": "concept",
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_goal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_mvp_auth",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_mvp_dashboard",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_mvp_notifications",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_mvp_voice_commands",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_mvp_memory",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_mvp_tasks",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_mvp_trading_monitor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_product_requirements",
+      "target": "product_requirements_mvp_ecommerce_monitor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_mvp_trading_monitor",
+      "target": "trading_trading_module",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_mvp_ecommerce_monitor",
+      "target": "e_commerce_e_commerce_module",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_mvp_memory",
+      "target": "ai_router_memory_agent",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "product_requirements_mvp_auth",
+      "target": "api_auth_endpoint",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "02_PRD/Product Requirements.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

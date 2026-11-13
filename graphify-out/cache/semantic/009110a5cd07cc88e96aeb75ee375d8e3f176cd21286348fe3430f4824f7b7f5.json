@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "prompts_prompt_engine",
+      "label": "Prompt Engine",
+      "file_type": "document",
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "prompts_system_layer",
+      "label": "System Prompt Layer",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "prompts_memory_layer",
+      "label": "Memory Prompt Layer",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "prompts_tool_layer",
+      "label": "Tool Prompt Layer",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "prompts_prompt_engine",
+      "target": "prompts_system_layer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "prompts_prompt_engine",
+      "target": "prompts_memory_layer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "prompts_prompt_engine",
+      "target": "prompts_tool_layer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "prompts_memory_layer",
+      "target": "memory_ai_memory_engine",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "prompts_tool_layer",
+      "target": "tools_tool_registry",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "packages/ai/src/prompts/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

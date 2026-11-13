@@ -1,0 +1,383 @@
+{
+  "nodes": [
+    {
+      "id": "workflow_engine_readme_apex_os_workflow_engine",
+      "label": "@apex-os/workflow-engine",
+      "file_type": "code",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_action_node",
+      "label": "Action Node (workflow-engine)",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_decision_node",
+      "label": "Decision Node (workflow-engine)",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_parallel_node",
+      "label": "Parallel Node (workflow-engine)",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_delay_node",
+      "label": "Delay Node",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_wait_event_node",
+      "label": "Wait-event Node",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_loop_node",
+      "label": "Loop Node (workflow-engine)",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_notification_node",
+      "label": "Notification Node",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_trigger_types",
+      "label": "Trigger Types (manual, schedule, desktop, browser, file, calendar, webhook, email, ai, api, integration, startup)",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_morning_briefing_template",
+      "label": "Morning Briefing Template",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_eod_summary_template",
+      "label": "EOD Summary Template",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_github_check_template",
+      "label": "GitHub Check Template",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_gmail_summary_template",
+      "label": "Gmail Summary Template",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_weekly_report_template",
+      "label": "Weekly Report Template",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_calendar_reminder_template",
+      "label": "Calendar Reminder Template",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_engine_readme_idle_notification_template",
+      "label": "Idle Notification Template",
+      "file_type": "concept",
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_action_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_decision_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_parallel_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_delay_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_wait_event_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_loop_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_notification_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_trigger_types",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_morning_briefing_template",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_eod_summary_template",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_github_check_template",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_gmail_summary_template",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_weekly_report_template",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_calendar_reminder_template",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_engine_readme_idle_notification_template",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_apex_os_workflow_engine",
+      "target": "workflow_runtime_readme_workflow_runtime",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_action_node",
+      "target": "workflow_runtime_readme_action_node",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_decision_node",
+      "target": "workflow_runtime_readme_decision_node",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_parallel_node",
+      "target": "workflow_runtime_readme_parallel_node",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_engine_readme_loop_node",
+      "target": "workflow_runtime_readme_loop_node",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "packages/workflow-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

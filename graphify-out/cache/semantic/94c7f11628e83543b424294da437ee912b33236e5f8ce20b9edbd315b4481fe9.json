@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "automation_worker_readme_automation_worker",
+      "label": "Automation Worker",
+      "file_type": "document",
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_worker_readme_workflow_step_execution",
+      "label": "Workflow step execution",
+      "file_type": "concept",
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_worker_readme_condition_evaluation",
+      "label": "Condition evaluation",
+      "file_type": "concept",
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_worker_readme_error_handling_recovery",
+      "label": "Error handling and recovery (automation worker)",
+      "file_type": "concept",
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "automation_worker_readme_execution_state_persistence",
+      "label": "Execution state persistence",
+      "file_type": "concept",
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "automation_worker_readme_automation_worker",
+      "target": "automation_worker_readme_workflow_step_execution",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_worker_readme_automation_worker",
+      "target": "automation_worker_readme_condition_evaluation",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_worker_readme_automation_worker",
+      "target": "automation_worker_readme_error_handling_recovery",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_worker_readme_automation_worker",
+      "target": "automation_worker_readme_execution_state_persistence",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_schema_overview",
+      "target": "automation_worker_readme_execution_state_persistence",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_worker_readme_error_handling_recovery",
+      "target": "scheduler_readme_retry_logic_backoff",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automation_worker_readme_automation_worker",
+      "target": "scheduler_readme_scheduler_worker",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "workers/automation-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "retry_and_rate_limit_concern",
+      "label": "Shared retry/rate-limiting concern across workers",
+      "nodes": [
+        "ai_worker_readme_rate_limiting_retry",
+        "scheduler_readme_retry_logic_backoff",
+        "notification_worker_readme_rate_limiting_per_channel",
+        "crawler_worker_readme_url_crawling_rate_limiting",
+        "automation_worker_readme_error_handling_recovery"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "workers/automation-worker/README.md"
+    }
+  ]
+}

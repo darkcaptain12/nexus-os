@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "workflow_runtime_readme_workflow_runtime",
+      "label": "Workflow Runtime",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_runtime_readme_action_node",
+      "label": "Action Node",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_runtime_readme_decision_node",
+      "label": "Decision Node",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_runtime_readme_loop_node",
+      "label": "Loop Node",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_runtime_readme_parallel_node",
+      "label": "Parallel Node",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_runtime_readme_sequential_node",
+      "label": "Sequential Node",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_runtime_readme_wait_node",
+      "label": "Wait Node",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_runtime_readme_checkpoint_node",
+      "label": "Checkpoint Node",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "workflow_runtime_readme_compensation_node",
+      "label": "Compensation Node",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "workflow_runtime_readme_workflow_runtime",
+      "target": "workflow_runtime_readme_action_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_runtime_readme_workflow_runtime",
+      "target": "workflow_runtime_readme_decision_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_runtime_readme_workflow_runtime",
+      "target": "workflow_runtime_readme_loop_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_runtime_readme_workflow_runtime",
+      "target": "workflow_runtime_readme_parallel_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_runtime_readme_workflow_runtime",
+      "target": "workflow_runtime_readme_sequential_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_runtime_readme_workflow_runtime",
+      "target": "workflow_runtime_readme_wait_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_runtime_readme_workflow_runtime",
+      "target": "workflow_runtime_readme_checkpoint_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "workflow_runtime_readme_workflow_runtime",
+      "target": "workflow_runtime_readme_compensation_node",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/workflow-runtime/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

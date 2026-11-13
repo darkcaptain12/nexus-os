@@ -1,0 +1,412 @@
+{
+  "nodes": [
+    {
+      "id": "kernel_apex_os_kernel",
+      "label": "@apex-os/kernel",
+      "file_type": "code",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_service_registry",
+      "label": "Service Registry",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_di_container",
+      "label": "DI Container (Kernel)",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_command_bus",
+      "label": "Command Bus (Kernel)",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_query_bus",
+      "label": "Query Bus",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_event_runtime",
+      "label": "Event Runtime (Kernel)",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_workflow_runtime",
+      "label": "Workflow Runtime",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_task_engine",
+      "label": "Task Engine",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_scheduler",
+      "label": "Scheduler (Kernel)",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_plugin_manager",
+      "label": "Plugin Manager",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_module_loader",
+      "label": "Module Loader",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_lifecycle_manager",
+      "label": "Lifecycle Manager",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_health_monitor",
+      "label": "Health Monitor",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_lock_manager",
+      "label": "Lock Manager",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_state_manager",
+      "label": "State Manager",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kernel_execution_engine_kernel",
+      "label": "Execution Engine (Kernel)",
+      "file_type": "concept",
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "kernel_apex_os_kernel",
+      "target": "kernel_service_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_service_registry",
+      "target": "kernel_di_container",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_di_container",
+      "target": "kernel_command_bus",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_di_container",
+      "target": "kernel_query_bus",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_command_bus",
+      "target": "kernel_event_runtime",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_event_runtime",
+      "target": "kernel_workflow_runtime",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_workflow_runtime",
+      "target": "kernel_task_engine",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_task_engine",
+      "target": "kernel_scheduler",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_scheduler",
+      "target": "kernel_plugin_manager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_plugin_manager",
+      "target": "kernel_module_loader",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_module_loader",
+      "target": "kernel_lifecycle_manager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_lifecycle_manager",
+      "target": "kernel_health_monitor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_health_monitor",
+      "target": "kernel_lock_manager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_lock_manager",
+      "target": "kernel_state_manager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_state_manager",
+      "target": "kernel_execution_engine_kernel",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_command_bus",
+      "target": "command_bus_command_bus",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_di_container",
+      "target": "container_di_container",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_event_runtime",
+      "target": "event_runtime_event_runtime",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_execution_engine_kernel",
+      "target": "execution_kernel_execution_engine",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_health_monitor",
+      "target": "health_health_monitor_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "kernel_apex_os_kernel",
+      "target": "core_kernel_core",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "kernel_runtime_composition",
+      "label": "Kernel Runtime Subsystem Composition",
+      "nodes": [
+        "kernel_di_container",
+        "kernel_command_bus",
+        "kernel_event_runtime",
+        "kernel_workflow_runtime",
+        "kernel_task_engine",
+        "kernel_scheduler",
+        "kernel_execution_engine_kernel",
+        "core_kernel_interface"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/README.md"
+    }
+  ]
+}

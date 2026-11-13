@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "id": "api_api",
+      "label": "API",
+      "file_type": "document",
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_auth_endpoint",
+      "label": "/auth endpoint",
+      "file_type": "concept",
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_dashboard_endpoint",
+      "label": "/dashboard endpoint",
+      "file_type": "concept",
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_memory_endpoint",
+      "label": "/memory endpoint",
+      "file_type": "concept",
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_automation_endpoint",
+      "label": "/automation endpoint",
+      "file_type": "concept",
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_trading_endpoint",
+      "label": "/trading endpoint",
+      "file_type": "concept",
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "api_ecommerce_endpoint",
+      "label": "/ecommerce endpoint",
+      "file_type": "concept",
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "api_api",
+      "target": "api_auth_endpoint",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "api_api",
+      "target": "api_dashboard_endpoint",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "api_api",
+      "target": "api_memory_endpoint",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "api_api",
+      "target": "api_automation_endpoint",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "api_api",
+      "target": "api_trading_endpoint",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "api_api",
+      "target": "api_ecommerce_endpoint",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "api_memory_endpoint",
+      "target": "product_requirements_mvp_memory",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "08_API/API.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

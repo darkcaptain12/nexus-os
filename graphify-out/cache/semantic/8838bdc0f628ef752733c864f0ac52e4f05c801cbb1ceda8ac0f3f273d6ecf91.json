@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0023_sync_engine_sync_engine",
+      "label": "Sync Engine for Offline-First Data Flow",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0023_sync_engine_sync_queue",
+      "label": "In-Memory Sync Queue",
+      "file_type": "concept",
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0023_sync_engine_batch_flushing",
+      "label": "Batch Flushing",
+      "file_type": "concept",
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0023_sync_engine_retry_max_attempts",
+      "label": "Retry with Max Attempts",
+      "file_type": "concept",
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0023_sync_engine_offline_mode",
+      "label": "Offline Mode Flag",
+      "file_type": "concept",
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0020_desktop_intelligence_desktop_agent",
+      "target": "docs_adr_0023_sync_engine_sync_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0023_sync_engine_sync_engine",
+      "target": "docs_adr_0023_sync_engine_sync_queue",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0023_sync_engine_sync_engine",
+      "target": "docs_adr_0023_sync_engine_batch_flushing",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0023_sync_engine_sync_engine",
+      "target": "docs_adr_0023_sync_engine_retry_max_attempts",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0023_sync_engine_sync_engine",
+      "target": "docs_adr_0023_sync_engine_offline_mode",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0023-sync-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

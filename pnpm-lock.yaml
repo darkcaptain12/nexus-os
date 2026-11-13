@@ -87,6 +87,9 @@ importers:
       '@apex-os/kernel':
         specifier: workspace:*
         version: link:../../packages/kernel
+      '@apex-os/logger':
+        specifier: workspace:*
+        version: link:../../packages/logger
       '@apex-os/types':
         specifier: workspace:*
         version: link:../../packages/types

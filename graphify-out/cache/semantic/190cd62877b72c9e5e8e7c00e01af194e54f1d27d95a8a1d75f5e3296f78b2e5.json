@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "health_health_monitor_module",
+      "label": "Health Monitor (Kernel Module)",
+      "file_type": "document",
+      "source_file": "packages/kernel/src/health/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "health_pluggable_checks",
+      "label": "Pluggable Health Checks",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/health/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "health_health_monitor_module",
+      "target": "health_pluggable_checks",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/health/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "health_health_monitor_module",
+      "target": "kernel_health_monitor",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/health/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "health_health_monitor_module",
+      "target": "registry_agent_registry",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "packages/kernel/src/health/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

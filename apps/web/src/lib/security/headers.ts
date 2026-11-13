@@ -33,12 +33,20 @@ class InMemoryRateLimiter {
 
     if (!entry || now > entry.resetAt) {
       this.windows.set(key, { count: 1, resetAt: now + windowMs });
-      return { allowed: true, remaining: limit - 1, resetAt: new Date(now + windowMs).toISOString() };
+      return {
+        allowed: true,
+        remaining: limit - 1,
+        resetAt: new Date(now + windowMs).toISOString(),
+      };
     }
 
     entry.count++;
     const allowed = entry.count <= limit;
-    return { allowed, remaining: Math.max(0, limit - entry.count), resetAt: new Date(entry.resetAt).toISOString() };
+    return {
+      allowed,
+      remaining: Math.max(0, limit - entry.count),
+      resetAt: new Date(entry.resetAt).toISOString(),
+    };
   }
 }
 
@@ -47,4 +55,75 @@ let limiterInstance: InMemoryRateLimiter | null = null;
 export function getRateLimiter(): InMemoryRateLimiter {
   if (!limiterInstance) limiterInstance = new InMemoryRateLimiter();
   return limiterInstance;
+}
+
+interface RateLimitGroupConfig {
+  prefix: string;
+  group: string;
+  limit: number;
+  windowMs: number;
+}
+
+/**
+ * Per-route-group limits. No /api/upload exists in this app yet — omitted
+ * rather than invented; will need an entry here the day an upload route
+ * ships. Order matters: more specific prefixes must come before shorter
+ * ones that would otherwise shadow them (none currently overlap, but keep
+ * this in mind when adding new groups).
+ */
+const RATE_LIMIT_GROUPS: RateLimitGroupConfig[] = [
+  { prefix: '/api/oauth', group: 'auth', limit: 10, windowMs: 60000 },
+  { prefix: '/api/ai', group: 'ai', limit: 30, windowMs: 60000 },
+  { prefix: '/api/memory', group: 'memory', limit: 60, windowMs: 60000 },
+  { prefix: '/api/workflows', group: 'workflow', limit: 30, windowMs: 60000 },
+  { prefix: '/api/actions', group: 'action', limit: 30, windowMs: 60000 },
+  { prefix: '/api/desktop', group: 'desktop', limit: 120, windowMs: 60000 },
+  { prefix: '/api/integrations', group: 'integration', limit: 30, windowMs: 60000 },
+];
+const DEFAULT_API_GROUP: RateLimitGroupConfig = {
+  prefix: '/api',
+  group: 'default',
+  limit: 60,
+  windowMs: 60000,
+};
+
+export function resolveRateLimitGroup(pathname: string): RateLimitGroupConfig {
+  return RATE_LIMIT_GROUPS.find((g) => pathname.startsWith(g.prefix)) ?? DEFAULT_API_GROUP;
+}
+
+let rateLimitInvocations = 0;
+let rateLimitRejections = 0;
+
+/**
+ * IP+user-keyed: identifier is the authenticated user id when available,
+ * falling back to client IP for anonymous/public requests. Tracks how many
+ * times this has actually been called so the security audit can report
+ * "wired AND observed enforcing" (VERIFIED) vs. "wired but never hit yet"
+ * (UNKNOWN) instead of asserting it works without evidence.
+ */
+export function checkApiRateLimit(
+  pathname: string,
+  identifier: string,
+): RateLimitResult & { group: string } {
+  rateLimitInvocations++;
+  const config = resolveRateLimitGroup(pathname);
+  const result = getRateLimiter().check(
+    `${config.group}:${identifier}`,
+    config.limit,
+    config.windowMs,
+  );
+  if (!result.allowed) rateLimitRejections++;
+  return { ...result, group: config.group };
+}
+
+export function getRateLimitInvocationCount(): number {
+  return rateLimitInvocations;
+}
+
+export function getRateLimitRejections(): number {
+  return rateLimitRejections;
+}
+
+export function getRateLimitGroups(): RateLimitGroupConfig[] {
+  return [...RATE_LIMIT_GROUPS, DEFAULT_API_GROUP];
 }

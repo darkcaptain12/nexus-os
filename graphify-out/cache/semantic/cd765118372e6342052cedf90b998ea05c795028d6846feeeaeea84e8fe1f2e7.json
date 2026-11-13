@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "database_database",
+      "label": "Database",
+      "file_type": "document",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_users_table",
+      "label": "users table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_tasks_table",
+      "label": "tasks table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_memories_table",
+      "label": "memories table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_agents_table",
+      "label": "agents table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_automations_table",
+      "label": "automations table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_notifications_table",
+      "label": "notifications table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_trading_accounts_table",
+      "label": "trading_accounts table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_ecommerce_accounts_table",
+      "label": "ecommerce_accounts table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_activity_logs_table",
+      "label": "activity_logs table",
+      "file_type": "concept",
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "database_database",
+      "target": "database_users_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "database_tasks_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "database_memories_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "database_agents_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "database_automations_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "database_notifications_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "database_trading_accounts_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "database_ecommerce_accounts_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_database",
+      "target": "database_activity_logs_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_trading_accounts_table",
+      "target": "trading_trading_module",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_ecommerce_accounts_table",
+      "target": "e_commerce_e_commerce_module",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "database_agents_table",
+      "target": "ai_router_ai_router",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "04_DATABASE/Database.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

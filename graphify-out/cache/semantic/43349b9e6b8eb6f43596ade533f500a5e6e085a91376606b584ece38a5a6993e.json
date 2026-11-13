@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "label": "Kernel Runtime Implementation",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0017_kernel_runtime_in_memory_first",
+      "label": "In-Memory First Implementation",
+      "file_type": "concept",
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0017_kernel_runtime_boot_sequence",
+      "label": "Boot Sequence",
+      "file_type": "concept",
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0017_kernel_runtime_di_container",
+      "label": "DI Container",
+      "file_type": "concept",
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0017_kernel_runtime_event_runtime",
+      "label": "Event Runtime",
+      "file_type": "concept",
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0017_kernel_runtime_command_query_bus",
+      "label": "Command/Query Bus",
+      "file_type": "concept",
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0017_kernel_runtime_health_monitor",
+      "label": "Health Monitor",
+      "file_type": "concept",
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0017_kernel_runtime_pino",
+      "label": "Pino Logging",
+      "file_type": "concept",
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "target": "docs_adr_0015_runtime_lifecycle_manager",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "target": "docs_adr_0017_kernel_runtime_in_memory_first",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "target": "docs_adr_0017_kernel_runtime_boot_sequence",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "target": "docs_adr_0017_kernel_runtime_di_container",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "target": "docs_adr_0017_kernel_runtime_event_runtime",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "target": "docs_adr_0017_kernel_runtime_command_query_bus",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "target": "docs_adr_0017_kernel_runtime_health_monitor",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+      "target": "docs_adr_0017_kernel_runtime_pino",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_boot_sequence",
+      "target": "docs_adr_0014_service_registry_service_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0017_kernel_runtime_health_monitor",
+      "target": "docs_adr_0014_service_registry_health_tracking",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/adr/0017-kernel-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "kernel_boot_chain",
+      "label": "Kernel Boot, Service Registry, Lifecycle Management Chain",
+      "nodes": [
+        "docs_adr_0017_kernel_runtime_kernel_runtime_implementation",
+        "docs_adr_0014_service_registry_service_registry",
+        "docs_adr_0015_runtime_lifecycle_manager",
+        "docs_adr_0017_kernel_runtime_boot_sequence"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0017-kernel-runtime.md"
+    }
+  ]
+}

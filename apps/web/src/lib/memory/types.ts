@@ -9,7 +9,8 @@ export type MemorySource =
   | 'calendar'
   | 'ai'
   | 'decision'
-  | 'journal';
+  | 'journal'
+  | 'voice';
 
 export type TimeOfDay = 'morning' | 'afternoon' | 'evening' | 'night';
 

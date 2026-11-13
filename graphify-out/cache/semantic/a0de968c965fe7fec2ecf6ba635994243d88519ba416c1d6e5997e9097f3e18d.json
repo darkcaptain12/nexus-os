@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    {
+      "id": "container_di_container",
+      "label": "Dependency Injection Container",
+      "file_type": "document",
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "container_singleton_scope",
+      "label": "Singleton Scope",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "container_transient_scope",
+      "label": "Transient Scope",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "container_scoped_scope",
+      "label": "Scoped Scope",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "container_lazy_scope",
+      "label": "Lazy Scope",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "container_circular_dependency_detection",
+      "label": "Circular Dependency Detection",
+      "file_type": "rationale",
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Validates the dependency graph at registration/validation time to prevent circular resolution failures."
+    }
+  ],
+  "edges": [
+    {
+      "source": "container_di_container",
+      "target": "container_singleton_scope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "container_di_container",
+      "target": "container_transient_scope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "container_di_container",
+      "target": "container_scoped_scope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "container_di_container",
+      "target": "container_lazy_scope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "container_di_container",
+      "target": "container_circular_dependency_detection",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/container/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

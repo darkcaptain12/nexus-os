@@ -3,12 +3,17 @@ import { NextResponse, type NextRequest } from 'next/server';
 
 const PUBLIC_PATHS = ['/giris', '/kayit', '/sifre-sifirla', '/auth/callback'];
 
-export async function updateSession(request: NextRequest) {
+export interface SessionResult {
+  response: NextResponse;
+  userId: string | null;
+}
+
+export async function updateSession(request: NextRequest): Promise<SessionResult> {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
   if (!supabaseUrl || !supabaseKey) {
-    return NextResponse.next({ request });
+    return { response: NextResponse.next({ request }), userId: null };
   }
 
   let supabaseResponse = NextResponse.next({ request });
@@ -39,14 +44,14 @@ export async function updateSession(request: NextRequest) {
   if (!user && !isPublicPath && !isApiPath && pathname !== '/') {
     const url = request.nextUrl.clone();
     url.pathname = '/giris';
-    return NextResponse.redirect(url);
+    return { response: NextResponse.redirect(url), userId: null };
   }
 
   if (user && isPublicPath) {
     const url = request.nextUrl.clone();
     url.pathname = '/dashboard';
-    return NextResponse.redirect(url);
+    return { response: NextResponse.redirect(url), userId: user.id };
   }
 
-  return supabaseResponse;
+  return { response: supabaseResponse, userId: user?.id ?? null };
 }

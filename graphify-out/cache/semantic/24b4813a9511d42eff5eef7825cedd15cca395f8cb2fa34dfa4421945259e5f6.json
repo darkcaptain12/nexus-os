@@ -1,0 +1,232 @@
+{
+  "nodes": [
+    {
+      "id": "integration_hub_apex_os_integration_hub",
+      "label": "@apex-os/integration-hub",
+      "file_type": "code",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_provider_registry",
+      "label": "Provider Registry",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_credential_manager",
+      "label": "Credential Manager",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_connection_manager",
+      "label": "Connection Manager",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_rate_limiter",
+      "label": "Rate Limiter (Integration Hub)",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_github_provider",
+      "label": "GitHub Provider",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_gmail_provider",
+      "label": "Gmail Provider",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_gcal_provider",
+      "label": "Google Calendar Provider",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_mcp_provider",
+      "label": "MCP Provider",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_hub_http_provider",
+      "label": "HTTP Provider",
+      "file_type": "concept",
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "integration_hub_apex_os_integration_hub",
+      "target": "integration_hub_provider_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_provider_registry",
+      "target": "integration_hub_credential_manager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_credential_manager",
+      "target": "integration_hub_connection_manager",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_connection_manager",
+      "target": "integration_hub_rate_limiter",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_apex_os_integration_hub",
+      "target": "integration_hub_github_provider",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_apex_os_integration_hub",
+      "target": "integration_hub_gmail_provider",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_apex_os_integration_hub",
+      "target": "integration_hub_gcal_provider",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_apex_os_integration_hub",
+      "target": "integration_hub_mcp_provider",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_apex_os_integration_hub",
+      "target": "integration_hub_http_provider",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_hub_rate_limiter",
+      "target": "safety_ratelimiter",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "packages/integration-hub/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "integration_hub_execution_pipeline",
+      "label": "Integration Hub Provider Execution Pipeline",
+      "nodes": [
+        "integration_hub_provider_registry",
+        "integration_hub_credential_manager",
+        "integration_hub_connection_manager",
+        "integration_hub_rate_limiter"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/integration-hub/README.md"
+    }
+  ]
+}

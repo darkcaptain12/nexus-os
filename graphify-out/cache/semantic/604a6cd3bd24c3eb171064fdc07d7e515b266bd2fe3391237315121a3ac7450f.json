@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "architecture_readme_architecture_documentation",
+      "label": "Architecture Documentation (docs/architecture)",
+      "file_type": "document",
+      "source_file": "docs/architecture/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "architecture_readme_adr_index",
+      "label": "ADR Index",
+      "file_type": "document",
+      "source_file": "docs/architecture/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "architecture_readme_architecture_documentation",
+      "target": "architecture_readme_adr_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "architecture_readme_adr_index",
+      "target": "0035_production_hardening_adr_0035",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "architecture_readme_adr_index",
+      "target": "0036_observability_adr_0036",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "architecture_readme_adr_index",
+      "target": "0037_reliability_adr_0037",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

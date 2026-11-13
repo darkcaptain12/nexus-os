@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "0011_kernel_adr",
+      "label": "ADR-0011: Operating System Kernel Architecture",
+      "file_type": "document",
+      "source_file": "docs/adr/0011-kernel.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0011_kernel_decision",
+      "label": "Kernel package: DI container, service registry, CQRS buses, event runtime, workflow engine, task engine, scheduler, plugin system",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0011-kernel.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0011_kernel_adr",
+      "target": "0011_kernel_decision",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0011-kernel.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0011_kernel_decision",
+      "target": "0012_cqrs_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0011-kernel.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0011_kernel_decision",
+      "target": "0005_event_driven_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0011-kernel.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_kernel_infrastructure_chain",
+      "label": "Kernel Infrastructure Stack (Monorepo + Turborepo + Kernel + CQRS + Event-Driven)",
+      "nodes": [
+        "0001_monorepo_decision",
+        "0004_turborepo_decision",
+        "0011_kernel_decision",
+        "0012_cqrs_decision",
+        "0005_event_driven_decision"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "docs/adr/0011-kernel.md"
+    }
+  ]
+}

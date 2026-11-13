@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "coding_standards_coding_standards",
+      "label": "Coding Standards",
+      "file_type": "document",
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "coding_standards_typescript_only",
+      "label": "TypeScript Only",
+      "file_type": "rationale",
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "coding_standards_feature_based_folders",
+      "label": "Feature-Based Folders",
+      "file_type": "rationale",
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "coding_standards_readme_updated",
+      "label": "README Updated With Every Feature",
+      "file_type": "rationale",
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "coding_standards_tests_for_business_logic",
+      "label": "Tests for Business Logic",
+      "file_type": "rationale",
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "coding_standards_coding_standards",
+      "target": "coding_standards_typescript_only",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "coding_standards_coding_standards",
+      "target": "coding_standards_feature_based_folders",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "coding_standards_coding_standards",
+      "target": "coding_standards_readme_updated",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "coding_standards_coding_standards",
+      "target": "coding_standards_tests_for_business_logic",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "coding_standards_tests_for_business_logic",
+      "target": "testing_unit",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "10_DEVELOPMENT/Coding Standards.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { generateDailyBriefing } from '@/lib/ai/executive';
 
-export async function GET() {
+async function handleGET() {
   const briefing = await generateDailyBriefing({
     userId: 'system',
     name: 'Kullanıcı',
@@ -12,3 +13,5 @@ export async function GET() {
 
   return NextResponse.json(briefing);
 }
+
+export const GET = withErrorBoundary(handleGET);

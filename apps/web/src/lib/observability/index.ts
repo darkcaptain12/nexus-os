@@ -1,3 +1,15 @@
+import { monitorEventLoopDelay } from 'perf_hooks';
+import type { IntervalHistogram } from 'perf_hooks';
+
+export type ObservabilityModule =
+  | 'request'
+  | 'db'
+  | 'ai'
+  | 'workflow'
+  | 'action'
+  | 'desktop'
+  | 'integration';
+
 export interface MetricEntry {
   name: string;
   value: number;
@@ -16,12 +28,54 @@ export interface RequestTrace {
   timestamp: string;
 }
 
+export interface PercentileStats {
+  count: number;
+  avgMs: number;
+  p50Ms: number;
+  p95Ms: number;
+  p99Ms: number;
+  minMs: number;
+  maxMs: number;
+}
+
+export interface SlowEntry {
+  name: string;
+  module: string;
+  durationMs: number;
+  timestamp: string;
+}
+
+export interface ProcessMetrics {
+  memory: {
+    rssBytes: number;
+    heapUsedBytes: number;
+    heapTotalBytes: number;
+    externalBytes: number;
+  };
+  cpuPercent: number | null;
+  eventLoopDelayMs: { mean: number; p99: number } | null;
+  uptimeSeconds: number;
+  activeSessions: { count: number | null; note: string };
+}
+
 class MetricsCollector {
   private metrics: MetricEntry[] = [];
   private traces: RequestTrace[] = [];
   private counters = new Map<string, number>();
   private timers = new Map<string, number>();
   private slowThresholdMs = 1000;
+  private lastCpuUsage: ReturnType<typeof process.cpuUsage> | null = null;
+  private lastCpuCheckedAt: number | null = null;
+  private eventLoopHistogram: IntervalHistogram | null = null;
+
+  constructor() {
+    try {
+      this.eventLoopHistogram = monitorEventLoopDelay({ resolution: 20 });
+      this.eventLoopHistogram.enable();
+    } catch {
+      this.eventLoopHistogram = null;
+    }
+  }
 
   increment(name: string, amount = 1): void {
     this.counters.set(name, (this.counters.get(name) ?? 0) + amount);
@@ -49,10 +103,26 @@ class MetricsCollector {
     return duration;
   }
 
-  record(name: string, value: number, unit: MetricEntry['unit'], tags: Record<string, string> = {}): void {
+  record(
+    name: string,
+    value: number,
+    unit: MetricEntry['unit'],
+    tags: Record<string, string> = {},
+  ): void {
     this.metrics.push({ name, value, unit, tags, timestamp: new Date().toISOString() });
     if (this.metrics.length > 10000) {
       this.metrics = this.metrics.slice(-5000);
+    }
+  }
+
+  /** Times an async operation and records it tagged by module, for cross-cutting duration tracking. */
+  async time<T>(module: ObservabilityModule, name: string, fn: () => Promise<T>): Promise<T> {
+    const start = performance.now();
+    try {
+      return await fn();
+    } finally {
+      const durationMs = Math.round(performance.now() - start);
+      this.record(name, durationMs, 'ms', { module });
     }
   }
 
@@ -71,7 +141,11 @@ class MetricsCollector {
     }
   }
 
-  getMetrics(): { counters: Record<string, number>; recentMetrics: MetricEntry[]; recentTraces: RequestTrace[] } {
+  getMetrics(): {
+    counters: Record<string, number>;
+    recentMetrics: MetricEntry[];
+    recentTraces: RequestTrace[];
+  } {
     return {
       counters: Object.fromEntries(this.counters),
       recentMetrics: this.metrics.slice(-100),
@@ -94,7 +168,10 @@ class MetricsCollector {
     const errors = this.getCounter('requests.errors');
     const slow = this.getCounter('requests.slow');
     const latencies = this.traces.map((t) => t.durationMs);
-    const avg = latencies.length > 0 ? Math.round(latencies.reduce((s, l) => s + l, 0) / latencies.length) : 0;
+    const avg =
+      latencies.length > 0
+        ? Math.round(latencies.reduce((s, l) => s + l, 0) / latencies.length)
+        : 0;
 
     return {
       totalRequests: total,
@@ -102,6 +179,98 @@ class MetricsCollector {
       avgLatencyMs: avg,
       slowRequests: slow,
       uptime: Math.round(process.uptime()),
+    };
+  }
+
+  /** Percentile stats over recorded ms-unit metrics, optionally filtered by name and/or module tag. */
+  getPercentiles(filter?: { name?: string; module?: string }): PercentileStats {
+    const values = this.metrics
+      .filter((m) => m.unit === 'ms')
+      .filter((m) => !filter?.name || m.name === filter.name)
+      .filter((m) => !filter?.module || m.tags['module'] === filter.module)
+      .map((m) => m.value)
+      .sort((a, b) => a - b);
+
+    if (values.length === 0) {
+      return { count: 0, avgMs: 0, p50Ms: 0, p95Ms: 0, p99Ms: 0, minMs: 0, maxMs: 0 };
+    }
+
+    const percentile = (p: number) =>
+      values[Math.min(values.length - 1, Math.floor((p / 100) * values.length))]!;
+
+    return {
+      count: values.length,
+      avgMs: Math.round(values.reduce((s, v) => s + v, 0) / values.length),
+      p50Ms: percentile(50),
+      p95Ms: percentile(95),
+      p99Ms: percentile(99),
+      minMs: values[0]!,
+      maxMs: values[values.length - 1]!,
+    };
+  }
+
+  /** Slowest recorded operations, optionally filtered by module, for performance profiling. */
+  getSlowest(filter?: { module?: string }, limit = 10): SlowEntry[] {
+    return this.metrics
+      .filter((m) => m.unit === 'ms')
+      .filter((m) => !filter?.module || m.tags['module'] === filter.module)
+      .sort((a, b) => b.value - a.value)
+      .slice(0, limit)
+      .map((m) => ({
+        name: m.name,
+        module: m.tags['module'] ?? 'unknown',
+        durationMs: m.value,
+        timestamp: m.timestamp,
+      }));
+  }
+
+  /**
+   * Real Node.js process metrics. CPU% is delta-sampled (process.cpuUsage()
+   * since the previous call), so the first call in a process's lifetime
+   * returns null for cpuPercent — there's no prior sample to diff against.
+   * activeSessions is intentionally null: there is no server-side session
+   * registry in this app (Supabase auth is stateless JWT, no session store),
+   * so it cannot be measured — reported honestly rather than guessed.
+   */
+  getProcessMetrics(): ProcessMetrics {
+    const mem = process.memoryUsage();
+    const now = Date.now();
+
+    let cpuPercent: number | null = null;
+    const currentCpu = process.cpuUsage();
+    if (this.lastCpuUsage && this.lastCpuCheckedAt) {
+      const elapsedMs = now - this.lastCpuCheckedAt;
+      if (elapsedMs > 0) {
+        const deltaUserMs = (currentCpu.user - this.lastCpuUsage.user) / 1000;
+        const deltaSysMs = (currentCpu.system - this.lastCpuUsage.system) / 1000;
+        cpuPercent = Math.round(((deltaUserMs + deltaSysMs) / elapsedMs) * 100 * 100) / 100;
+      }
+    }
+    this.lastCpuUsage = currentCpu;
+    this.lastCpuCheckedAt = now;
+
+    let eventLoopDelayMs: ProcessMetrics['eventLoopDelayMs'] = null;
+    if (this.eventLoopHistogram) {
+      eventLoopDelayMs = {
+        mean: Math.round((this.eventLoopHistogram.mean / 1e6) * 100) / 100,
+        p99: Math.round((this.eventLoopHistogram.percentile(99) / 1e6) * 100) / 100,
+      };
+    }
+
+    return {
+      memory: {
+        rssBytes: mem.rss,
+        heapUsedBytes: mem.heapUsed,
+        heapTotalBytes: mem.heapTotal,
+        externalBytes: mem.external,
+      },
+      cpuPercent,
+      eventLoopDelayMs,
+      uptimeSeconds: Math.round(process.uptime()),
+      activeSessions: {
+        count: null,
+        note: 'not measured — no server-side session registry (stateless JWT auth)',
+      },
     };
   }
 }

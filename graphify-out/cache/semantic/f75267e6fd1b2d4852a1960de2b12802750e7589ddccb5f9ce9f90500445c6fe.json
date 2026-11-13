@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "core_readme_ai_core",
+      "label": "AI Core (foundation types)",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_readme_aisystem",
+      "label": "AISystem",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_readme_airouter",
+      "label": "AIRouter",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_readme_agentorchestrator",
+      "label": "AgentOrchestrator",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_readme_memoryengine",
+      "label": "MemoryEngine",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_readme_contextengine",
+      "label": "ContextEngine",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_readme_toolregistry",
+      "label": "ToolRegistry",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_readme_telemetrycollector",
+      "label": "TelemetryCollector",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_readme_safetyguard",
+      "label": "SafetyGuard",
+      "file_type": "code",
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai_readme_core_module",
+      "target": "core_readme_ai_core",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_ai_core",
+      "target": "core_readme_aisystem",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_ai_core",
+      "target": "core_readme_airouter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_ai_core",
+      "target": "core_readme_agentorchestrator",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_ai_core",
+      "target": "core_readme_memoryengine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_ai_core",
+      "target": "core_readme_contextengine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_ai_core",
+      "target": "core_readme_toolregistry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_ai_core",
+      "target": "core_readme_telemetrycollector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_ai_core",
+      "target": "core_readme_safetyguard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_airouter",
+      "target": "ai_readme_ai_router",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_agentorchestrator",
+      "target": "ai_readme_agent_orchestrator",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_memoryengine",
+      "target": "ai_readme_memory_engine",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_toolregistry",
+      "target": "ai_readme_tool_registry",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "core_readme_safetyguard",
+      "target": "ai_readme_safety_guard",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "packages/ai/src/core/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

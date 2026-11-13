@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "telemetry_telemetry_module",
+      "label": "Telemetry (AI)",
+      "file_type": "document",
+      "source_file": "packages/ai/src/telemetry/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "telemetry_cost_tracking",
+      "label": "Cost Tracking",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/telemetry/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "telemetry_token_usage",
+      "label": "Token Usage Metrics",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/telemetry/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "telemetry_telemetry_module",
+      "target": "telemetry_cost_tracking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/telemetry/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "telemetry_telemetry_module",
+      "target": "telemetry_token_usage",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/telemetry/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

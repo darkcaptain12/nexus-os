@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "scheduler_readme_scheduler",
+      "label": "Scheduler",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scheduler_readme_cron_schedule_type",
+      "label": "Cron Schedule Type",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scheduler_readme_interval_schedule_type",
+      "label": "Interval Schedule Type",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scheduler_readme_one_time_schedule_type",
+      "label": "One-time Schedule Type",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scheduler_readme_conditional_schedule_type",
+      "label": "Conditional Schedule Type",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scheduler_readme_event_based_schedule_type",
+      "label": "Event-based Schedule Type",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "scheduler_readme_scheduler",
+      "target": "scheduler_readme_cron_schedule_type",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "scheduler_readme_scheduler",
+      "target": "scheduler_readme_interval_schedule_type",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "scheduler_readme_scheduler",
+      "target": "scheduler_readme_one_time_schedule_type",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "scheduler_readme_scheduler",
+      "target": "scheduler_readme_conditional_schedule_type",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "scheduler_readme_scheduler",
+      "target": "scheduler_readme_event_based_schedule_type",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "scheduler_readme_scheduler",
+      "target": "workflow_engine_readme_trigger_types",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "packages/kernel/src/scheduler/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "id": "crawler_worker_readme_crawler_worker",
+      "label": "Crawler Worker",
+      "file_type": "document",
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crawler_worker_readme_url_crawling_rate_limiting",
+      "label": "URL crawling with rate limiting",
+      "file_type": "concept",
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crawler_worker_readme_content_extraction_selectors",
+      "label": "Content extraction with selectors",
+      "file_type": "concept",
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crawler_worker_readme_change_detection_monitoring",
+      "label": "Change detection and monitoring",
+      "file_type": "concept",
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crawler_worker_readme_structured_data_output",
+      "label": "Structured data output",
+      "file_type": "concept",
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "crawler_worker_readme_crawler_worker",
+      "target": "crawler_worker_readme_url_crawling_rate_limiting",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "crawler_worker_readme_crawler_worker",
+      "target": "crawler_worker_readme_content_extraction_selectors",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "crawler_worker_readme_crawler_worker",
+      "target": "crawler_worker_readme_change_detection_monitoring",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "crawler_worker_readme_crawler_worker",
+      "target": "crawler_worker_readme_structured_data_output",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "crawler_worker_readme_url_crawling_rate_limiting",
+      "target": "notification_worker_readme_rate_limiting_per_channel",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "crawler_worker_readme_crawler_worker",
+      "target": "memory_worker_readme_memory_worker",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "workers/crawler-worker/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

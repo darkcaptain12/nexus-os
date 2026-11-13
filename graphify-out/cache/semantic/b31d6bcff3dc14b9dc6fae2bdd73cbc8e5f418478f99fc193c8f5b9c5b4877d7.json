@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "0037_reliability_adr_0037",
+      "label": "ADR-0037: Reliability Engineering",
+      "file_type": "document",
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0037_reliability_nexuserror_classification",
+      "label": "NexusError Retry Classification",
+      "file_type": "concept",
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Production systems must handle failures gracefully \u2014 retry transient errors, classify fatal vs recoverable, rate-limit to prevent abuse."
+    },
+    {
+      "id": "0037_reliability_isretryable",
+      "label": "isRetryable()",
+      "file_type": "code",
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0037_reliability_rate_limiter",
+      "label": "Rate Limiter (per-key sliding window)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0037_reliability_configuration_validation",
+      "label": "Startup Configuration Validation",
+      "file_type": "concept",
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0037_reliability_production_checklist",
+      "label": "Production Checklist (deployment readiness)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0037_reliability_adr_0037",
+      "target": "0037_reliability_nexuserror_classification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_nexuserror_classification",
+      "target": "0035_production_hardening_nexuserror",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_nexuserror_classification",
+      "target": "0037_reliability_isretryable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_adr_0037",
+      "target": "0037_reliability_rate_limiter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_rate_limiter",
+      "target": "0035_production_hardening_rate_limiting",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_adr_0037",
+      "target": "0037_reliability_configuration_validation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_configuration_validation",
+      "target": "0035_production_hardening_centralized_configuration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_adr_0037",
+      "target": "0037_reliability_production_checklist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_production_checklist",
+      "target": "0035_production_hardening_production_readiness_checklist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0037_reliability_rate_limiter",
+      "target": "evaluation_readme_evaluation",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.55,
+      "source_file": "docs/adr/0037-reliability.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "production_hardening_adr_components_hyperedge",
+      "label": "Production Hardening Trio (ADR-0035/0036/0037)",
+      "nodes": [
+        "0035_production_hardening_adr_0035",
+        "0036_observability_adr_0036",
+        "0037_reliability_adr_0037"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/adr/0037-reliability.md"
+    }
+  ]
+}

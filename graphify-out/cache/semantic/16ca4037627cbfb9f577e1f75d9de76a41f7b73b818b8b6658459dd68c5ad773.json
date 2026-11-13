@@ -1,0 +1,660 @@
+{
+  "nodes": [
+    {
+      "id": "quant_readme_apex_quant",
+      "label": "APEX Quant",
+      "file_type": "code",
+      "rationale": "Trading intelligence built on the existing Agent Runtime, Action Engine, Approval Queue and Memory Engine; deliberately does NOT include the new Executive/Workflow/Memory system. No code path sends orders to a real exchange.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_agent_runtime",
+      "label": "Agent Runtime",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_action_engine",
+      "label": "Action Engine",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_approval_queue",
+      "label": "Approval Queue",
+      "file_type": "concept",
+      "rationale": "Always the final checkpoint before any agent-initiated trading action executes.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_memory_engine",
+      "label": "Memory Engine",
+      "file_type": "concept",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_quant_types",
+      "label": "Quant Types",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_market_data",
+      "label": "Market Data",
+      "file_type": "code",
+      "rationale": "Candle/ticker fetching always sits behind a TTL cache.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_indicators",
+      "label": "Indicators",
+      "file_type": "code",
+      "rationale": "SMA, EMA, RSI, MACD, VWAP, Bollinger, ATR implemented as pure functions.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_smart_money_concepts",
+      "label": "Smart Money Concepts",
+      "file_type": "code",
+      "rationale": "SMC primitives: BOS, CHoCH, Order Blocks, FVG, Sweep, Premium/Discount, Breaker, Mitigation.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_analysis_engine",
+      "label": "Analysis Engine",
+      "file_type": "code",
+      "rationale": "Explainable market commentary via a rule engine, reusing the existing Executive pattern rather than opaque scoring.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_risk_engine",
+      "label": "Risk Engine",
+      "file_type": "code",
+      "rationale": "Position sizing, R/R and order risk control aligned with migration 008 risk_profiles rules.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_paper_trading",
+      "label": "Paper Trading",
+      "file_type": "code",
+      "rationale": "Simulated account (orders, fills, PnL, SL/TP) \u2014 no real money by design.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_position_manager",
+      "label": "Position Manager",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_strategy_engine",
+      "label": "Strategy Engine",
+      "file_type": "code",
+      "rationale": "Ships EMA Cross, RSI Reversal and SMC Confluence strategies.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_backtest_engine",
+      "label": "Backtest Engine",
+      "file_type": "code",
+      "rationale": "Reports win rate, max drawdown, profit factor and a Sharpe-like metric.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_alert_engine",
+      "label": "Alert Engine",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_trading_actions",
+      "label": "Trading Actions",
+      "file_type": "code",
+      "rationale": "Action Engine handlers: trade.analyze, trade.riskCheck, trade.paperOrder.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_executive_pattern",
+      "label": "Executive Pattern",
+      "file_type": "rationale",
+      "rationale": "Existing rule-engine pattern reused by the analysis engine so market commentary stays explainable.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_risk_profiles_migration_008",
+      "label": "risk_profiles Migration 008",
+      "file_type": "code",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "quant_readme_paper_only_safety_rule",
+      "label": "Paper-Only Safety Rule",
+      "file_type": "rationale",
+      "rationale": "No code sends orders to a real exchange. trade.paperOrder writes only to the paper account and must carry requiresApproval: true in agent plans, making the Approval Queue the final checkpoint.",
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_agent_runtime",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_action_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_approval_queue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_memory_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_quant_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_market_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_indicators",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_smart_money_concepts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_analysis_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_risk_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_paper_trading",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_position_manager",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_strategy_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_backtest_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_alert_engine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "quant_readme_trading_actions",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "services_readme_quant_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "services_readme_voice_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_apex_quant",
+      "target": "exchanges_readme_exchange_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_analysis_engine",
+      "target": "quant_readme_executive_pattern",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_risk_engine",
+      "target": "quant_readme_risk_profiles_migration_008",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_trading_actions",
+      "target": "quant_readme_action_engine",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_trading_actions",
+      "target": "quant_readme_analysis_engine",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_trading_actions",
+      "target": "quant_readme_risk_engine",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_trading_actions",
+      "target": "quant_readme_paper_trading",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_trading_actions",
+      "target": "quant_readme_approval_queue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_paper_only_safety_rule",
+      "target": "quant_readme_paper_trading",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_paper_only_safety_rule",
+      "target": "quant_readme_trading_actions",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_position_manager",
+      "target": "quant_readme_memory_engine",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_position_manager",
+      "target": "quant_readme_market_data",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_strategy_engine",
+      "target": "quant_readme_indicators",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_strategy_engine",
+      "target": "quant_readme_smart_money_concepts",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_backtest_engine",
+      "target": "quant_readme_strategy_engine",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_analysis_engine",
+      "target": "quant_readme_indicators",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_analysis_engine",
+      "target": "quant_readme_smart_money_concepts",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_alert_engine",
+      "target": "quant_readme_market_data",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_alert_engine",
+      "target": "quant_readme_indicators",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_market_data",
+      "target": "exchanges_readme_exchange_registry",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "quant_readme_paper_trading",
+      "target": "quant_readme_backtest_engine",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "apps/web/src/lib/quant/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "paper_trading_safety_flow",
+      "label": "Paper Trading Safety Flow",
+      "nodes": [
+        "quant_readme_trading_actions",
+        "quant_readme_paper_trading",
+        "quant_readme_approval_queue",
+        "quant_readme_paper_only_safety_rule"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "apps/web/src/lib/quant/README.md"
+    },
+    {
+      "id": "market_analysis_pipeline",
+      "label": "Market Analysis Pipeline",
+      "nodes": [
+        "quant_readme_market_data",
+        "quant_readme_indicators",
+        "quant_readme_smart_money_concepts",
+        "quant_readme_analysis_engine",
+        "quant_readme_strategy_engine"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web/src/lib/quant/README.md"
+    }
+  ]
+}

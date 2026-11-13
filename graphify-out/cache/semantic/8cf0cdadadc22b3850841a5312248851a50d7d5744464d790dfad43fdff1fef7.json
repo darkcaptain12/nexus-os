@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "0008_memory_engine_adr",
+      "label": "ADR-0008: Hierarchical Memory Architecture",
+      "file_type": "document",
+      "source_file": "docs/adr/0008-memory-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0008_memory_engine_decision",
+      "label": "9-tier hierarchical memory system (working, short-term, long-term, semantic, conversation, knowledge, project, document, relationship)",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0008-memory-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0008_memory_engine_adr",
+      "target": "0008_memory_engine_decision",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0008-memory-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0008_memory_engine_decision",
+      "target": "0010_context_engine_decision",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/adr/0008-memory-engine.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

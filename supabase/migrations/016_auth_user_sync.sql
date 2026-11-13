@@ -34,6 +34,10 @@ begin
   on conflict (user_id) do nothing;
 
   return new;
+exception when others then
+  -- Auth akışını asla bozma: GoTrue (supabase_auth_admin) context'inde profil
+  -- sync başarısız olsa bile signup/login devam eder (best-effort sync).
+  return new;
 end;
 $$ language plpgsql security definer set search_path = public;
 
@@ -61,9 +65,19 @@ begin
   end if;
 
   return new;
+exception when others then
+  -- Auth login/update akışını asla bozma (best-effort sync).
+  return new;
 end;
 $$ language plpgsql security definer set search_path = public;
 
 create or replace trigger on_auth_user_updated
   after update on auth.users
   for each row execute function handle_auth_user_updated();
+
+-- GoTrue rolü (supabase_auth_admin) profil senkron trigger'ları için public
+-- şemaya erişebilmeli — yoksa auth signup/login "Database error" verir.
+grant usage on schema public to supabase_auth_admin;
+grant select, insert, update on public.users to supabase_auth_admin;
+grant select, insert, update on public.user_profiles to supabase_auth_admin;
+grant select, insert, update on public.user_preferences to supabase_auth_admin;

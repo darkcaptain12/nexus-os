@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "shared_readme_apex_os_shared",
+      "label": "@apex-os/shared",
+      "file_type": "code",
+      "source_file": "packages/shared/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shared_readme_apiresponse",
+      "label": "ApiResponse / ApiError",
+      "file_type": "code",
+      "source_file": "packages/shared/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "shared_readme_apex_os_shared",
+      "target": "shared_readme_apiresponse",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/shared/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "shared_readme_apex_os_shared",
+      "target": "validation_readme_apex_os_validation",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "packages/shared/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "shared_package_boundary_validation",
+      "label": "Shared Cross-Package Boundary and Validation Utilities",
+      "nodes": [
+        "shared_readme_apex_os_shared",
+        "validation_readme_apex_os_validation",
+        "logger_readme_apex_os_logger"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "packages/shared/README.md"
+    }
+  ]
+}

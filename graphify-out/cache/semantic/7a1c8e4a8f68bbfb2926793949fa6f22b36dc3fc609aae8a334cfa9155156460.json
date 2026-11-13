@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0025_live_supabase_live_supabase_integration",
+      "label": "Live Supabase Integration",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0025_live_supabase_environment_validation",
+      "label": "Environment Validation",
+      "file_type": "concept",
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0025_live_supabase_startup_checks",
+      "label": "Startup Health Checks",
+      "file_type": "concept",
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0025_live_supabase_desktop_sync_endpoint",
+      "label": "Desktop Sync Endpoint (/api/desktop/sync)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0025_live_supabase_background_jobs",
+      "label": "Background Jobs (Journal/Cleanup)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0025_live_supabase_realtime_hooks",
+      "label": "useRealtime / useRealtimeList Hooks",
+      "file_type": "concept",
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0021_second_brain_decision_log",
+      "target": "docs_adr_0025_live_supabase_background_jobs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0023_sync_engine_sync_engine",
+      "target": "docs_adr_0025_live_supabase_desktop_sync_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0025_live_supabase_realtime_hooks",
+      "target": "docs_adr_0024_realtime_postgres_changes",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0025_live_supabase_live_supabase_integration",
+      "target": "docs_adr_0025_live_supabase_environment_validation",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0025_live_supabase_live_supabase_integration",
+      "target": "docs_adr_0025_live_supabase_startup_checks",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0025_live_supabase_live_supabase_integration",
+      "target": "docs_adr_0025_live_supabase_desktop_sync_endpoint",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0025_live_supabase_live_supabase_integration",
+      "target": "docs_adr_0025_live_supabase_background_jobs",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0025_live_supabase_live_supabase_integration",
+      "target": "docs_adr_0025_live_supabase_realtime_hooks",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0025-live-supabase.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

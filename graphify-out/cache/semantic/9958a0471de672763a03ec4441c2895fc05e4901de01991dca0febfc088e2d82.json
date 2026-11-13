@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "embeddings_readme_embeddings",
+      "label": "Embeddings (vector generation/storage/search)",
+      "file_type": "code",
+      "source_file": "packages/ai/src/embeddings/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "embeddings_readme_vector_store_abstraction",
+      "label": "Vector Store Abstraction (pgvector, Pinecone)",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/embeddings/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai_readme_embeddings_module",
+      "target": "embeddings_readme_embeddings",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/embeddings/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "embeddings_readme_embeddings",
+      "target": "embeddings_readme_vector_store_abstraction",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/embeddings/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

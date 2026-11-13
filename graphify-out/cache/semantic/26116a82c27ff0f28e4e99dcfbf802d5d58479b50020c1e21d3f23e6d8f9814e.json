@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0015_runtime_lifecycle_manager",
+      "label": "Lifecycle Manager with Recovery Modes",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0015_runtime_graceful_shutdown",
+      "label": "Graceful Shutdown with Drain",
+      "file_type": "concept",
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0015_runtime_safe_mode",
+      "label": "Safe Mode Recovery",
+      "file_type": "concept",
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0015_runtime_state_snapshot_restore",
+      "label": "State Snapshot/Restore",
+      "file_type": "concept",
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0015_runtime_maintenance_mode",
+      "label": "Maintenance Mode",
+      "file_type": "concept",
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0015_runtime_lifecycle_manager",
+      "target": "docs_adr_0014_service_registry_topological_sort",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0015_runtime_lifecycle_manager",
+      "target": "docs_adr_0015_runtime_graceful_shutdown",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0015_runtime_lifecycle_manager",
+      "target": "docs_adr_0015_runtime_safe_mode",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0015_runtime_lifecycle_manager",
+      "target": "docs_adr_0015_runtime_state_snapshot_restore",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0015_runtime_lifecycle_manager",
+      "target": "docs_adr_0015_runtime_maintenance_mode",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0015-runtime.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

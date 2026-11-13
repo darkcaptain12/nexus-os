@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "sprint_notes_readme_sprint_notes",
+      "label": "Sprint Notes (docs/sprint-notes)",
+      "file_type": "document",
+      "source_file": "docs/sprint-notes/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

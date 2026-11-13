@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "id": "action_engine_readme_action_engine",
+      "label": "@apex-os/action-engine",
+      "file_type": "code",
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "action_engine_readme_actionregistry",
+      "label": "ActionRegistry",
+      "file_type": "code",
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "action_engine_readme_actionvalidator",
+      "label": "ActionValidator",
+      "file_type": "code",
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "action_engine_readme_approvalmanager",
+      "label": "ApprovalManager",
+      "file_type": "code",
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "action_engine_readme_executionqueue",
+      "label": "ExecutionQueue",
+      "file_type": "code",
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "action_engine_readme_rollbackmanager",
+      "label": "RollbackManager",
+      "file_type": "code",
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "action_engine_readme_actionengine",
+      "label": "ActionEngine",
+      "file_type": "code",
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "action_engine_readme_risk_levels",
+      "label": "Risk Levels (low/medium/high/critical)",
+      "file_type": "concept",
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "action_engine_readme_action_engine",
+      "target": "action_engine_readme_actionregistry",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_action_engine",
+      "target": "action_engine_readme_actionvalidator",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_action_engine",
+      "target": "action_engine_readme_approvalmanager",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_action_engine",
+      "target": "action_engine_readme_executionqueue",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_action_engine",
+      "target": "action_engine_readme_rollbackmanager",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_action_engine",
+      "target": "action_engine_readme_actionengine",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_actionengine",
+      "target": "action_engine_readme_actionregistry",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_actionengine",
+      "target": "action_engine_readme_executionqueue",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_approvalmanager",
+      "target": "action_engine_readme_risk_levels",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "action_engine_readme_approvalmanager",
+      "target": "0035_production_hardening_production_readiness_checklist",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "packages/action-engine/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "action_engine_components_hyperedge",
+      "label": "Action Engine Component Pipeline",
+      "nodes": [
+        "action_engine_readme_actionregistry",
+        "action_engine_readme_actionvalidator",
+        "action_engine_readme_approvalmanager",
+        "action_engine_readme_executionqueue",
+        "action_engine_readme_rollbackmanager"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/action-engine/README.md"
+    }
+  ]
+}

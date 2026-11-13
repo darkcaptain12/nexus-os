@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "modules_readme_module_documentation",
+      "label": "Module Documentation (docs/modules)",
+      "file_type": "document",
+      "source_file": "docs/modules/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

@@ -1,0 +1,1237 @@
+{
+  "/Users/emir/Projects/APEX-OS/.claude/launch.json": {
+    "size": 414,
+    "mtime_ns": 1783362482918593259,
+    "hash": "7e4dac760b56f5e9ae6cff9afb6dbd71a887893053e1a5e152c646220a0519c3"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/husky.sh": {
+    "size": 160,
+    "mtime_ns": 1782820288503217187,
+    "hash": "6db0aa99aece6ebd17bbc27c5e5287a462fb39cc4a2ca3a82a6277c166bdb3a0"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/app.json": {
+    "size": 2,
+    "mtime_ns": 1782809177794907091,
+    "hash": "52eaa3594ec6b25fa707dc54b25b044bc136e834748d11fab056c32413438dc2"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/appearance.json": {
+    "size": 53,
+    "mtime_ns": 1782809177795498760,
+    "hash": "dd4eeb95fe3251e24903c0a0bcbb92f77bfb2dfa81ea1a61c9981979cad6f44b"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/core-plugins.json": {
+    "size": 696,
+    "mtime_ns": 1782809177325027224,
+    "hash": "0935bbbdf1d0e8efbc9b0a49121d4ecddf24cb2f4fba6488481494f83268a323"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/graph.json": {
+    "size": 573,
+    "mtime_ns": 1782809181132999000,
+    "hash": "7779627948b0aaefb4cf54335df5f58e1fbeee41dbc0bf3e1efcff61c069c271"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/workspace.json": {
+    "size": 6354,
+    "mtime_ns": 1782809177911505273,
+    "hash": "1a2f0c3300add8f2ac9982978af588fff041fdebc014ba06aa7516c608ff7e74"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/app.json": {
+    "size": 2,
+    "mtime_ns": 1782376932934830861,
+    "hash": "1d42e2d0566425d8eb6d35f6423755da4bd5a97c734b415f9e7c8d27d00e5cf5"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/appearance.json": {
+    "size": 2,
+    "mtime_ns": 1782376932936199524,
+    "hash": "2e110a693d625c858ce42eafa97ac9e6dddbbc803ff0eb4b966c11e4f40395d2"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/core-plugins.json": {
+    "size": 696,
+    "mtime_ns": 1782376932445489662,
+    "hash": "b0c4c42a735422214551796826e26ae93a808578ab3e9ca8fd7aa90c9e6d7814"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/graph.json": {
+    "size": 493,
+    "mtime_ns": 1782376497069000000,
+    "hash": "8139521152b2c0e14272a733e9d4d64cecd0d2d9e9d6ead488b0bcb1ea2b449f"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/workspace.json": {
+    "size": 4753,
+    "mtime_ns": 1782376932952650236,
+    "hash": "587e47e94097a3ae3eac6a44dd43550f60eb91f4a433c326fc97aa1e6f440c45"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/browser-extension/package.json": {
+    "size": 287,
+    "mtime_ns": 1782377603237259110,
+    "hash": "6de975e43f2ce3b18b47d1e68d63e3fbca4a0d3798f1b4021c7e5bfa837a9115"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/package.json": {
+    "size": 535,
+    "mtime_ns": 1782414249462022115,
+    "hash": "6e1fcfed0c1853082c6c7ae44e2a51434e5e3b9449dd7781dc34e3fcfa1c95b8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tsconfig.json": {
+    "size": 195,
+    "mtime_ns": 1782413955916432164,
+    "hash": "640fb68392b60d195b88d49b58529360883fa7721a4318194dd26da3ffe5f253"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/mcp-server/package.json": {
+    "size": 259,
+    "mtime_ns": 1782377607419981995,
+    "hash": "185774839b02d027b84cfebb3aac75974a16e1440415e3aa1e6b10273cfe0306"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/mobile/package.json": {
+    "size": 255,
+    "mtime_ns": 1782377595117630354,
+    "hash": "799e248cb2bf53c4ccf618bc67444cfce252dfab040e3c4a607c60e7704ca272"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/package.json": {
+    "size": 1394,
+    "mtime_ns": 1782820252369409321,
+    "hash": "c063060a2b267a2ab2e1e9e4f313d32784fdf4e13f106b39f10b8df507042933"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tsconfig.json": {
+    "size": 471,
+    "mtime_ns": 1782376858137062716,
+    "hash": "f9f1a6983cad6a986132f4b2c3de3fe29e648285a8c868e5ed21e1694eb2b525"
+  },
+  "/Users/emir/Projects/APEX-OS/package.json": {
+    "size": 1225,
+    "mtime_ns": 1782482618714861514,
+    "hash": "59e0b1a2f431b4bbbe6991d6e257615018696d2e6dd60d94f29da020f40d7ac5"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/package.json": {
+    "size": 385,
+    "mtime_ns": 1782457992748660969,
+    "hash": "c495b6668bdc3ba1f72f26fec38e74ba74bd1e2ab5e5da9b026f986e48b3250d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/tsconfig.json": {
+    "size": 106,
+    "mtime_ns": 1782457992751263383,
+    "hash": "ca77d11f0b09ea3a8e7dd7d0961b5abc03a769dbe63f004599c1db41513e8b02"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/package.json": {
+    "size": 304,
+    "mtime_ns": 1782377436301529925,
+    "hash": "14b3b6af7b96dcf6cbbc431c459f3a4e8a6d388fa870f4c6e009ccd6f7b67e85"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436303569754,
+    "hash": "64089ceafd6f846c2c6cad6bd209ab864de34b0122dd740b4a0182c0207fe4cc"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/package.json": {
+    "size": 306,
+    "mtime_ns": 1782377436236160869,
+    "hash": "52b24838a9f98950e38f53efc86b14ee762b2b424360ea930af6ce78f6054437"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436240943899,
+    "hash": "7a87ecdb0d0b1332fcd80fb00f6f8150fc688ac1f5c907a237a8fc09f8642344"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/automation/package.json": {
+    "size": 312,
+    "mtime_ns": 1782377436295383481,
+    "hash": "9d7b18c4217f9e11f9b432d1503ee5be185a71b493e31b91d0276ee299b0cf15"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/automation/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436297386143,
+    "hash": "6b38ed781386dd0b9d344a3520f33c915b37380a6f80ecc93e6bba472b8b054b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/config/package.json": {
+    "size": 272,
+    "mtime_ns": 1782376946329597380,
+    "hash": "1905ffe82abebd55926f076e9bfa57c44055fee7c8914cc0a1c9ee250ef7fafb"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/config/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782376947263287922,
+    "hash": "6dbedf71874c21f6c72e3c9955638f3b64a73adaf55273b27c6b3b54d33634ca"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/database/package.json": {
+    "size": 363,
+    "mtime_ns": 1782377436246271928,
+    "hash": "6bc7f465ec7c099f7592c7b5be97d5d120d244bebf9ed67eaef988a2eddeda1c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/database/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436248357965,
+    "hash": "68358f8d156420a3bca616412fd99842c554e54d105c61f99ecb3d878b718379"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/package.json": {
+    "size": 308,
+    "mtime_ns": 1782377436277344856,
+    "hash": "e577d97aa8c474c3c74d80ae4eb4bcf20b20cd908b831ae290a74676c596c31e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436279342852,
+    "hash": "04fa6a91b30a88bbd229b2660cef85db6f5d1bea608dd563cd7f970de7cddf0e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/package.json": {
+    "size": 359,
+    "mtime_ns": 1782460045970443339,
+    "hash": "4cfbc044d0441ee6a27fd96269b97542a09fcf6703f0f950d1d68b7ac4314286"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/tsconfig.json": {
+    "size": 106,
+    "mtime_ns": 1782460045972750836,
+    "hash": "91120e02bfe912b934b481c3ae28205cc85c03b0a1a4bf6863fa23ef957f62ec"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/package.json": {
+    "size": 492,
+    "mtime_ns": 1782382592374576271,
+    "hash": "18fdd506d142f9f4ef4a298e42f6ea25e0b9a2e8fc35f010b9e32b2b3d414aca"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782381083530835014,
+    "hash": "853a48e066645e5724414765ceb09fb99ba85b21144a2aaf4c188c513d7b70b6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/package.json": {
+    "size": 343,
+    "mtime_ns": 1782377436252739788,
+    "hash": "b4446be99e0e4bd735fd1d11f25504b50674d692502f9133763d7738ee1edb65"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436254723200,
+    "hash": "b2ed3a57378715e58b2b4e0d4d7d031fee0a49daf0a219dadc5c38ef20687bdb"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/memory/package.json": {
+    "size": 308,
+    "mtime_ns": 1782377436283481300,
+    "hash": "e9f5bf4c7d0590dbcf8eeab7ecc1163b94ab9b1454139246f633f9a839bcdd69"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/memory/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436285387796,
+    "hash": "ecb5a13eb0c8233975822e8e30fdea43ca31d5aa6f5765664025a0b08c9c8829"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/notifications/package.json": {
+    "size": 315,
+    "mtime_ns": 1782377436289341870,
+    "hash": "523ac2719c5a24cc52bc0eebeb5e0ce82fd1cd2b0a319f39b470473a95b9ebb2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/notifications/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436291273616,
+    "hash": "bbfffcf06f5386db01766c0948beb2b8a208afc5fb28af4b22b3ff49e11f57ea"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/sdk/package.json": {
+    "size": 305,
+    "mtime_ns": 1782377436264758636,
+    "hash": "1e4d5617c3ec1b1c2a97eddfa47b4a3c4e0a45573f5b40a669d0c113666c6746"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/sdk/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436266670173,
+    "hash": "8d916533ddc6a0ad6019fc84e195b709401f5e975392dfa88a924fed83b90637"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/package.json": {
+    "size": 308,
+    "mtime_ns": 1782377436258865857,
+    "hash": "0528cc6632a6e829f9b7ba62bbd36ab2b09d138a1c702ca02302320b3dbc4429"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436260799436,
+    "hash": "fceea58e57a7a381ba3653b131dbaf42010d88c94dba5c35441f7f75a9663467"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/package.json": {
+    "size": 271,
+    "mtime_ns": 1782376917713240119,
+    "hash": "ffc0058c6f1f9169ff2504d5a3b795c30070cb9b34949d0e1165bafdc2d3cf6c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782376919114929576,
+    "hash": "e1bb022bc1d8511435f1dfb872352da13b70343ab36adca77f1799f13a71805a"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ui/package.json": {
+    "size": 500,
+    "mtime_ns": 1782376932599606721,
+    "hash": "eb56cd766d0b6beddf8c492aa228e570e39a2abbf91924701b263a206a3c7bd3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ui/tsconfig.json": {
+    "size": 136,
+    "mtime_ns": 1782376934029986612,
+    "hash": "1d85e49675bf70329ab1799cab252d36fe68259379358e6eb08e50bc96ef148a"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/utils/package.json": {
+    "size": 318,
+    "mtime_ns": 1782376926562338180,
+    "hash": "764e2c0ab6c04ff43ff945227f2819ca0eefd34e0cfdb461a03577bc230f5324"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/utils/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782376927457928645,
+    "hash": "7f510a4e35015b0d444a0195f2ec4f2bb87e36f8776b831f35fb332dbec1c93e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/validation/package.json": {
+    "size": 348,
+    "mtime_ns": 1782377436270985454,
+    "hash": "4658386d61949bd163114f328db0f4fafad456cd2b7c343d6e5b2551182a4573"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/validation/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377436273148449,
+    "hash": "0eb78b1ca332823fd32de8e1a79518e1376963a8bcada32b0aa9614c335c7fe8"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/package.json": {
+    "size": 359,
+    "mtime_ns": 1782473569604423758,
+    "hash": "efe847a2cd19afcc2b882d2454f62c765bb4cfc4026f2a4173b8b78690a72faa"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/tsconfig.json": {
+    "size": 106,
+    "mtime_ns": 1782473569607103020,
+    "hash": "e6a5f9a10964b06de6d80d078b84ef491da5281ed1eb269b86085a8a01ffb4d2"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/backup.sh": {
+    "size": 191,
+    "mtime_ns": 1782377711564942395,
+    "hash": "de4c08900afb578ae087be7dbe8a7509191a3e9b3b8b5b684148b0c109f6f367"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/clean.sh": {
+    "size": 187,
+    "mtime_ns": 1782377711573327167,
+    "hash": "f99280f212c481c8b63e70a35d7205089447879c4bc13c606de666dc42bb881f"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/restore.sh": {
+    "size": 195,
+    "mtime_ns": 1782377711569278760,
+    "hash": "78ea9b03fa2a840fad7513fdeea49d1cd448106f5114abb4b3fcaf5f5658808e"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/seed.sh": {
+    "size": 183,
+    "mtime_ns": 1782377711560331530,
+    "hash": "e99aeb28466f22e1101b8231b7e4b0d7291ac745f1861ba8d098202ada1b1d43"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/setup.sh": {
+    "size": 187,
+    "mtime_ns": 1782377711554323461,
+    "hash": "8dafb09a2f7985979cad766c5918048e1f36025e24cbaa3850c5b08e101d5e68"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/001_extensions_and_base.sql": {
+    "size": 1766,
+    "mtime_ns": 1782484183473350323,
+    "hash": "05bd928a1e72afc7f2d28dcbcbc79ac98cc180c7227983a4143e48dce8fdb8c9"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/002_identity.sql": {
+    "size": 5151,
+    "mtime_ns": 1782484183481140055,
+    "hash": "7676429434d56c12cdf41ab95056a1696fc24c1149c2cdf7c6305ff3a5c2a888"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/003_ai_agents.sql": {
+    "size": 3502,
+    "mtime_ns": 1782484183477341458,
+    "hash": "8a19419c3c068c524f030c05bbc41881ec76c9a39f5a93538df817df1d49fe08"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/004_memory.sql": {
+    "size": 7677,
+    "mtime_ns": 1782484183424536265,
+    "hash": "3d6ea179f227c828d233876348135ff434f45dce1902897729ba060e16b4db97"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/005_goals_tasks.sql": {
+    "size": 3437,
+    "mtime_ns": 1782484183469542394,
+    "hash": "8d3efac2f686632ba65f7cdba9b9f6017bf41078706353de2cef2767b3a5a3ec"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/006_workflows.sql": {
+    "size": 3642,
+    "mtime_ns": 1782484183443157755,
+    "hash": "04c1235f272a4361d77047e2078af54a2f90345f92db7faea0e69d9c880886b0"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/007_notifications.sql": {
+    "size": 2698,
+    "mtime_ns": 1782484183461451960,
+    "hash": "b96b4170d4fb866a69bc20db2b209fcebc703c0e41f7da562c5952654a713255"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/008_trading.sql": {
+    "size": 5777,
+    "mtime_ns": 1782484183465560675,
+    "hash": "4c0255f3f394e1297a1146aacf5cab91d9fe52263c6dce442a610c6d4501236a"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/009_commerce.sql": {
+    "size": 4413,
+    "mtime_ns": 1782484183488517418,
+    "hash": "8ba6e656d85e15898650560f5998a4b35c59fc9a3b9c865549d5bfdd43b93229"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/010_finance_calendar_health.sql": {
+    "size": 6837,
+    "mtime_ns": 1782484233677209815,
+    "hash": "1f8160e0ad19f03c7860e6854a092512a3c354a174f65e63f402f3e9fce2409d"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/011_desktop_browser.sql": {
+    "size": 3343,
+    "mtime_ns": 1782484267752672857,
+    "hash": "5686d5cdcf67d24493f0d01725e585d32087600ffd3f241cfe4332d6846982e2"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/012_automation_kernel.sql": {
+    "size": 4875,
+    "mtime_ns": 1782484183457160455,
+    "hash": "485cf0030dc853d2e6c5b5707385271f98ec2b1b1bffd1c5575398ad18eff7c2"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/013_audit_voice.sql": {
+    "size": 4547,
+    "mtime_ns": 1782484183438069224,
+    "hash": "5dcc414f99ea8c8f0d92f3c9231e1d56fabfb9b01004cb1d90d4fac7e0fe8668"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/014_rls_policies.sql": {
+    "size": 9217,
+    "mtime_ns": 1782484183452728537,
+    "hash": "d592c4aa393a1b079fc459e0fe52d291487ab0db560c85cea01ce27c22e7b0f8"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/015_functions_views.sql": {
+    "size": 9225,
+    "mtime_ns": 1782484376796894593,
+    "hash": "f181c94d3f0b6c70d8da2ed0111e4ba5258a18f2059c52cfeabcbfef44b240aa"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/016_auth_user_sync.sql": {
+    "size": 2227,
+    "mtime_ns": 1782494396712345571,
+    "hash": "6b0fdab863e77ae21233f504127b13fdb3ab346c71d1ae7e377bf6d93d7936d1"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/017_task_comments_activity.sql": {
+    "size": 1474,
+    "mtime_ns": 1782589851897687897,
+    "hash": "368406178363efc0514b13fd4ed0ee5c4a7ffd762b19d0d2be4880828cda8d46"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/018_project_enhancements.sql": {
+    "size": 1553,
+    "mtime_ns": 1782590419681343141,
+    "hash": "f0a88c7ac1dbb7c48f44c85c3445c5d5b37b3e854171fa187e8684f51288ac99"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/019_memory_entities.sql": {
+    "size": 911,
+    "mtime_ns": 1782717939671768104,
+    "hash": "5c3af2f3e1707f6dc09daf589893f35997cec36cc93c09b2ffc324cc35d4a2fa"
+  },
+  "/Users/emir/Projects/APEX-OS/tsconfig.json": {
+    "size": 600,
+    "mtime_ns": 1782376833750152232,
+    "hash": "206e37bbdacb17206da1dda96266ac87f87b5840290a0457c485cdb3501b64b9"
+  },
+  "/Users/emir/Projects/APEX-OS/turbo.json": {
+    "size": 509,
+    "mtime_ns": 1782377401618828717,
+    "hash": "aec89870d045f8a60c1a05b7c8a9012aebed7b30cf56a73e8e05cc01abfa7c07"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/ai-worker/package.json": {
+    "size": 274,
+    "mtime_ns": 1782377617711832924,
+    "hash": "a559f6dbaff8cb110f48add253c1a5a4ff29a58d83b7ccd2af026a3985d93a13"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/ai-worker/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377617714470543,
+    "hash": "f9cf3a3110bcb0af941547f2d130f9ea27602eaac6c536d8ac85cab3c093c595"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/automation-worker/package.json": {
+    "size": 282,
+    "mtime_ns": 1782377617726621557,
+    "hash": "f53437dfc14bc53b296a0c1bb7a96c956378186d77cff1396ad68d73aa9643d6"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/automation-worker/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377617728899510,
+    "hash": "1246e57b24c12cad04651abcc6d24bf1b54cc17bca8e1f4df4b825dd0e7fe601"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/crawler-worker/package.json": {
+    "size": 279,
+    "mtime_ns": 1782377617731078380,
+    "hash": "cf15e7d96e0d8b875e3e9d85aecba0bb83fc5646aa341ca8d07a436dff743646"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/crawler-worker/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377617733193292,
+    "hash": "c002676b444cd7d6785c92fa211a43ed736dad8bc915dc059216961ae7508653"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/memory-worker/package.json": {
+    "size": 278,
+    "mtime_ns": 1782377617735187995,
+    "hash": "e0f211d078bf76625aceeae7e212ce2f975ecef8013c72d5ad584391e4b6eccb"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/memory-worker/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377617737072699,
+    "hash": "3edf9fbc7991706da01a6f7b9e6eba95f6956a4254f08aef6697f9216fd49486"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/notification-worker/package.json": {
+    "size": 284,
+    "mtime_ns": 1782377617721357819,
+    "hash": "3c8534ba0cf5a1cf3431f4ee3c2cdffd9e9d1bb28a48fba5fb1f4f1f75fe2ccf"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/notification-worker/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377617723867021,
+    "hash": "86c82f3336f58033c05753c58b168fad08d0d0a9cb056bb1464705043c5d30ca"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/scheduler/package.json": {
+    "size": 274,
+    "mtime_ns": 1782377617716914913,
+    "hash": "42dbd9520c844f0504b5caff4b4e221dd4c09fa73833f6fb2ebb35bb872e04e1"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/scheduler/tsconfig.json": {
+    "size": 112,
+    "mtime_ns": 1782377617719133574,
+    "hash": "dbf048507644c1de043d494467a60d83fcf0549226b676a58411b371c40ae184"
+  },
+  "/Users/emir/Projects/APEX-OS/.github/workflows/ci.yml": {
+    "size": 1692,
+    "mtime_ns": 1782377763910228942,
+    "hash": "1a5d4218ecf14480d8460f17866db5c08d307c67b0497d4efe219b49838214e8"
+  },
+  "/Users/emir/Projects/APEX-OS/00_HOME/Dashboard.md": {
+    "size": 251,
+    "mtime_ns": 1782365628000000000,
+    "hash": "363dc8ce66652ac06124cc10bb49069b59e7d6731300e7be4b7284e8dae06a73"
+  },
+  "/Users/emir/Projects/APEX-OS/01_FOUNDATION/Vision.md": {
+    "size": 248,
+    "mtime_ns": 1782365628000000000,
+    "hash": "98b525d694b0491c6beee8f6fe0735a0c377c19331a3e00eb2465f4136d100fc"
+  },
+  "/Users/emir/Projects/APEX-OS/02_PRD/Product Requirements.md": {
+    "size": 226,
+    "mtime_ns": 1782365628000000000,
+    "hash": "2f8d3101109e1108686157b86a7ab1f8e3a8e37367fbd786cb2fe373fcb17d5f"
+  },
+  "/Users/emir/Projects/APEX-OS/03_ARCHITECTURE/System Architecture.md": {
+    "size": 207,
+    "mtime_ns": 1782365628000000000,
+    "hash": "0ca8fa7e86f3daaaafa6e7cc9942bf9020511bf3fc719bf021dcc9cb420031c2"
+  },
+  "/Users/emir/Projects/APEX-OS/04_DATABASE/Database.md": {
+    "size": 146,
+    "mtime_ns": 1782365628000000000,
+    "hash": "cd765118372e6342052cedf90b998ea05c795028d6846feeeaeea84e8fe1f2e7"
+  },
+  "/Users/emir/Projects/APEX-OS/05_AI/AI Router.md": {
+    "size": 140,
+    "mtime_ns": 1782365628000000000,
+    "hash": "5eb30690db26e0e41d7d3afbb06978bfa38dcbde3364edf6f41686ae7a54d4b6"
+  },
+  "/Users/emir/Projects/APEX-OS/06_AGENTS/Agent Index.md": {
+    "size": 108,
+    "mtime_ns": 1782365628000000000,
+    "hash": "5933e792a751c0dfec9d5219f53a61f370d1e7f686b7343998582abf8fb2077c"
+  },
+  "/Users/emir/Projects/APEX-OS/07_MODULES/E-Commerce.md": {
+    "size": 79,
+    "mtime_ns": 1782365628000000000,
+    "hash": "ace67f6d73e5fb4a0d14d1c1490dff7035250f560542821a0d6fffc2c9346c78"
+  },
+  "/Users/emir/Projects/APEX-OS/07_MODULES/Trading.md": {
+    "size": 100,
+    "mtime_ns": 1782365628000000000,
+    "hash": "8fb04c7ac7e860f06c66d7a211aecd54c865c73c682ff63770c8c57087398d85"
+  },
+  "/Users/emir/Projects/APEX-OS/08_API/API.md": {
+    "size": 75,
+    "mtime_ns": 1782365628000000000,
+    "hash": "ece411fc807c9261f8347ca0d1c32154615393491668d41d288e0cc9346c70b4"
+  },
+  "/Users/emir/Projects/APEX-OS/09_UI/Design System.md": {
+    "size": 67,
+    "mtime_ns": 1782365628000000000,
+    "hash": "1a310bd81ccaca9311fa63eccade3869543530c9a546c3c9ac546417f093c77c"
+  },
+  "/Users/emir/Projects/APEX-OS/10_DEVELOPMENT/Coding Standards.md": {
+    "size": 124,
+    "mtime_ns": 1782365628000000000,
+    "hash": "3a055aeda03aee1cacdda3b53858135a67218aeb9fa4beb0fa181fd90d006280"
+  },
+  "/Users/emir/Projects/APEX-OS/11_SECURITY/Security.md": {
+    "size": 72,
+    "mtime_ns": 1782365628000000000,
+    "hash": "2f721a2de01fb50df07aec5f9ac64546d6f5af3ffeaa580199f8c1d9ab08ed07"
+  },
+  "/Users/emir/Projects/APEX-OS/12_INFRASTRUCTURE/Infrastructure.md": {
+    "size": 69,
+    "mtime_ns": 1782365628000000000,
+    "hash": "fb228339e73819322abe52df2bc77fd1a1fc5167d133ae061612bf50af1136bd"
+  },
+  "/Users/emir/Projects/APEX-OS/13_TESTING/Testing.md": {
+    "size": 37,
+    "mtime_ns": 1782365628000000000,
+    "hash": "80deb0532e2dd7c03a3c9f3f68d5a17e6f7de07cf4edea00e3fd3f252d94123b"
+  },
+  "/Users/emir/Projects/APEX-OS/14_DEPLOYMENT/Deployment.md": {
+    "size": 70,
+    "mtime_ns": 1782365628000000000,
+    "hash": "9024ce0f81c7888680a38aacd7ebdeb5d1b459d660d7847741ffd55559ea6798"
+  },
+  "/Users/emir/Projects/APEX-OS/15_BUSINESS/Business.md": {
+    "size": 62,
+    "mtime_ns": 1782365628000000000,
+    "hash": "c79dc98db2315f68f717d3871bf7da0c4d9071d95e7f0504d257c89d946c8244"
+  },
+  "/Users/emir/Projects/APEX-OS/16_ROADMAP/Roadmap.md": {
+    "size": 123,
+    "mtime_ns": 1782365628000000000,
+    "hash": "b642b7586c1cf36dea35d9f5dda844091ac8b38794fab2d48d45c2344160afd5"
+  },
+  "/Users/emir/Projects/APEX-OS/17_DECISIONS/Decision Log.md": {
+    "size": 51,
+    "mtime_ns": 1782365628000000000,
+    "hash": "dfe6e6baad2b9db2eda4d5b7bde65475a4705c53bea89cdc60436459e112b62f"
+  },
+  "/Users/emir/Projects/APEX-OS/18_RESEARCH/Ideas.md": {
+    "size": 60,
+    "mtime_ns": 1782365628000000000,
+    "hash": "d069a4fe33ce7e7b0e3c5b9264b26d1c76125d25dfea9c959ad4d8e6480c799d"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/Ho\u015f geldiniz.md": {
+    "size": 227,
+    "mtime_ns": 1782376493421880129,
+    "hash": "cb4b4dec9ca4030ea06e99c9accdac0f1d83e2fcb560eb44d94b098c2f16585d"
+  },
+  "/Users/emir/Projects/APEX-OS/CLAUDE.md": {
+    "size": 8305,
+    "mtime_ns": 1782396741722040604,
+    "hash": "dda55a473c6e3c00337b634963e171359bb995f588e0348be6ec1b19012967e5"
+  },
+  "/Users/emir/Projects/APEX-OS/FIRST_BOOT.md": {
+    "size": 3050,
+    "mtime_ns": 1782481389166825979,
+    "hash": "7acdf6c471d2edc03a43462a3f3415c34bdd04ecec841af4ce7aa5e92b22c797"
+  },
+  "/Users/emir/Projects/APEX-OS/README.md": {
+    "size": 6724,
+    "mtime_ns": 1782482290549045391,
+    "hash": "05c7573b6897d82da64ae1df74f8ab7f1d957130136e568939c286da80519875"
+  },
+  "/Users/emir/Projects/APEX-OS/REALITY_REPORT.md": {
+    "size": 5608,
+    "mtime_ns": 1782481884821072958,
+    "hash": "9d20f209932d49e52259cea08c1223c66ba4abca2854413aa3b704c954dd6021"
+  },
+  "/Users/emir/Projects/APEX-OS/SUPABASE_SETUP.md": {
+    "size": 1670,
+    "mtime_ns": 1782481318261192052,
+    "hash": "525b0b6ece256f92d1137c988f310007e61900516f574cd384006019030174d6"
+  },
+  "/Users/emir/Projects/APEX-OS/SYSTEM_AUDIT.md": {
+    "size": 4536,
+    "mtime_ns": 1782481369110390356,
+    "hash": "d4e3c72a2b1c46e9a793b9a061a41177722e379d57a4c2d64b473e95a864cba3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/browser-extension/README.md": {
+    "size": 640,
+    "mtime_ns": 1782377605545776132,
+    "hash": "0fd79f23e5ccad0fa0b576dde66a366f9d2dace1144aca537fe30c5a13e76669"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/README.md": {
+    "size": 1026,
+    "mtime_ns": 1782414379013504647,
+    "hash": "426daa81aba0ab67b9f051b53c2ef40d4f6f1bf3026bafafddcc9c4968f509e4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/mcp-server/README.md": {
+    "size": 545,
+    "mtime_ns": 1782377609358200334,
+    "hash": "0a2f4823096f9e53152e54878c17a685035d1bc2f2b4175a198f2a12f579a018"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/mobile/README.md": {
+    "size": 545,
+    "mtime_ns": 1782377597991405357,
+    "hash": "22ae1de7ae4378deeda3cc94515d678fb6df44211f13f8d2344248c5484a3d68"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0001-monorepo.md": {
+    "size": 1015,
+    "mtime_ns": 1782377652355115931,
+    "hash": "bb2ef3172572797c8f2164102664f365904b01f96e05c8d0c8a824f616971362"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0002-nextjs.md": {
+    "size": 959,
+    "mtime_ns": 1782377657595716363,
+    "hash": "58d49ba67533d559532c92231bb0253ebbc463b13ab5cedb48631a5a82f85078"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0003-supabase.md": {
+    "size": 948,
+    "mtime_ns": 1782377662809940066,
+    "hash": "43e56ee3cf093781318b6616ba2dd7fc78e6481c89cbdd8f9488c35a9f16f094"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0004-turborepo.md": {
+    "size": 854,
+    "mtime_ns": 1782377667966702276,
+    "hash": "8598747b8de705cdd7196b651be59f1bb824b5db9e0fe0c997079f8a4b855c97"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0005-event-driven.md": {
+    "size": 1020,
+    "mtime_ns": 1782377673491160591,
+    "hash": "0eb696e2be2d1372fd47afe5c3e30cdfbffae5c47b3191e67dd21ed89cc71c0a"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0006-ai-core.md": {
+    "size": 1335,
+    "mtime_ns": 1782380361340905364,
+    "hash": "b984ed35c53ac22485f898ab739d6d1a0f95125be1aaebacecaf563b793dea12"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0007-agent-orchestrator.md": {
+    "size": 1314,
+    "mtime_ns": 1782380370603799926,
+    "hash": "576ea0786311c2bc1f5668141b9bcb192e7eaadae7f4f14b59d07b2e0895382d"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0008-memory-engine.md": {
+    "size": 1389,
+    "mtime_ns": 1782380375925641714,
+    "hash": "8cf0cdadadc22b3850841a5312248851a50d7d5744464d790dfad43fdff1fef7"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0009-tool-registry.md": {
+    "size": 1212,
+    "mtime_ns": 1782380381575017469,
+    "hash": "a444fb367e227525ffa2199ff4739bd4cb51931200693e8884c9d23b88a450dd"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0010-context-engine.md": {
+    "size": 1204,
+    "mtime_ns": 1782380387266500411,
+    "hash": "be65d3c96e02023d51c930d44d7a3d9df86c855aa3bee5122dbfd4022cfcb93b"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0011-kernel.md": {
+    "size": 1212,
+    "mtime_ns": 1782381398616748183,
+    "hash": "1b8b8399693a57ea36d3a9c952372912ac36f555a8b5cb4600ffe34966f4cc87"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0012-cqrs.md": {
+    "size": 1014,
+    "mtime_ns": 1782381398619863775,
+    "hash": "3dba246bfa51d74c91dc411a7ab767e7c0e2de8771c8714c1569957944e49a01"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0013-plugin-system.md": {
+    "size": 1049,
+    "mtime_ns": 1782381398622692367,
+    "hash": "46355f4f4d443889378bd92af583587389439d267a29086f7cc77257ffa0383e"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0014-service-registry.md": {
+    "size": 1016,
+    "mtime_ns": 1782381398625432291,
+    "hash": "7761d0137d614f1d63b7d70c9906e7eb7b38999cef69d3b0df5662992eab8073"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0015-runtime.md": {
+    "size": 1006,
+    "mtime_ns": 1782381398627952007,
+    "hash": "26116a82c27ff0f28e4e99dcfbf802d5d58479b50020c1e21d3f23e6d8f9814e"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0016-database-foundation.md": {
+    "size": 1653,
+    "mtime_ns": 1782382365126835461,
+    "hash": "7e80dfac648a4f96bcbebeb905c23db66a60ef5ad75d4208f5d388017902accf"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0017-kernel-runtime.md": {
+    "size": 2257,
+    "mtime_ns": 1782395332672051140,
+    "hash": "43349b9e6b8eb6f43596ade533f500a5e6e085a91376606b584ece38a5a6993e"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0018-identity-auth.md": {
+    "size": 1257,
+    "mtime_ns": 1782396729067039030,
+    "hash": "8ed09e80ed1fb342f5dfc00ecb4d7c47e525e042d6fb2b58f62baa89fdd565a4"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0019-ai-executive.md": {
+    "size": 1835,
+    "mtime_ns": 1782413731834508939,
+    "hash": "69b34a74bb01b90d8e5c28c9bdf2ea4e4df7bb10655f6bd5db022932227311ce"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0020-desktop-intelligence.md": {
+    "size": 1992,
+    "mtime_ns": 1782414368267594654,
+    "hash": "a7e35a9106a4e35bc77335a01f21197c0843c8f3407536200dbf682f0fa9747d"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0021-second-brain.md": {
+    "size": 1827,
+    "mtime_ns": 1782414850679788036,
+    "hash": "d03258be6de36efd9afd62f473240481d14b9ca564c96dd6e3c1d394f9b8a13e"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0022-persistence-layer.md": {
+    "size": 1095,
+    "mtime_ns": 1782456407802339120,
+    "hash": "f65f330ce818fca1bdbfb72c6e164b20b801c4fc8e15dae3d5f450bd40852bb2"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0023-sync-engine.md": {
+    "size": 861,
+    "mtime_ns": 1782456413784456385,
+    "hash": "8838bdc0f628ef752733c864f0ac52e4f05c801cbb1ceda8ac0f3f273d6ecf91"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0024-realtime.md": {
+    "size": 746,
+    "mtime_ns": 1782456418154238410,
+    "hash": "7718a7d0123cf2ff2fc57576ee70a2a315be32c5ee4badae7ffd4fa537608cad"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0025-live-supabase.md": {
+    "size": 1722,
+    "mtime_ns": 1782457631235099238,
+    "hash": "7a1c8e4a8f68bbfb2926793949fa6f22b36dc3fc609aae8a334cfa9155156460"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0026-action-engine.md": {
+    "size": 994,
+    "mtime_ns": 1782458382472811782,
+    "hash": "db95c011856202cadf2e063a045018f700bc9eebae0d6ad1d84448dd2c45ff35"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0027-approval-system.md": {
+    "size": 858,
+    "mtime_ns": 1782458382475795728,
+    "hash": "eb68d74c7081d17c4c320f86cfbdad1e0ba435e3c3c9c2c04db29679906361aa"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0028-action-execution.md": {
+    "size": 680,
+    "mtime_ns": 1782458382478863259,
+    "hash": "40359632cf62a1a6095b4d142385dcbb21df681430a7eb06943d3ec8c9b3697b"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0029-integration-hub.md": {
+    "size": 996,
+    "mtime_ns": 1782460331733898954,
+    "hash": "f5608ca4b1f0d3c9ca3ead2e280749ab7968abcb808769331725ea13df7f8770"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0030-provider-registry.md": {
+    "size": 684,
+    "mtime_ns": 1782460331736527802,
+    "hash": "8c51e20a786d265680a5174b45fed8f2f76f1cf4d365c2b8bab2e651c6e01c09"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0031-provider-security.md": {
+    "size": 706,
+    "mtime_ns": 1782460331739330318,
+    "hash": "3ccdcda48cc5c6c88b4fbabc8787eba76d91f1e7750106c59e8642efcaee2cb1"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0032-workflow-runtime.md": {
+    "size": 884,
+    "mtime_ns": 1782473834960051238,
+    "hash": "8bfd1321e482f3a9ee6917c48a9f98b932f0a18f22540ad2ba00bdfb4b169d7c"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0033-workflow-designer.md": {
+    "size": 592,
+    "mtime_ns": 1782473834962599094,
+    "hash": "ec3b1d88007900177e6c70dc5ed402ad80f2a826f8cafee6216772e356247abf"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0034-automation-engine.md": {
+    "size": 606,
+    "mtime_ns": 1782473834965062909,
+    "hash": "fc80ef0b276db800bdcfaaf0ecd2c3141ad632293ed43245102303e5d67c7e46"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0035-production-hardening.md": {
+    "size": 861,
+    "mtime_ns": 1782474479779333057,
+    "hash": "8a08e7441884bbf2ab1cc376cda474337a4fcbe3a1883d28a8d0bdc26f85ba43"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0036-observability.md": {
+    "size": 689,
+    "mtime_ns": 1782474479781850455,
+    "hash": "e9cc391c5105870817e33030580154dc201c7b604a8663f44c82b93404dee913"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0037-reliability.md": {
+    "size": 546,
+    "mtime_ns": 1782474479784328727,
+    "hash": "b31d6bcff3dc14b9dc6fae2bdd73cbc8e5f418478f99fc193c8f5b9c5b4877d7"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/ai/README.md": {
+    "size": 297,
+    "mtime_ns": 1782377691970003787,
+    "hash": "6a5a159270cc1cfc42e74ee705d25767d4803fe2399b292d02f6ae12a9841ea1"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/api/README.md": {
+    "size": 229,
+    "mtime_ns": 1782377691952414786,
+    "hash": "2249b50bc4c11ab3e5c0561b5241c23c9ad82a8c653fb089ed490bf0bb9eabea"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/architecture/README.md": {
+    "size": 271,
+    "mtime_ns": 1782377691949926251,
+    "hash": "604a6cd3bd24c3eb171064fdc07d7e515b266bd2fe3391237315121a3ac7450f"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/database/README.md": {
+    "size": 185,
+    "mtime_ns": 1782377691954715823,
+    "hash": "be9371da26236c20d256eff80aa759cdaf1c879cb1ae6d053ceab4209f2c0fc4"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/infrastructure/README.md": {
+    "size": 271,
+    "mtime_ns": 1782377691972153032,
+    "hash": "f5be0f02dea609a6cf4a33eff83e7c59128867d3ee82430d66fb3ad2510c7a93"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/meeting-notes/README.md": {
+    "size": 85,
+    "mtime_ns": 1782377691965697047,
+    "hash": "dd89b999aef31111693f841768d077e7829f0417bfa64bf67f061c00f561e84c"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/modules/README.md": {
+    "size": 220,
+    "mtime_ns": 1782377691957076067,
+    "hash": "0267cc33e89f67ff6772f668ad11831587e5461766bab2f5d4e709a139e42658"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/research/README.md": {
+    "size": 66,
+    "mtime_ns": 1782377691959267771,
+    "hash": "3602ab0f1f4a48c436337c6b06023b4dab7b780068e89aecf0cdcc24e4d920c4"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/roadmaps/README.md": {
+    "size": 60,
+    "mtime_ns": 1782377691961431557,
+    "hash": "220264f3f08e6f680745766b55939224c34535431dabdcf49cc5a4252bf2b260"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/security/README.md": {
+    "size": 253,
+    "mtime_ns": 1782377691967765126,
+    "hash": "0d46096471ba85dff19c84d650dd0359a76d6d6fdfb32f68bf8390174c08cbf0"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/sprint-notes/README.md": {
+    "size": 68,
+    "mtime_ns": 1782377691963568552,
+    "hash": "aa0f30dfc6addd4c5c111d43372d414c18abe5061ba3379ca5718ff0c6c89759"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/README.md": {
+    "size": 1064,
+    "mtime_ns": 1782458112658407213,
+    "hash": "ea4097bb99428b50d638bac613deb5423e184f0cc2c37ac7d3fa415cdcd98f0c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/README.md": {
+    "size": 1901,
+    "mtime_ns": 1782380421933497331,
+    "hash": "747d05d0433fae4ddc856b98de8f22cefadb557e9178fb57f36922f87228f8e8"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/agents/README.md": {
+    "size": 661,
+    "mtime_ns": 1782380106255609542,
+    "hash": "22690f1dc53d0974b6726bc2de96d59f05796879a716a15899bae175219b0c0f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/context/README.md": {
+    "size": 429,
+    "mtime_ns": 1782380148593206131,
+    "hash": "927a8106b2767cf1bcb35984f24de392662863b88e3f930863c62b6ae3a63d1e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/contracts/README.md": {
+    "size": 375,
+    "mtime_ns": 1782380289046577895,
+    "hash": "9f0bc547ec9c52f7c0b66953f0e5a709dc548bf3db3d1ed84b2cb2b4b0c263b9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/core/README.md": {
+    "size": 778,
+    "mtime_ns": 1782380053086466008,
+    "hash": "f75267e6fd1b2d4852a1960de2b12802750e7589ddccb5f9ce9f90500445c6fe"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/embeddings/README.md": {
+    "size": 347,
+    "mtime_ns": 1782380242043816739,
+    "hash": "9958a0471de672763a03ec4441c2895fc05e4901de01991dca0febfc088e2d82"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/evaluation/README.md": {
+    "size": 489,
+    "mtime_ns": 1782380304238211550,
+    "hash": "5cba78d74f31f41294491c57439f983565358fdf7abc6193975e930f14432562"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/execution/README.md": {
+    "size": 327,
+    "mtime_ns": 1782380126700241964,
+    "hash": "6524783b1e7cde0465d2a281a3644969661b65684fcad46125b2ce46aee15b0f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/memory/README.md": {
+    "size": 889,
+    "mtime_ns": 1782380171608530210,
+    "hash": "14057ee495262b891037698d4d2bb2c8e6574e4764a21f780282ed0a7c84d3b2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/planning/README.md": {
+    "size": 526,
+    "mtime_ns": 1782380208805173525,
+    "hash": "84887f2ef8b38aefac5fa4d2fed865851901494a53ac88cb53a7c3f47e9d2c96"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/prompts/README.md": {
+    "size": 583,
+    "mtime_ns": 1782380192404738183,
+    "hash": "009110a5cd07cc88e96aeb75ee375d8e3f176cd21286348fe3430f4824f7b7f5"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/reasoning/README.md": {
+    "size": 567,
+    "mtime_ns": 1782380224768399013,
+    "hash": "62b64a8086c6577fb38e453f512baa8f72669a7e71bb446ee88148be78dce04b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/registry/README.md": {
+    "size": 330,
+    "mtime_ns": 1782380114825089156,
+    "hash": "e6e965e4cf92d576c0ba0794b0e6944c82f7cd56bb45c96a950a3fdc8c38afb3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/router/README.md": {
+    "size": 732,
+    "mtime_ns": 1782380077533205963,
+    "hash": "de3cb93a56f1aeb8be85b0c81e20dd6509d406f9dd43f566684657695ba0186f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/safety/README.md": {
+    "size": 770,
+    "mtime_ns": 1782380324737128782,
+    "hash": "0cf20f2dab8038596369b0795162170f6655dec126c7ca2c475eab963ad8fd68"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/telemetry/README.md": {
+    "size": 423,
+    "mtime_ns": 1782380280485966020,
+    "hash": "56a8bef2f8dacd5d7da3f9527cc67f0f7ac6e242701a904b6776e6e807c40b45"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/tools/README.md": {
+    "size": 638,
+    "mtime_ns": 1782380257250497429,
+    "hash": "d8955a170a15ca2d705ea0eccbb91f7118ef316fa37d45f588556e24684218f1"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/README.md": {
+    "size": 476,
+    "mtime_ns": 1782377747329530844,
+    "hash": "ec994fdf1ec05203b60d581bc6ff9a73498641017301401aab6cb45d2c943429"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/automation/README.md": {
+    "size": 562,
+    "mtime_ns": 1782377747349837506,
+    "hash": "e406f7f85772548623d77cb653b371568fd13cbbd07cfaf3e50225955d489c05"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/database/README.md": {
+    "size": 296,
+    "mtime_ns": 1782377747331993964,
+    "hash": "e7c0632eb55ba23a7f2c6975baa01c32a1b4d900aac53bbc64430f29df793b57"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/README.md": {
+    "size": 574,
+    "mtime_ns": 1782377747343576312,
+    "hash": "90f44598d0336a0dbf538765cd4e15e2bff834d637c71357aeebc3f1f8e276f9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/README.md": {
+    "size": 697,
+    "mtime_ns": 1782460195400793867,
+    "hash": "24b4813a9511d42eff5eef7825cedd15cca395f8cb2fa34dfa4421945259e5f6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/README.md": {
+    "size": 2297,
+    "mtime_ns": 1782381364666292168,
+    "hash": "bab93fd29593629f56b18f37c9ab5d82f6d58cefabaa465a586fee2b9bee61e2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/command-bus/README.md": {
+    "size": 584,
+    "mtime_ns": 1782381180307414922,
+    "hash": "cda56f8a8c850a23bb800345708c1a893f56a82bbf4d278eaca30a4165d0a52b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/container/README.md": {
+    "size": 601,
+    "mtime_ns": 1782381138007448807,
+    "hash": "a0de968c965fe7fec2ecf6ba635994243d88519ba416c1d6e5997e9097f3e18d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/core/README.md": {
+    "size": 656,
+    "mtime_ns": 1782381116828728030,
+    "hash": "5a883d60c6475b589eb3178512679109f7f73318e889fa4f12f41a487845ccd7"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/event-runtime/README.md": {
+    "size": 641,
+    "mtime_ns": 1782381209052296166,
+    "hash": "21161ecc49a4da7b0821f982e3af950b3f0d49bacc56c4d3d6af4bbd7fe55939"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/execution/README.md": {
+    "size": 174,
+    "mtime_ns": 1782381345744059587,
+    "hash": "4dd51d922fd873efff14901e2698dd4ee6c206e469d17b3dd23ecdff6068eb40"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/health/README.md": {
+    "size": 173,
+    "mtime_ns": 1782381311416728939,
+    "hash": "190cd62877b72c9e5e8e7c00e01af194e54f1d27d95a8a1d75f5e3296f78b2e5"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/lifecycle/README.md": {
+    "size": 184,
+    "mtime_ns": 1782381311406557344,
+    "hash": "84837354fce812645a26c70f3f0e789a4699a162f14001fecb09552b96ddd786"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/loader/README.md": {
+    "size": 136,
+    "mtime_ns": 1782381284235327891,
+    "hash": "af401ef70275c42e7f35acaff8a1cc611a9d7496bf65ca568ea76a6114e01109"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/locks/README.md": {
+    "size": 163,
+    "mtime_ns": 1782381345726379424,
+    "hash": "3f2c290a1d798e54b7ce17f34a160c14c74e1213e46066615649cf620b1bfcb4"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/plugins/README.md": {
+    "size": 178,
+    "mtime_ns": 1782381284224620533,
+    "hash": "f320216a0f495d392cf9913d5f63204bfae627f8e5b61940322e9fc3ab9c9f2e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/query-bus/README.md": {
+    "size": 340,
+    "mtime_ns": 1782381191124160320,
+    "hash": "fad8368210fb0a2ee8deb1c6f29411c01eb144384223d98fbf2315f13635d297"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/registry/README.md": {
+    "size": 426,
+    "mtime_ns": 1782381151195924977,
+    "hash": "730faf8e0057e2ba074fe189173e5f4bcb0ec6b3c999fc4344b6626d160b28c9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/README.md": {
+    "size": 131,
+    "mtime_ns": 1782381345752390791,
+    "hash": "213ca399a4c2a0869a79a429a40baa40e5cccfb09bd1a99673ea6ade2c0177e6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/scheduler/README.md": {
+    "size": 497,
+    "mtime_ns": 1782381262382082247,
+    "hash": "a45bca429d6e9b0b919e5e62ad91a5a3d742d180c5e738e5529ed743b559d4f3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/services/README.md": {
+    "size": 157,
+    "mtime_ns": 1782381160077678336,
+    "hash": "6f1166998c06324c758ff2dcd546184b9325ab4219528a941f0ee4a34f09e723"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/state/README.md": {
+    "size": 173,
+    "mtime_ns": 1782381345736050884,
+    "hash": "33450e2ac3d0daf9a7df7576ea727c5a9bf263d424610dc483d32216a43aaa3d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/task-engine/README.md": {
+    "size": 415,
+    "mtime_ns": 1782381247454933940,
+    "hash": "b2c7c3ad9c9b717bff9babb4658ed0b770e068343bcf8e0614bc3e36d7e29f57"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/workflow-runtime/README.md": {
+    "size": 486,
+    "mtime_ns": 1782381232603225879,
+    "hash": "4dfda8b01cd090554950b879b197b0c002e73476cca55ea8c313a25d9c65c299"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/README.md": {
+    "size": 471,
+    "mtime_ns": 1782377747334355333,
+    "hash": "1bd3c1578a4ceafac35c0588915f4f1c736d113bd94062a2a3f25575181923ee"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/memory/README.md": {
+    "size": 559,
+    "mtime_ns": 1782377747345701307,
+    "hash": "f3e503298286065c3ff89c11c5397bfe86d271cbe2aefcd4c6d51fc455b88550"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/notifications/README.md": {
+    "size": 472,
+    "mtime_ns": 1782377747347801385,
+    "hash": "cea65dc49d8cf8e3321b92518188fbac9acfe354663f284ec1055e1537d20f9d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/sdk/README.md": {
+    "size": 219,
+    "mtime_ns": 1782377747339116114,
+    "hash": "7340c05151978c0c36b793c977314e1d59a4b5ad937826d45ee5f0023770b868"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/README.md": {
+    "size": 327,
+    "mtime_ns": 1782377747336558370,
+    "hash": "8847a78a36c0b97a56f51bf6a835e402f1205027a44aedfffd5dd39f23559806"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/validation/README.md": {
+    "size": 303,
+    "mtime_ns": 1782377747341404609,
+    "hash": "a2f08dbdbd4ce54a5f665b6efc24855c8f73a36103af3cb07618108bfee37a41"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/README.md": {
+    "size": 768,
+    "mtime_ns": 1782473685335578833,
+    "hash": "a568b71feca79c26c14be1cb1cd8df720750b595ac8800e8194a0e0fa57665b6"
+  },
+  "/Users/emir/Projects/APEX-OS/pnpm-workspace.yaml": {
+    "size": 56,
+    "mtime_ns": 1782377402125847292,
+    "hash": "4aca9dfe5aaa5fe9496c336dd791bb4bc9e95f77608bb0581f76bf1cac979cd5"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/README.md": {
+    "size": 325,
+    "mtime_ns": 1782377718736399309,
+    "hash": "3ed04d7f103575e7eecf2b317512a37c186f3628434fdd9143a29f10e0eb7fd6"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/README.md": {
+    "size": 410,
+    "mtime_ns": 1782377893376860768,
+    "hash": "73b05b823653ba8f21fb7524302865df09c004157ed7d8e8daa4f627b2dda5ce"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/docs/README.md": {
+    "size": 2635,
+    "mtime_ns": 1782382356168452429,
+    "hash": "0b726646be84789aba16a20b80d2cee8c2b64338d71b2b36bbf2db396837ea60"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/README.md": {
+    "size": 165,
+    "mtime_ns": 1782377890683116392,
+    "hash": "2a1b47f4f99298fdc32f9dda52937dab27af0d933e0129702465aaac0c6f00d7"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/seed/README.md": {
+    "size": 85,
+    "mtime_ns": 1782377891705463172,
+    "hash": "bd55b98e6142d59b78713f3e9744750fb0381eccdfcf3fa6c3195643e328f596"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/ai-worker/README.md": {
+    "size": 278,
+    "mtime_ns": 1782377627682880429,
+    "hash": "063d743d3fa185628acead944374189e2213d8618edef10e1156548718aee0e1"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/automation-worker/README.md": {
+    "size": 267,
+    "mtime_ns": 1782377635264416684,
+    "hash": "94c7f11628e83543b424294da437ee912b33236e5f8ce20b9edbd315b4481fe9"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/crawler-worker/README.md": {
+    "size": 265,
+    "mtime_ns": 1782377638548890068,
+    "hash": "b84bab5d6f21b2378a928e1402fd0d4b0416335d0758a3c018a3e769d6e91c13"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/memory-worker/README.md": {
+    "size": 270,
+    "mtime_ns": 1782377641608223808,
+    "hash": "986d1de2d6e071290694cec32e1095c4adc51101652f770b04ec0ed34bc2f7f3"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/notification-worker/README.md": {
+    "size": 252,
+    "mtime_ns": 1782377632263027976,
+    "hash": "5059811a5aa8d9b52cecd93edbe9f030b086caf49b042ad8243c0e997e1c4e1b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/scheduler/README.md": {
+    "size": 278,
+    "mtime_ns": 1782377629092023621,
+    "hash": "5aa1bb3eaf813e40bad2cfc572858c48ab24bdd130f63d15de284cae994e9a19"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/README.md": {
+    "size": 1889,
+    "mtime_ns": 1783066784288476730,
+    "hash": "16ca4037627cbfb9f577e1f75d9de76a41f7b73b818b8b6658459dd68c5ad773"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/exchanges/README.md": {
+    "size": 610,
+    "mtime_ns": 1783066789398199737,
+    "hash": "29f16c2f46d650d60a3cd8866729d21b23ddf0de0e438a1fcd07371ce240f262"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/services/README.md": {
+    "size": 868,
+    "mtime_ns": 1783066795549294295,
+    "hash": "dde4dd43db867a63fc258e0a495cac075ce4feab2eff3d1e6037f6679a317ba5"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/knowledge/README.md": {
+    "size": 1898,
+    "mtime_ns": 1783343768227456418,
+    "hash": "0565178d04b818de52d5ae2474beb731edd6a90635ab034ee20d6fc282ab1e82"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/README.md": {
+    "size": 2886,
+    "mtime_ns": 1783409282718649407,
+    "hash": "8e3d161dd652d8c4cb7a94191f950a76b130fe489862db3b40f6b4d57461b17a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/README.md": {
+    "size": 2877,
+    "mtime_ns": 1783432729174723595,
+    "hash": "76dd297a06835632c66b40c96eb393cbd58f922e1673bd9f187ef0d16783ebd2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/README.md": {
+    "size": 2315,
+    "mtime_ns": 1783451573885524632,
+    "hash": "cdd189625f64681c0c006f856ebd439820fac1f50cdcbcd43fcc8204220118bc"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/README.md": {
+    "size": 2584,
+    "mtime_ns": 1783452656252571890,
+    "hash": "240f9ca10ca3b684123ee9c1d8547d058536fbdd680218008907f95a571d2731"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/README.md": {
+    "size": 2216,
+    "mtime_ns": 1783502285221206578,
+    "hash": "4dc872308dcc5e5be12777799a79ad3bfa15026b8be2ed22abe4c7fbf3a9b38a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/README.md": {
+    "size": 2398,
+    "mtime_ns": 1783505302559450350,
+    "hash": "426f27592ba1f6ebe21df0e20b85b409e9fb0ff9919fb75f2e37b4d23be48bd0"
+  }
+}

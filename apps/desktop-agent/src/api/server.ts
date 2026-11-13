@@ -24,8 +24,27 @@ export function createAgentServer(agent: DesktopAgent, port = 9120): http.Server
       } else if (path === '/api/desktop/apps') {
         const apps = agent.getAppUsage();
         respond(res, 200, { apps, count: apps.length });
+      } else if (path === '/api/desktop/focus') {
+        const focus = agent.getFocusData();
+        respond(res, 200, focus);
+      } else if (path === '/api/desktop/browser') {
+        const status = await agent.getStatus();
+        respond(res, 200, { browser: status.browserState });
+      } else if (path === '/api/desktop/timeline') {
+        const timeline = agent.getTimeline();
+        respond(res, 200, timeline);
+      } else if (path === '/api/desktop/timeline/history') {
+        respond(res, 200, { days: agent.getDailySummaries() });
+      } else if (path === '/api/desktop/privacy') {
+        respond(res, 200, agent.getPrivacyConfig());
       } else if (path === '/health') {
-        respond(res, 200, { status: 'ok', uptime: process.uptime() });
+        respond(res, 200, {
+          status: 'ok',
+          uptime: process.uptime(),
+          sync: agent.getSyncStats(),
+          timelineMemory: agent.getTimelineMemoryStats(),
+          process: agent.getProcessMetrics(),
+        });
       } else {
         respond(res, 404, { error: 'Not found' });
       }

@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "e_commerce_e_commerce_module",
+      "label": "E-Commerce Module",
+      "file_type": "document",
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "e_commerce_shopify",
+      "label": "Shopify",
+      "file_type": "concept",
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "e_commerce_etsy",
+      "label": "Etsy",
+      "file_type": "concept",
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "e_commerce_printify",
+      "label": "Printify",
+      "file_type": "concept",
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "e_commerce_trendyol",
+      "label": "Trendyol",
+      "file_type": "concept",
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "e_commerce_amazon",
+      "label": "Amazon",
+      "file_type": "concept",
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "e_commerce_e_commerce_module",
+      "target": "e_commerce_shopify",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "e_commerce_e_commerce_module",
+      "target": "e_commerce_etsy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "e_commerce_e_commerce_module",
+      "target": "e_commerce_printify",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "e_commerce_e_commerce_module",
+      "target": "e_commerce_trendyol",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "e_commerce_e_commerce_module",
+      "target": "e_commerce_amazon",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "e_commerce_e_commerce_module",
+      "target": "api_ecommerce_endpoint",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "07_MODULES/E-Commerce.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

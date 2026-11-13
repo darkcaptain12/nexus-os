@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getWorkflowRuntime } from '@/lib/workflows/engine-instance';
 
-export async function POST(request: Request) {
+async function handlePOST(request: Request) {
   const { workflowId } = await request.json().catch(() => ({}));
   if (!workflowId) return NextResponse.json({ error: 'workflowId required' }, { status: 400 });
 
@@ -13,3 +14,5 @@ export async function POST(request: Request) {
   wf.updatedAt = new Date().toISOString();
   return NextResponse.json(wf);
 }
+
+export const POST = withErrorBoundary(handlePOST);

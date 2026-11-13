@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "validation_readme_apex_os_validation",
+      "label": "@apex-os/validation",
+      "file_type": "code",
+      "source_file": "packages/validation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "validation_readme_idschema",
+      "label": "idSchema",
+      "file_type": "code",
+      "source_file": "packages/validation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "validation_readme_paginationschema",
+      "label": "paginationSchema",
+      "file_type": "code",
+      "source_file": "packages/validation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "validation_readme_daterangeschema",
+      "label": "dateRangeSchema",
+      "file_type": "code",
+      "source_file": "packages/validation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "validation_readme_apex_os_validation",
+      "target": "validation_readme_idschema",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/validation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "validation_readme_apex_os_validation",
+      "target": "validation_readme_paginationschema",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/validation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "validation_readme_apex_os_validation",
+      "target": "validation_readme_daterangeschema",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/validation/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

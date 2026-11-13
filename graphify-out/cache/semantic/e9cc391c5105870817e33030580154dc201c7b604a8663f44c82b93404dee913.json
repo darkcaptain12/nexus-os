@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "0036_observability_adr_0036",
+      "label": "ADR-0036: Observability Stack",
+      "file_type": "document",
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0036_observability_metricscollector",
+      "label": "MetricsCollector (in-process)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Without metrics and tracing, production issues are invisible until users report them."
+    },
+    {
+      "id": "0036_observability_system_metrics_endpoint",
+      "label": "GET /api/system/metrics",
+      "file_type": "concept",
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0036_observability_system_dashboard",
+      "label": "System Dashboard (/system)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0036_observability_counters",
+      "label": "Counters (requests.total, requests.errors, requests.slow)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0036_observability_timers",
+      "label": "Timers (slow detection >1000ms)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0036_observability_traces",
+      "label": "Traces (method, path, status, duration, correlationId)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0036_observability_health_8_checks",
+      "label": "Health (8 subsystem checks)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0036_observability_adr_0036",
+      "target": "0036_observability_metricscollector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0036_observability_metricscollector",
+      "target": "0036_observability_counters",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0036_observability_metricscollector",
+      "target": "0036_observability_timers",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0036_observability_metricscollector",
+      "target": "0036_observability_traces",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0036_observability_metricscollector",
+      "target": "0036_observability_system_metrics_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0036_observability_system_dashboard",
+      "target": "0036_observability_health_8_checks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0036_observability_health_8_checks",
+      "target": "0035_production_hardening_health_checks",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/adr/0036-observability.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

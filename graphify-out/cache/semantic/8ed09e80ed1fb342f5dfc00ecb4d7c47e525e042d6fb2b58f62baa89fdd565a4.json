@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0018_identity_auth_identity_platform",
+      "label": "Identity Platform with Supabase Auth",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0018_identity_auth_supabase_ssr",
+      "label": "@supabase/ssr",
+      "file_type": "concept",
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0018_identity_auth_session_management",
+      "label": "Cookie-Based Session Management",
+      "file_type": "concept",
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0018_identity_auth_middleware_guard",
+      "label": "Middleware Route Guard",
+      "file_type": "concept",
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0018_identity_auth_mock_client",
+      "label": "Mock Supabase Client",
+      "file_type": "concept",
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0018_identity_auth_identity_platform",
+      "target": "docs_adr_0016_database_foundation_supabase",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0016_database_foundation_row_level_security",
+      "target": "docs_adr_0018_identity_auth_identity_platform",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0018_identity_auth_identity_platform",
+      "target": "docs_adr_0018_identity_auth_supabase_ssr",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0018_identity_auth_identity_platform",
+      "target": "docs_adr_0018_identity_auth_session_management",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0018_identity_auth_identity_platform",
+      "target": "docs_adr_0018_identity_auth_middleware_guard",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0018_identity_auth_identity_platform",
+      "target": "docs_adr_0018_identity_auth_mock_client",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0018_identity_auth_mock_client",
+      "target": "docs_adr_0025_live_supabase_environment_validation",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/adr/0018-identity-auth.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

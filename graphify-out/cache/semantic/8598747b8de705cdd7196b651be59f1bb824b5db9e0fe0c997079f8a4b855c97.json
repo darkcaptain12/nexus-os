@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "0004_turborepo_adr",
+      "label": "ADR-0004: Turborepo for Build Orchestration",
+      "file_type": "document",
+      "source_file": "docs/adr/0004-turborepo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0004_turborepo_decision",
+      "label": "Turborepo task orchestration decision (caching, parallel execution, dependency graph)",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0004-turborepo.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0004_turborepo_adr",
+      "target": "0004_turborepo_decision",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0004-turborepo.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

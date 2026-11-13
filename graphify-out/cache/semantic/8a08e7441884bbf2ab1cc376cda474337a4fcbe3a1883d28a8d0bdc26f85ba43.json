@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "id": "0035_production_hardening_nexuserror",
+      "label": "NexusError",
+      "file_type": "concept",
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0035_production_hardening_metrics_collector",
+      "label": "Metrics Collector",
+      "file_type": "concept",
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0035_production_hardening_health_checks",
+      "label": "Health Checks",
+      "file_type": "concept",
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0035_production_hardening_security_headers",
+      "label": "Security Headers",
+      "file_type": "concept",
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0035_production_hardening_centralized_configuration",
+      "label": "Centralized Configuration",
+      "file_type": "concept",
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0035_production_hardening_rate_limiting",
+      "label": "Rate Limiting",
+      "file_type": "concept",
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0035_production_hardening_production_readiness_checklist",
+      "label": "Production Readiness Checklist",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "NEXUS OS had 12 epics of functionality but lacked production-grade error handling, observability, security headers, and configuration validation; the checklist validates env vars, database, RLS, storage, and kernel before deployment."
+    },
+    {
+      "id": "0035_production_hardening_adr_0035",
+      "label": "ADR-0035: Production Hardening",
+      "file_type": "document",
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0035_production_hardening_adr_0035",
+      "target": "0035_production_hardening_nexuserror",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0035_production_hardening_adr_0035",
+      "target": "0035_production_hardening_metrics_collector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0035_production_hardening_adr_0035",
+      "target": "0035_production_hardening_health_checks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0035_production_hardening_adr_0035",
+      "target": "0035_production_hardening_security_headers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0035_production_hardening_adr_0035",
+      "target": "0035_production_hardening_centralized_configuration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0035_production_hardening_adr_0035",
+      "target": "0035_production_hardening_rate_limiting",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0035_production_hardening_adr_0035",
+      "target": "0035_production_hardening_production_readiness_checklist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0035_production_hardening_production_readiness_checklist",
+      "target": "0035_production_hardening_health_checks",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0035-production-hardening.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

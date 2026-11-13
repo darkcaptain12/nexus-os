@@ -1,0 +1,3842 @@
+{
+  "/Users/emir/Projects/APEX-OS/.claude/launch.json": {
+    "mtime": 1782377142.493143,
+    "ast_hash": "13e13f3d65a0b8c349a0039fe1e7380f",
+    "semantic_hash": "13e13f3d65a0b8c349a0039fe1e7380f"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/applypatch-msg": {
+    "mtime": 1782820288.502025,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/commit-msg": {
+    "mtime": 1782820288.501624,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/h": {
+    "mtime": 1782820288.5006871,
+    "ast_hash": "15239a01c5554e56ff745570fb583a91",
+    "semantic_hash": "15239a01c5554e56ff745570fb583a91"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/husky.sh": {
+    "mtime": 1782820288.5032172,
+    "ast_hash": "13871d2ab13e8423790ecb2c01c78c18",
+    "semantic_hash": "13871d2ab13e8423790ecb2c01c78c18"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/post-applypatch": {
+    "mtime": 1782820288.502261,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/post-checkout": {
+    "mtime": 1782820288.5028272,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/post-commit": {
+    "mtime": 1782820288.5017045,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/post-merge": {
+    "mtime": 1782820288.5029297,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/post-rewrite": {
+    "mtime": 1782820288.5026133,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/pre-applypatch": {
+    "mtime": 1782820288.5021865,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/pre-auto-gc": {
+    "mtime": 1782820288.5031126,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/pre-commit": {
+    "mtime": 1782820288.501051,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/pre-merge-commit": {
+    "mtime": 1782820288.5011857,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/pre-push": {
+    "mtime": 1782820288.5030463,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/pre-rebase": {
+    "mtime": 1782820288.502325,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.husky/_/prepare-commit-msg": {
+    "mtime": 1782820288.5013678,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
+    "semantic_hash": "0b71c2e7d39daa010985d529f1320b37"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/app.json": {
+    "mtime": 1782809177.794907,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/appearance.json": {
+    "mtime": 1782809177.7954988,
+    "ast_hash": "f2ebdd764d4d0a9f4eb099e25c250f78",
+    "semantic_hash": "f2ebdd764d4d0a9f4eb099e25c250f78"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/core-plugins.json": {
+    "mtime": 1782809177.3250272,
+    "ast_hash": "7c877bea49eaeabb100563bd157b9051",
+    "semantic_hash": "7c877bea49eaeabb100563bd157b9051"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/graph.json": {
+    "mtime": 1782809181.132999,
+    "ast_hash": "59f82cba9dc41bc4f077bccd53e23955",
+    "semantic_hash": "59f82cba9dc41bc4f077bccd53e23955"
+  },
+  "/Users/emir/Projects/APEX-OS/.obsidian/workspace.json": {
+    "mtime": 1782809177.9115052,
+    "ast_hash": "5072f1a98cf3f4109f1e0eb76a50124e",
+    "semantic_hash": "5072f1a98cf3f4109f1e0eb76a50124e"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/app.json": {
+    "mtime": 1782376932.934831,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/appearance.json": {
+    "mtime": 1782376932.9361994,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/core-plugins.json": {
+    "mtime": 1782376932.4454896,
+    "ast_hash": "7c877bea49eaeabb100563bd157b9051",
+    "semantic_hash": "7c877bea49eaeabb100563bd157b9051"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/graph.json": {
+    "mtime": 1782376497.069,
+    "ast_hash": "41ffa915f9d880d061cd7db53a247fe1",
+    "semantic_hash": "41ffa915f9d880d061cd7db53a247fe1"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/.obsidian/workspace.json": {
+    "mtime": 1782376932.9526503,
+    "ast_hash": "d55971314df0c55c1f72f599e93e6b0f",
+    "semantic_hash": "d55971314df0c55c1f72f599e93e6b0f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/browser-extension/package.json": {
+    "mtime": 1782377603.2372591,
+    "ast_hash": "87641d415e94309bd630150ccb9e1357",
+    "semantic_hash": "87641d415e94309bd630150ccb9e1357"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/package.json": {
+    "mtime": 1782414249.462022,
+    "ast_hash": "14a9fce621389da10047d60cffed6c39",
+    "semantic_hash": "14a9fce621389da10047d60cffed6c39"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/api/server.ts": {
+    "mtime": 1782820049.346175,
+    "ast_hash": "d18c6e757c4c184bda2056909b6a227c",
+    "semantic_hash": "d18c6e757c4c184bda2056909b6a227c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/collectors/app-categorizer.ts": {
+    "mtime": 1782737773.18922,
+    "ast_hash": "7081fb54bfada662fbf15bc4912f6f03",
+    "semantic_hash": "7081fb54bfada662fbf15bc4912f6f03"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/collectors/browser-collector.ts": {
+    "mtime": 1782414014.9016066,
+    "ast_hash": "24bd686b7fd31208f4247a4a36c548c5",
+    "semantic_hash": "24bd686b7fd31208f4247a4a36c548c5"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/collectors/ide-collector.ts": {
+    "mtime": 1782414324.7495751,
+    "ast_hash": "8d1c1961cdd94add5a4a3418577e6e23",
+    "semantic_hash": "8d1c1961cdd94add5a4a3418577e6e23"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/collectors/system-collector.ts": {
+    "mtime": 1782413998.9992857,
+    "ast_hash": "85a748837be7cd2330e79acae58124bb",
+    "semantic_hash": "85a748837be7cd2330e79acae58124bb"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/collectors/window-collector.ts": {
+    "mtime": 1782494495.551697,
+    "ast_hash": "77742010a6e2d716fdf20199561c874c",
+    "semantic_hash": "77742010a6e2d716fdf20199561c874c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/main.ts": {
+    "mtime": 1782414081.83891,
+    "ast_hash": "cd5b7ea35845f790130ffdb29fc2c8b3",
+    "semantic_hash": "cd5b7ea35845f790130ffdb29fc2c8b3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/privacy/sanitizer.ts": {
+    "mtime": 1782801656.9592144,
+    "ast_hash": "02da9a3d0662d50015a51ebfe80f0e59",
+    "semantic_hash": "02da9a3d0662d50015a51ebfe80f0e59"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/services/activity-timeline.ts": {
+    "mtime": 1782809448.2730267,
+    "ast_hash": "b929b9c967029f9afb4fb993a2b814ce",
+    "semantic_hash": "b929b9c967029f9afb4fb993a2b814ce"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/services/circular-buffer.ts": {
+    "mtime": 1782809494.5019577,
+    "ast_hash": "98109173a4bb023730e0a04ea9486abf",
+    "semantic_hash": "98109173a4bb023730e0a04ea9486abf"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/services/desktop-agent.ts": {
+    "mtime": 1782820356.209004,
+    "ast_hash": "7de3dd08e45f87d313b0158322d1f2f5",
+    "semantic_hash": "7de3dd08e45f87d313b0158322d1f2f5"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/services/productivity-engine.ts": {
+    "mtime": 1782801743.9635868,
+    "ast_hash": "a4f570ed444c3b6650403fca4512c351",
+    "semantic_hash": "a4f570ed444c3b6650403fca4512c351"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/sync/desktop-sync.ts": {
+    "mtime": 1782456168.3937497,
+    "ast_hash": "96aa78717134560b00c01ae1236a2d40",
+    "semantic_hash": "96aa78717134560b00c01ae1236a2d40"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/src/types/index.ts": {
+    "mtime": 1782809107.6988778,
+    "ast_hash": "5c889e8e319db12cb2ad7f7132e70701",
+    "semantic_hash": "5c889e8e319db12cb2ad7f7132e70701"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tests/activity-timeline.test.ts": {
+    "mtime": 1782809231.681393,
+    "ast_hash": "acea2ee864fa97768edb91e913e9df7d",
+    "semantic_hash": "acea2ee864fa97768edb91e913e9df7d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tests/app-categorizer.test.ts": {
+    "mtime": 1782737877.0929458,
+    "ast_hash": "b1e8ca5897a4c43b74818214de7940e0",
+    "semantic_hash": "b1e8ca5897a4c43b74818214de7940e0"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tests/circular-buffer.test.ts": {
+    "mtime": 1782809463.908802,
+    "ast_hash": "f0f2fe012e8b8e801b99b2670715654c",
+    "semantic_hash": "f0f2fe012e8b8e801b99b2670715654c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tests/collectors.test.ts": {
+    "mtime": 1782414214.739435,
+    "ast_hash": "4d9fe0164bf5cf8a97925572eeb05b89",
+    "semantic_hash": "4d9fe0164bf5cf8a97925572eeb05b89"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tests/desktop-sync.test.ts": {
+    "mtime": 1782456231.2016294,
+    "ast_hash": "3c6c85719915559afd27c95099e3417d",
+    "semantic_hash": "3c6c85719915559afd27c95099e3417d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tests/productivity-engine.test.ts": {
+    "mtime": 1782801817.9487994,
+    "ast_hash": "14ede5b6bc47ec03a5bb0b1fcd1645cc",
+    "semantic_hash": "14ede5b6bc47ec03a5bb0b1fcd1645cc"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tests/sanitizer.test.ts": {
+    "mtime": 1782801779.8704612,
+    "ast_hash": "4a75b4db4265fa12133b91bdf661bc75",
+    "semantic_hash": "4a75b4db4265fa12133b91bdf661bc75"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/tsconfig.json": {
+    "mtime": 1782413955.9164321,
+    "ast_hash": "a544d1b3c3a942023f243212005cc35d",
+    "semantic_hash": "a544d1b3c3a942023f243212005cc35d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/vitest.config.ts": {
+    "mtime": 1782414182.2106225,
+    "ast_hash": "b628c1a034860362d14278c3a9f1ba70",
+    "semantic_hash": "b628c1a034860362d14278c3a9f1ba70"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/mcp-server/package.json": {
+    "mtime": 1782377607.419982,
+    "ast_hash": "82655f59145aaaa51110233a9414b2d4",
+    "semantic_hash": "82655f59145aaaa51110233a9414b2d4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/mobile/package.json": {
+    "mtime": 1782377595.1176302,
+    "ast_hash": "cdeada7a022b469ce67e9f8ef0941aa7",
+    "semantic_hash": "cdeada7a022b469ce67e9f8ef0941aa7"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/next-env.d.ts": {
+    "mtime": 1782494895.448966,
+    "ast_hash": "2a74d3909800ca5467fa83b0ab4a4890",
+    "semantic_hash": "2a74d3909800ca5467fa83b0ab4a4890"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/next.config.ts": {
+    "mtime": 1782473765.7640092,
+    "ast_hash": "40a2d4f15b6a9a4c377fc0d9380b747c",
+    "semantic_hash": "40a2d4f15b6a9a4c377fc0d9380b747c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/package.json": {
+    "mtime": 1782820252.3694093,
+    "ast_hash": "89d9c25957a682e6d8006ffb4e016b94",
+    "semantic_hash": "89d9c25957a682e6d8006ffb4e016b94"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/postcss.config.mjs": {
+    "mtime": 1782376859.9457364,
+    "ast_hash": "e9d66e1263ec6f84f9c7f4b88b00e4f9",
+    "semantic_hash": "e9d66e1263ec6f84f9c7f4b88b00e4f9"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(auth)/auth/callback/route.ts": {
+    "mtime": 1782396196.539175,
+    "ast_hash": "735b98af8aa4c56df4c13eb141cc2217",
+    "semantic_hash": "735b98af8aa4c56df4c13eb141cc2217"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(auth)/giris/page.tsx": {
+    "mtime": 1782396222.527225,
+    "ast_hash": "dbd0bc662e7edae79b7f630a85aa2789",
+    "semantic_hash": "dbd0bc662e7edae79b7f630a85aa2789"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(auth)/kayit/page.tsx": {
+    "mtime": 1782396225.9287293,
+    "ast_hash": "b11e2a0c38bfd8d0ba6eab2ac2cce427",
+    "semantic_hash": "b11e2a0c38bfd8d0ba6eab2ac2cce427"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(auth)/layout.tsx": {
+    "mtime": 1782396384.7110178,
+    "ast_hash": "0183a4fa2fcd6130cbced10ddd19f638",
+    "semantic_hash": "0183a4fa2fcd6130cbced10ddd19f638"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(auth)/sifre-sifirla/page.tsx": {
+    "mtime": 1782396228.049472,
+    "ast_hash": "a16c8197c12e2f23f406bb78ea205e91",
+    "semantic_hash": "a16c8197c12e2f23f406bb78ea205e91"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/actions/page.tsx": {
+    "mtime": 1782458202.2459488,
+    "ast_hash": "5eba56c325c42ed5060081d55cbdb2e6",
+    "semantic_hash": "5eba56c325c42ed5060081d55cbdb2e6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/ai/page.tsx": {
+    "mtime": 1782396306.050552,
+    "ast_hash": "27eb3a0d77f7ccb339794064c22899db",
+    "semantic_hash": "27eb3a0d77f7ccb339794064c22899db"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/ayarlar/page.tsx": {
+    "mtime": 1782494495.593771,
+    "ast_hash": "1fffb244aa892db0effe373202f4ce77",
+    "semantic_hash": "1fffb244aa892db0effe373202f4ce77"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/bellek/page.tsx": {
+    "mtime": 1782414779.0190053,
+    "ast_hash": "590f24bd5b4c1ce6880fddfcce4f4ea5",
+    "semantic_hash": "590f24bd5b4c1ce6880fddfcce4f4ea5"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/bildirimler/page.tsx": {
+    "mtime": 1782396306.1362484,
+    "ast_hash": "4a717ca3dd1ef5b2aeb2aee476e3c969",
+    "semantic_hash": "4a717ca3dd1ef5b2aeb2aee476e3c969"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/dashboard/page.tsx": {
+    "mtime": 1782717612.631169,
+    "ast_hash": "aef62ed895d5c26a502883b33f95a99a",
+    "semantic_hash": "aef62ed895d5c26a502883b33f95a99a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/e-ticaret/page.tsx": {
+    "mtime": 1782396306.1183093,
+    "ast_hash": "be272aec5ff7ca437211abef7e272a47",
+    "semantic_hash": "be272aec5ff7ca437211abef7e272a47"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/gorevler/page.tsx": {
+    "mtime": 1782589961.1046062,
+    "ast_hash": "dc3335a8ffa42449856ec61b3724b572",
+    "semantic_hash": "dc3335a8ffa42449856ec61b3724b572"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/integrations/page.tsx": {
+    "mtime": 1782460356.1570044,
+    "ast_hash": "e2a44b570dd839be755c2a576a88b62c",
+    "semantic_hash": "e2a44b570dd839be755c2a576a88b62c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/layout.tsx": {
+    "mtime": 1782494495.617289,
+    "ast_hash": "427498a76fce2649987fd8e712c7f375",
+    "semantic_hash": "427498a76fce2649987fd8e712c7f375"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/projeler/page.tsx": {
+    "mtime": 1782590508.3009193,
+    "ast_hash": "a80dd018a539e96d01e19db94cd45e15",
+    "semantic_hash": "a80dd018a539e96d01e19db94cd45e15"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/system/page.tsx": {
+    "mtime": 1782820195.6082175,
+    "ast_hash": "447a8b301334e2e9688ad13538ae275d",
+    "semantic_hash": "447a8b301334e2e9688ad13538ae275d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/takvim/page.tsx": {
+    "mtime": 1782396306.1243172,
+    "ast_hash": "88b1051808721362256e008cea3a3026",
+    "semantic_hash": "88b1051808721362256e008cea3a3026"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/trading/page.tsx": {
+    "mtime": 1782396306.1085522,
+    "ast_hash": "33fd1075f37da1097e9b9541b1db6b8a",
+    "semantic_hash": "33fd1075f37da1097e9b9541b1db6b8a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/(dashboard)/workflows/page.tsx": {
+    "mtime": 1782473754.604209,
+    "ast_hash": "35bf4da4bb024e85bf091fce1f8f428d",
+    "semantic_hash": "35bf4da4bb024e85bf091fce1f8f428d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/actions/approve/route.ts": {
+    "mtime": 1782458156.8954022,
+    "ast_hash": "0d303d541263fa0d88d09c22cbf555ed",
+    "semantic_hash": "0d303d541263fa0d88d09c22cbf555ed"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/actions/execute/route.ts": {
+    "mtime": 1782458154.543193,
+    "ast_hash": "2e69ab9a1c05ae06f59ff21fe68af3fe",
+    "semantic_hash": "2e69ab9a1c05ae06f59ff21fe68af3fe"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/actions/history/route.ts": {
+    "mtime": 1782458160.6852489,
+    "ast_hash": "f193adae4d4ffa5f89b720b0bb6c19f4",
+    "semantic_hash": "f193adae4d4ffa5f89b720b0bb6c19f4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/actions/pending/route.ts": {
+    "mtime": 1782458162.0738463,
+    "ast_hash": "1ffba996cd2ec9f33cef99b017b2a269",
+    "semantic_hash": "1ffba996cd2ec9f33cef99b017b2a269"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/actions/reject/route.ts": {
+    "mtime": 1782458159.2294526,
+    "ast_hash": "1f1e90212060da30edee7b33ac03bd3a",
+    "semantic_hash": "1f1e90212060da30edee7b33ac03bd3a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/ai/briefing/route.ts": {
+    "mtime": 1782413379.025547,
+    "ast_hash": "151564aa30c122b89d112fb24dec3dc5",
+    "semantic_hash": "151564aa30c122b89d112fb24dec3dc5"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/ai/executive/route.ts": {
+    "mtime": 1782820120.7859766,
+    "ast_hash": "b733320c1f81c80716ec4be3d373e0b8",
+    "semantic_hash": "b733320c1f81c80716ec4be3d373e0b8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/ai/plan/route.ts": {
+    "mtime": 1782591123.2906632,
+    "ast_hash": "3da51f5d759eb18232a86da855b8500e",
+    "semantic_hash": "3da51f5d759eb18232a86da855b8500e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/ai/productivity/route.ts": {
+    "mtime": 1782820124.7721386,
+    "ast_hash": "f6c35dd9328370cde0fd04c032ec6465",
+    "semantic_hash": "f6c35dd9328370cde0fd04c032ec6465"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/ai/recommendations/route.ts": {
+    "mtime": 1782413380.4414845,
+    "ast_hash": "901b1719df481428723d6f009ae5b96f",
+    "semantic_hash": "901b1719df481428723d6f009ae5b96f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/ai/risks/route.ts": {
+    "mtime": 1782591121.9175093,
+    "ast_hash": "0e12f951928afc4648604e740d3c9fe4",
+    "semantic_hash": "0e12f951928afc4648604e740d3c9fe4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/ai/status/route.ts": {
+    "mtime": 1782413381.310038,
+    "ast_hash": "faed5576f8c88c753afdb64f83a2e91c",
+    "semantic_hash": "faed5576f8c88c753afdb64f83a2e91c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/ai/weekly/route.ts": {
+    "mtime": 1782591124.270066,
+    "ast_hash": "ef592aa507eaed1f53d534c7d34dee08",
+    "semantic_hash": "ef592aa507eaed1f53d534c7d34dee08"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/desktop/activity/route.ts": {
+    "mtime": 1782414106.727076,
+    "ast_hash": "cfb6e4f94efa1ffa5149f7dc1ede554d",
+    "semantic_hash": "cfb6e4f94efa1ffa5149f7dc1ede554d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/desktop/apps/route.ts": {
+    "mtime": 1782414109.1839488,
+    "ast_hash": "1f05decb17e8fc9637b51e073a8b7b36",
+    "semantic_hash": "1f05decb17e8fc9637b51e073a8b7b36"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/desktop/browser/route.ts": {
+    "mtime": 1782737845.5488582,
+    "ast_hash": "c6b715d7e308385885f30c5f562bf6b4",
+    "semantic_hash": "c6b715d7e308385885f30c5f562bf6b4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/desktop/focus/route.ts": {
+    "mtime": 1782737844.6376991,
+    "ast_hash": "8421edae4b477a4fbae0b36e94659f36",
+    "semantic_hash": "8421edae4b477a4fbae0b36e94659f36"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/desktop/productivity/route.ts": {
+    "mtime": 1782414108.1711936,
+    "ast_hash": "d2a6c4d20b794858381c630210a743f3",
+    "semantic_hash": "d2a6c4d20b794858381c630210a743f3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/desktop/status/route.ts": {
+    "mtime": 1782414104.8982124,
+    "ast_hash": "507f1c1a8128faf109bba4c8650e54bc",
+    "semantic_hash": "507f1c1a8128faf109bba4c8650e54bc"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/desktop/sync/route.ts": {
+    "mtime": 1782457518.9949338,
+    "ast_hash": "b4cbebf1e6c34929d6618d9f78ab8813",
+    "semantic_hash": "b4cbebf1e6c34929d6618d9f78ab8813"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/desktop/timeline/route.ts": {
+    "mtime": 1782737846.7783065,
+    "ast_hash": "87ba16c710b9ab834c3793e64515901a",
+    "semantic_hash": "87ba16c710b9ab834c3793e64515901a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/integrations/connect/route.ts": {
+    "mtime": 1782460218.9413323,
+    "ast_hash": "c6f2b1b7f0661223c1e6381e63258f8a",
+    "semantic_hash": "c6f2b1b7f0661223c1e6381e63258f8a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/integrations/disconnect/route.ts": {
+    "mtime": 1782460220.7233253,
+    "ast_hash": "d08fea6a976ef3e932e3397d60a2203e",
+    "semantic_hash": "d08fea6a976ef3e932e3397d60a2203e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/integrations/execute/route.ts": {
+    "mtime": 1782460222.9853802,
+    "ast_hash": "850188145a87314217e1e35d2e939e6d",
+    "semantic_hash": "850188145a87314217e1e35d2e939e6d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/integrations/health/route.ts": {
+    "mtime": 1782460224.2702463,
+    "ast_hash": "7d82f38bde58468d321943546cc9d165",
+    "semantic_hash": "7d82f38bde58468d321943546cc9d165"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/integrations/route.ts": {
+    "mtime": 1782460215.452613,
+    "ast_hash": "c6058bc86c8b123ad2f3418d580c75bb",
+    "semantic_hash": "c6058bc86c8b123ad2f3418d580c75bb"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/integrations/sync/route.ts": {
+    "mtime": 1782718365.2779427,
+    "ast_hash": "7f0f0f0f848853f217c531e0caa32619",
+    "semantic_hash": "7f0f0f0f848853f217c531e0caa32619"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/memory/duplicates/route.ts": {
+    "mtime": 1782718063.2598317,
+    "ast_hash": "632cf8e76e2aad2c53635a74e450d806",
+    "semantic_hash": "632cf8e76e2aad2c53635a74e450d806"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/memory/graph/route.ts": {
+    "mtime": 1782718059.046076,
+    "ast_hash": "9c8f96e738c9f6cf89109ba863f2f178",
+    "semantic_hash": "9c8f96e738c9f6cf89109ba863f2f178"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/memory/health/route.ts": {
+    "mtime": 1782820128.7784534,
+    "ast_hash": "e133bcba18e7458e7a886c094406042d",
+    "semantic_hash": "e133bcba18e7458e7a886c094406042d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/memory/journal/route.ts": {
+    "mtime": 1782414673.545946,
+    "ast_hash": "23741fdd7d45fa4664e1b5981a52011b",
+    "semantic_hash": "23741fdd7d45fa4664e1b5981a52011b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/memory/projects/route.ts": {
+    "mtime": 1782414675.1197367,
+    "ast_hash": "72c1e3407cbb083c6466a261ad78befa",
+    "semantic_hash": "72c1e3407cbb083c6466a261ad78befa"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/memory/related/route.ts": {
+    "mtime": 1782718061.3749943,
+    "ast_hash": "3ec369ab0ded8d6f5135bb4af7d8733f",
+    "semantic_hash": "3ec369ab0ded8d6f5135bb4af7d8733f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/memory/search/route.ts": {
+    "mtime": 1782414671.1369045,
+    "ast_hash": "6fc6a56397541b2e04729bbdf91ad08d",
+    "semantic_hash": "6fc6a56397541b2e04729bbdf91ad08d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/memory/timeline/route.ts": {
+    "mtime": 1782414668.7758734,
+    "ast_hash": "fa3b020ca01ccf0a5bd202731d6666f5",
+    "semantic_hash": "fa3b020ca01ccf0a5bd202731d6666f5"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/oauth/github/callback/route.ts": {
+    "mtime": 1782481776.3874938,
+    "ast_hash": "00558d96df33ae9a742d448a3e6ee700",
+    "semantic_hash": "00558d96df33ae9a742d448a3e6ee700"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/oauth/github/route.ts": {
+    "mtime": 1782481772.163939,
+    "ast_hash": "25f6f856c7c4ee7e4ba7ee0db9cfeb07",
+    "semantic_hash": "25f6f856c7c4ee7e4ba7ee0db9cfeb07"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/oauth/google/callback/route.ts": {
+    "mtime": 1782481782.442287,
+    "ast_hash": "09e58bcb517476436093b6318f1bc085",
+    "semantic_hash": "09e58bcb517476436093b6318f1bc085"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/oauth/google/route.ts": {
+    "mtime": 1782481778.3924434,
+    "ast_hash": "6bccf6a4e279086eeacc0e88ce39902e",
+    "semantic_hash": "6bccf6a4e279086eeacc0e88ce39902e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/system/database/route.ts": {
+    "mtime": 1782457522.4207768,
+    "ast_hash": "a1480021b584a16276cf92d371b30d48",
+    "semantic_hash": "a1480021b584a16276cf92d371b30d48"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/system/events/route.ts": {
+    "mtime": 1782394736.174858,
+    "ast_hash": "53ff55db1bd0667fb9ed1fc6a6b4aba8",
+    "semantic_hash": "53ff55db1bd0667fb9ed1fc6a6b4aba8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/system/health/route.ts": {
+    "mtime": 1782820056.725494,
+    "ast_hash": "40547d24fd8e5437a959e287b8df8426",
+    "semantic_hash": "40547d24fd8e5437a959e287b8df8426"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/system/kernel/route.ts": {
+    "mtime": 1782394734.271321,
+    "ast_hash": "9b35fb101ec16acfccb3e22e2ecbadf8",
+    "semantic_hash": "9b35fb101ec16acfccb3e22e2ecbadf8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/system/metrics/route.ts": {
+    "mtime": 1782820097.1910684,
+    "ast_hash": "3247e3dc3096104d8525e4009a910d8c",
+    "semantic_hash": "3247e3dc3096104d8525e4009a910d8c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/system/services/route.ts": {
+    "mtime": 1782394731.9458416,
+    "ast_hash": "b2b0f8023327f3ca2998f14865987870",
+    "semantic_hash": "b2b0f8023327f3ca2998f14865987870"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/system/status/route.ts": {
+    "mtime": 1782394728.5465937,
+    "ast_hash": "53fcba5a7b98980354e0a14fa79ae9bb",
+    "semantic_hash": "53fcba5a7b98980354e0a14fa79ae9bb"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/workflows/disable/route.ts": {
+    "mtime": 1782473715.384762,
+    "ast_hash": "36b2a41708caa5d3add082b0aefaa523",
+    "semantic_hash": "36b2a41708caa5d3add082b0aefaa523"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/workflows/enable/route.ts": {
+    "mtime": 1782473713.4732342,
+    "ast_hash": "f1f78578f89645d6b783d403a47e2bab",
+    "semantic_hash": "f1f78578f89645d6b783d403a47e2bab"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/workflows/history/route.ts": {
+    "mtime": 1782473716.8679729,
+    "ast_hash": "dcb3495463252175f438df15d6b31b5a",
+    "semantic_hash": "dcb3495463252175f438df15d6b31b5a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/workflows/route.ts": {
+    "mtime": 1782473708.284186,
+    "ast_hash": "e8c8ea15b2d016a2130ab77033af5e5b",
+    "semantic_hash": "e8c8ea15b2d016a2130ab77033af5e5b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/api/workflows/run/route.ts": {
+    "mtime": 1782473710.565641,
+    "ast_hash": "e292203b6f9e2fe4773e755416067fd6",
+    "semantic_hash": "e292203b6f9e2fe4773e755416067fd6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/layout.tsx": {
+    "mtime": 1782396377.14707,
+    "ast_hash": "0d1b0897480efeb50061764c00def6be",
+    "semantic_hash": "0d1b0897480efeb50061764c00def6be"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/app/page.tsx": {
+    "mtime": 1782494495.6225028,
+    "ast_hash": "c8f92e77d7c00ad216bebfb1f78a4344",
+    "semantic_hash": "c8f92e77d7c00ad216bebfb1f78a4344"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/auth/auth-form.tsx": {
+    "mtime": 1782396218.7644093,
+    "ast_hash": "086714beae482d2c44608bb1b2f97f3b",
+    "semantic_hash": "086714beae482d2c44608bb1b2f97f3b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/dashboard-header.tsx": {
+    "mtime": 1782396251.4522233,
+    "ast_hash": "edbf4ae2dad3a6e0b6cff243143a7bc7",
+    "semantic_hash": "edbf4ae2dad3a6e0b6cff243143a7bc7"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/dashboard-refresh.tsx": {
+    "mtime": 1782590579.4160843,
+    "ast_hash": "93f05bff6f151a963cd26f369481f24f",
+    "semantic_hash": "93f05bff6f151a963cd26f369481f24f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/dashboard-shell.tsx": {
+    "mtime": 1782396248.6357107,
+    "ast_hash": "d1ecc78b7ef3ad3ef3b8a857e69ee2f0",
+    "semantic_hash": "d1ecc78b7ef3ad3ef3b8a857e69ee2f0"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/dashboard-sidebar.tsx": {
+    "mtime": 1782474431.0316944,
+    "ast_hash": "2fba7de967efe86e6183a84b6c46c712",
+    "semantic_hash": "2fba7de967efe86e6183a84b6c46c712"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/settings-panel.tsx": {
+    "mtime": 1782494495.6632195,
+    "ast_hash": "2c8cabe517033843c681b52672c7d7ed",
+    "semantic_hash": "2c8cabe517033843c681b52672c7d7ed"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/stat-card.tsx": {
+    "mtime": 1782396273.802921,
+    "ast_hash": "9b53e5cd25e86d07807275a3015798cc",
+    "semantic_hash": "9b53e5cd25e86d07807275a3015798cc"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/automation-widget.tsx": {
+    "mtime": 1782717681.551347,
+    "ast_hash": "77cce43f27253414ec7980142d647d07",
+    "semantic_hash": "77cce43f27253414ec7980142d647d07"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/briefing-widget.tsx": {
+    "mtime": 1782413402.389667,
+    "ast_hash": "4a93a66235e33268558f5cf15c86658a",
+    "semantic_hash": "4a93a66235e33268558f5cf15c86658a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/desktop-widget.tsx": {
+    "mtime": 1782414129.3069754,
+    "ast_hash": "c5ca4677f4db7c2cd3c5b7aa2dea6246",
+    "semantic_hash": "c5ca4677f4db7c2cd3c5b7aa2dea6246"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/executive-widget.tsx": {
+    "mtime": 1782591233.884548,
+    "ast_hash": "8b45f003d96c9bf3b772476928cdc40c",
+    "semantic_hash": "8b45f003d96c9bf3b772476928cdc40c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/goals-widget.tsx": {
+    "mtime": 1782413433.54498,
+    "ast_hash": "0fbd89e62e97398e20a8993d1f58dade",
+    "semantic_hash": "0fbd89e62e97398e20a8993d1f58dade"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/journal-widget.tsx": {
+    "mtime": 1782414704.4197986,
+    "ast_hash": "6206940c636a5c6ab07899095d54d9ef",
+    "semantic_hash": "6206940c636a5c6ab07899095d54d9ef"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/recommendations-widget.tsx": {
+    "mtime": 1782413412.392167,
+    "ast_hash": "0e5c104eeb15413c9140fa24435ed5a2",
+    "semantic_hash": "0e5c104eeb15413c9140fa24435ed5a2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/system-health-widget.tsx": {
+    "mtime": 1782413419.3348486,
+    "ast_hash": "c9457b652c44aeaa013be553310510cb",
+    "semantic_hash": "c9457b652c44aeaa013be553310510cb"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/tasks-widget.tsx": {
+    "mtime": 1782413502.1457384,
+    "ast_hash": "45ad5fa887592c2dee691b759ef6b6e1",
+    "semantic_hash": "45ad5fa887592c2dee691b759ef6b6e1"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/timeline-widget.tsx": {
+    "mtime": 1782481715.8258123,
+    "ast_hash": "091a46871d88bf444b7a967c9552970a",
+    "semantic_hash": "091a46871d88bf444b7a967c9552970a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/dashboard/widgets/widget-shell.tsx": {
+    "mtime": 1782413396.9827237,
+    "ast_hash": "d3a578862ac9ba203996bf36e5d20ac2",
+    "semantic_hash": "d3a578862ac9ba203996bf36e5d20ac2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/layout/theme-provider.tsx": {
+    "mtime": 1782376889.8293273,
+    "ast_hash": "6d2ad88f5f0fd2b205d631f49a7295cb",
+    "semantic_hash": "6d2ad88f5f0fd2b205d631f49a7295cb"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/layout/theme-toggle.tsx": {
+    "mtime": 1782376901.262881,
+    "ast_hash": "eb1c2512a8680a8fa64fd35116a1abba",
+    "semantic_hash": "eb1c2512a8680a8fa64fd35116a1abba"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/projects/project-list.tsx": {
+    "mtime": 1782590560.6319938,
+    "ast_hash": "b8baa4548f0b04f3c475913766c9267d",
+    "semantic_hash": "b8baa4548f0b04f3c475913766c9267d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/components/tasks/task-list.tsx": {
+    "mtime": 1782590135.328984,
+    "ast_hash": "c1477f4d2364baf8c7d9656dd3deaa05",
+    "semantic_hash": "c1477f4d2364baf8c7d9656dd3deaa05"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/hooks/use-realtime.ts": {
+    "mtime": 1782457570.2155645,
+    "ast_hash": "2da9249b3728796314e05e560b798374",
+    "semantic_hash": "2da9249b3728796314e05e560b798374"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/actions/engine-instance.ts": {
+    "mtime": 1783502072.3284202,
+    "ast_hash": "48d7e0bcd2079eda8ac5f6d74305eb20",
+    "semantic_hash": "48d7e0bcd2079eda8ac5f6d74305eb20"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/actions/handlers.ts": {
+    "mtime": 1782717730.1630437,
+    "ast_hash": "d0947befef587248e83cfdbed5cb0862",
+    "semantic_hash": "d0947befef587248e83cfdbed5cb0862"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/actions/metrics.ts": {
+    "mtime": 1782717508.7290661,
+    "ast_hash": "0b332e2d75b6cd2c991621293b3f9a5b",
+    "semantic_hash": "0b332e2d75b6cd2c991621293b3f9a5b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/approval-queue.ts": {
+    "mtime": 1783008087.2466557,
+    "ast_hash": "b6dc086339805616264e6898aab860c2",
+    "semantic_hash": "b6dc086339805616264e6898aab860c2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/context-builder.ts": {
+    "mtime": 1782591242.5018337,
+    "ast_hash": "c646fb9e010e299ec5f022077bb47f2b",
+    "semantic_hash": "c646fb9e010e299ec5f022077bb47f2b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/executive.ts": {
+    "mtime": 1782982022.8326402,
+    "ast_hash": "e073cca4721ec87b6cfe373b2e2cfdd3",
+    "semantic_hash": "e073cca4721ec87b6cfe373b2e2cfdd3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/planner.ts": {
+    "mtime": 1782591372.9908617,
+    "ast_hash": "9877de7619ecad44e28b5dbbae1c073c",
+    "semantic_hash": "9877de7619ecad44e28b5dbbae1c073c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/productivity.ts": {
+    "mtime": 1782590886.728819,
+    "ast_hash": "3b056c5575a2d60cc7c7cc4cb0906ff8",
+    "semantic_hash": "3b056c5575a2d60cc7c7cc4cb0906ff8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/prompts/executive.ts": {
+    "mtime": 1782590981.5686188,
+    "ast_hash": "f8d4c41fd96c852fded9bbd6c9afee7f",
+    "semantic_hash": "f8d4c41fd96c852fded9bbd6c9afee7f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/providers.ts": {
+    "mtime": 1782481744.1783516,
+    "ast_hash": "9b8166d342981bea705d1c24b363b085",
+    "semantic_hash": "9b8166d342981bea705d1c24b363b085"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/risk-engine.ts": {
+    "mtime": 1782590869.3746347,
+    "ast_hash": "95d8e37db963aab70d34de29db0378df",
+    "semantic_hash": "95d8e37db963aab70d34de29db0378df"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/rule-engine.ts": {
+    "mtime": 1782413335.4108765,
+    "ast_hash": "9c487cf450acf7e53a431edfb49f64cc",
+    "semantic_hash": "9c487cf450acf7e53a431edfb49f64cc"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/types.ts": {
+    "mtime": 1782983241.8623989,
+    "ast_hash": "f3e00a4034e607f02c91bdc09f2de3f2",
+    "semantic_hash": "f3e00a4034e607f02c91bdc09f2de3f2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/auth-actions.ts": {
+    "mtime": 1782396201.8420517,
+    "ast_hash": "65061b29540cc6d412a1ff20b2ee3156",
+    "semantic_hash": "65061b29540cc6d412a1ff20b2ee3156"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/config/index.ts": {
+    "mtime": 1782474361.3354619,
+    "ast_hash": "3d3cf4f6fd4041b1e0f646209382c056",
+    "semantic_hash": "3d3cf4f6fd4041b1e0f646209382c056"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-client.ts": {
+    "mtime": 1782414102.9650226,
+    "ast_hash": "d5de981a71b9b1f2fc7f8fe0b51ef1f8",
+    "semantic_hash": "d5de981a71b9b1f2fc7f8fe0b51ef1f8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/integrations/hub-instance.ts": {
+    "mtime": 1782718349.6524055,
+    "ast_hash": "d2d0aea431ebced7024d8705c646fca0",
+    "semantic_hash": "d2d0aea431ebced7024d8705c646fca0"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/integrations/oauth.ts": {
+    "mtime": 1782481770.227404,
+    "ast_hash": "c9258e13c78be2617f95026600c196d2",
+    "semantic_hash": "c9258e13c78be2617f95026600c196d2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/kernel.ts": {
+    "mtime": 1782394727.072571,
+    "ast_hash": "9e5408000b6b62d24969956b47884fe1",
+    "semantic_hash": "9e5408000b6b62d24969956b47884fe1"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/memory/entity-extractor.ts": {
+    "mtime": 1782718004.705916,
+    "ast_hash": "2279a99054c94939072662ce35c573f3",
+    "semantic_hash": "2279a99054c94939072662ce35c573f3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/memory/index.ts": {
+    "mtime": 1782718044.2140965,
+    "ast_hash": "605425bc1549b3f41f18ce1e464562a6",
+    "semantic_hash": "605425bc1549b3f41f18ce1e464562a6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/memory/journal.ts": {
+    "mtime": 1782414630.7826254,
+    "ast_hash": "c1b84de1870124140f84ad6fd52a9d84",
+    "semantic_hash": "c1b84de1870124140f84ad6fd52a9d84"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/memory/project-memory.ts": {
+    "mtime": 1782414657.3664849,
+    "ast_hash": "3da5abac623fa88cd9095b6e02d44b18",
+    "semantic_hash": "3da5abac623fa88cd9095b6e02d44b18"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/memory/retrieval-pipeline.ts": {
+    "mtime": 1782718033.9006019,
+    "ast_hash": "922d397760b8e77f91e27529d4bac41f",
+    "semantic_hash": "922d397760b8e77f91e27529d4bac41f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/memory/store.ts": {
+    "mtime": 1783008089.7307315,
+    "ast_hash": "be8c66098f965209eab673f65f1e74fe",
+    "semantic_hash": "be8c66098f965209eab673f65f1e74fe"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/memory/summarizer.ts": {
+    "mtime": 1782414642.6118948,
+    "ast_hash": "b1be831985b9321758d03f3a8acea220",
+    "semantic_hash": "b1be831985b9321758d03f3a8acea220"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/memory/types.ts": {
+    "mtime": 1783432546.6856854,
+    "ast_hash": "ac0559a792b43e91fa1755318dbb83c8",
+    "semantic_hash": "ac0559a792b43e91fa1755318dbb83c8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/health.ts": {
+    "mtime": 1782980675.4296594,
+    "ast_hash": "b96fa516738c6a2013dcd4c1be10e2ea",
+    "semantic_hash": "b96fa516738c6a2013dcd4c1be10e2ea"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/index.ts": {
+    "mtime": 1782820359.4459298,
+    "ast_hash": "c87067b06612d21cf401a491ffc4e7df",
+    "semantic_hash": "c87067b06612d21cf401a491ffc4e7df"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/production-checklist.ts": {
+    "mtime": 1782821803.1385593,
+    "ast_hash": "b169d956e153fccc1936113ce0e42249",
+    "semantic_hash": "b169d956e153fccc1936113ce0e42249"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/profile-actions.ts": {
+    "mtime": 1782494495.6737118,
+    "ast_hash": "cf10acf007b483f008b7a692d7091cd0",
+    "semantic_hash": "cf10acf007b483f008b7a692d7091cd0"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/project-actions.ts": {
+    "mtime": 1782590483.8951168,
+    "ast_hash": "414a8bc57c059d598a39a5335852580a",
+    "semantic_hash": "414a8bc57c059d598a39a5335852580a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/base.ts": {
+    "mtime": 1782821524.309653,
+    "ast_hash": "7acffa6004fbe0e1940962aa0840c34b",
+    "semantic_hash": "7acffa6004fbe0e1940962aa0840c34b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/desktop.repository.ts": {
+    "mtime": 1782821563.087878,
+    "ast_hash": "60bf6794923c8021815480501faa6d82",
+    "semantic_hash": "60bf6794923c8021815480501faa6d82"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/index.ts": {
+    "mtime": 1782717990.212212,
+    "ast_hash": "084a02ba849432d57f8e05610386da63",
+    "semantic_hash": "084a02ba849432d57f8e05610386da63"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/journal.repository.ts": {
+    "mtime": 1782821549.3964958,
+    "ast_hash": "afa17d18a5540fb48fe28cd52f668f42",
+    "semantic_hash": "afa17d18a5540fb48fe28cd52f668f42"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/memory.repository.ts": {
+    "mtime": 1782821604.853973,
+    "ast_hash": "370afa1afc8e777bf53895529f57c839",
+    "semantic_hash": "370afa1afc8e777bf53895529f57c839"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/project.repository.ts": {
+    "mtime": 1782821449.5698676,
+    "ast_hash": "66f68a21b56525d3c5052754b45cd05c",
+    "semantic_hash": "66f68a21b56525d3c5052754b45cd05c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/task.repository.ts": {
+    "mtime": 1782821423.246912,
+    "ast_hash": "6ffde04ebf7610593584c22e4b1cc776",
+    "semantic_hash": "6ffde04ebf7610593584c22e4b1cc776"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/types.ts": {
+    "mtime": 1782456045.4348485,
+    "ast_hash": "ab37bdc3549ed009f42576bcc39c8761",
+    "semantic_hash": "ab37bdc3549ed009f42576bcc39c8761"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/user.repository.ts": {
+    "mtime": 1782821535.3920133,
+    "ast_hash": "81c7fd684815f8a559c6a052a0fb0972",
+    "semantic_hash": "81c7fd684815f8a559c6a052a0fb0972"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/security/headers.ts": {
+    "mtime": 1782980744.4076326,
+    "ast_hash": "39002263878872af0bcfd84ea60abaa3",
+    "semantic_hash": "39002263878872af0bcfd84ea60abaa3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/supabase/client.ts": {
+    "mtime": 1782396179.9435613,
+    "ast_hash": "c5d780a148cac9c4a272fbd838a1e4ab",
+    "semantic_hash": "c5d780a148cac9c4a272fbd838a1e4ab"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/supabase/health.ts": {
+    "mtime": 1782821816.5682845,
+    "ast_hash": "cb0a9228d78356d5e4cff8e88237e255",
+    "semantic_hash": "cb0a9228d78356d5e4cff8e88237e255"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/supabase/middleware.ts": {
+    "mtime": 1782821702.6807013,
+    "ast_hash": "6021308fe7dd1a1db4ac1a3b6a087388",
+    "semantic_hash": "6021308fe7dd1a1db4ac1a3b6a087388"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/supabase/server.ts": {
+    "mtime": 1782396663.0652995,
+    "ast_hash": "a26c5c8f17386bde3de61c3036060d87",
+    "semantic_hash": "a26c5c8f17386bde3de61c3036060d87"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/task-actions.ts": {
+    "mtime": 1782590190.7776284,
+    "ast_hash": "d98d747604a72632b79ebbe53fc78a4e",
+    "semantic_hash": "d98d747604a72632b79ebbe53fc78a4e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/utils.ts": {
+    "mtime": 1782376910.1549184,
+    "ast_hash": "a40ab276f43a0e0a273926a9fa5055cc",
+    "semantic_hash": "a40ab276f43a0e0a273926a9fa5055cc"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/workflows/engine-instance.ts": {
+    "mtime": 1782717496.144101,
+    "ast_hash": "b8ebed4bcb24a7fe6c11628edd13b286",
+    "semantic_hash": "b8ebed4bcb24a7fe6c11628edd13b286"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/middleware.ts": {
+    "mtime": 1782481679.3836603,
+    "ast_hash": "7f6635d9f31200b309c2f23b0cb24ac7",
+    "semantic_hash": "7f6635d9f31200b309c2f23b0cb24ac7"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/action-handlers.test.ts": {
+    "mtime": 1782717621.4818423,
+    "ast_hash": "5d8f41ccac217530da82e8e0fc129996",
+    "semantic_hash": "5d8f41ccac217530da82e8e0fc129996"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/ai-executive.test.ts": {
+    "mtime": 1782591163.2174113,
+    "ast_hash": "795af1b56a6f8972e7f25c43fc5e0d42",
+    "semantic_hash": "795af1b56a6f8972e7f25c43fc5e0d42"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/memory-v2.test.ts": {
+    "mtime": 1782718083.3202722,
+    "ast_hash": "f07644737d2203aacbe2362bcc89ca1e",
+    "semantic_hash": "f07644737d2203aacbe2362bcc89ca1e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/memory.test.ts": {
+    "mtime": 1782414807.2996306,
+    "ast_hash": "01745114cf20bbea0ba57b8a10b9044b",
+    "semantic_hash": "01745114cf20bbea0ba57b8a10b9044b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/observability.test.ts": {
+    "mtime": 1782494495.7266974,
+    "ast_hash": "a643fe8fabbda859d0576cfd632590b4",
+    "semantic_hash": "a643fe8fabbda859d0576cfd632590b4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/project-repository.test.ts": {
+    "mtime": 1782590596.9071636,
+    "ast_hash": "7e66047ecbaa0d17b5daa6053f8543d2",
+    "semantic_hash": "7e66047ecbaa0d17b5daa6053f8543d2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/repositories.test.ts": {
+    "mtime": 1782456225.7630193,
+    "ast_hash": "bcb4317bc12a6200e1a08f997d3e1b15",
+    "semantic_hash": "bcb4317bc12a6200e1a08f997d3e1b15"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/rule-engine.test.ts": {
+    "mtime": 1782413660.4368134,
+    "ast_hash": "8718eb11193dfba681f4b1396fba6365",
+    "semantic_hash": "8718eb11193dfba681f4b1396fba6365"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/supabase-health.test.ts": {
+    "mtime": 1782494495.7343442,
+    "ast_hash": "8d9ab0a5cb7683edf68a6b61840b3701",
+    "semantic_hash": "8d9ab0a5cb7683edf68a6b61840b3701"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tests/task-repository.test.ts": {
+    "mtime": 1782590067.0874028,
+    "ast_hash": "b2a8daf81a3ff59159d3ce3720f84b56",
+    "semantic_hash": "b2a8daf81a3ff59159d3ce3720f84b56"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/tsconfig.json": {
+    "mtime": 1782376858.1370628,
+    "ast_hash": "fad10222606f6ceccf7361edf70a34f2",
+    "semantic_hash": "fad10222606f6ceccf7361edf70a34f2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/vitest.config.ts": {
+    "mtime": 1782413633.1807647,
+    "ast_hash": "421b3d3d3f1ef5adf1a526c5a8420b62",
+    "semantic_hash": "421b3d3d3f1ef5adf1a526c5a8420b62"
+  },
+  "/Users/emir/Projects/APEX-OS/eslint.config.mjs": {
+    "mtime": 1782493934.3597538,
+    "ast_hash": "16e9a27ffb4421eba9797bc08a17273c",
+    "semantic_hash": "16e9a27ffb4421eba9797bc08a17273c"
+  },
+  "/Users/emir/Projects/APEX-OS/package.json": {
+    "mtime": 1782482618.7148616,
+    "ast_hash": "18e5f493b5caadaa3f46e01d04e5d646",
+    "semantic_hash": "18e5f493b5caadaa3f46e01d04e5d646"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/package.json": {
+    "mtime": 1782457992.748661,
+    "ast_hash": "65fc67489f0f9853d895bd68483c44a3",
+    "semantic_hash": "65fc67489f0f9853d895bd68483c44a3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/src/approval.ts": {
+    "mtime": 1782458504.2656674,
+    "ast_hash": "2fb51b5ed91e02815921db43857a5708",
+    "semantic_hash": "2fb51b5ed91e02815921db43857a5708"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/src/engine.ts": {
+    "mtime": 1782458105.8120122,
+    "ast_hash": "8a751ebf8e7627a099ed9a8edb301ace",
+    "semantic_hash": "8a751ebf8e7627a099ed9a8edb301ace"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/src/index.ts": {
+    "mtime": 1782458405.9598057,
+    "ast_hash": "94cb4657e2001fd609cfcda26978ccf4",
+    "semantic_hash": "94cb4657e2001fd609cfcda26978ccf4"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/src/queue.ts": {
+    "mtime": 1782458641.7727447,
+    "ast_hash": "ad3b81516505bbd57dd4c2a6491e14d7",
+    "semantic_hash": "ad3b81516505bbd57dd4c2a6491e14d7"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/src/registry.ts": {
+    "mtime": 1782458022.1463366,
+    "ast_hash": "0a5599eca3fc820c977e8a219dc2d258",
+    "semantic_hash": "0a5599eca3fc820c977e8a219dc2d258"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/src/rollback.ts": {
+    "mtime": 1782458051.3228898,
+    "ast_hash": "46fb3de37c71bd49deb893e5b7dc95e9",
+    "semantic_hash": "46fb3de37c71bd49deb893e5b7dc95e9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/src/types.ts": {
+    "mtime": 1782458010.817693,
+    "ast_hash": "1208ee36b6ca0a996b36a69299b0bd82",
+    "semantic_hash": "1208ee36b6ca0a996b36a69299b0bd82"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/src/validator.ts": {
+    "mtime": 1782458025.8996928,
+    "ast_hash": "56d726cdb88b2e30cb868e35d1b7a883",
+    "semantic_hash": "56d726cdb88b2e30cb868e35d1b7a883"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/tests/approval.test.ts": {
+    "mtime": 1782458348.0964231,
+    "ast_hash": "b4100f58d43efc0abe83d4544a93cd47",
+    "semantic_hash": "b4100f58d43efc0abe83d4544a93cd47"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/tests/engine.test.ts": {
+    "mtime": 1782458338.762216,
+    "ast_hash": "97ce7b0d3afe4205a4d64828ca8b9f5d",
+    "semantic_hash": "97ce7b0d3afe4205a4d64828ca8b9f5d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/tests/queue.test.ts": {
+    "mtime": 1782458358.1441386,
+    "ast_hash": "4ec1b012a078d9e896869a32ec448381",
+    "semantic_hash": "4ec1b012a078d9e896869a32ec448381"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/tsconfig.json": {
+    "mtime": 1782457992.7512634,
+    "ast_hash": "f6e2fc4b8319812bee77affdc867f24b",
+    "semantic_hash": "f6e2fc4b8319812bee77affdc867f24b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/vitest.config.ts": {
+    "mtime": 1782457992.7537484,
+    "ast_hash": "31a679163fa1230baac5dd82051ecfe6",
+    "semantic_hash": "31a679163fa1230baac5dd82051ecfe6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/package.json": {
+    "mtime": 1782377436.30153,
+    "ast_hash": "4e95344d6d80d743672cf22ccb192aa3",
+    "semantic_hash": "4e95344d6d80d743672cf22ccb192aa3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/agents/index.ts": {
+    "mtime": 1782494099.0357199,
+    "ast_hash": "3bc0a6eb4eae3557f6eee14e4562a1f0",
+    "semantic_hash": "3bc0a6eb4eae3557f6eee14e4562a1f0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/agents/interfaces.ts": {
+    "mtime": 1782493714.1621413,
+    "ast_hash": "355f1c7f2b3fc67e6b973eed5a920843",
+    "semantic_hash": "355f1c7f2b3fc67e6b973eed5a920843"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/agents/types.ts": {
+    "mtime": 1782494090.8534663,
+    "ast_hash": "5a9ff61d544157368763f7702876690f",
+    "semantic_hash": "5a9ff61d544157368763f7702876690f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/context/index.ts": {
+    "mtime": 1782380146.2055938,
+    "ast_hash": "ea4e680d2876182733df0b1ffb3f1983",
+    "semantic_hash": "ea4e680d2876182733df0b1ffb3f1983"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/context/interfaces.ts": {
+    "mtime": 1782380144.792273,
+    "ast_hash": "e4cb899194ca5d6dfb98a135a96b8100",
+    "semantic_hash": "e4cb899194ca5d6dfb98a135a96b8100"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/context/types.ts": {
+    "mtime": 1782380141.3932009,
+    "ast_hash": "94df84c50fa350d347c4b80c28557fd3",
+    "semantic_hash": "94df84c50fa350d347c4b80c28557fd3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/contracts/index.ts": {
+    "mtime": 1782380287.127816,
+    "ast_hash": "62e132ec1a00d914a2f57b146e6afa5d",
+    "semantic_hash": "62e132ec1a00d914a2f57b146e6afa5d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/contracts/interfaces.ts": {
+    "mtime": 1782380286.1595786,
+    "ast_hash": "e862b1dd6e68cbe8e9ca54c157463ef8",
+    "semantic_hash": "e862b1dd6e68cbe8e9ca54c157463ef8"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/contracts/types.ts": {
+    "mtime": 1782380284.221439,
+    "ast_hash": "44352c6cb94659b17e86da40889e1c1b",
+    "semantic_hash": "44352c6cb94659b17e86da40889e1c1b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/core/index.ts": {
+    "mtime": 1782380049.6655633,
+    "ast_hash": "0fbfbb9a419b425e0a6f1bdc68c81035",
+    "semantic_hash": "0fbfbb9a419b425e0a6f1bdc68c81035"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/core/interfaces.ts": {
+    "mtime": 1782380046.8078206,
+    "ast_hash": "2d62caf5d2fb894380a127ccc957e89e",
+    "semantic_hash": "2d62caf5d2fb894380a127ccc957e89e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/core/types.ts": {
+    "mtime": 1782380024.5339737,
+    "ast_hash": "cfb3f5ff5ad94d7f93441b702df32b18",
+    "semantic_hash": "cfb3f5ff5ad94d7f93441b702df32b18"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/embeddings/index.ts": {
+    "mtime": 1782380239.7365768,
+    "ast_hash": "f7610b0ae7daf706832071913a945ec0",
+    "semantic_hash": "f7610b0ae7daf706832071913a945ec0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/embeddings/interfaces.ts": {
+    "mtime": 1782380238.625391,
+    "ast_hash": "e20814d00f9eb2dfdd4d32e5d01dfe9c",
+    "semantic_hash": "e20814d00f9eb2dfdd4d32e5d01dfe9c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/embeddings/types.ts": {
+    "mtime": 1782380238.3756995,
+    "ast_hash": "cf0ad61b95e1eaddc32c5f9e315b934d",
+    "semantic_hash": "cf0ad61b95e1eaddc32c5f9e315b934d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/evaluation/index.ts": {
+    "mtime": 1782380301.8361273,
+    "ast_hash": "9ab8aa486ac012f1dce8c2b8feff6594",
+    "semantic_hash": "9ab8aa486ac012f1dce8c2b8feff6594"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/evaluation/interfaces.ts": {
+    "mtime": 1782380299.941677,
+    "ast_hash": "22b57df57fe9f8b00d8557b050027e2c",
+    "semantic_hash": "22b57df57fe9f8b00d8557b050027e2c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/evaluation/types.ts": {
+    "mtime": 1782380295.23134,
+    "ast_hash": "7be3e7e55ce3cddf49c821712f8aee7f",
+    "semantic_hash": "7be3e7e55ce3cddf49c821712f8aee7f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/execution/index.ts": {
+    "mtime": 1782380125.1288521,
+    "ast_hash": "206e6ad8e2874b5e921f693ac0b70a31",
+    "semantic_hash": "206e6ad8e2874b5e921f693ac0b70a31"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/execution/interfaces.ts": {
+    "mtime": 1782380124.178165,
+    "ast_hash": "77c66cbef769bd303346c5b6261a662b",
+    "semantic_hash": "77c66cbef769bd303346c5b6261a662b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/execution/types.ts": {
+    "mtime": 1782380119.47971,
+    "ast_hash": "615d38bc71c917df276013589c36ccc2",
+    "semantic_hash": "615d38bc71c917df276013589c36ccc2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/index.ts": {
+    "mtime": 1782380333.2603095,
+    "ast_hash": "2329da06220fadf91596318e27ca0c07",
+    "semantic_hash": "2329da06220fadf91596318e27ca0c07"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/memory/index.ts": {
+    "mtime": 1782380167.0713663,
+    "ast_hash": "5f19e44979b0228dde8d26ef4973de88",
+    "semantic_hash": "5f19e44979b0228dde8d26ef4973de88"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/memory/interfaces.ts": {
+    "mtime": 1782380165.098877,
+    "ast_hash": "72eb5d5aed9e54a6d50b29712e655d6e",
+    "semantic_hash": "72eb5d5aed9e54a6d50b29712e655d6e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/memory/types.ts": {
+    "mtime": 1782380158.065352,
+    "ast_hash": "ad2d200dd7f2f6cece34ad0e96fbcc3b",
+    "semantic_hash": "ad2d200dd7f2f6cece34ad0e96fbcc3b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/planning/index.ts": {
+    "mtime": 1782380205.8801389,
+    "ast_hash": "5e94237297f0d620758ed038b2a88f3e",
+    "semantic_hash": "5e94237297f0d620758ed038b2a88f3e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/planning/interfaces.ts": {
+    "mtime": 1782380204.5046916,
+    "ast_hash": "2031074a2cbedb29c50e2775f3b6b4ee",
+    "semantic_hash": "2031074a2cbedb29c50e2775f3b6b4ee"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/planning/types.ts": {
+    "mtime": 1782380199.3828747,
+    "ast_hash": "cd70e5aab2af27ee7d0f158c9bbfde7e",
+    "semantic_hash": "cd70e5aab2af27ee7d0f158c9bbfde7e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/prompts/index.ts": {
+    "mtime": 1782380189.2482958,
+    "ast_hash": "7ebc154e3ed984d5dcbf202a0f099399",
+    "semantic_hash": "7ebc154e3ed984d5dcbf202a0f099399"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/prompts/interfaces.ts": {
+    "mtime": 1782380187.3009093,
+    "ast_hash": "f523c847e2e846d41500effdbc5cb8d1",
+    "semantic_hash": "f523c847e2e846d41500effdbc5cb8d1"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/prompts/types.ts": {
+    "mtime": 1782380182.5982854,
+    "ast_hash": "bd940ad03309dbe65a0306a857f77955",
+    "semantic_hash": "bd940ad03309dbe65a0306a857f77955"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/providers/anthropic/index.ts": {
+    "mtime": 1782377771.686729,
+    "ast_hash": "39be802d1655dafe408eb04f746750d3",
+    "semantic_hash": "39be802d1655dafe408eb04f746750d3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/providers/gemini/index.ts": {
+    "mtime": 1782377771.6895792,
+    "ast_hash": "3d4d74a0a98bc3d4dbeab88b1ea95fd0",
+    "semantic_hash": "3d4d74a0a98bc3d4dbeab88b1ea95fd0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/providers/ollama/index.ts": {
+    "mtime": 1782377771.6946175,
+    "ast_hash": "49248038e6fd38bbb1e989bb50b8fc85",
+    "semantic_hash": "49248038e6fd38bbb1e989bb50b8fc85"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/providers/openai/index.ts": {
+    "mtime": 1782377771.6837547,
+    "ast_hash": "a168f8b5874e2c84c3acc2d50bf3d8a6",
+    "semantic_hash": "a168f8b5874e2c84c3acc2d50bf3d8a6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/providers/openrouter/index.ts": {
+    "mtime": 1782377771.6921463,
+    "ast_hash": "8b6e91a50f99c5c17958e1c0389f384b",
+    "semantic_hash": "8b6e91a50f99c5c17958e1c0389f384b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/reasoning/index.ts": {
+    "mtime": 1782380222.4041092,
+    "ast_hash": "3d1dc99caf9f1db1d9fdd7ae33592799",
+    "semantic_hash": "3d1dc99caf9f1db1d9fdd7ae33592799"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/reasoning/interfaces.ts": {
+    "mtime": 1782380220.581842,
+    "ast_hash": "cc2041107ca059e64a3b5dc7f3840db9",
+    "semantic_hash": "cc2041107ca059e64a3b5dc7f3840db9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/reasoning/types.ts": {
+    "mtime": 1782380214.8834643,
+    "ast_hash": "d6885c622bdafd54e8eb16df7684da92",
+    "semantic_hash": "d6885c622bdafd54e8eb16df7684da92"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/registry/index.ts": {
+    "mtime": 1782380112.8599882,
+    "ast_hash": "f445e8495ffe01df29feec4b9e1b8631",
+    "semantic_hash": "f445e8495ffe01df29feec4b9e1b8631"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/registry/interfaces.ts": {
+    "mtime": 1782380111.8952696,
+    "ast_hash": "53d34c2445e1c5b4c77ab37d8f5ef57d",
+    "semantic_hash": "53d34c2445e1c5b4c77ab37d8f5ef57d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/registry/types.ts": {
+    "mtime": 1782380109.2759778,
+    "ast_hash": "a03ef7887230ac7aecc556c50d516dc7",
+    "semantic_hash": "a03ef7887230ac7aecc556c50d516dc7"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/router/index.ts": {
+    "mtime": 1782380074.3093517,
+    "ast_hash": "04fe3e707cb7872aaca400793573e521",
+    "semantic_hash": "04fe3e707cb7872aaca400793573e521"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/router/interfaces.ts": {
+    "mtime": 1782380072.5086443,
+    "ast_hash": "01c27b214a45c34964985d9fb6cab7d4",
+    "semantic_hash": "01c27b214a45c34964985d9fb6cab7d4"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/router/types.ts": {
+    "mtime": 1782380066.7886093,
+    "ast_hash": "bbd56f1257a8fb81ad8f7b8bfd639f42",
+    "semantic_hash": "bbd56f1257a8fb81ad8f7b8bfd639f42"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/safety/index.ts": {
+    "mtime": 1782380321.4951193,
+    "ast_hash": "d50493f717a400e977c729a6931b2966",
+    "semantic_hash": "d50493f717a400e977c729a6931b2966"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/safety/interfaces.ts": {
+    "mtime": 1782380319.7479446,
+    "ast_hash": "008f8375723cfaca5673424c2a5575cb",
+    "semantic_hash": "008f8375723cfaca5673424c2a5575cb"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/safety/types.ts": {
+    "mtime": 1782380312.8452437,
+    "ast_hash": "533b9213a42f60cb1fd41a528028c207",
+    "semantic_hash": "533b9213a42f60cb1fd41a528028c207"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/telemetry/index.ts": {
+    "mtime": 1782380278.2164345,
+    "ast_hash": "941644f1ac18e0e8920231b286d312f3",
+    "semantic_hash": "941644f1ac18e0e8920231b286d312f3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/telemetry/interfaces.ts": {
+    "mtime": 1782380276.6977646,
+    "ast_hash": "30705edd1bc4c74d03f6e842d1150e90",
+    "semantic_hash": "30705edd1bc4c74d03f6e842d1150e90"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/telemetry/types.ts": {
+    "mtime": 1782380270.4545054,
+    "ast_hash": "b0fa411e24589cd744e55d314d54707f",
+    "semantic_hash": "b0fa411e24589cd744e55d314d54707f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/tools/index.ts": {
+    "mtime": 1782380254.4892712,
+    "ast_hash": "431f23d0299af956245a374ae81cbfb4",
+    "semantic_hash": "431f23d0299af956245a374ae81cbfb4"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/tools/interfaces.ts": {
+    "mtime": 1782380252.9402137,
+    "ast_hash": "dcf225be8c3c78c65cdb1d8a727b0413",
+    "semantic_hash": "dcf225be8c3c78c65cdb1d8a727b0413"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/tools/types.ts": {
+    "mtime": 1782380249.1009645,
+    "ast_hash": "b747c5df18bce94e122431ec6305b1d7",
+    "semantic_hash": "b747c5df18bce94e122431ec6305b1d7"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/tsconfig.json": {
+    "mtime": 1782377436.3035698,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/package.json": {
+    "mtime": 1782377436.2361608,
+    "ast_hash": "f46f26ba50c5cdf3f6aa43af8df2b977",
+    "semantic_hash": "f46f26ba50c5cdf3f6aa43af8df2b977"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/src/index.ts": {
+    "mtime": 1782377475.203766,
+    "ast_hash": "3af3a9c0b4a2e88b0b76df212f5a4e21",
+    "semantic_hash": "3af3a9c0b4a2e88b0b76df212f5a4e21"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/src/rbac.ts": {
+    "mtime": 1782377483.6131353,
+    "ast_hash": "9312e15abc02e35411cdbc2d791cb139",
+    "semantic_hash": "9312e15abc02e35411cdbc2d791cb139"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/src/types.ts": {
+    "mtime": 1782377478.5644898,
+    "ast_hash": "d66cf724d1e419b87402014c72b75110",
+    "semantic_hash": "d66cf724d1e419b87402014c72b75110"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/tsconfig.json": {
+    "mtime": 1782377436.240944,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/automation/package.json": {
+    "mtime": 1782377436.2953835,
+    "ast_hash": "a55cdea0ad084839ee4e063cfc19e02d",
+    "semantic_hash": "a55cdea0ad084839ee4e063cfc19e02d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/automation/src/index.ts": {
+    "mtime": 1782377530.7708838,
+    "ast_hash": "50c3a571a80d6688a0773ec53b5c43a6",
+    "semantic_hash": "50c3a571a80d6688a0773ec53b5c43a6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/automation/src/types.ts": {
+    "mtime": 1782377536.961142,
+    "ast_hash": "a97f73eee994e760ded21d20e3d28edd",
+    "semantic_hash": "a97f73eee994e760ded21d20e3d28edd"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/automation/tsconfig.json": {
+    "mtime": 1782377436.2973862,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/config/package.json": {
+    "mtime": 1782376946.3295975,
+    "ast_hash": "a9050ee35144ce2f5226db63562ac115",
+    "semantic_hash": "a9050ee35144ce2f5226db63562ac115"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/config/src/features.ts": {
+    "mtime": 1782377472.7259662,
+    "ast_hash": "4b1aeeb32de76fab93c25f40225079e6",
+    "semantic_hash": "4b1aeeb32de76fab93c25f40225079e6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/config/src/index.ts": {
+    "mtime": 1782377473.7768097,
+    "ast_hash": "a6e4a2149f68331ff56c39c45afeb4ad",
+    "semantic_hash": "a6e4a2149f68331ff56c39c45afeb4ad"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/config/src/site.ts": {
+    "mtime": 1782376949.218385,
+    "ast_hash": "43c292f9a87c29056d2d38f6fe890b05",
+    "semantic_hash": "43c292f9a87c29056d2d38f6fe890b05"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/config/tsconfig.json": {
+    "mtime": 1782376947.263288,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/database/package.json": {
+    "mtime": 1782377436.2462718,
+    "ast_hash": "9a945a7758d1c4f8c9d3f7dff019a5b2",
+    "semantic_hash": "9a945a7758d1c4f8c9d3f7dff019a5b2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/database/src/index.ts": {
+    "mtime": 1782377543.1062443,
+    "ast_hash": "58c90f0b4e74c89f391977a8c7df17ff",
+    "semantic_hash": "58c90f0b4e74c89f391977a8c7df17ff"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/database/src/types.ts": {
+    "mtime": 1782377548.2242627,
+    "ast_hash": "b9d99afe25d4bb3648501ffc766708f0",
+    "semantic_hash": "b9d99afe25d4bb3648501ffc766708f0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/database/tsconfig.json": {
+    "mtime": 1782377436.248358,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/package.json": {
+    "mtime": 1782377436.277345,
+    "ast_hash": "a944a3a943aed86cac540105df9b25ec",
+    "semantic_hash": "a944a3a943aed86cac540105df9b25ec"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/src/event-map.ts": {
+    "mtime": 1782380348.8988733,
+    "ast_hash": "34cf1af6d4be5026f70cd5efad5ab947",
+    "semantic_hash": "34cf1af6d4be5026f70cd5efad5ab947"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/src/index.ts": {
+    "mtime": 1782377448.9017437,
+    "ast_hash": "2c22fc10b5e16729b6c04a2e35d711f3",
+    "semantic_hash": "2c22fc10b5e16729b6c04a2e35d711f3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/src/types.ts": {
+    "mtime": 1782377451.1940176,
+    "ast_hash": "d32990ededf8de8f9da89316f4248910",
+    "semantic_hash": "d32990ededf8de8f9da89316f4248910"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/tsconfig.json": {
+    "mtime": 1782377436.279343,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/package.json": {
+    "mtime": 1782460045.9704432,
+    "ast_hash": "48a86c387963c56599affda975e1a29e",
+    "semantic_hash": "48a86c387963c56599affda975e1a29e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/connections.ts": {
+    "mtime": 1782460103.124149,
+    "ast_hash": "bec1f684d1a9b87a2b454524d0af18af",
+    "semantic_hash": "bec1f684d1a9b87a2b454524d0af18af"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/event-bridge.ts": {
+    "mtime": 1782718317.5823102,
+    "ast_hash": "046e9ef28905d530ec001c184198e307",
+    "semantic_hash": "046e9ef28905d530ec001c184198e307"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/hub.ts": {
+    "mtime": 1782460188.799473,
+    "ast_hash": "bf6a453f334a1bc27437102da937130d",
+    "semantic_hash": "bf6a453f334a1bc27437102da937130d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/index.ts": {
+    "mtime": 1782718333.41297,
+    "ast_hash": "e490adf726acf41aaa6a3a92fca2f2cb",
+    "semantic_hash": "e490adf726acf41aaa6a3a92fca2f2cb"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/provider.ts": {
+    "mtime": 1782460075.6640255,
+    "ast_hash": "25f86e8ad64ca37f5c0b736df8c50e13",
+    "semantic_hash": "25f86e8ad64ca37f5c0b736df8c50e13"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/providers/calendar.ts": {
+    "mtime": 1782460149.8301184,
+    "ast_hash": "8b0eaff5b746a2c287c5b1e3c7bcfdcb",
+    "semantic_hash": "8b0eaff5b746a2c287c5b1e3c7bcfdcb"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/providers/github.ts": {
+    "mtime": 1782460131.9590201,
+    "ast_hash": "a8536400e4c5a2aab18c65297f25a7e9",
+    "semantic_hash": "a8536400e4c5a2aab18c65297f25a7e9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/providers/gmail.ts": {
+    "mtime": 1782460140.8614812,
+    "ast_hash": "3e89a9fb42b9dca1c78a89ee6dc4f282",
+    "semantic_hash": "3e89a9fb42b9dca1c78a89ee6dc4f282"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/providers/http.ts": {
+    "mtime": 1782460165.655511,
+    "ast_hash": "d8e91c8b414e0e6067da64ae50a68df7",
+    "semantic_hash": "d8e91c8b414e0e6067da64ae50a68df7"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/providers/index.ts": {
+    "mtime": 1782718281.9269743,
+    "ast_hash": "9475edc85b74da51a69c5f184d3ce406",
+    "semantic_hash": "9475edc85b74da51a69c5f184d3ce406"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/providers/mcp.ts": {
+    "mtime": 1782460158.3032393,
+    "ast_hash": "947475d78a81a3fc65f2ce935aa7eeea",
+    "semantic_hash": "947475d78a81a3fc65f2ce935aa7eeea"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/providers/notion.ts": {
+    "mtime": 1782718257.795333,
+    "ast_hash": "e0b9c478853f88caf4fcf926295770d6",
+    "semantic_hash": "e0b9c478853f88caf4fcf926295770d6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/providers/slack.ts": {
+    "mtime": 1782718263.5470092,
+    "ast_hash": "f156020842d4937c948ba06293fd9737",
+    "semantic_hash": "f156020842d4937c948ba06293fd9737"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/rate-limit.ts": {
+    "mtime": 1782460107.1680007,
+    "ast_hash": "3d7ef46cee1d393e294ce83a1667872c",
+    "semantic_hash": "3d7ef46cee1d393e294ce83a1667872c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/registry.ts": {
+    "mtime": 1782460079.4064732,
+    "ast_hash": "fbc16a4c5a82eb291f986292bb6afcd1",
+    "semantic_hash": "fbc16a4c5a82eb291f986292bb6afcd1"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/sync-engine.ts": {
+    "mtime": 1782718456.510804,
+    "ast_hash": "d025e1a13397ea6ab99d9fb15c39af90",
+    "semantic_hash": "d025e1a13397ea6ab99d9fb15c39af90"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/src/types.ts": {
+    "mtime": 1782460061.5660367,
+    "ast_hash": "23332ae5f24e3708f1dbd830a2cc1b92",
+    "semantic_hash": "23332ae5f24e3708f1dbd830a2cc1b92"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/tests/hub.test.ts": {
+    "mtime": 1782460290.0607011,
+    "ast_hash": "4ce78070356c0957a28c0807d390fa8a",
+    "semantic_hash": "4ce78070356c0957a28c0807d390fa8a"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/tests/providers.test.ts": {
+    "mtime": 1782460301.6715276,
+    "ast_hash": "8838abee64d11ebcae4e53b29ad04f8f",
+    "semantic_hash": "8838abee64d11ebcae4e53b29ad04f8f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/tests/sync-engine.test.ts": {
+    "mtime": 1782718387.9163067,
+    "ast_hash": "d62c1c2bd675e5afe0a6377a06889a0e",
+    "semantic_hash": "d62c1c2bd675e5afe0a6377a06889a0e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/tsconfig.json": {
+    "mtime": 1782460045.972751,
+    "ast_hash": "f6e2fc4b8319812bee77affdc867f24b",
+    "semantic_hash": "f6e2fc4b8319812bee77affdc867f24b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/vitest.config.ts": {
+    "mtime": 1782460045.974834,
+    "ast_hash": "31a679163fa1230baac5dd82051ecfe6",
+    "semantic_hash": "31a679163fa1230baac5dd82051ecfe6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/package.json": {
+    "mtime": 1782382592.3745763,
+    "ast_hash": "e9cf312b39c2da055ceffc1f9a76f997",
+    "semantic_hash": "e9cf312b39c2da055ceffc1f9a76f997"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/command-bus/index.ts": {
+    "mtime": 1782381176.9613101,
+    "ast_hash": "7cd2197903bf01c389d013bc85798a8f",
+    "semantic_hash": "7cd2197903bf01c389d013bc85798a8f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/command-bus/interfaces.ts": {
+    "mtime": 1782381175.5666544,
+    "ast_hash": "7d5f439ebe3859888f65c62523fca7a8",
+    "semantic_hash": "7d5f439ebe3859888f65c62523fca7a8"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/command-bus/types.ts": {
+    "mtime": 1782381171.124506,
+    "ast_hash": "9179699b9bc7067b989fc15c76e9cd38",
+    "semantic_hash": "9179699b9bc7067b989fc15c76e9cd38"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/container/index.ts": {
+    "mtime": 1782381134.602309,
+    "ast_hash": "3c1f1cd9a585d8dfbe7145e7891f8cf5",
+    "semantic_hash": "3c1f1cd9a585d8dfbe7145e7891f8cf5"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/container/interfaces.ts": {
+    "mtime": 1782381133.6863203,
+    "ast_hash": "0d631476b177dc690b41fa95dfea5907",
+    "semantic_hash": "0d631476b177dc690b41fa95dfea5907"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/container/types.ts": {
+    "mtime": 1782381127.9123366,
+    "ast_hash": "9f83f5932567a0d0d6a65071574ac88b",
+    "semantic_hash": "9f83f5932567a0d0d6a65071574ac88b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/core/index.ts": {
+    "mtime": 1782381112.899924,
+    "ast_hash": "fc39b35ddc68c284ba81d4d3b332db7e",
+    "semantic_hash": "fc39b35ddc68c284ba81d4d3b332db7e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/core/interfaces.ts": {
+    "mtime": 1782381110.4411106,
+    "ast_hash": "f8e8a9f0015213bb782d2430ebe29453",
+    "semantic_hash": "f8e8a9f0015213bb782d2430ebe29453"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/core/types.ts": {
+    "mtime": 1782381099.4873185,
+    "ast_hash": "99c36b3b891dc79829b126de4fff4dcb",
+    "semantic_hash": "99c36b3b891dc79829b126de4fff4dcb"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/event-runtime/index.ts": {
+    "mtime": 1782381205.3665679,
+    "ast_hash": "57a763f8855b31819cdc710495f09191",
+    "semantic_hash": "57a763f8855b31819cdc710495f09191"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/event-runtime/interfaces.ts": {
+    "mtime": 1782381203.9317956,
+    "ast_hash": "df4bfff2a6a53916b555f7e2ff467838",
+    "semantic_hash": "df4bfff2a6a53916b555f7e2ff467838"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/event-runtime/types.ts": {
+    "mtime": 1782381196.362948,
+    "ast_hash": "1150b030a45d248adbb095e63bd9b1f9",
+    "semantic_hash": "1150b030a45d248adbb095e63bd9b1f9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/execution/index.ts": {
+    "mtime": 1782381345.7421,
+    "ast_hash": "c8cb066c3bbd8571fe0985c3f9e03f3b",
+    "semantic_hash": "c8cb066c3bbd8571fe0985c3f9e03f3b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/execution/interfaces.ts": {
+    "mtime": 1782381345.7401652,
+    "ast_hash": "794ffdef7d90785451bead45197cbad3",
+    "semantic_hash": "794ffdef7d90785451bead45197cbad3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/execution/types.ts": {
+    "mtime": 1782381345.7381208,
+    "ast_hash": "8f0a20b9b251c27031470cfef611f0f5",
+    "semantic_hash": "8f0a20b9b251c27031470cfef611f0f5"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/health/index.ts": {
+    "mtime": 1782381311.4137907,
+    "ast_hash": "7b8f4cd39a792fe24a350647575d8e85",
+    "semantic_hash": "7b8f4cd39a792fe24a350647575d8e85"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/health/interfaces.ts": {
+    "mtime": 1782381311.411468,
+    "ast_hash": "b8010d64844475e8ee81159337812c64",
+    "semantic_hash": "b8010d64844475e8ee81159337812c64"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/health/types.ts": {
+    "mtime": 1782381311.4089382,
+    "ast_hash": "3e92834454a9ab6b407016325acf285c",
+    "semantic_hash": "3e92834454a9ab6b407016325acf285c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/index.ts": {
+    "mtime": 1782394838.357305,
+    "ast_hash": "5fd5d4b79a4e3761aa545478533ab03e",
+    "semantic_hash": "5fd5d4b79a4e3761aa545478533ab03e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/lifecycle/index.ts": {
+    "mtime": 1782381311.4040205,
+    "ast_hash": "25332fe3ed7c229a22296dfe3d1d2392",
+    "semantic_hash": "25332fe3ed7c229a22296dfe3d1d2392"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/lifecycle/interfaces.ts": {
+    "mtime": 1782381311.4013653,
+    "ast_hash": "974ee0223280cbc78b34ac2ea8b3a8db",
+    "semantic_hash": "974ee0223280cbc78b34ac2ea8b3a8db"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/lifecycle/types.ts": {
+    "mtime": 1782381311.3978858,
+    "ast_hash": "80ffcf116fec592e4703c6c0e13dd2de",
+    "semantic_hash": "80ffcf116fec592e4703c6c0e13dd2de"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/loader/index.ts": {
+    "mtime": 1782381284.2327878,
+    "ast_hash": "254db8943705d0de06bd66308fc22e9c",
+    "semantic_hash": "254db8943705d0de06bd66308fc22e9c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/loader/interfaces.ts": {
+    "mtime": 1782381284.2297843,
+    "ast_hash": "e874f1dd4fccdfdbbf0b3f9579b6b1fe",
+    "semantic_hash": "e874f1dd4fccdfdbbf0b3f9579b6b1fe"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/loader/types.ts": {
+    "mtime": 1782381284.2273622,
+    "ast_hash": "66056aa6b2ef594a1ebfa95674090844",
+    "semantic_hash": "66056aa6b2ef594a1ebfa95674090844"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/locks/index.ts": {
+    "mtime": 1782381345.7241333,
+    "ast_hash": "1849c8e7606622e6d0125e59819442e1",
+    "semantic_hash": "1849c8e7606622e6d0125e59819442e1"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/locks/interfaces.ts": {
+    "mtime": 1782381345.721841,
+    "ast_hash": "887795a05691baaf94fd1474e0ecb7f2",
+    "semantic_hash": "887795a05691baaf94fd1474e0ecb7f2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/locks/types.ts": {
+    "mtime": 1782381345.719272,
+    "ast_hash": "f1e9d5e8a3253509d662262ecc280615",
+    "semantic_hash": "f1e9d5e8a3253509d662262ecc280615"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/plugins/index.ts": {
+    "mtime": 1782381284.2222633,
+    "ast_hash": "7e69b4455e22c32f3a2e25d1e13daa9a",
+    "semantic_hash": "7e69b4455e22c32f3a2e25d1e13daa9a"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/plugins/interfaces.ts": {
+    "mtime": 1782381284.2197313,
+    "ast_hash": "43f0d64535d95cf7434ebbd881db5811",
+    "semantic_hash": "43f0d64535d95cf7434ebbd881db5811"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/plugins/types.ts": {
+    "mtime": 1782381284.2168953,
+    "ast_hash": "dec7d1696ebd97a0b33fb26cb6a03bdf",
+    "semantic_hash": "dec7d1696ebd97a0b33fb26cb6a03bdf"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/query-bus/index.ts": {
+    "mtime": 1782381189.2406418,
+    "ast_hash": "f7a4368d22ba781072e9bcb6877f7b87",
+    "semantic_hash": "f7a4368d22ba781072e9bcb6877f7b87"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/query-bus/interfaces.ts": {
+    "mtime": 1782381188.3662786,
+    "ast_hash": "295eabda798679f1c4f2f450cf56ea21",
+    "semantic_hash": "295eabda798679f1c4f2f450cf56ea21"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/query-bus/types.ts": {
+    "mtime": 1782381184.1710896,
+    "ast_hash": "255bd24515a864484132d85beae0f2ce",
+    "semantic_hash": "255bd24515a864484132d85beae0f2ce"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/registry/index.ts": {
+    "mtime": 1782381148.765864,
+    "ast_hash": "09ee1cce7dc61b1ecabd01c9bb7e16e9",
+    "semantic_hash": "09ee1cce7dc61b1ecabd01c9bb7e16e9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/registry/interfaces.ts": {
+    "mtime": 1782381147.3618746,
+    "ast_hash": "02ec012a23d8a2c237124fb7c88af43e",
+    "semantic_hash": "02ec012a23d8a2c237124fb7c88af43e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/registry/types.ts": {
+    "mtime": 1782381142.203763,
+    "ast_hash": "1bd1939ad7c5dda4d7c0a5708ef34516",
+    "semantic_hash": "1bd1939ad7c5dda4d7c0a5708ef34516"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/command-bus.impl.ts": {
+    "mtime": 1782394864.529443,
+    "ast_hash": "da47463ca8185ba73cbaf49713cc2453",
+    "semantic_hash": "da47463ca8185ba73cbaf49713cc2453"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/container.impl.ts": {
+    "mtime": 1782394881.9807723,
+    "ast_hash": "8eedc7f4680cfafe0c1c280d3d9991cd",
+    "semantic_hash": "8eedc7f4680cfafe0c1c280d3d9991cd"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/event-runtime.impl.ts": {
+    "mtime": 1782394907.2812254,
+    "ast_hash": "406eb7be92bbdece5985bf6f0e667be2",
+    "semantic_hash": "406eb7be92bbdece5985bf6f0e667be2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/execution-engine.impl.ts": {
+    "mtime": 1782394613.420864,
+    "ast_hash": "a0e2a0033d3e553948ceac294bea747c",
+    "semantic_hash": "a0e2a0033d3e553948ceac294bea747c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/health-monitor.impl.ts": {
+    "mtime": 1782395030.1180248,
+    "ast_hash": "fdc41f5ec34867a8a480912aaf06beb4",
+    "semantic_hash": "fdc41f5ec34867a8a480912aaf06beb4"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/index.ts": {
+    "mtime": 1782394679.9304676,
+    "ast_hash": "5ddebd3a53e0654bc17eaa862aec6623",
+    "semantic_hash": "5ddebd3a53e0654bc17eaa862aec6623"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/kernel.impl.ts": {
+    "mtime": 1782395440.5292716,
+    "ast_hash": "0831916d9759b26f748705c2ec3ad1ba",
+    "semantic_hash": "0831916d9759b26f748705c2ec3ad1ba"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/lifecycle-manager.impl.ts": {
+    "mtime": 1782394936.9417121,
+    "ast_hash": "c95178f4afbdc12ba37f9afe1ff05f57",
+    "semantic_hash": "c95178f4afbdc12ba37f9afe1ff05f57"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/query-bus.impl.ts": {
+    "mtime": 1782395069.8887315,
+    "ast_hash": "10600447df53e8303799cda47b2cde07",
+    "semantic_hash": "10600447df53e8303799cda47b2cde07"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/scheduler.impl.ts": {
+    "mtime": 1782395088.5476565,
+    "ast_hash": "4895eb2873daf5ef6a35c1926b58e847",
+    "semantic_hash": "4895eb2873daf5ef6a35c1926b58e847"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/service-registry.impl.ts": {
+    "mtime": 1782395105.4800715,
+    "ast_hash": "3f93de20dd5cd49d60c5a59b5dfdd59f",
+    "semantic_hash": "3f93de20dd5cd49d60c5a59b5dfdd59f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/impl/state-manager.impl.ts": {
+    "mtime": 1782382729.77831,
+    "ast_hash": "270dc49e000036000c69c95e45e731df",
+    "semantic_hash": "270dc49e000036000c69c95e45e731df"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/index.ts": {
+    "mtime": 1782394830.2795713,
+    "ast_hash": "3e04587b329b44b62a01c08380d11b16",
+    "semantic_hash": "3e04587b329b44b62a01c08380d11b16"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/interfaces.ts": {
+    "mtime": 1782394819.807406,
+    "ast_hash": "1b284b729d0dab0958c669658a0c070d",
+    "semantic_hash": "1b284b729d0dab0958c669658a0c070d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/types.ts": {
+    "mtime": 1782394807.423765,
+    "ast_hash": "13144707eb67e1ee1a27d20a0656be92",
+    "semantic_hash": "13144707eb67e1ee1a27d20a0656be92"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/scheduler/index.ts": {
+    "mtime": 1782381260.264764,
+    "ast_hash": "9c2c2913f3a6d66d5cf652bbc58c6a4d",
+    "semantic_hash": "9c2c2913f3a6d66d5cf652bbc58c6a4d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/scheduler/interfaces.ts": {
+    "mtime": 1782381258.8598354,
+    "ast_hash": "8ffdf3721b0739505d5d2e838c8df648",
+    "semantic_hash": "8ffdf3721b0739505d5d2e838c8df648"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/scheduler/types.ts": {
+    "mtime": 1782381254.122949,
+    "ast_hash": "b3f0b4166c43db29a116487ac58cfbac",
+    "semantic_hash": "b3f0b4166c43db29a116487ac58cfbac"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/services/index.ts": {
+    "mtime": 1782381159.2878423,
+    "ast_hash": "486b532953a04cb8c013d5f417595655",
+    "semantic_hash": "486b532953a04cb8c013d5f417595655"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/services/interfaces.ts": {
+    "mtime": 1782381157.95452,
+    "ast_hash": "e818358b4631d8116a63ee4f123be700",
+    "semantic_hash": "e818358b4631d8116a63ee4f123be700"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/services/types.ts": {
+    "mtime": 1782381155.0978897,
+    "ast_hash": "c45a72cb784278ffbd1ea05a38f3f3e9",
+    "semantic_hash": "c45a72cb784278ffbd1ea05a38f3f3e9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/state/index.ts": {
+    "mtime": 1782381345.7336926,
+    "ast_hash": "0c5558355ea5870532cf95e1aec60864",
+    "semantic_hash": "0c5558355ea5870532cf95e1aec60864"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/state/interfaces.ts": {
+    "mtime": 1782381345.7311952,
+    "ast_hash": "2c76062a24b13a663eb3cf41e049ffeb",
+    "semantic_hash": "2c76062a24b13a663eb3cf41e049ffeb"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/state/types.ts": {
+    "mtime": 1782381345.7287624,
+    "ast_hash": "7960f360143f2bb2e71453f2b354c715",
+    "semantic_hash": "7960f360143f2bb2e71453f2b354c715"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/task-engine/index.ts": {
+    "mtime": 1782381245.1667655,
+    "ast_hash": "c3b44d7ebdf5181e6a9bca66bdb1e4b5",
+    "semantic_hash": "c3b44d7ebdf5181e6a9bca66bdb1e4b5"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/task-engine/interfaces.ts": {
+    "mtime": 1782381244.1691854,
+    "ast_hash": "490609b731c0f134434adafd237fe890",
+    "semantic_hash": "490609b731c0f134434adafd237fe890"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/task-engine/types.ts": {
+    "mtime": 1782381238.3381786,
+    "ast_hash": "2369bd780d8d85199cce2d466bc7e58c",
+    "semantic_hash": "2369bd780d8d85199cce2d466bc7e58c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/workflow-runtime/index.ts": {
+    "mtime": 1782381230.299395,
+    "ast_hash": "11583b04be72a11735f0cb1d8f396863",
+    "semantic_hash": "11583b04be72a11735f0cb1d8f396863"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/workflow-runtime/interfaces.ts": {
+    "mtime": 1782381229.646042,
+    "ast_hash": "421869a27c0a3ffaa2bae22da9f11f0d",
+    "semantic_hash": "421869a27c0a3ffaa2bae22da9f11f0d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/workflow-runtime/types.ts": {
+    "mtime": 1782395157.6834738,
+    "ast_hash": "8df1de6e804eee4db4d7ce24d945763b",
+    "semantic_hash": "8df1de6e804eee4db4d7ce24d945763b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/tests/command-bus.test.ts": {
+    "mtime": 1782494495.7657802,
+    "ast_hash": "1559e5ab3cf61c89b9edf90f2871e802",
+    "semantic_hash": "1559e5ab3cf61c89b9edf90f2871e802"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/tests/container.test.ts": {
+    "mtime": 1782395303.2131464,
+    "ast_hash": "b1c955d9de00818b59abb2a229f72815",
+    "semantic_hash": "b1c955d9de00818b59abb2a229f72815"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/tests/event-runtime.test.ts": {
+    "mtime": 1782395236.5199995,
+    "ast_hash": "b0bb1482f969c7729c4d137765adae40",
+    "semantic_hash": "b0bb1482f969c7729c4d137765adae40"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/tests/health.test.ts": {
+    "mtime": 1782395281.3361902,
+    "ast_hash": "d602596ced3b8481353a9d9bf7ce3a80",
+    "semantic_hash": "d602596ced3b8481353a9d9bf7ce3a80"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/tests/kernel.test.ts": {
+    "mtime": 1782494495.7776258,
+    "ast_hash": "e590e462e05b9dd79745994b331c7d24",
+    "semantic_hash": "e590e462e05b9dd79745994b331c7d24"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/tests/scheduler.test.ts": {
+    "mtime": 1782494495.7847729,
+    "ast_hash": "f0a21b1335524d8c1bb70dd50899da90",
+    "semantic_hash": "f0a21b1335524d8c1bb70dd50899da90"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/tsconfig.json": {
+    "mtime": 1782381083.530835,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/vitest.config.ts": {
+    "mtime": 1782395212.0860026,
+    "ast_hash": "bd5aba052c5bfa580ea74be3e672272e",
+    "semantic_hash": "bd5aba052c5bfa580ea74be3e672272e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/package.json": {
+    "mtime": 1782377436.25274,
+    "ast_hash": "8e76f27098a450646f4d3a6176bf6e5b",
+    "semantic_hash": "8e76f27098a450646f4d3a6176bf6e5b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/src/index.ts": {
+    "mtime": 1782377441.830675,
+    "ast_hash": "caf10e7683e5cda352c6bab5ce9a9c88",
+    "semantic_hash": "caf10e7683e5cda352c6bab5ce9a9c88"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/src/logger.ts": {
+    "mtime": 1782395183.0429044,
+    "ast_hash": "56753d94f1a614a40c28f93ed45c91c6",
+    "semantic_hash": "56753d94f1a614a40c28f93ed45c91c6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/src/types.ts": {
+    "mtime": 1782377444.095222,
+    "ast_hash": "95bb5667b5e51b5166d4190e61fecd41",
+    "semantic_hash": "95bb5667b5e51b5166d4190e61fecd41"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/tsconfig.json": {
+    "mtime": 1782377436.2547233,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/memory/package.json": {
+    "mtime": 1782377436.2834814,
+    "ast_hash": "a95046dbda868cf20447224cbe4f7727",
+    "semantic_hash": "a95046dbda868cf20447224cbe4f7727"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/memory/src/index.ts": {
+    "mtime": 1782377518.009491,
+    "ast_hash": "b757b163dbad6dfdeabf0c37b7f79ce6",
+    "semantic_hash": "b757b163dbad6dfdeabf0c37b7f79ce6"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/memory/src/types.ts": {
+    "mtime": 1782377523.208032,
+    "ast_hash": "d836185addf63f4ad54c5826d5bb46c2",
+    "semantic_hash": "d836185addf63f4ad54c5826d5bb46c2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/memory/tsconfig.json": {
+    "mtime": 1782377436.2853878,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/notifications/package.json": {
+    "mtime": 1782377436.289342,
+    "ast_hash": "d4c1ffe40ebd7cdd809bc68757ff9a3f",
+    "semantic_hash": "d4c1ffe40ebd7cdd809bc68757ff9a3f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/notifications/src/index.ts": {
+    "mtime": 1782377524.6748514,
+    "ast_hash": "47f5198c3e332cc7b18e026adb0018e4",
+    "semantic_hash": "47f5198c3e332cc7b18e026adb0018e4"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/notifications/src/types.ts": {
+    "mtime": 1782377529.738887,
+    "ast_hash": "dde952caae914409898db6cbd0a2165e",
+    "semantic_hash": "dde952caae914409898db6cbd0a2165e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/notifications/tsconfig.json": {
+    "mtime": 1782377436.2912736,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/sdk/package.json": {
+    "mtime": 1782377436.2647586,
+    "ast_hash": "528f7251e4aae95c88039bbe276d0256",
+    "semantic_hash": "528f7251e4aae95c88039bbe276d0256"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/sdk/src/index.ts": {
+    "mtime": 1782377553.8570266,
+    "ast_hash": "ec918e09a552cb88f14890598db5b953",
+    "semantic_hash": "ec918e09a552cb88f14890598db5b953"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/sdk/src/types.ts": {
+    "mtime": 1782377557.1917453,
+    "ast_hash": "df9f3fe326f8e17cb50d617323a5ff38",
+    "semantic_hash": "df9f3fe326f8e17cb50d617323a5ff38"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/sdk/tsconfig.json": {
+    "mtime": 1782377436.2666702,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/package.json": {
+    "mtime": 1782377436.2588658,
+    "ast_hash": "9822b9d3e9dfbb08585ee3f37c0ad37e",
+    "semantic_hash": "9822b9d3e9dfbb08585ee3f37c0ad37e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/src/constants.ts": {
+    "mtime": 1782377551.0790076,
+    "ast_hash": "e286c12db4e8d46ae5d0111f787611cf",
+    "semantic_hash": "e286c12db4e8d46ae5d0111f787611cf"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/src/index.ts": {
+    "mtime": 1782377549.667079,
+    "ast_hash": "06776ae409cce6837597efbca2f9a89f",
+    "semantic_hash": "06776ae409cce6837597efbca2f9a89f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/src/types.ts": {
+    "mtime": 1782377552.4906445,
+    "ast_hash": "1c7de1356bf2e917fdca0d7c6ce18e2b",
+    "semantic_hash": "1c7de1356bf2e917fdca0d7c6ce18e2b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/tsconfig.json": {
+    "mtime": 1782377436.2607994,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/package.json": {
+    "mtime": 1782376917.7132401,
+    "ast_hash": "6723859712bec85c8119a74f4a5fa202",
+    "semantic_hash": "6723859712bec85c8119a74f4a5fa202"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/agent.ts": {
+    "mtime": 1782377580.3752482,
+    "ast_hash": "439b490049ec80f1a743d6c0afe2f9ad",
+    "semantic_hash": "439b490049ec80f1a743d6c0afe2f9ad"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/base.ts": {
+    "mtime": 1782376920.2554104,
+    "ast_hash": "1841b11ecfe712bf65982b5db238aa57",
+    "semantic_hash": "1841b11ecfe712bf65982b5db238aa57"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/goal.ts": {
+    "mtime": 1782377569.9392622,
+    "ast_hash": "fba03bf36d2c695376e1ab4d753ec7e5",
+    "semantic_hash": "fba03bf36d2c695376e1ab4d753ec7e5"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/index.ts": {
+    "mtime": 1782377589.2526715,
+    "ast_hash": "7f04152fb5584f53f5e71ff023200990",
+    "semantic_hash": "7f04152fb5584f53f5e71ff023200990"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/memory.ts": {
+    "mtime": 1782377578.9416597,
+    "ast_hash": "e5514ecd2ddd4179b161660be29a4a40",
+    "semantic_hash": "e5514ecd2ddd4179b161660be29a4a40"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/notification.ts": {
+    "mtime": 1782377571.3660865,
+    "ast_hash": "c97e5070192c86eee08593aa60548964",
+    "semantic_hash": "c97e5070192c86eee08593aa60548964"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/order.ts": {
+    "mtime": 1782377577.1021197,
+    "ast_hash": "7739802b92715916ad2dcc1c0c209b5f",
+    "semantic_hash": "7739802b92715916ad2dcc1c0c209b5f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/task.ts": {
+    "mtime": 1782377568.1924741,
+    "ast_hash": "11413aef7662039b6eaa9b38cf58d213",
+    "semantic_hash": "11413aef7662039b6eaa9b38cf58d213"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/trade.ts": {
+    "mtime": 1782377574.2356255,
+    "ast_hash": "07597eda11e67e1267625bcb8a795b36",
+    "semantic_hash": "07597eda11e67e1267625bcb8a795b36"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/user.ts": {
+    "mtime": 1782377566.558878,
+    "ast_hash": "07bd01996da64a33d3843ba85473ae01",
+    "semantic_hash": "07bd01996da64a33d3843ba85473ae01"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/src/workflow.ts": {
+    "mtime": 1782377582.3416607,
+    "ast_hash": "46d8f70014c38250c4a2b6cbe5350152",
+    "semantic_hash": "46d8f70014c38250c4a2b6cbe5350152"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/types/tsconfig.json": {
+    "mtime": 1782376919.1149297,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ui/package.json": {
+    "mtime": 1782376932.5996068,
+    "ast_hash": "6e4076adce8a6ba2c0ecbff2041c8008",
+    "semantic_hash": "6e4076adce8a6ba2c0ecbff2041c8008"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ui/src/button.tsx": {
+    "mtime": 1782376939.9100406,
+    "ast_hash": "7e179cad84ed774ff3217eb210dc4bd0",
+    "semantic_hash": "7e179cad84ed774ff3217eb210dc4bd0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ui/src/index.ts": {
+    "mtime": 1782376934.448142,
+    "ast_hash": "66a336616523817793184baae8ee861f",
+    "semantic_hash": "66a336616523817793184baae8ee861f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ui/src/utils.ts": {
+    "mtime": 1782376935.4282956,
+    "ast_hash": "a40ab276f43a0e0a273926a9fa5055cc",
+    "semantic_hash": "a40ab276f43a0e0a273926a9fa5055cc"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ui/tsconfig.json": {
+    "mtime": 1782376934.0299866,
+    "ast_hash": "a6676aad7ed3570a195de1d1ffdcd5ec",
+    "semantic_hash": "a6676aad7ed3570a195de1d1ffdcd5ec"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/utils/package.json": {
+    "mtime": 1782376926.562338,
+    "ast_hash": "944d2099574732c7eda9dae179ef0e5d",
+    "semantic_hash": "944d2099574732c7eda9dae179ef0e5d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/utils/src/format.ts": {
+    "mtime": 1782376930.215958,
+    "ast_hash": "baf8e03f5a6d084c1833a529351cb0b4",
+    "semantic_hash": "baf8e03f5a6d084c1833a529351cb0b4"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/utils/src/index.ts": {
+    "mtime": 1782376928.3401701,
+    "ast_hash": "a5e8e6bc5afcc5dafa8bfc99477331f1",
+    "semantic_hash": "a5e8e6bc5afcc5dafa8bfc99477331f1"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/utils/tsconfig.json": {
+    "mtime": 1782376927.4579287,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/validation/package.json": {
+    "mtime": 1782377436.2709854,
+    "ast_hash": "d1cc8fc40b486f058316e1b6624b005a",
+    "semantic_hash": "d1cc8fc40b486f058316e1b6624b005a"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/validation/src/index.ts": {
+    "mtime": 1782377558.1621134,
+    "ast_hash": "bd31b2a11ca353226c18964e31963130",
+    "semantic_hash": "bd31b2a11ca353226c18964e31963130"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/validation/src/schemas.ts": {
+    "mtime": 1782377560.0396342,
+    "ast_hash": "b0209de22fd992dde63fa942513283e0",
+    "semantic_hash": "b0209de22fd992dde63fa942513283e0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/validation/tsconfig.json": {
+    "mtime": 1782377436.2731485,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/package.json": {
+    "mtime": 1782473569.6044238,
+    "ast_hash": "8f6783e6b87f36db362444b359ade362",
+    "semantic_hash": "8f6783e6b87f36db362444b359ade362"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/src/index.ts": {
+    "mtime": 1782481642.8399699,
+    "ast_hash": "7876bc41d0d4abaa9f09d1e160336b51",
+    "semantic_hash": "7876bc41d0d4abaa9f09d1e160336b51"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/src/runtime/engine.ts": {
+    "mtime": 1782473896.086929,
+    "ast_hash": "d8bf9406e8ec4438fdd10482160a5d6b",
+    "semantic_hash": "d8bf9406e8ec4438fdd10482160a5d6b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/src/runtime/scheduler.ts": {
+    "mtime": 1782481635.9820106,
+    "ast_hash": "565ec9197aae21e2980ff7980e7ee40b",
+    "semantic_hash": "565ec9197aae21e2980ff7980e7ee40b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/src/templates/index.ts": {
+    "mtime": 1782473671.967901,
+    "ast_hash": "a6fe4903a704a7f35cc81c8eaf10837f",
+    "semantic_hash": "a6fe4903a704a7f35cc81c8eaf10837f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/src/triggers/registry.ts": {
+    "mtime": 1782481617.24201,
+    "ast_hash": "8926af175e61f072e05e4d4ca7a77f99",
+    "semantic_hash": "8926af175e61f072e05e4d4ca7a77f99"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/src/types.ts": {
+    "mtime": 1782473585.3155658,
+    "ast_hash": "029fe4224a0b56bc0c04a92ef848312c",
+    "semantic_hash": "029fe4224a0b56bc0c04a92ef848312c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/tests/runtime.test.ts": {
+    "mtime": 1782494495.7998776,
+    "ast_hash": "78a2b9836dfed14caa875f3ebe013df0",
+    "semantic_hash": "78a2b9836dfed14caa875f3ebe013df0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/tests/triggers.test.ts": {
+    "mtime": 1782473815.746936,
+    "ast_hash": "404dfb6f443e7c2ff2c67ea56971c7e0",
+    "semantic_hash": "404dfb6f443e7c2ff2c67ea56971c7e0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/tsconfig.json": {
+    "mtime": 1782473569.607103,
+    "ast_hash": "f6e2fc4b8319812bee77affdc867f24b",
+    "semantic_hash": "f6e2fc4b8319812bee77affdc867f24b"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/vitest.config.ts": {
+    "mtime": 1782473569.6094577,
+    "ast_hash": "31a679163fa1230baac5dd82051ecfe6",
+    "semantic_hash": "31a679163fa1230baac5dd82051ecfe6"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/backup.sh": {
+    "mtime": 1782377711.5649424,
+    "ast_hash": "384e8f71e409a92a6f93c465113b8087",
+    "semantic_hash": "384e8f71e409a92a6f93c465113b8087"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/clean.sh": {
+    "mtime": 1782377711.573327,
+    "ast_hash": "c0294fc8ee05dee18d93bae5a5f3cf52",
+    "semantic_hash": "c0294fc8ee05dee18d93bae5a5f3cf52"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/restore.sh": {
+    "mtime": 1782377711.5692787,
+    "ast_hash": "d709a4e87f6a3f4a77785f7654c61603",
+    "semantic_hash": "d709a4e87f6a3f4a77785f7654c61603"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/seed.sh": {
+    "mtime": 1782377711.5603316,
+    "ast_hash": "c70fbe65f099d25f56477ddf5974e861",
+    "semantic_hash": "c70fbe65f099d25f56477ddf5974e861"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/setup.sh": {
+    "mtime": 1782377711.5543234,
+    "ast_hash": "fb4c68789e22613fa742fc07ce45aff7",
+    "semantic_hash": "fb4c68789e22613fa742fc07ce45aff7"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/001_extensions_and_base.sql": {
+    "mtime": 1782484183.4733503,
+    "ast_hash": "47508004af11267cc51f20e1bdc55444",
+    "semantic_hash": "47508004af11267cc51f20e1bdc55444"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/002_identity.sql": {
+    "mtime": 1782484183.4811401,
+    "ast_hash": "0f1e70d1bd2c0d8fdcbc48e5fd4ed084",
+    "semantic_hash": "0f1e70d1bd2c0d8fdcbc48e5fd4ed084"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/003_ai_agents.sql": {
+    "mtime": 1782484183.4773414,
+    "ast_hash": "0b3ce373ba996e168ebc4a6bc3478387",
+    "semantic_hash": "0b3ce373ba996e168ebc4a6bc3478387"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/004_memory.sql": {
+    "mtime": 1782484183.4245362,
+    "ast_hash": "1fe64f4840d05251495b9a4373cf3a9d",
+    "semantic_hash": "1fe64f4840d05251495b9a4373cf3a9d"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/005_goals_tasks.sql": {
+    "mtime": 1782484183.4695425,
+    "ast_hash": "d0058b3908a255be62ae9a5b544d2f4e",
+    "semantic_hash": "d0058b3908a255be62ae9a5b544d2f4e"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/006_workflows.sql": {
+    "mtime": 1782484183.4431577,
+    "ast_hash": "b5557dc75695bff24a840b089969f2ba",
+    "semantic_hash": "b5557dc75695bff24a840b089969f2ba"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/007_notifications.sql": {
+    "mtime": 1782484183.461452,
+    "ast_hash": "380649ababffc9d72614f0d9e3b86430",
+    "semantic_hash": "380649ababffc9d72614f0d9e3b86430"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/008_trading.sql": {
+    "mtime": 1782484183.4655607,
+    "ast_hash": "91b2f08adc6195d81d704e59f1187af3",
+    "semantic_hash": "91b2f08adc6195d81d704e59f1187af3"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/009_commerce.sql": {
+    "mtime": 1782484183.4885175,
+    "ast_hash": "2f318b1377fd3837eebe1ea2b5768532",
+    "semantic_hash": "2f318b1377fd3837eebe1ea2b5768532"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/010_finance_calendar_health.sql": {
+    "mtime": 1782484233.6772099,
+    "ast_hash": "9caf8ecc7cc4c9cf79f7c54ef8ed1e9e",
+    "semantic_hash": "9caf8ecc7cc4c9cf79f7c54ef8ed1e9e"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/011_desktop_browser.sql": {
+    "mtime": 1782484267.752673,
+    "ast_hash": "993e0efcefc9676228d57e1394ba5c1d",
+    "semantic_hash": "993e0efcefc9676228d57e1394ba5c1d"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/012_automation_kernel.sql": {
+    "mtime": 1782484183.4571605,
+    "ast_hash": "117676512dd1898f311ddcc42860b2cb",
+    "semantic_hash": "117676512dd1898f311ddcc42860b2cb"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/013_audit_voice.sql": {
+    "mtime": 1782484183.438069,
+    "ast_hash": "fa99da69a8b7559d9668af198987459b",
+    "semantic_hash": "fa99da69a8b7559d9668af198987459b"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/014_rls_policies.sql": {
+    "mtime": 1782484183.4527285,
+    "ast_hash": "b14080663e2ed620942d293e3f1352ce",
+    "semantic_hash": "b14080663e2ed620942d293e3f1352ce"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/015_functions_views.sql": {
+    "mtime": 1782484376.7968946,
+    "ast_hash": "20ab1b86613395f7616114eeea131ec0",
+    "semantic_hash": "20ab1b86613395f7616114eeea131ec0"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/016_auth_user_sync.sql": {
+    "mtime": 1782494396.7123456,
+    "ast_hash": "325482db8360a0e3b8836dd98a5d15f4",
+    "semantic_hash": "325482db8360a0e3b8836dd98a5d15f4"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/017_task_comments_activity.sql": {
+    "mtime": 1782589851.897688,
+    "ast_hash": "e668664303c098e3feaedb50bbecf7e1",
+    "semantic_hash": "e668664303c098e3feaedb50bbecf7e1"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/018_project_enhancements.sql": {
+    "mtime": 1782590419.681343,
+    "ast_hash": "de146cfec275b06ea2042d5af4308fe4",
+    "semantic_hash": "de146cfec275b06ea2042d5af4308fe4"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/019_memory_entities.sql": {
+    "mtime": 1782717939.6717682,
+    "ast_hash": "aba94b3a250bf55238b2ab72864dfca2",
+    "semantic_hash": "aba94b3a250bf55238b2ab72864dfca2"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/types/database.ts": {
+    "mtime": 1782382334.4629405,
+    "ast_hash": "9e58c3aefeb77cbdd5e4413424c7f032",
+    "semantic_hash": "9e58c3aefeb77cbdd5e4413424c7f032"
+  },
+  "/Users/emir/Projects/APEX-OS/tsconfig.json": {
+    "mtime": 1782376833.7501523,
+    "ast_hash": "04b2189292e0829627cfce2934527ab8",
+    "semantic_hash": "04b2189292e0829627cfce2934527ab8"
+  },
+  "/Users/emir/Projects/APEX-OS/turbo.json": {
+    "mtime": 1782377401.6188288,
+    "ast_hash": "40bd1b513ffd1027348fa51972e1735d",
+    "semantic_hash": "40bd1b513ffd1027348fa51972e1735d"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/ai-worker/package.json": {
+    "mtime": 1782377617.711833,
+    "ast_hash": "053e54b0a6e69c987c9b7e47db12e9b0",
+    "semantic_hash": "053e54b0a6e69c987c9b7e47db12e9b0"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/ai-worker/src/index.ts": {
+    "mtime": 1782377623.7446926,
+    "ast_hash": "13a7a58fad676ed55497045c4256d08e",
+    "semantic_hash": "13a7a58fad676ed55497045c4256d08e"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/ai-worker/tsconfig.json": {
+    "mtime": 1782377617.7144706,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/automation-worker/package.json": {
+    "mtime": 1782377617.7266216,
+    "ast_hash": "90b7540543f34a08ef84c0ce1b3fa95e",
+    "semantic_hash": "90b7540543f34a08ef84c0ce1b3fa95e"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/automation-worker/src/index.ts": {
+    "mtime": 1782377633.7222824,
+    "ast_hash": "56c49ded36a5f75b06f698f2d58199e0",
+    "semantic_hash": "56c49ded36a5f75b06f698f2d58199e0"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/automation-worker/tsconfig.json": {
+    "mtime": 1782377617.7288995,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/crawler-worker/package.json": {
+    "mtime": 1782377617.7310784,
+    "ast_hash": "e305fe041ed363a1d76de02302414565",
+    "semantic_hash": "e305fe041ed363a1d76de02302414565"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/crawler-worker/src/index.ts": {
+    "mtime": 1782377636.9642553,
+    "ast_hash": "871558e9fbc1035c412e3c29ed69c01b",
+    "semantic_hash": "871558e9fbc1035c412e3c29ed69c01b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/crawler-worker/tsconfig.json": {
+    "mtime": 1782377617.7331934,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/memory-worker/package.json": {
+    "mtime": 1782377617.735188,
+    "ast_hash": "1311564ad889233f095b5c8c324d2776",
+    "semantic_hash": "1311564ad889233f095b5c8c324d2776"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/memory-worker/src/index.ts": {
+    "mtime": 1782377640.271718,
+    "ast_hash": "797a9f2c605b48c8f43af94416402635",
+    "semantic_hash": "797a9f2c605b48c8f43af94416402635"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/memory-worker/tsconfig.json": {
+    "mtime": 1782377617.7370727,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/notification-worker/package.json": {
+    "mtime": 1782377617.7213578,
+    "ast_hash": "773f4661d6d7a47cb1d24b6fb60a000b",
+    "semantic_hash": "773f4661d6d7a47cb1d24b6fb60a000b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/notification-worker/src/index.ts": {
+    "mtime": 1782377630.8586261,
+    "ast_hash": "2afb62a09f357f9f5c77d391abf01d92",
+    "semantic_hash": "2afb62a09f357f9f5c77d391abf01d92"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/notification-worker/tsconfig.json": {
+    "mtime": 1782377617.723867,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/scheduler/package.json": {
+    "mtime": 1782377617.716915,
+    "ast_hash": "6f68486e7a94ed6bd01bb80ab70f3f7b",
+    "semantic_hash": "6f68486e7a94ed6bd01bb80ab70f3f7b"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/scheduler/src/index.ts": {
+    "mtime": 1782377628.0076046,
+    "ast_hash": "b02f74d8c1d1792599369693cbb35238",
+    "semantic_hash": "b02f74d8c1d1792599369693cbb35238"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/scheduler/tsconfig.json": {
+    "mtime": 1782377617.7191336,
+    "ast_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b",
+    "semantic_hash": "89fe1ffac6d8c8896f4b7fb28f7af66b"
+  },
+  "/Users/emir/Projects/APEX-OS/.github/workflows/ci.yml": {
+    "mtime": 1782377763.910229,
+    "ast_hash": "0d7f032747a78bcfba864efb7ea6cbb6",
+    "semantic_hash": "0d7f032747a78bcfba864efb7ea6cbb6"
+  },
+  "/Users/emir/Projects/APEX-OS/APEX-OS/Ho\u015f geldiniz.md": {
+    "mtime": 1782376493.4218802,
+    "ast_hash": "057f117112003e93f483a9a0b88982b4",
+    "semantic_hash": "057f117112003e93f483a9a0b88982b4"
+  },
+  "/Users/emir/Projects/APEX-OS/CLAUDE.md": {
+    "mtime": 1782396741.7220407,
+    "ast_hash": "31c690d09475e59bc3684a180ad5461f",
+    "semantic_hash": "31c690d09475e59bc3684a180ad5461f"
+  },
+  "/Users/emir/Projects/APEX-OS/FIRST_BOOT.md": {
+    "mtime": 1782481389.166826,
+    "ast_hash": "9fa7101835e15c5e3dca3446f4f85a1e",
+    "semantic_hash": "9fa7101835e15c5e3dca3446f4f85a1e"
+  },
+  "/Users/emir/Projects/APEX-OS/README.md": {
+    "mtime": 1782482290.5490453,
+    "ast_hash": "f441f69b61b6aa70e937bff17766e383",
+    "semantic_hash": "f441f69b61b6aa70e937bff17766e383"
+  },
+  "/Users/emir/Projects/APEX-OS/REALITY_REPORT.md": {
+    "mtime": 1782481884.821073,
+    "ast_hash": "b24cde601965a32ef4308eb2d9bf10a1",
+    "semantic_hash": "b24cde601965a32ef4308eb2d9bf10a1"
+  },
+  "/Users/emir/Projects/APEX-OS/SUPABASE_SETUP.md": {
+    "mtime": 1782481318.261192,
+    "ast_hash": "0792b76a6b6cbfdad1b4c7b4adc5db11",
+    "semantic_hash": "0792b76a6b6cbfdad1b4c7b4adc5db11"
+  },
+  "/Users/emir/Projects/APEX-OS/SYSTEM_AUDIT.md": {
+    "mtime": 1782481369.1103904,
+    "ast_hash": "0e8f422d58ecd0616bc12c2652db5b44",
+    "semantic_hash": "0e8f422d58ecd0616bc12c2652db5b44"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/browser-extension/README.md": {
+    "mtime": 1782377605.5457761,
+    "ast_hash": "398b4e06653aba3a4afc102427715e0e",
+    "semantic_hash": "398b4e06653aba3a4afc102427715e0e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/desktop-agent/README.md": {
+    "mtime": 1782414379.0135047,
+    "ast_hash": "0ad1c5f45c2eee3a15999e6dee4b1556",
+    "semantic_hash": "0ad1c5f45c2eee3a15999e6dee4b1556"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/mcp-server/README.md": {
+    "mtime": 1782377609.3582003,
+    "ast_hash": "b8b7cca0e9e396a5284169036b34265f",
+    "semantic_hash": "b8b7cca0e9e396a5284169036b34265f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/mobile/README.md": {
+    "mtime": 1782377597.9914052,
+    "ast_hash": "d6324c8b95c710d55a4fe50f47341b23",
+    "semantic_hash": "d6324c8b95c710d55a4fe50f47341b23"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0001-monorepo.md": {
+    "mtime": 1782377652.355116,
+    "ast_hash": "5b70253e004478bbc87faadfa8d32b2f",
+    "semantic_hash": "5b70253e004478bbc87faadfa8d32b2f"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0002-nextjs.md": {
+    "mtime": 1782377657.5957165,
+    "ast_hash": "84c4cfc83ba3348d7d83c034b83ba093",
+    "semantic_hash": "84c4cfc83ba3348d7d83c034b83ba093"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0003-supabase.md": {
+    "mtime": 1782377662.80994,
+    "ast_hash": "f10d3c0417e467d7898b247057c7816f",
+    "semantic_hash": "f10d3c0417e467d7898b247057c7816f"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0004-turborepo.md": {
+    "mtime": 1782377667.9667022,
+    "ast_hash": "96f991ffdb8618ab8226c6bbdcf068c3",
+    "semantic_hash": "96f991ffdb8618ab8226c6bbdcf068c3"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0005-event-driven.md": {
+    "mtime": 1782377673.4911606,
+    "ast_hash": "31b8de3b6ea70fb3d8766e166e88a115",
+    "semantic_hash": "31b8de3b6ea70fb3d8766e166e88a115"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0006-ai-core.md": {
+    "mtime": 1782380361.3409054,
+    "ast_hash": "919ce342296bd10ff2b510f9b5d249a5",
+    "semantic_hash": "919ce342296bd10ff2b510f9b5d249a5"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0007-agent-orchestrator.md": {
+    "mtime": 1782380370.6037998,
+    "ast_hash": "c8a91be07641c8080aa104c841a84c37",
+    "semantic_hash": "c8a91be07641c8080aa104c841a84c37"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0008-memory-engine.md": {
+    "mtime": 1782380375.9256418,
+    "ast_hash": "08bef330f7f0b4a01b9de913fbda9de1",
+    "semantic_hash": "08bef330f7f0b4a01b9de913fbda9de1"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0009-tool-registry.md": {
+    "mtime": 1782380381.5750175,
+    "ast_hash": "656df29b80c85125a26001cb5b44ebd9",
+    "semantic_hash": "656df29b80c85125a26001cb5b44ebd9"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0010-context-engine.md": {
+    "mtime": 1782380387.2665005,
+    "ast_hash": "abe50909f32edf26cf3d951aeec242d2",
+    "semantic_hash": "abe50909f32edf26cf3d951aeec242d2"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0011-kernel.md": {
+    "mtime": 1782381398.616748,
+    "ast_hash": "45b34210e1f1117756d8b237a1a7154d",
+    "semantic_hash": "45b34210e1f1117756d8b237a1a7154d"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0012-cqrs.md": {
+    "mtime": 1782381398.6198637,
+    "ast_hash": "3ebca22d9ba195444c3b81d3d05763c6",
+    "semantic_hash": "3ebca22d9ba195444c3b81d3d05763c6"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0013-plugin-system.md": {
+    "mtime": 1782381398.6226923,
+    "ast_hash": "11b8f08dfdb867a790505ae8210d8ca8",
+    "semantic_hash": "11b8f08dfdb867a790505ae8210d8ca8"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0014-service-registry.md": {
+    "mtime": 1782381398.6254323,
+    "ast_hash": "4335942349244e92f408de9fff02a14a",
+    "semantic_hash": "4335942349244e92f408de9fff02a14a"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0015-runtime.md": {
+    "mtime": 1782381398.627952,
+    "ast_hash": "ed5669641ab9a93bbc5b32392f8426c1",
+    "semantic_hash": "ed5669641ab9a93bbc5b32392f8426c1"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0016-database-foundation.md": {
+    "mtime": 1782382365.1268353,
+    "ast_hash": "04e34af8a981d24992be9489224aeeaf",
+    "semantic_hash": "04e34af8a981d24992be9489224aeeaf"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0017-kernel-runtime.md": {
+    "mtime": 1782395332.6720512,
+    "ast_hash": "53e5fb60d5bbcee5f21fc53054ce575a",
+    "semantic_hash": "53e5fb60d5bbcee5f21fc53054ce575a"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0018-identity-auth.md": {
+    "mtime": 1782396729.067039,
+    "ast_hash": "2cd2da65f31bb827e943c776296700e4",
+    "semantic_hash": "2cd2da65f31bb827e943c776296700e4"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0019-ai-executive.md": {
+    "mtime": 1782413731.834509,
+    "ast_hash": "3987d3b93022a3eafc74f48bc20aea52",
+    "semantic_hash": "3987d3b93022a3eafc74f48bc20aea52"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0020-desktop-intelligence.md": {
+    "mtime": 1782414368.2675946,
+    "ast_hash": "646b4b594dbfe7535200426a825aa122",
+    "semantic_hash": "646b4b594dbfe7535200426a825aa122"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0021-second-brain.md": {
+    "mtime": 1782414850.679788,
+    "ast_hash": "4ffc9d4693a0bf599efa650e29f7a5c5",
+    "semantic_hash": "4ffc9d4693a0bf599efa650e29f7a5c5"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0022-persistence-layer.md": {
+    "mtime": 1782456407.802339,
+    "ast_hash": "8e7efdb904552f5dc1a867f114f8ed53",
+    "semantic_hash": "8e7efdb904552f5dc1a867f114f8ed53"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0023-sync-engine.md": {
+    "mtime": 1782456413.7844565,
+    "ast_hash": "3a27dfe97642e73b89f5207d6ffc521f",
+    "semantic_hash": "3a27dfe97642e73b89f5207d6ffc521f"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0024-realtime.md": {
+    "mtime": 1782456418.1542385,
+    "ast_hash": "746b4afeb101b0d0b607a1fdf2ed95cf",
+    "semantic_hash": "746b4afeb101b0d0b607a1fdf2ed95cf"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0025-live-supabase.md": {
+    "mtime": 1782457631.2350993,
+    "ast_hash": "5bda917afc9473a18b6afa50f93c304e",
+    "semantic_hash": "5bda917afc9473a18b6afa50f93c304e"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0026-action-engine.md": {
+    "mtime": 1782458382.4728117,
+    "ast_hash": "d9ac64ceb82038c925c3982e945a9630",
+    "semantic_hash": "d9ac64ceb82038c925c3982e945a9630"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0027-approval-system.md": {
+    "mtime": 1782458382.4757957,
+    "ast_hash": "cb1ddd691dcd147771abf9e8bdf7d20a",
+    "semantic_hash": "cb1ddd691dcd147771abf9e8bdf7d20a"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0028-action-execution.md": {
+    "mtime": 1782458382.4788632,
+    "ast_hash": "03bb1c3110ada38e8cd821d673e50863",
+    "semantic_hash": "03bb1c3110ada38e8cd821d673e50863"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0029-integration-hub.md": {
+    "mtime": 1782460331.7338989,
+    "ast_hash": "f1f8d54d0c7a0a5338580e7ba7f21fe6",
+    "semantic_hash": "f1f8d54d0c7a0a5338580e7ba7f21fe6"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0030-provider-registry.md": {
+    "mtime": 1782460331.736528,
+    "ast_hash": "7a9b597d7f4575524a2195c6069f0246",
+    "semantic_hash": "7a9b597d7f4575524a2195c6069f0246"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0031-provider-security.md": {
+    "mtime": 1782460331.7393303,
+    "ast_hash": "dcba874234f9cdebf6a8bc1b5cc093f6",
+    "semantic_hash": "dcba874234f9cdebf6a8bc1b5cc093f6"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0032-workflow-runtime.md": {
+    "mtime": 1782473834.9600513,
+    "ast_hash": "58dc9bba7c6ea4e75d9ab591ec1a96db",
+    "semantic_hash": "58dc9bba7c6ea4e75d9ab591ec1a96db"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0033-workflow-designer.md": {
+    "mtime": 1782473834.962599,
+    "ast_hash": "d41689dd5dce16540e911219a0f54a8d",
+    "semantic_hash": "d41689dd5dce16540e911219a0f54a8d"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0034-automation-engine.md": {
+    "mtime": 1782473834.9650629,
+    "ast_hash": "4d434e60f14e9866480e36d8e0aa4e9b",
+    "semantic_hash": "4d434e60f14e9866480e36d8e0aa4e9b"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0035-production-hardening.md": {
+    "mtime": 1782474479.779333,
+    "ast_hash": "8973829a656b5fe98c99b77c084e2a6e",
+    "semantic_hash": "8973829a656b5fe98c99b77c084e2a6e"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0036-observability.md": {
+    "mtime": 1782474479.7818503,
+    "ast_hash": "eeef374e4af3935f2156b235e97a44c1",
+    "semantic_hash": "eeef374e4af3935f2156b235e97a44c1"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/adr/0037-reliability.md": {
+    "mtime": 1782474479.7843287,
+    "ast_hash": "d5636d1d9b905e2a2bec81eeeeef88ec",
+    "semantic_hash": "d5636d1d9b905e2a2bec81eeeeef88ec"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/ai/README.md": {
+    "mtime": 1782377691.9700038,
+    "ast_hash": "fa5020bc14b817466af710df60d83e40",
+    "semantic_hash": "fa5020bc14b817466af710df60d83e40"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/api/README.md": {
+    "mtime": 1782377691.9524148,
+    "ast_hash": "98bb1a6b6a0617782c7b5dae2938300b",
+    "semantic_hash": "98bb1a6b6a0617782c7b5dae2938300b"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/architecture/README.md": {
+    "mtime": 1782377691.9499261,
+    "ast_hash": "2bf67a58b6a02654a5c1b2f55621311a",
+    "semantic_hash": "2bf67a58b6a02654a5c1b2f55621311a"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/database/README.md": {
+    "mtime": 1782377691.9547157,
+    "ast_hash": "722983d23720a514eb4d452273831e6e",
+    "semantic_hash": "722983d23720a514eb4d452273831e6e"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/infrastructure/README.md": {
+    "mtime": 1782377691.972153,
+    "ast_hash": "e264337608730020d93316660bfe52de",
+    "semantic_hash": "e264337608730020d93316660bfe52de"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/meeting-notes/README.md": {
+    "mtime": 1782377691.965697,
+    "ast_hash": "c844386ccfb794c2f6031c917fcd7232",
+    "semantic_hash": "c844386ccfb794c2f6031c917fcd7232"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/modules/README.md": {
+    "mtime": 1782377691.957076,
+    "ast_hash": "2cf50474992ba07f456aa82e18f02be3",
+    "semantic_hash": "2cf50474992ba07f456aa82e18f02be3"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/research/README.md": {
+    "mtime": 1782377691.9592679,
+    "ast_hash": "5553e1678dd8c272e10184c28f09288c",
+    "semantic_hash": "5553e1678dd8c272e10184c28f09288c"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/roadmaps/README.md": {
+    "mtime": 1782377691.9614315,
+    "ast_hash": "14984acd027c163607bedd79e2ef7012",
+    "semantic_hash": "14984acd027c163607bedd79e2ef7012"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/security/README.md": {
+    "mtime": 1782377691.967765,
+    "ast_hash": "c63e9a5a4baf2775150dbc20f7cbdc56",
+    "semantic_hash": "c63e9a5a4baf2775150dbc20f7cbdc56"
+  },
+  "/Users/emir/Projects/APEX-OS/docs/sprint-notes/README.md": {
+    "mtime": 1782377691.9635684,
+    "ast_hash": "08f3950110af2da6ce6e975df9940324",
+    "semantic_hash": "08f3950110af2da6ce6e975df9940324"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/action-engine/README.md": {
+    "mtime": 1782458112.6584072,
+    "ast_hash": "f2a0772fa07df11feea48d2be945074d",
+    "semantic_hash": "f2a0772fa07df11feea48d2be945074d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/README.md": {
+    "mtime": 1782380421.9334974,
+    "ast_hash": "16d56300d3a8559b7e6c3be8d188575d",
+    "semantic_hash": "16d56300d3a8559b7e6c3be8d188575d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/agents/README.md": {
+    "mtime": 1782380106.2556095,
+    "ast_hash": "eec5a376c280cbcf27238621c2379adc",
+    "semantic_hash": "eec5a376c280cbcf27238621c2379adc"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/context/README.md": {
+    "mtime": 1782380148.5932062,
+    "ast_hash": "0571d8f56e7128b09f0f655e871f10a1",
+    "semantic_hash": "0571d8f56e7128b09f0f655e871f10a1"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/contracts/README.md": {
+    "mtime": 1782380289.046578,
+    "ast_hash": "39e0ad32d5e955d8a2c112d7e72da080",
+    "semantic_hash": "39e0ad32d5e955d8a2c112d7e72da080"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/core/README.md": {
+    "mtime": 1782380053.086466,
+    "ast_hash": "f7ef57e5bf95ff9a544085b667db722a",
+    "semantic_hash": "f7ef57e5bf95ff9a544085b667db722a"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/embeddings/README.md": {
+    "mtime": 1782380242.0438168,
+    "ast_hash": "91c9cb5e70e7f90a56471ab6532dafbc",
+    "semantic_hash": "91c9cb5e70e7f90a56471ab6532dafbc"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/evaluation/README.md": {
+    "mtime": 1782380304.2382116,
+    "ast_hash": "0af65f6ff17cf0141a318c45c0ac2f4e",
+    "semantic_hash": "0af65f6ff17cf0141a318c45c0ac2f4e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/execution/README.md": {
+    "mtime": 1782380126.700242,
+    "ast_hash": "f23272ca66ac7386ae23ddaa9d8112f3",
+    "semantic_hash": "f23272ca66ac7386ae23ddaa9d8112f3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/memory/README.md": {
+    "mtime": 1782380171.6085303,
+    "ast_hash": "99ea41d79b2f4470bf186bb0d0972559",
+    "semantic_hash": "99ea41d79b2f4470bf186bb0d0972559"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/planning/README.md": {
+    "mtime": 1782380208.8051736,
+    "ast_hash": "61098cf5bd24fe496d88375607463b1f",
+    "semantic_hash": "61098cf5bd24fe496d88375607463b1f"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/prompts/README.md": {
+    "mtime": 1782380192.4047382,
+    "ast_hash": "c75c3844fd2f49c2ee8640f1824717dd",
+    "semantic_hash": "c75c3844fd2f49c2ee8640f1824717dd"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/reasoning/README.md": {
+    "mtime": 1782380224.768399,
+    "ast_hash": "c6ffd44cfd764a9a9b8b287571fc6d59",
+    "semantic_hash": "c6ffd44cfd764a9a9b8b287571fc6d59"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/registry/README.md": {
+    "mtime": 1782380114.8250892,
+    "ast_hash": "1cc0b60e4f1d463e48f8cbca9ba00184",
+    "semantic_hash": "1cc0b60e4f1d463e48f8cbca9ba00184"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/router/README.md": {
+    "mtime": 1782380077.533206,
+    "ast_hash": "bc69de9fa31d0f6d94ddebb00f525e77",
+    "semantic_hash": "bc69de9fa31d0f6d94ddebb00f525e77"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/safety/README.md": {
+    "mtime": 1782380324.7371287,
+    "ast_hash": "2268540db7f4462ab595feb07694d598",
+    "semantic_hash": "2268540db7f4462ab595feb07694d598"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/telemetry/README.md": {
+    "mtime": 1782380280.485966,
+    "ast_hash": "6f9ebf3c6da06ba1f5f522c66b711c1e",
+    "semantic_hash": "6f9ebf3c6da06ba1f5f522c66b711c1e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/ai/src/tools/README.md": {
+    "mtime": 1782380257.2504973,
+    "ast_hash": "53867b7154e41174f025ee1329a239f8",
+    "semantic_hash": "53867b7154e41174f025ee1329a239f8"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/auth/README.md": {
+    "mtime": 1782377747.329531,
+    "ast_hash": "2a46571ca4a65de9ff7e3f933085ee87",
+    "semantic_hash": "2a46571ca4a65de9ff7e3f933085ee87"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/automation/README.md": {
+    "mtime": 1782377747.3498375,
+    "ast_hash": "aa6e38b2008f9c6c1b3d0f34db87b557",
+    "semantic_hash": "aa6e38b2008f9c6c1b3d0f34db87b557"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/database/README.md": {
+    "mtime": 1782377747.331994,
+    "ast_hash": "af28905860fdf37f530f158dbf19955a",
+    "semantic_hash": "af28905860fdf37f530f158dbf19955a"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/events/README.md": {
+    "mtime": 1782377747.3435762,
+    "ast_hash": "4961d10450ca3c35cad59fce583d8174",
+    "semantic_hash": "4961d10450ca3c35cad59fce583d8174"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/integration-hub/README.md": {
+    "mtime": 1782460195.4007938,
+    "ast_hash": "b580c89c92d2e4360a6c5aa3af4083bc",
+    "semantic_hash": "b580c89c92d2e4360a6c5aa3af4083bc"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/README.md": {
+    "mtime": 1782381364.6662922,
+    "ast_hash": "14411e414cd89b745edb4911ffd9aa1a",
+    "semantic_hash": "14411e414cd89b745edb4911ffd9aa1a"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/command-bus/README.md": {
+    "mtime": 1782381180.307415,
+    "ast_hash": "8bc8aa8e833e45101c3ea9e1fc038705",
+    "semantic_hash": "8bc8aa8e833e45101c3ea9e1fc038705"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/container/README.md": {
+    "mtime": 1782381138.007449,
+    "ast_hash": "27369767c7e4208a58ba857386913ef2",
+    "semantic_hash": "27369767c7e4208a58ba857386913ef2"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/core/README.md": {
+    "mtime": 1782381116.828728,
+    "ast_hash": "9d525a9fdacec14c8a88e91e59e3b4fd",
+    "semantic_hash": "9d525a9fdacec14c8a88e91e59e3b4fd"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/event-runtime/README.md": {
+    "mtime": 1782381209.0522962,
+    "ast_hash": "df520f3a3027576e99b1a80aefedb1cd",
+    "semantic_hash": "df520f3a3027576e99b1a80aefedb1cd"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/execution/README.md": {
+    "mtime": 1782381345.7440596,
+    "ast_hash": "fb9c5f62cdbef287baf62ebaa4af2fcf",
+    "semantic_hash": "fb9c5f62cdbef287baf62ebaa4af2fcf"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/health/README.md": {
+    "mtime": 1782381311.416729,
+    "ast_hash": "d98a40afa70fe7059ee5d789e112cb99",
+    "semantic_hash": "d98a40afa70fe7059ee5d789e112cb99"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/lifecycle/README.md": {
+    "mtime": 1782381311.4065573,
+    "ast_hash": "12c683a45f8f374d9e401a9c0dd889bb",
+    "semantic_hash": "12c683a45f8f374d9e401a9c0dd889bb"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/loader/README.md": {
+    "mtime": 1782381284.235328,
+    "ast_hash": "69cb502155414df71b5f37bf569a248d",
+    "semantic_hash": "69cb502155414df71b5f37bf569a248d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/locks/README.md": {
+    "mtime": 1782381345.7263794,
+    "ast_hash": "d0a7498944dcaa4fd8ce6bbbc897103e",
+    "semantic_hash": "d0a7498944dcaa4fd8ce6bbbc897103e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/plugins/README.md": {
+    "mtime": 1782381284.2246206,
+    "ast_hash": "19a0636bf00168c118c5bd0bdb098b63",
+    "semantic_hash": "19a0636bf00168c118c5bd0bdb098b63"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/query-bus/README.md": {
+    "mtime": 1782381191.1241603,
+    "ast_hash": "8a8c1ab6090d9ba57d4dbd5f8c784b88",
+    "semantic_hash": "8a8c1ab6090d9ba57d4dbd5f8c784b88"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/registry/README.md": {
+    "mtime": 1782381151.195925,
+    "ast_hash": "cc8492e3e785c5dbc490cbda1d4499a3",
+    "semantic_hash": "cc8492e3e785c5dbc490cbda1d4499a3"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/runtime/README.md": {
+    "mtime": 1782381345.7523909,
+    "ast_hash": "72909e18ee7c74893c2511e69200474d",
+    "semantic_hash": "72909e18ee7c74893c2511e69200474d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/scheduler/README.md": {
+    "mtime": 1782381262.3820822,
+    "ast_hash": "ba96c6ddc8396d6fe575a448cc863dc0",
+    "semantic_hash": "ba96c6ddc8396d6fe575a448cc863dc0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/services/README.md": {
+    "mtime": 1782381160.0776784,
+    "ast_hash": "04dd47fb72d6a74ae991195693a0eaf4",
+    "semantic_hash": "04dd47fb72d6a74ae991195693a0eaf4"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/state/README.md": {
+    "mtime": 1782381345.7360508,
+    "ast_hash": "2315a16c5fdf1704c4eefce9888221e9",
+    "semantic_hash": "2315a16c5fdf1704c4eefce9888221e9"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/task-engine/README.md": {
+    "mtime": 1782381247.454934,
+    "ast_hash": "0b1b1132d0e897ee37a56bcb037c226e",
+    "semantic_hash": "0b1b1132d0e897ee37a56bcb037c226e"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/kernel/src/workflow-runtime/README.md": {
+    "mtime": 1782381232.603226,
+    "ast_hash": "8e52186c1b5aa204e0134c1389b4381c",
+    "semantic_hash": "8e52186c1b5aa204e0134c1389b4381c"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/logger/README.md": {
+    "mtime": 1782377747.3343554,
+    "ast_hash": "a338c0cda58bca98e8f49063ac7df556",
+    "semantic_hash": "a338c0cda58bca98e8f49063ac7df556"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/memory/README.md": {
+    "mtime": 1782377747.3457012,
+    "ast_hash": "0908292e3fdfba823283df40cf4b74e8",
+    "semantic_hash": "0908292e3fdfba823283df40cf4b74e8"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/notifications/README.md": {
+    "mtime": 1782377747.3478014,
+    "ast_hash": "6b44f76410e7cf2644bd5c1a2e0257a0",
+    "semantic_hash": "6b44f76410e7cf2644bd5c1a2e0257a0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/sdk/README.md": {
+    "mtime": 1782377747.339116,
+    "ast_hash": "88f25577ee92c7641d3487c7eb79313d",
+    "semantic_hash": "88f25577ee92c7641d3487c7eb79313d"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/shared/README.md": {
+    "mtime": 1782377747.3365583,
+    "ast_hash": "1a20232be3c9e6f0ad2363e8da059bb5",
+    "semantic_hash": "1a20232be3c9e6f0ad2363e8da059bb5"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/validation/README.md": {
+    "mtime": 1782377747.3414047,
+    "ast_hash": "2777e2c616874b07e55c34e4f5f27dc0",
+    "semantic_hash": "2777e2c616874b07e55c34e4f5f27dc0"
+  },
+  "/Users/emir/Projects/APEX-OS/packages/workflow-engine/README.md": {
+    "mtime": 1782473685.335579,
+    "ast_hash": "c323e3cd53016a6364631c692281d9b6",
+    "semantic_hash": "c323e3cd53016a6364631c692281d9b6"
+  },
+  "/Users/emir/Projects/APEX-OS/pnpm-workspace.yaml": {
+    "mtime": 1782377402.1258473,
+    "ast_hash": "5298428f08aca5847cbf95b0bd56c75b",
+    "semantic_hash": "5298428f08aca5847cbf95b0bd56c75b"
+  },
+  "/Users/emir/Projects/APEX-OS/scripts/README.md": {
+    "mtime": 1782377718.7363994,
+    "ast_hash": "1866e8909ac4c2a4b341af8d4faf4f11",
+    "semantic_hash": "1866e8909ac4c2a4b341af8d4faf4f11"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/README.md": {
+    "mtime": 1782377893.3768609,
+    "ast_hash": "e31f26e3709489e38b6661095c89f6a7",
+    "semantic_hash": "e31f26e3709489e38b6661095c89f6a7"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/docs/README.md": {
+    "mtime": 1782382356.1684525,
+    "ast_hash": "24319a154268089ba36a72b9535fb03a",
+    "semantic_hash": "24319a154268089ba36a72b9535fb03a"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/migrations/README.md": {
+    "mtime": 1782377890.6831164,
+    "ast_hash": "a9ded955b0a071567b946e6388b2db78",
+    "semantic_hash": "a9ded955b0a071567b946e6388b2db78"
+  },
+  "/Users/emir/Projects/APEX-OS/supabase/seed/README.md": {
+    "mtime": 1782377891.7054632,
+    "ast_hash": "ea73e3483749914de8197639c6a3b6fc",
+    "semantic_hash": "ea73e3483749914de8197639c6a3b6fc"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/ai-worker/README.md": {
+    "mtime": 1782377627.6828804,
+    "ast_hash": "2b7285aba098d281915a7484fa03daab",
+    "semantic_hash": "2b7285aba098d281915a7484fa03daab"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/automation-worker/README.md": {
+    "mtime": 1782377635.2644167,
+    "ast_hash": "1f7cf8b24002c8986c5b7862ef1d3492",
+    "semantic_hash": "1f7cf8b24002c8986c5b7862ef1d3492"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/crawler-worker/README.md": {
+    "mtime": 1782377638.54889,
+    "ast_hash": "33a6eca903cbaf6649d654c6e3f58820",
+    "semantic_hash": "33a6eca903cbaf6649d654c6e3f58820"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/memory-worker/README.md": {
+    "mtime": 1782377641.608224,
+    "ast_hash": "d89ff91649f325c2c5e4f26224ef307e",
+    "semantic_hash": "d89ff91649f325c2c5e4f26224ef307e"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/notification-worker/README.md": {
+    "mtime": 1782377632.263028,
+    "ast_hash": "868d7f7d5cae178271526e79c9f9e66c",
+    "semantic_hash": "868d7f7d5cae178271526e79c9f9e66c"
+  },
+  "/Users/emir/Projects/APEX-OS/workers/scheduler/README.md": {
+    "mtime": 1782377629.0920236,
+    "ast_hash": "84c8fa21ecff11309bf03bbb69ed52f2",
+    "semantic_hash": "84c8fa21ecff11309bf03bbb69ed52f2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/decision-engine.ts": {
+    "mtime": 1782981321.4799764,
+    "ast_hash": "6eb164280260bf55f02a5a3cd20e8064",
+    "semantic_hash": "6eb164280260bf55f02a5a3cd20e8064"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/decision-history.ts": {
+    "mtime": 1782981419.5818484,
+    "ast_hash": "9a4d605dceac68a05bfa98d0e9cc6a7c",
+    "semantic_hash": "9a4d605dceac68a05bfa98d0e9cc6a7c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/energy-planner.ts": {
+    "mtime": 1782981648.2962317,
+    "ast_hash": "57d6e6b991b5545f65ea54afb8251b78",
+    "semantic_hash": "57d6e6b991b5545f65ea54afb8251b78"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/goal-prioritizer.ts": {
+    "mtime": 1782981367.8838356,
+    "ast_hash": "06a28c09d8d0499a32300851b3e2d079",
+    "semantic_hash": "06a28c09d8d0499a32300851b3e2d079"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/opportunity-engine.ts": {
+    "mtime": 1782981346.3628373,
+    "ast_hash": "c3247d2fd6e00bbe033879ff417f59fa",
+    "semantic_hash": "c3247d2fd6e00bbe033879ff417f59fa"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/scenario-engine.ts": {
+    "mtime": 1782981402.7426443,
+    "ast_hash": "116955245170cedd6a1235c0d7c39726",
+    "semantic_hash": "116955245170cedd6a1235c0d7c39726"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/orchestrator/ai-loop.ts": {
+    "mtime": 1782983852.032164,
+    "ast_hash": "0493ad881f5fdcfa8051027e62c7f53d",
+    "semantic_hash": "0493ad881f5fdcfa8051027e62c7f53d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/orchestrator/context-pipeline.ts": {
+    "mtime": 1783409065.8402452,
+    "ast_hash": "02fbd4c81d5beabafd8cb1483e843e9f",
+    "semantic_hash": "02fbd4c81d5beabafd8cb1483e843e9f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/orchestrator/cycle-engine.ts": {
+    "mtime": 1782983267.2647803,
+    "ast_hash": "b700443a8023e108b9ba0105cafd2988",
+    "semantic_hash": "b700443a8023e108b9ba0105cafd2988"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/orchestrator/decision-pipeline.ts": {
+    "mtime": 1782983840.4708498,
+    "ast_hash": "69ae050e7b14df207ac294a9d9a03eb9",
+    "semantic_hash": "69ae050e7b14df207ac294a9d9a03eb9"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/orchestrator/executive-timeline.ts": {
+    "mtime": 1782983270.5062025,
+    "ast_hash": "151c4811e4ce3dffb0bf61fedec8683c",
+    "semantic_hash": "151c4811e4ce3dffb0bf61fedec8683c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/orchestrator/learning-loop.ts": {
+    "mtime": 1782983277.5639155,
+    "ast_hash": "6023955bc24d4eab09b1d8140a703256",
+    "semantic_hash": "6023955bc24d4eab09b1d8140a703256"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/ai/orchestrator/state-machine.ts": {
+    "mtime": 1782983257.2013035,
+    "ast_hash": "14975a19cc79472674453bff076875b3",
+    "semantic_hash": "14975a19cc79472674453bff076875b3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/agents/agent-planner.ts": {
+    "mtime": 1783452510.1140294,
+    "ast_hash": "61300f09bdef76783e78a085b6756739",
+    "semantic_hash": "61300f09bdef76783e78a085b6756739"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/agents/agent-runner.ts": {
+    "mtime": 1783343459.8413153,
+    "ast_hash": "b4ba5585f309db1f919e39cd84c4b015",
+    "semantic_hash": "b4ba5585f309db1f919e39cd84c4b015"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/agents/agent-runtime.ts": {
+    "mtime": 1783343454.7216218,
+    "ast_hash": "0d1596690fcee4e849b708c60b63766f",
+    "semantic_hash": "0d1596690fcee4e849b708c60b63766f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/agents/agent-scheduler.ts": {
+    "mtime": 1783008072.6034603,
+    "ast_hash": "979e81d770914b209ef675fc36ba3bd7",
+    "semantic_hash": "979e81d770914b209ef675fc36ba3bd7"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/agents/agent-state-machine.ts": {
+    "mtime": 1782985696.938206,
+    "ast_hash": "d3b48476f91cffa580b252bcf1dc50d1",
+    "semantic_hash": "d3b48476f91cffa580b252bcf1dc50d1"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/agents/agent-store.ts": {
+    "mtime": 1783008070.2652998,
+    "ast_hash": "40d67ea70ad724c60d572687993aaea8",
+    "semantic_hash": "40d67ea70ad724c60d572687993aaea8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/agents/types.ts": {
+    "mtime": 1782985690.697412,
+    "ast_hash": "647146c53fd2257088c9a96401b39787",
+    "semantic_hash": "647146c53fd2257088c9a96401b39787"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/cache/index.ts": {
+    "mtime": 1782810028.0637808,
+    "ast_hash": "7668c1f6ee73238165541fce3876dae6",
+    "semantic_hash": "7668c1f6ee73238165541fce3876dae6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/error-boundary.ts": {
+    "mtime": 1782980444.7861626,
+    "ast_hash": "35507c92c813b03dab954e5efef0e2a4",
+    "semantic_hash": "35507c92c813b03dab954e5efef0e2a4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/error-registry.ts": {
+    "mtime": 1782821860.4984665,
+    "ast_hash": "6855704f89bdfaab895081ef31886170",
+    "semantic_hash": "6855704f89bdfaab895081ef31886170"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/health-checks.ts": {
+    "mtime": 1782821323.8142638,
+    "ast_hash": "3eae5d1741554bfee195485fd109bdfd",
+    "semantic_hash": "3eae5d1741554bfee195485fd109bdfd"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/module-health-tracker.ts": {
+    "mtime": 1782980667.4535272,
+    "ast_hash": "a827684541df4b8be0aa63aaaead7c40",
+    "semantic_hash": "a827684541df4b8be0aa63aaaead7c40"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/production-audit.ts": {
+    "mtime": 1782980864.5218322,
+    "ast_hash": "95de428f9d4b043693a38e12aa2d9f0a",
+    "semantic_hash": "95de428f9d4b043693a38e12aa2d9f0a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/security-audit.ts": {
+    "mtime": 1782980588.7591078,
+    "ast_hash": "320cec70d27d0e68bc08f3e320fa265c",
+    "semantic_hash": "320cec70d27d0e68bc08f3e320fa265c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/types.ts": {
+    "mtime": 1782980661.071561,
+    "ast_hash": "f82dcaee22c169bf85873a58e0fd32ae",
+    "semantic_hash": "f82dcaee22c169bf85873a58e0fd32ae"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/observability/worker-health.ts": {
+    "mtime": 1782810091.0937488,
+    "ast_hash": "bab0607cc0e3782a6815d957f5e16c71",
+    "semantic_hash": "bab0607cc0e3782a6815d957f5e16c71"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/repositories/query-audit.ts": {
+    "mtime": 1782821510.0806503,
+    "ast_hash": "26d711d84cd1c29a0f10d9ea45a5c98f",
+    "semantic_hash": "26d711d84cd1c29a0f10d9ea45a5c98f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/supabase/admin.ts": {
+    "mtime": 1782980556.1975389,
+    "ast_hash": "1def501478bf7c074a5d1198f5712e43",
+    "semantic_hash": "1def501478bf7c074a5d1198f5712e43"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/alert-engine.ts": {
+    "mtime": 1783066271.0131242,
+    "ast_hash": "12601708e0663433f69bed1cd2e0f154",
+    "semantic_hash": "12601708e0663433f69bed1cd2e0f154"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/analysis-engine.ts": {
+    "mtime": 1783066258.8827684,
+    "ast_hash": "836f557602386430f6e6eda405cfc6ec",
+    "semantic_hash": "836f557602386430f6e6eda405cfc6ec"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/backtest-engine.ts": {
+    "mtime": 1783066214.2800057,
+    "ast_hash": "4cb112d9382d1465681b1c418285de1a",
+    "semantic_hash": "4cb112d9382d1465681b1c418285de1a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/exchanges/binance.ts": {
+    "mtime": 1783066068.1093976,
+    "ast_hash": "adc269ae6e7bd9a54fc4a905c7d938e2",
+    "semantic_hash": "adc269ae6e7bd9a54fc4a905c7d938e2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/exchanges/bybit.ts": {
+    "mtime": 1783066084.1709397,
+    "ast_hash": "b59fee76ad84454f85c39cfb3b319c5c",
+    "semantic_hash": "b59fee76ad84454f85c39cfb3b319c5c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/exchanges/mexc.ts": {
+    "mtime": 1783066073.7611866,
+    "ast_hash": "e8fd61dd0e9f0d59ab394c9ec0c3263a",
+    "semantic_hash": "e8fd61dd0e9f0d59ab394c9ec0c3263a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/exchanges/okx.ts": {
+    "mtime": 1783067140.3347228,
+    "ast_hash": "10b1deda616a6f186522628ff55a8be1",
+    "semantic_hash": "10b1deda616a6f186522628ff55a8be1"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/exchanges/registry.ts": {
+    "mtime": 1783067146.5018525,
+    "ast_hash": "ad4a57e136aaf1b52f635218c3329681",
+    "semantic_hash": "ad4a57e136aaf1b52f635218c3329681"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/exchanges/types.ts": {
+    "mtime": 1783066058.693475,
+    "ast_hash": "7ac8a7a749f52dbb3844455b964c371e",
+    "semantic_hash": "7ac8a7a749f52dbb3844455b964c371e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/indicators.ts": {
+    "mtime": 1783065997.6322143,
+    "ast_hash": "de7b1e5e8b35bed577ffd15aa2c233a5",
+    "semantic_hash": "de7b1e5e8b35bed577ffd15aa2c233a5"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/market-data.ts": {
+    "mtime": 1783066105.1401203,
+    "ast_hash": "f631977792c309bafd88a1df07303719",
+    "semantic_hash": "f631977792c309bafd88a1df07303719"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/paper-trading.ts": {
+    "mtime": 1783066160.7726614,
+    "ast_hash": "5116fb8b0fd29d7af6775f64bbdf37b9",
+    "semantic_hash": "5116fb8b0fd29d7af6775f64bbdf37b9"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/position-manager.ts": {
+    "mtime": 1783067172.9453552,
+    "ast_hash": "5c4fb489c5ef0e9de4004401b10f3276",
+    "semantic_hash": "5c4fb489c5ef0e9de4004401b10f3276"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/risk-engine.ts": {
+    "mtime": 1783066121.3471255,
+    "ast_hash": "c89672ace94e1d1beef4ffab8b51cc43",
+    "semantic_hash": "c89672ace94e1d1beef4ffab8b51cc43"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/services/quant-service.ts": {
+    "mtime": 1783067172.9457853,
+    "ast_hash": "737f5634d524ac4423c8b270a55d5e1e",
+    "semantic_hash": "737f5634d524ac4423c8b270a55d5e1e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/services/voice-service.ts": {
+    "mtime": 1783502470.7998102,
+    "ast_hash": "c8e255153fcf86cd5abfa6ae9843b7eb",
+    "semantic_hash": "c8e255153fcf86cd5abfa6ae9843b7eb"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/smc.ts": {
+    "mtime": 1783066046.7776136,
+    "ast_hash": "bc8ac50db1b37501aed4fdd66d94264d",
+    "semantic_hash": "bc8ac50db1b37501aed4fdd66d94264d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/strategy-engine.ts": {
+    "mtime": 1783066195.694611,
+    "ast_hash": "618a7b1cc141e7365749679d7dbb4bcf",
+    "semantic_hash": "618a7b1cc141e7365749679d7dbb4bcf"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/trading-actions.ts": {
+    "mtime": 1783343487.0673504,
+    "ast_hash": "50c875b9a35be7de2e119da68140db14",
+    "semantic_hash": "50c875b9a35be7de2e119da68140db14"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/types.ts": {
+    "mtime": 1783502151.38815,
+    "ast_hash": "5a4e48bd631cfd4db8bf4b31fdebf9a4",
+    "semantic_hash": "5a4e48bd631cfd4db8bf4b31fdebf9a4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/README.md": {
+    "mtime": 1783066784.2884767,
+    "ast_hash": "99b354e8c229a314a67e8927c3995844",
+    "semantic_hash": "99b354e8c229a314a67e8927c3995844"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/exchanges/README.md": {
+    "mtime": 1783066789.3981998,
+    "ast_hash": "d70dd1984ae4f570f175ab84f4fd894c",
+    "semantic_hash": "d70dd1984ae4f570f175ab84f4fd894c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/services/README.md": {
+    "mtime": 1783066795.5492942,
+    "ast_hash": "e24c198b4fc08010cbbde666519f39d9",
+    "semantic_hash": "e24c198b4fc08010cbbde666519f39d9"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/knowledge/auto-linker.ts": {
+    "mtime": 1783505162.5553834,
+    "ast_hash": "55770c63d248a396f81f6b804428697c",
+    "semantic_hash": "55770c63d248a396f81f6b804428697c"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/knowledge/context-selector.ts": {
+    "mtime": 1783343440.4144063,
+    "ast_hash": "7cf0b182ddd1431260c70b256c43fed6",
+    "semantic_hash": "7cf0b182ddd1431260c70b256c43fed6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/knowledge/graph-store.ts": {
+    "mtime": 1783343346.314353,
+    "ast_hash": "f17270e0a61a1fd3c01db7d4237da41d",
+    "semantic_hash": "f17270e0a61a1fd3c01db7d4237da41d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/knowledge/relationship-engine.ts": {
+    "mtime": 1783343370.5984638,
+    "ast_hash": "c4951135e08b40f54aaa956e85da2ef0",
+    "semantic_hash": "c4951135e08b40f54aaa956e85da2ef0"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/knowledge/semantic-search.ts": {
+    "mtime": 1783343429.4478693,
+    "ast_hash": "8637879a7443465751d4e7677e012e35",
+    "semantic_hash": "8637879a7443465751d4e7677e012e35"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/knowledge/types.ts": {
+    "mtime": 1783343262.306682,
+    "ast_hash": "1a0dd08ed43c636f357129c206ab203b",
+    "semantic_hash": "1a0dd08ed43c636f357129c206ab203b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/knowledge/README.md": {
+    "mtime": 1783343768.2274563,
+    "ast_hash": "79ee42522a5556016618eaeedf9d783b",
+    "semantic_hash": "79ee42522a5556016618eaeedf9d783b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/browser-insight.ts": {
+    "mtime": 1783408866.8064013,
+    "ast_hash": "45eb8bd574924335844c574b8aebd300",
+    "semantic_hash": "45eb8bd574924335844c574b8aebd300"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/clipboard-service.ts": {
+    "mtime": 1783408926.3003743,
+    "ast_hash": "932917027631a5b7753a52da64dd9871",
+    "semantic_hash": "932917027631a5b7753a52da64dd9871"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/content-classifier.ts": {
+    "mtime": 1783408783.60099,
+    "ast_hash": "8c96787b8b4c520958a91289bc82f7ba",
+    "semantic_hash": "8c96787b8b4c520958a91289bc82f7ba"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/file-insight-service.ts": {
+    "mtime": 1783408955.0339863,
+    "ast_hash": "4d4fadd27ae109e3052b2c8085ac65b6",
+    "semantic_hash": "4d4fadd27ae109e3052b2c8085ac65b6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/ide-insight.ts": {
+    "mtime": 1783423268.9889867,
+    "ast_hash": "b6dbbed38fa6ba4b9e22f77db71fa551",
+    "semantic_hash": "b6dbbed38fa6ba4b9e22f77db71fa551"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/ocr-service.ts": {
+    "mtime": 1783408817.5247653,
+    "ast_hash": "22bb39a3d2d32a875aee53de32096f51",
+    "semantic_hash": "22bb39a3d2d32a875aee53de32096f51"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/screen-capture-service.ts": {
+    "mtime": 1783409299.0381625,
+    "ast_hash": "8e79f16a052da6cb750fdc81e4bf403b",
+    "semantic_hash": "8e79f16a052da6cb750fdc81e4bf403b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/services/desktop-vision-service.ts": {
+    "mtime": 1783409044.862906,
+    "ast_hash": "93b053da7e9a1e7058bc3946a170d4b8",
+    "semantic_hash": "93b053da7e9a1e7058bc3946a170d4b8"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/services/voice-bridge.ts": {
+    "mtime": 1783409148.8240037,
+    "ast_hash": "7ba17f7956120b5f791a454639a6151f",
+    "semantic_hash": "7ba17f7956120b5f791a454639a6151f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/types.ts": {
+    "mtime": 1783408745.8441246,
+    "ast_hash": "4b3cc3b2aa91e960b74c7571caf01ca2",
+    "semantic_hash": "4b3cc3b2aa91e960b74c7571caf01ca2"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/ui-analysis-service.ts": {
+    "mtime": 1783423223.721579,
+    "ast_hash": "2e7ea91dcddb56293bf710b1daa4ee20",
+    "semantic_hash": "2e7ea91dcddb56293bf710b1daa4ee20"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/vision-health.ts": {
+    "mtime": 1783409021.6893892,
+    "ast_hash": "f704f3e76af5ba13a8a042f0442d9b0b",
+    "semantic_hash": "f704f3e76af5ba13a8a042f0442d9b0b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/window-context-service.ts": {
+    "mtime": 1783408993.5865543,
+    "ast_hash": "1c5376860b94c8a1f1839e6703ed6fb1",
+    "semantic_hash": "1c5376860b94c8a1f1839e6703ed6fb1"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/desktop-vision/README.md": {
+    "mtime": 1783409282.7186494,
+    "ast_hash": "ead8460534722124e2b2bbbebe0915a7",
+    "semantic_hash": "ead8460534722124e2b2bbbebe0915a7"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/conversation-engine.ts": {
+    "mtime": 1783432753.3367167,
+    "ast_hash": "754b20afd55e6635416a7a5a8b04a5a4",
+    "semantic_hash": "754b20afd55e6635416a7a5a8b04a5a4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/services/voice-ai-service.ts": {
+    "mtime": 1783432647.1488824,
+    "ast_hash": "d4cb7aff03d6ff0cd9e10e3baadb8c28",
+    "semantic_hash": "d4cb7aff03d6ff0cd9e10e3baadb8c28"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/stt-registry.ts": {
+    "mtime": 1783432313.7454998,
+    "ast_hash": "966c31f99bd37d1b575b89924ad6ab1d",
+    "semantic_hash": "966c31f99bd37d1b575b89924ad6ab1d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/tts-registry.ts": {
+    "mtime": 1783432325.1073675,
+    "ast_hash": "8392adc3ab362e554606e203c714985a",
+    "semantic_hash": "8392adc3ab362e554606e203c714985a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/types.ts": {
+    "mtime": 1783432764.2360823,
+    "ast_hash": "9a73c508932bf1ee6eef4f1c18937a38",
+    "semantic_hash": "9a73c508932bf1ee6eef4f1c18937a38"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/voice-memory.ts": {
+    "mtime": 1783432748.3226373,
+    "ast_hash": "cfcdcb99a8233062838cefd978dbe1a1",
+    "semantic_hash": "cfcdcb99a8233062838cefd978dbe1a1"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/voice-session.ts": {
+    "mtime": 1783432442.2675564,
+    "ast_hash": "ed82f560272ff3c0586c7561852542b6",
+    "semantic_hash": "ed82f560272ff3c0586c7561852542b6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/wake-word.ts": {
+    "mtime": 1783432801.4943717,
+    "ast_hash": "6d867eea7a34c54da130b2f077674247",
+    "semantic_hash": "6d867eea7a34c54da130b2f077674247"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/voice/README.md": {
+    "mtime": 1783432729.1747236,
+    "ast_hash": "de7d884f9d3359b34d7836a209267b8f",
+    "semantic_hash": "de7d884f9d3359b34d7836a209267b8f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/commerce-service.ts": {
+    "mtime": 1783451614.790158,
+    "ast_hash": "4099bb935bb0a677725cf671f0c55150",
+    "semantic_hash": "4099bb935bb0a677725cf671f0c55150"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/background-service.ts": {
+    "mtime": 1783451450.1145482,
+    "ast_hash": "d9709a295c358f3f76372253162d6463",
+    "semantic_hash": "d9709a295c358f3f76372253162d6463"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/device-registry.ts": {
+    "mtime": 1783451290.5227225,
+    "ast_hash": "9b2f71930ce9350694ac72778c84744d",
+    "semantic_hash": "9b2f71930ce9350694ac72778c84744d"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/mobile-runtime.ts": {
+    "mtime": 1783451419.1718628,
+    "ast_hash": "02683ca51f90e7e82227ca1b268de301",
+    "semantic_hash": "02683ca51f90e7e82227ca1b268de301"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/notification-center.ts": {
+    "mtime": 1783451300.370584,
+    "ast_hash": "e9fc6259a84e8130b71e85d4ce395a8f",
+    "semantic_hash": "e9fc6259a84e8130b71e85d4ce395a8f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/offline-store.ts": {
+    "mtime": 1783451321.5224946,
+    "ast_hash": "5a827edc08103038efe9d4c1396289d6",
+    "semantic_hash": "5a827edc08103038efe9d4c1396289d6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/services/mobile-service.ts": {
+    "mtime": 1783505266.8642232,
+    "ast_hash": "f7d6f1d2b5f6861a8f7d9d360519bd8a",
+    "semantic_hash": "f7d6f1d2b5f6861a8f7d9d360519bd8a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/sync-client.ts": {
+    "mtime": 1783451335.0636802,
+    "ast_hash": "40ec1b6026b61f86feb12f8aa03039cf",
+    "semantic_hash": "40ec1b6026b61f86feb12f8aa03039cf"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/types.ts": {
+    "mtime": 1783451268.8421667,
+    "ast_hash": "6d6d09ff71051ad0ff476e1feff03db4",
+    "semantic_hash": "6d6d09ff71051ad0ff476e1feff03db4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/wearable-provider.ts": {
+    "mtime": 1783451440.3990865,
+    "ast_hash": "6fae2caca6cba0827f197771cb5dd7e3",
+    "semantic_hash": "6fae2caca6cba0827f197771cb5dd7e3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/widget-provider.ts": {
+    "mtime": 1783451434.6351428,
+    "ast_hash": "5adb05d1da05c25919ef18be2049b756",
+    "semantic_hash": "5adb05d1da05c25919ef18be2049b756"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/mobile/README.md": {
+    "mtime": 1783451573.8855247,
+    "ast_hash": "40a8309e6852dea315ea3b26fd948acc",
+    "semantic_hash": "40a8309e6852dea315ea3b26fd948acc"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/ad-optimizer.ts": {
+    "mtime": 1783452917.227411,
+    "ast_hash": "8a4463d8943052bc7d0a087e1d10e5b7",
+    "semantic_hash": "8a4463d8943052bc7d0a087e1d10e5b7"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/advertising-intelligence.ts": {
+    "mtime": 1783452410.9263027,
+    "ast_hash": "0f633c9ab3c97d178163e00c991a2aa9",
+    "semantic_hash": "0f633c9ab3c97d178163e00c991a2aa9"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/commerce-actions.ts": {
+    "mtime": 1783452438.3607318,
+    "ast_hash": "112e73ff6e00441dd9b2aafa2f2b6b2e",
+    "semantic_hash": "112e73ff6e00441dd9b2aafa2f2b6b2e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/competitor-intelligence.ts": {
+    "mtime": 1783452265.6157894,
+    "ast_hash": "09be5956f918ed4be423e2267121e12a",
+    "semantic_hash": "09be5956f918ed4be423e2267121e12a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/creative-intelligence.ts": {
+    "mtime": 1783452398.031312,
+    "ast_hash": "e02a20b4ade70fd534916cafcb35ede4",
+    "semantic_hash": "e02a20b4ade70fd534916cafcb35ede4"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/discovery-registry.ts": {
+    "mtime": 1783452248.0801048,
+    "ast_hash": "19879a0d4f8ee59def895c7cfe4c3d0b",
+    "semantic_hash": "19879a0d4f8ee59def895c7cfe4c3d0b"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/inventory-intelligence.ts": {
+    "mtime": 1783452315.8934896,
+    "ast_hash": "7f5843690300e3413a7661dbd92cd669",
+    "semantic_hash": "7f5843690300e3413a7661dbd92cd669"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/product-hunter.ts": {
+    "mtime": 1783452349.6948278,
+    "ast_hash": "b3fe8704fb7761a3f314cce93a903674",
+    "semantic_hash": "b3fe8704fb7761a3f314cce93a903674"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/product-queue.ts": {
+    "mtime": 1783452333.2097058,
+    "ast_hash": "f3b8b5474a8af6ec2686bb8b0d27314e",
+    "semantic_hash": "f3b8b5474a8af6ec2686bb8b0d27314e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/product-scoring.ts": {
+    "mtime": 1783452219.5328493,
+    "ast_hash": "cb4303de85b7818da0d0c292bf07b087",
+    "semantic_hash": "cb4303de85b7818da0d0c292bf07b087"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/revenue-intelligence.ts": {
+    "mtime": 1783452676.0356622,
+    "ast_hash": "fbab00737fad0eea79a07c622f139cca",
+    "semantic_hash": "fbab00737fad0eea79a07c622f139cca"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/services/commerce-intelligence-service.ts": {
+    "mtime": 1783452540.1919518,
+    "ast_hash": "e993c26a6ba8d553df86b3ab2b2a6b9a",
+    "semantic_hash": "e993c26a6ba8d553df86b3ab2b2a6b9a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/supplier-intelligence.ts": {
+    "mtime": 1783452275.4341981,
+    "ast_hash": "5135e0f5adbe12824af6a40a977a0ab6",
+    "semantic_hash": "5135e0f5adbe12824af6a40a977a0ab6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/types.ts": {
+    "mtime": 1783452185.7702496,
+    "ast_hash": "2b2de6f0810af39cbf54779b42702280",
+    "semantic_hash": "2b2de6f0810af39cbf54779b42702280"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/commerce/intelligence/README.md": {
+    "mtime": 1783452656.2525718,
+    "ast_hash": "ff794760e3edc11ef4811b344923e704",
+    "semantic_hash": "ff794760e3edc11ef4811b344923e704"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/ai-trade-review.ts": {
+    "mtime": 1783501972.3983622,
+    "ast_hash": "cdbf512b3a7e25ad7efa82551e5bd9ee",
+    "semantic_hash": "cdbf512b3a7e25ad7efa82551e5bd9ee"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/live-actions.ts": {
+    "mtime": 1783502055.738513,
+    "ast_hash": "3c4d9011649a6bca05d9300d32e2623e",
+    "semantic_hash": "3c4d9011649a6bca05d9300d32e2623e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/live-alerts.ts": {
+    "mtime": 1783502008.64213,
+    "ast_hash": "4747ae66134d7773c8b90f4128906892",
+    "semantic_hash": "4747ae66134d7773c8b90f4128906892"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/live-order-engine.ts": {
+    "mtime": 1783502035.6048696,
+    "ast_hash": "d2b2cf8202f63c2063482f44cc54cda3",
+    "semantic_hash": "d2b2cf8202f63c2063482f44cc54cda3"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/portfolio-intelligence.ts": {
+    "mtime": 1783501989.5425782,
+    "ast_hash": "3f4b195ecab793f329f57453d042e860",
+    "semantic_hash": "3f4b195ecab793f329f57453d042e860"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/risk-engine-v2.ts": {
+    "mtime": 1783501921.7204325,
+    "ast_hash": "b5026113d341bd8eee549628e3f4197a",
+    "semantic_hash": "b5026113d341bd8eee549628e3f4197a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/services/live-trading-service.ts": {
+    "mtime": 1783502374.0300663,
+    "ast_hash": "01d19d58f73fedba7d2a065a11102709",
+    "semantic_hash": "01d19d58f73fedba7d2a065a11102709"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/trade-journal.ts": {
+    "mtime": 1783505266.89336,
+    "ast_hash": "f6d6dd6c555f95d1f0bd1b3a93e0e9af",
+    "semantic_hash": "f6d6dd6c555f95d1f0bd1b3a93e0e9af"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/types.ts": {
+    "mtime": 1783501892.967194,
+    "ast_hash": "15cc040df63930c8a9be312daa45410f",
+    "semantic_hash": "15cc040df63930c8a9be312daa45410f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/quant/live/README.md": {
+    "mtime": 1783502285.2212067,
+    "ast_hash": "955b9cf2988517f6ad52e35b3ede5b56",
+    "semantic_hash": "955b9cf2988517f6ad52e35b3ede5b56"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/event-hooks.ts": {
+    "mtime": 1783505030.391634,
+    "ast_hash": "9023782b071caa8d7acff3b05f30b047",
+    "semantic_hash": "9023782b071caa8d7acff3b05f30b047"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/marketplace.ts": {
+    "mtime": 1783505107.599316,
+    "ast_hash": "0282055197709c50479aaba8191aae3a",
+    "semantic_hash": "0282055197709c50479aaba8191aae3a"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/permission-engine.ts": {
+    "mtime": 1783505018.1867404,
+    "ast_hash": "1d5482e013fea8d4d599047e727fd89e",
+    "semantic_hash": "1d5482e013fea8d4d599047e727fd89e"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/plugin-context.ts": {
+    "mtime": 1783505049.097621,
+    "ast_hash": "9396775876d05150788d2c89b7167b56",
+    "semantic_hash": "9396775876d05150788d2c89b7167b56"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/plugin-lifecycle.ts": {
+    "mtime": 1783505085.7519822,
+    "ast_hash": "576ace7ac6195df9467ccd6d76e2a2e6",
+    "semantic_hash": "576ace7ac6195df9467ccd6d76e2a2e6"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/plugin-oauth.ts": {
+    "mtime": 1783505144.3954575,
+    "ast_hash": "2496f6e197094d1f370604815c15d916",
+    "semantic_hash": "2496f6e197094d1f370604815c15d916"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/plugin-registry.ts": {
+    "mtime": 1783505006.6839554,
+    "ast_hash": "592af42e303731db586a4a6ba3f0d788",
+    "semantic_hash": "592af42e303731db586a4a6ba3f0d788"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/plugin-sandbox.ts": {
+    "mtime": 1783505056.8605657,
+    "ast_hash": "55a9e387328ba2fd1ab58cd92c88cf29",
+    "semantic_hash": "55a9e387328ba2fd1ab58cd92c88cf29"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/services/developer-platform-service.ts": {
+    "mtime": 1783505187.2274785,
+    "ast_hash": "8b3b7821111aacbc779adce385ad5a8f",
+    "semantic_hash": "8b3b7821111aacbc779adce385ad5a8f"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/types.ts": {
+    "mtime": 1783504986.2891243,
+    "ast_hash": "9f1d7c4ac0eb4f770a6c7b646e105f83",
+    "semantic_hash": "9f1d7c4ac0eb4f770a6c7b646e105f83"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/webhooks.ts": {
+    "mtime": 1783505134.8115983,
+    "ast_hash": "ab360616ee92ba6e89b6593fc0678c42",
+    "semantic_hash": "ab360616ee92ba6e89b6593fc0678c42"
+  },
+  "/Users/emir/Projects/APEX-OS/apps/web/src/lib/plugins/README.md": {
+    "mtime": 1783505302.5594504,
+    "ast_hash": "c36a9f3784248a79e321b266eadc9e5c",
+    "semantic_hash": "c36a9f3784248a79e321b266eadc9e5c"
+  }
+}

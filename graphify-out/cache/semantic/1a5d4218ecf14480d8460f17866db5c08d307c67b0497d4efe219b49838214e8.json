@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "ci_lint_job",
+      "label": "CI Lint Job",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ci_typecheck_job",
+      "label": "CI Type Check Job",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ci_build_job",
+      "label": "CI Build Job",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ci_test_job",
+      "label": "CI Test Job (disabled)",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ci_security_job",
+      "label": "CI Security Audit Job (disabled)",
+      "file_type": "code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ci_typecheck_job",
+      "target": "ci_lint_job",
+      "relation": "references",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ci_build_job",
+      "target": "ci_lint_job",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ci_build_job",
+      "target": "ci_typecheck_job",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ci_test_job",
+      "target": "ci_build_job",
+      "relation": "references",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "apex_os_ci_pipeline",
+      "label": "CI Pipeline Job Sequence",
+      "nodes": ["ci_lint_job", "ci_typecheck_job", "ci_build_job"],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "id": "first_boot_first_boot_guide",
+      "label": "First Boot Guide",
+      "file_type": "document",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_desktop_agent_start",
+      "label": "Desktop Agent dev start (port 9120)",
+      "file_type": "concept",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_system_status_endpoint",
+      "label": "GET /api/system/status",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_system_health_endpoint",
+      "label": "GET /api/system/health",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_system_metrics_endpoint",
+      "label": "GET /api/system/metrics",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_system_database_endpoint",
+      "label": "GET /api/system/database",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_ai_briefing_endpoint",
+      "label": "GET /api/ai/briefing",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_desktop_sync_endpoint",
+      "label": "POST /api/desktop/sync",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_actions_execute_endpoint",
+      "label": "POST /api/actions/execute",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_workflows_run_endpoint",
+      "label": "POST /api/workflows/run",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_boot_integrations_endpoint",
+      "label": "GET /api/integrations",
+      "file_type": "code",
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "supabase_setup_supabase_setup_guide",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_desktop_agent_start",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_desktop_agent_start",
+      "target": "desktop_agent_readme_desktop_agent",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_system_status_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_system_health_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_system_metrics_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_system_database_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_ai_briefing_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_desktop_sync_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_actions_execute_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_workflows_run_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_first_boot_guide",
+      "target": "first_boot_integrations_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_boot_desktop_sync_endpoint",
+      "target": "reality_report_desktop_sync_fix",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "FIRST_BOOT.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

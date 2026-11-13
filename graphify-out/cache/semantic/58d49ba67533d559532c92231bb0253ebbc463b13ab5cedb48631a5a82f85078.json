@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "0002_nextjs_adr",
+      "label": "ADR-0002: Next.js 16 with App Router",
+      "file_type": "document",
+      "source_file": "docs/adr/0002-nextjs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "0002_nextjs_decision",
+      "label": "Next.js 16 App Router decision (Server Components, Turbopack, React 19)",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0002-nextjs.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0002_nextjs_adr",
+      "target": "0002_nextjs_decision",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0002-nextjs.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "0002_nextjs_decision",
+      "target": "0003_supabase_decision",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "docs/adr/0002-nextjs.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "docs_adr_0013_plugin_system_plugin_system",
+      "label": "Plugin System for Extensibility",
+      "file_type": "rationale",
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0013_plugin_system_open_closed_principle",
+      "label": "Open/Closed Principle",
+      "file_type": "concept",
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0013_plugin_system_permission_sandboxing",
+      "label": "Permission-Based Sandboxing",
+      "file_type": "concept",
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0013_plugin_system_plugin_lifecycle",
+      "label": "Plugin Lifecycle (Install/Enable/Disable/Uninstall)",
+      "file_type": "concept",
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_adr_0013_plugin_system_plugin_health_monitoring",
+      "label": "Plugin Health Monitoring",
+      "file_type": "concept",
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_adr_0013_plugin_system_plugin_system",
+      "target": "docs_adr_0013_plugin_system_open_closed_principle",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0013_plugin_system_plugin_system",
+      "target": "docs_adr_0013_plugin_system_permission_sandboxing",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0013_plugin_system_plugin_system",
+      "target": "docs_adr_0013_plugin_system_plugin_lifecycle",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0013_plugin_system_plugin_system",
+      "target": "docs_adr_0013_plugin_system_plugin_health_monitoring",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_adr_0013_plugin_system_plugin_health_monitoring",
+      "target": "docs_adr_0014_service_registry_health_tracking",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/adr/0013-plugin-system.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

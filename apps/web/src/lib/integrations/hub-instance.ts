@@ -1,15 +1,48 @@
-import { IntegrationHub, GitHubProvider, GmailProvider, GoogleCalendarProvider, MCPProvider, HTTPProvider } from '@apex-os/integration-hub';
+import {
+  IntegrationHub,
+  SyncEngine,
+  EventBridge,
+  createDefaultMappings,
+  GitHubProvider,
+  GmailProvider,
+  GoogleCalendarProvider,
+  MCPProvider,
+  HTTPProvider,
+  NotionProvider,
+  SlackProvider,
+} from '@apex-os/integration-hub';
 
-let instance: IntegrationHub | null = null;
+let hubInstance: IntegrationHub | null = null;
+let syncInstance: SyncEngine | null = null;
+let bridgeInstance: EventBridge | null = null;
 
 export function getIntegrationHub(): IntegrationHub {
-  if (!instance) {
-    instance = new IntegrationHub();
-    instance.registerProvider(new GitHubProvider());
-    instance.registerProvider(new GmailProvider());
-    instance.registerProvider(new GoogleCalendarProvider());
-    instance.registerProvider(new MCPProvider());
-    instance.registerProvider(new HTTPProvider());
+  if (!hubInstance) {
+    hubInstance = new IntegrationHub();
+    hubInstance.registerProvider(new GitHubProvider());
+    hubInstance.registerProvider(new GmailProvider());
+    hubInstance.registerProvider(new GoogleCalendarProvider());
+    hubInstance.registerProvider(new MCPProvider());
+    hubInstance.registerProvider(new HTTPProvider());
+    hubInstance.registerProvider(new NotionProvider());
+    hubInstance.registerProvider(new SlackProvider());
   }
-  return instance;
+  return hubInstance;
+}
+
+export function getSyncEngine(): SyncEngine {
+  if (!syncInstance) {
+    syncInstance = new SyncEngine();
+  }
+  return syncInstance;
+}
+
+export function getEventBridge(): EventBridge {
+  if (!bridgeInstance) {
+    bridgeInstance = new EventBridge();
+    for (const mapping of createDefaultMappings()) {
+      bridgeInstance.registerMapping(mapping);
+    }
+  }
+  return bridgeInstance;
 }

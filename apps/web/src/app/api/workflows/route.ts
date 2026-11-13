@@ -1,8 +1,9 @@
 import { NextResponse } from 'next/server';
+import { withErrorBoundary } from '@/lib/observability/error-boundary';
 import { getWorkflowRuntime, createWorkflowFromTemplate } from '@/lib/workflows/engine-instance';
 import { listTemplates } from '@apex-os/workflow-engine';
 
-export async function GET() {
+async function handleGET() {
   const runtime = getWorkflowRuntime();
   return NextResponse.json({
     workflows: runtime.listWorkflows(),
@@ -11,9 +12,12 @@ export async function GET() {
   });
 }
 
-export async function POST(request: Request) {
+async function handlePOST(request: Request) {
   const body = await request.json().catch(() => ({}));
-  const { templateId, workflow } = body as { templateId?: string; workflow?: Record<string, unknown> };
+  const { templateId, workflow } = body as {
+    templateId?: string;
+    workflow?: Record<string, unknown>;
+  };
 
   const runtime = getWorkflowRuntime();
 
@@ -38,3 +42,6 @@ export async function POST(request: Request) {
 
   return NextResponse.json({ error: 'templateId or workflow required' }, { status: 400 });
 }
+
+export const GET = withErrorBoundary(handleGET);
+export const POST = withErrorBoundary(handlePOST);

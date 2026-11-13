@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "command_bus_command_bus",
+      "label": "Command Bus",
+      "file_type": "document",
+      "source_file": "packages/kernel/src/command-bus/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "command_bus_middleware_pipeline",
+      "label": "Middleware Pipeline",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/command-bus/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "command_bus_dead_letter_queue",
+      "label": "Dead Letter Queue (Command Bus)",
+      "file_type": "concept",
+      "source_file": "packages/kernel/src/command-bus/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "command_bus_command_bus",
+      "target": "command_bus_middleware_pipeline",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/command-bus/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "command_bus_command_bus",
+      "target": "command_bus_dead_letter_queue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/command-bus/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "command_bus_command_bus",
+      "target": "core_commandbusport",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/kernel/src/command-bus/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "command_bus_dead_letter_queue",
+      "target": "event_runtime_dead_letter_queue",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "packages/kernel/src/command-bus/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

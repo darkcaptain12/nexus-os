@@ -17,6 +17,7 @@
     "@apex-os/integration-hub": "workspace:*",
     "@apex-os/workflow-engine": "workspace:*",
     "@apex-os/kernel": "workspace:*",
+    "@apex-os/logger": "workspace:*",
     "@apex-os/types": "workspace:*",
     "@apex-os/ui": "workspace:*",
     "@apex-os/utils": "workspace:*",

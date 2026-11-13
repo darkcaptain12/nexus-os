@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "id": "auth_apex_os_auth",
+      "label": "@apex-os/auth",
+      "file_type": "code",
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "auth_rbac",
+      "label": "Role-Based Access Control (RBAC)",
+      "file_type": "concept",
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "auth_roles",
+      "label": "ROLES",
+      "file_type": "code",
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "auth_permissions",
+      "label": "PERMISSIONS",
+      "file_type": "code",
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "auth_role_permissions",
+      "label": "ROLE_PERMISSIONS",
+      "file_type": "code",
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "auth_haspermission",
+      "label": "hasPermission()",
+      "file_type": "code",
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "auth_agent_role",
+      "label": "agent role",
+      "file_type": "concept",
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "auth_apex_os_auth",
+      "target": "auth_rbac",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_apex_os_auth",
+      "target": "auth_roles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_apex_os_auth",
+      "target": "auth_permissions",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_apex_os_auth",
+      "target": "auth_role_permissions",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_apex_os_auth",
+      "target": "auth_haspermission",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_haspermission",
+      "target": "auth_role_permissions",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_roles",
+      "target": "auth_agent_role",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_agent_role",
+      "target": "registry_agent_registry",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "packages/auth/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

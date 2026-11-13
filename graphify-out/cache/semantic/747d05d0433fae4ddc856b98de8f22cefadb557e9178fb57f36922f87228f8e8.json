@@ -1,0 +1,580 @@
+{
+  "nodes": [
+    {
+      "id": "ai_readme_apex_os_ai",
+      "label": "@apex-os/ai",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_ai_router",
+      "label": "AI Router",
+      "file_type": "concept",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_agent_orchestrator",
+      "label": "Agent Orchestrator",
+      "file_type": "concept",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_memory_engine",
+      "label": "Memory Engine",
+      "file_type": "concept",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_tool_registry",
+      "label": "Tool Registry",
+      "file_type": "concept",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_event_bus",
+      "label": "Event Bus",
+      "file_type": "concept",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_safety_guard",
+      "label": "Safety Guard",
+      "file_type": "concept",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_core_module",
+      "label": "core/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_router_module",
+      "label": "router/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_agents_module",
+      "label": "agents/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_registry_module",
+      "label": "registry/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_context_module",
+      "label": "context/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_execution_module",
+      "label": "execution/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_memory_module",
+      "label": "memory/ subsystem (9-tier)",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_prompts_module",
+      "label": "prompts/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_providers_module",
+      "label": "providers/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_embeddings_module",
+      "label": "embeddings/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_tools_module",
+      "label": "tools/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_planning_module",
+      "label": "planning/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_reasoning_module",
+      "label": "reasoning/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_telemetry_module",
+      "label": "telemetry/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_contracts_module",
+      "label": "contracts/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_evaluation_module",
+      "label": "evaluation/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_readme_safety_module",
+      "label": "safety/ subsystem",
+      "file_type": "code",
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_ai_router",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_agent_orchestrator",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_memory_engine",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_tool_registry",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_event_bus",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_safety_guard",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_ai_router",
+      "target": "ai_readme_agent_orchestrator",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_agent_orchestrator",
+      "target": "ai_readme_memory_engine",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_memory_engine",
+      "target": "ai_readme_tool_registry",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_tool_registry",
+      "target": "ai_readme_event_bus",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_event_bus",
+      "target": "ai_readme_safety_guard",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_core_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_router_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_agents_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_registry_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_context_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_execution_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_memory_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_prompts_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_providers_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_embeddings_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_tools_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_planning_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_reasoning_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_telemetry_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_contracts_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_evaluation_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_apex_os_ai",
+      "target": "ai_readme_safety_module",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "ai_subsystem_modules_hyperedge",
+      "label": "AI Package 16-Subsystem Architecture",
+      "nodes": [
+        "ai_readme_apex_os_ai",
+        "ai_readme_core_module",
+        "ai_readme_router_module",
+        "ai_readme_agents_module",
+        "ai_readme_registry_module",
+        "ai_readme_context_module",
+        "ai_readme_execution_module",
+        "ai_readme_memory_module",
+        "ai_readme_prompts_module",
+        "ai_readme_providers_module",
+        "ai_readme_embeddings_module",
+        "ai_readme_tools_module",
+        "ai_readme_planning_module",
+        "ai_readme_reasoning_module",
+        "ai_readme_telemetry_module",
+        "ai_readme_contracts_module",
+        "ai_readme_evaluation_module",
+        "ai_readme_safety_module"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/README.md"
+    }
+  ]
+}

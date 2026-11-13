@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "agents_readme_agent_types",
+      "label": "Agent Types (Single/Planner/Executor/Reviewer/Coordinator)",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/agents/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_readme_orchestration_modes",
+      "label": "Orchestration Modes (single/parallel/sequential/pipeline/graph)",
+      "file_type": "concept",
+      "source_file": "packages/ai/src/agents/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai_readme_agents_module",
+      "target": "agents_readme_agent_types",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/agents/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ai_readme_agents_module",
+      "target": "agents_readme_orchestration_modes",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/ai/src/agents/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_readme_orchestration_modes",
+      "target": "ai_readme_agent_orchestrator",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "packages/ai/src/agents/README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}
